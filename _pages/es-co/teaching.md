@@ -1,8 +1,8 @@
 ---
 page_id: teaching
 layout: page
-permalink: /teaching/
-title: Teaching
+permalink: /enseñanza/
+title: Enseñanza
 description: Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 6

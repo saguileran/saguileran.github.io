@@ -1,9 +1,9 @@
 ---
 page_id: repositories
 layout: page
-permalink: /repositories/
-title: Repositories
-description: Repositories I have worked on.
+permalink: /repositorios/
+title: Repositorios
+description: Repositorios en los que he trabajado.
 nav: true
 nav_order: 4
 ---

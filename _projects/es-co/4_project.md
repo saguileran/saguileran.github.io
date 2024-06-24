@@ -2,7 +2,7 @@
 page_id: project_4
 layout: page
 title: Aprender
-description: Aprender a new way to learn
+description: Aprender - Una nueva forma de aprender
 img: assets/img/classroom.jpg
 importance: 3
 category: fun

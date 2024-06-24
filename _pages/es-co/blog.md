@@ -3,8 +3,8 @@ page_id: blog
 layout: default
 permalink: /blog/
 title: Blog
-blog_name: Adventure Logbook
-description: A logbook about this journey called life
+blog_name: Bitácora de Aventuras
+description: Un diario sobre este viaje llamado vida
 nav: true
 nav_order: 1
 pagination:

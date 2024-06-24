@@ -1,8 +1,8 @@
 ---
 page_id: project_1
 layout: page
-title: Birdsongs
-description: Bachelor's tessis disertation. 
+title: Cantos de Aves
+description: Trabajo de grado como físico
 img: assets/img/dissertation.jpg
 redirect: https://saguileran.github.io/birdsongs/
 importance: 0

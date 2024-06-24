@@ -1,8 +1,8 @@
 ---
 page_id: news
 layout: page
-title: News
-permalink: /news/
+title: Noticias
+permalink: /noticias/
 nav: false
 ---
 

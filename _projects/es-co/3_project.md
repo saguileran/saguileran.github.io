@@ -1,8 +1,8 @@
 ---
 page_id: project_3
 layout: page
-title: Green House
-description: Description
+title: Huertas
+description: Descripción
 img: assets/img/3.jpg
 importance: 1
 category: fun
