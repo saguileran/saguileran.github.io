@@ -1,163 +1,207 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Sebastián Aguilera Novoa",
+    "label": "Physicist - Programmer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://george-gca.github.io/multi-language-al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "saguileran@unal.edu.co",
+    "phone": "(+57) 319 514 0529",
+    "url": "https://saguileran.github.io/",
+    "summary": "A Colombian physicist interested in computational physics, numerical methods, and machine learning ideas applied to bioacoustics.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Bogotá D.C.",
+      "postalCode": "COL 111621",
+      "city": "Bogotá D.C.",
+      "countryCode": "COL",
+      "region": "Bogotá D.C."
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Github",
+        "username": "saguileran",
+        "url": "https://github.com/saguileran"
+      },
+      {
+        "network": "Linkedin",
+        "username": "saguileran",
+        "url": "https://www.linkedin.com/in/saguileran"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Escuela Tecnológica Instituto Técnico Central (ETITC)",
+      "position": "University Professor",
+      "url": "https://etitc.edu.co",
+      "startDate": "2024-03-01",
+      "endDate": "2024-06-30",
+      "summary": "Teaching java programming (Backend and Frontend), databases, operating systems, and data structure to university students of systems engineering.",
+      "location": "Bogotá D.C., Colombia",
+      "highlights": ["Professor", "Backend", "Frontend"]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
+      "name": "MarBAI",
+      "position": "Junior Python Developer",
       "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "startDate": "2024-03-01",
+      "location": "Remote",
+      "endDate": "",
+      "icon": "fa-envelope",
+      "summary": "Create, deploy, and evaluate intelligent agents using Python, the ChatGPT API, and REST APIs to generate digital content for social media.",
+      "highlights": ["Programmer", "Python"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "National University of Colombia",
+      "location": "Bogotá D.C., Colombia",
+      "url": "https://unal.edu.co/",
+      "area": "Physics Department",
+      "studyType": "Bachelor of Science in Physics (B.S.)",
+      "startDate": "2015",
+      "endDate": "2023",
+      "score": "4/5",
+      "courses": ["Numerical Methods", "Numerical Optimization", "Acoustics", "Advanced Simulation Methods for Physicist"],
+      "icon": "fa-university"
+    },
+    {
+      "institution": " Servicio Nacional de Aprendizaje (SENA)",
+      "location": "Bogotá D.C., Colombia",
+      "url": "https://www.sena.edu.co/es-co",
+      "area": "Center for Electricity, Electronics and Telecommunications",
+      "studyType": "Technician",
+      "startDate": "2012",
+      "endDate": "2013",
+      "courses": ["Electronics"],
+      "icon": "fa-university"
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Awarded Jhoti and Salazar Scholarship",
+      "date": "2023-05",
+      "awarder": "São Carlos Institute of Physics, University of Sao Paulo (USP)  ",
+      "location": "Bogotá D.C., Colombia",
+      "url": "https://www.ifsc.usp.br/crint/call-for-internships/",
+      "summary": "Scholarsip to investigate molecular dynamics"
+    },
+    {
+      "title": "Second best undergraduate dissertation in physics",
+      "date": "2022-11",
+      "awarder": "Physics Department, National University of Colombia",
+      "url": "https://ciencias.bogota.unal.edu.co/departamentos/fisica/",
+      "summary": "Second best undergraduate dissertation in physics"
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Sequence Models",
+      "date": "2024",
+      "issuer": "Coursera",
+      "location": "Online",
+      "url": "https://www.coursera.org/account/accomplishments/verify/EEAPCA6DUALG",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Convolutional Neural Networks",
+      "date": "2023",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/WJKJG4RKL7NR",
       "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Structuring Machine Learning Projects",
+      "date": "2023",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/H76ELSAQH37Y",
       "icon": "fa-solid fa-envelope"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Introduction to Structured Query Language (SQL)",
+      "date": "2022",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/Z2M58E79QSMM",
       "icon": "fa-solid fa-hashtag"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Neural Networks and Deep Learning",
+      "date": "2021",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/JKPQ8LM8KWUC",
       "icon": "fa-solid fa-calendar"
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",
+      "date": "2021",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/9WF6F7FQNH38",
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Design, development, and evaluation of a computational physical model to generate synthetic birdsongs from recorded samples",
+      "publisher": "National University of Colombia",
+      "releaseDate": "2022",
+      "url": "https://github.com/saguileran/birdsongs/blob/dissertation/dissertation.pdf",
+      "summary": "description",
+      "location": "Bogotá"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Software - Advanced",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python", "Latex", "Oﬃce", "VSC"
+      ]
+    },
+    {
+      "name": "Software - Advanced",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Python", "Latex", "Oﬃce", "VSC"
+      ]
+    },
+
+    {
+      "name": "Soft",
+      "level": "Amateur",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Hard Working",
+        "Eye of Detail",
+        "Fast Learning",
+        "Creative",
+        "Passion"
+      ]
+    }
+  ],
+  "strengths": [
+    {
+      "name": "Software - Advanced",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Python", "Latex", "Oﬃce", "VSC"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Spanish",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
       "language": "English",
       "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Portuguese",
+      "fluency": "Intermediate",
       "icon": ""
     }
   ],
@@ -166,35 +210,90 @@
       "name": "Physics",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Acoustics",
+        "Bioacustics",
+        "Physical Simulations",
+        "Sound Production",
+        "Teaching"
+      ]
+    },
+    {
+      "name": "Computer Science",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Machine Learning",
+        "Numerical Methods",
+        "Optimization",
+        "Signal Processing",
+        "PDEs and PDOs"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Professor Francisco Gómez J.",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Engineering and associate professor in the Mathematics Department at Universidad Nacional de Colombia, in Bogotá (Colombia), working in computer science and applied math. His research interests include computational sustainability, specifically brain imaging and computational ecology. He works on computational sustainability problems interacting with the private and public sectors.",
+      "url":"www.em"
     },
     {
-      "name": "Professor John Doe",
+      "name": "Professor Gabriel Mindlin",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Physicist and associate professor at the Universidad de Buenos Aires (UBA). Gabriel is leader of the Dynamic System Laboratory (LSD) which is a pioneering laboratory in the Physics/Biology interdiscipline, furthermore, it has produced high impact publications and patents. He is mainly interested in dynamics and biophysics."
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Birdsongs",
+      "summary": "A python package to analyze, visualize and generate synthetic birdsongs.",
+      "highlights": ["Syrinx", "Birdsongs", "Numerical Optimization", "Signal Processing"],
+      "startDate": "2022",
+      "endDate": "",
+      "url": "https://saguileran.github.io/birdsongs/",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Molecular modeling and simulations",
+      "summary": "Study and evaluation of the unbinding kinetics of Mineralocorticoid (MR and MR-S810L) receptor steroid agonist Cortisol (COL), Aldosterone (AS4), and Progesterone (STR) ligands using Molecular Dynamics (MD) and Monte Carlo (MC) simulations, LiGaMD and LiBELa softwares respectively.",
+      "highlights": ["Molecular Dynamics", "Monte Carlo Simulations"],
+      "startDate": "2023-02",
+      "endDate": "2023-04",
+      "url": "https://saguileran.github.io/MD-SCPI/",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Soundscapes analysis - maad",
+      "summary": "Create code, examples, and documentation of spectral and time trait functions.",
+      "highlights": ["Molecular Dynamics", "Monte Carlo Simulations"],
+      "startDate": "2023-02",
+      "endDate": "2023-04",
+      "url": "https://github.com/scikit-maad/scikit-maad",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Aprender - A New Way of Learning",
+      "summary": "A course preparatory of physics and mathematics for the exam Saber 11 applied by ICFES. I designed, created and hosted a homepage for the preparatory. For the webpage I implemented the Moodle platform as a Learning Management Platform. Furthermore,  I teach mathematics and physics, I designed and created of lessons and tests for evaluation.",
+      "highlights": ["Teaching", "WebStack"],
+      "startDate": "2019",
+      "endDate": "2022",
+      "url": "https://saguileran.github.io/Aprender",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Recorder Characterization",
+      "summary": "Study the recorder musical instrument from experimental, theoretical, and computational physics. Addionally, analyze and visualize the structured data generated and measured from the study in order to compare them.",
+      "highlights": ["Acoustics", "Sound Recording", "Lattice Boltzmann Simulations"],
+      "startDate": "2020",
+      "endDate": "2020",
+      "url": "https://github.com/saguileran/Acoustics-Instruments",
+      "icon": "fa-solid fa-clipboard-check",
+      "location":"Bogotá"
+    }
+  ],
+  "hobbies":[
+    {
+      "name":"sleep",
+      "summary": "Travel ✈️, ride bike 🚲, video games 🎮, recording birdsongs 🐦‍⬛🎙️, independent projection room 🎥, concerts 🏟️, Spotify 🎧, soccer tennis ⚽, beer 🍺"
     }
   ]
 }
