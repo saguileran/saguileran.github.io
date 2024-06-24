@@ -21,23 +21,27 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
+<div style="text-align: justify"> 
 
-Pleased to meet you!
+<b>Pleased to meet you!</b> <br> <br>
 
-I am physicist from the National University of Colombia where I have studied physics and mathematics theories. Currently, I am interested in any kind of programming problems but especially in everything related to physical simulations, in particular sound waves. I have been studying how to solve ODEs and PDEs using numerical analysis (learning about data creation, pre and pos processing data, and visualization) and also how to use Machine Learning ideas in physics.
+<p>I am a physicist from the National University of Colombia, where I studied physics and mathematics. My primary interests lie in programming, particularly in the realm of physical simulations with a focus on sound waves. I have been extensively exploring the numerical analysis techniques for solving ordinary and partial differential equations, encompassing data creation, pre-processing, post-processing, and visualization. Additionally, I am intrigued by the application of machine learning concepts in physics.</p> 
 
-I have developed the following skills in my bachelor's degree:
+<h4>Skills and Expertise:</h4>
 
-- Data analysis.
-- Mathematical thinking.
-- Good communication skills for teamwork.
-- High adaptability to software working environments.
-- Proficiency in Python, Matlab, Latex, and Github.
-- Wide knowledge about numerical analysis.
-- Basic knowledge about Machine Learning (ML) algorithms and server communication (SSH).
-- Fluent english.
+<ul>
+  <li><b>Data Analysis:</b> Proficient in extracting, processing, and interpreting complex datasets.</li>
+  <li><b>Mathematical Thinking:</b> Strong foundation in theoretical and applied mathematics.</li>
+  <li><b>Communication:</b> Excellent communication skills, fostering effective teamwork.</li>
+  <li><b>Adaptability:</b> High adaptability to various software working environments.</li>
+  <li><b>Technical Proficiency:</b> Skilled in Python, Java, MATLAB, LaTeX, and GitHub.</li>
+  <li><b>Numerical Analysis:</b> Extensive knowledge and experience in numerical methods and analysis.</li>
+  <li><b>Machine Learning:</b> Basic understanding of machine learning algorithms and server communication (SSH).</li>
+  <li><b>Language Skills:</b> Fluent in English and intermediate Portuguese.</li>
+</ul>
 
+<p>If you have any questions or would like to connect, please do not hesitate to contact me.</p> 
 
-If you have any questions do not hesitate to contact me.
-
-Have a great day! 😁
+<h5> Have a great day! 😁 </h5>  
+</div>
+---

@@ -25,8 +25,8 @@ repo_theme_light: shadow_green # https://github.com/anuraghazra/github-readme-st
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: true
-  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
+  theme_light: shadow_green # https://github.com/ryo-ma/github-profile-trophy
+  theme_dark: dark # https://github.com/ryo-ma/github-profile-trophy
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -144,7 +144,7 @@ giscus:
   strict: 1 # use strict identification mode
   reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
   input_position: bottom # whether to display input form below (bottom) or above (top) the comments
-  theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
+  theme: dark # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
 
 # Disqus comments (DEPRECATED)
