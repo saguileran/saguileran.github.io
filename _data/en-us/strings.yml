@@ -4,8 +4,8 @@ archive_year: an archive of posts from this year
 blog:
   navigation_title: blog
 categories:
-  fun: fun
-  work: work
+  fun: Fun
+  work: Work
 citation:
   bibtex: "or as a BibTeX entry:"
   introduction: "If you found this useful, please cite this as:"
@@ -51,21 +51,23 @@ cv:
   region: Region
   releaseDate: Release date
   score: Score
-  skills: Skills
+  skills: Software Skills
   startDate: Start date
   studyType: Study type
   summary: Summary
+  strengths: Strengths
   table_of_contents: Table of Contents
   title: Title
-  url: Url
+  url: Website
+  linkedin: Linkedin
+  github: Github
   username: Username
   volunteer: Volunteer
-  work: Work
+  work: Experience
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-latest_posts: latest posts
+latest_posts: Latest Posts
 months:
   long:
     january: January
@@ -93,7 +95,7 @@ months:
     october: Oct
     november: Nov
     december: Dec
-news: news
+news: News
 no_news: No news so far...
 pagination:
   newer: Newer
@@ -102,7 +104,7 @@ pagination:
 post:
   created_in: Created in
   created_by: by
-  last_updated: last updated in
+  last_updated: Last updated in
 references: References
 related_posts:
   description: "Here are some more articles you might like to read next:"
@@ -132,5 +134,5 @@ search:
     description: Change the theme of the site to System Default
     title: Use system default theme
   theme: Theme
-selected_publications: selected publications
+selected_publications: Selected Publications
 site_description: A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.

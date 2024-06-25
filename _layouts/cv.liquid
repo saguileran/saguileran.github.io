@@ -7,7 +7,7 @@ layout: default
   <div class="post">
     <header class="post-header">
       <h1 class="post-title">
-        {{ page.title }}
+        Curriculum Vitae ({{ page.title }})
         {% if page.cv_pdf %}
           <a
             href="{{ page.cv_pdf | prepend: '/' | prepend: site.active_lang | prepend: '/assets/pdf/' | prepend: site.baseurl }}"
@@ -99,6 +99,8 @@ layout: default
                   {% include resume/awards.liquid %}
                 {% when 'skills' %}
                   {% include resume/skills.liquid %}
+                {% when 'strengths' %}
+                  {% include resume/strengths.liquid %}
                 {% when 'publications' %}
                   {% include resume/publications.liquid %}
                 {% when 'languages' %}

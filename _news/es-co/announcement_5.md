@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simulando moléculas en Brazil, Universida de Sai Paulo - Sao Carlos
+title: Simulando moléculas en Brazil, Universida de Sao Paulo - Sao Carlos ✈️
 date: 2023-02-20 18:00:00-0400
 inline: false
 related_posts: false

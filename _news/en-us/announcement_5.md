@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simulating molecules at Brazil, University of Sao Paulo - Sao Carlos
+title: Simulating molecules at Brazil, University of Sao Paulo - Sao Carlos ✈️
 date: 2023-02-20 18:00:00-0400
 inline: false
 related_posts: false

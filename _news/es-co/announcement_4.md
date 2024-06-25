@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Conferencia de Ingeniería de la Biodiversidad en ETITC
+title: Conferencia de Ingeniería de la Biodiversidad en ETITC 🎙️
 date: 2024-06-05 18:00:00-0400
 inline: false
 related_posts: false

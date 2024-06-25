@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Biodiversity engenieering conference in ETITC
+title: Biodiversity engenieering conference in ETITC 🎙️
 date: 2024-06-05 18:00:00-0400
 inline: false
 related_posts: false

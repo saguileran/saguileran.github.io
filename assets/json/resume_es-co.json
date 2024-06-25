@@ -99,35 +99,35 @@
       "issuer": "Coursera",
       "location": "En-Línea",
       "url": "https://www.coursera.org/account/accomplishments/verify/EEAPCA6DUALG",
-      "icon": "fa-solid fa-location-dot"
+      "icon": "fa-solid fa-server"
     },
     {
       "name": "Redes Neuronales Convolucionales",
       "date": "2023",
       "issuer": "Coursera",
       "url": "https://www.coursera.org/account/accomplishments/verify/WJKJG4RKL7NR",
-      "icon": "fa-solid fa-tag"
+      "icon": "fa-solid fa-th"
     },
     {
       "name": "Estructuración de Proyectos de Aprendizaje de Máquina",
       "date": "2023",
       "issuer": "Coursera",
       "url": "https://www.coursera.org/account/accomplishments/verify/H76ELSAQH37Y",
-      "icon": "fa-solid fa-envelope"
+      "icon": "fa-solid fa-pie-chart"
     },
     {
       "name": "Introducción al Lenguaje de Consulta Estructurado (SQL)",
       "date": "2022",
       "issuer": "Coursera",
       "url": "https://www.coursera.org/account/accomplishments/verify/Z2M58E79QSMM",
-      "icon": "fa-solid fa-hashtag"
+      "icon": "fa-solid fa-database"
     },
     {
       "name": "Redes Neuronales y Aprendizaje Profundo",
       "date": "2021",
       "issuer": "Coursera",
       "url": "https://www.coursera.org/account/accomplishments/verify/JKPQ8LM8KWUC",
-      "icon": "fa-solid fa-calendar"
+      "icon": "fa-solid fa-object-group"
     },
     {
       "name": "Mejora de las Redes Neuronales Profundas: Ajuste de Hiperparámetros, Regularización y Optimización",

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Birds on the Walls
+title: Aves en las Paredes
 date: 2024-06-24 21:01:00
-description: Bird murals and graffiti
-tags: formatting images
+description: Murales y grafitis de aves
+tags: birds images
 categories: sample-posts
 thumbnail: assets/img/9.jpg
 ---
