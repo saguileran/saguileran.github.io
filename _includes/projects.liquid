@@ -6,12 +6,24 @@
           include figure.liquid
           loading="eager"
           path=project.img
+          sizes = "200px"
+          alt="project thumbnail"
+          class="card-img-top"
+        %}
+      {% endif %}
+      {% if project.img1 %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=project.img1
           sizes = "250px"
           alt="project thumbnail"
           class="card-img-top"
         %}
       {% endif %}
+      
       <div class="card-body">
+        <h2 class="card-title">{{ project.title }}</h2>
         <h2 class="card-title">{{ project.title }}</h2>
         <p class="card-text">{{ project.description }}</p>
         <div class="row ml-1 mr-1 p-0">
