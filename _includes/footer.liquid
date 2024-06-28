@@ -16,10 +16,12 @@
 {% else %}
   <footer class="sticky-bottom mt-5" role="contentinfo">
     <div class="container">
-      &copy; Copyright {{ site.time | date: '%Y' }}
-      {{ site.first_name }}
-      {{ site.middle_name }}
-      {{ site.last_name }}. {{ site.data[site.active_lang].strings.footer_text }}
+      &copy; Copyright {{ site.time | date: '%Y' }} - 
+      <a href="{{ site.url }}">
+        {{ site.first_name }}
+        {{ site.middle_name }}
+        {{ site.last_name }}
+      </a>. {{ site.data[site.active_lang].strings.footer_text }}
       {% if site.impressum_path %}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}

@@ -28,6 +28,9 @@
       {% if include.class %}
         class="{{ include.class }}"
       {% endif %}
+      {% if include.rotate %}
+        rotate="{{ include.rotate }}"
+      {% endif %}
       {% if include.width %}
         width="{{ include.width }}"
       {% else %}

@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Simulating molecules at Brazil, University of Sao Paulo - Sao Carlos ✈️
-date: 2023-02-20 18:00:00-0400
+title: Biodiversity engenieering conference in ETITC 🎙️
+date: 2024-06-05 18:00:00-0400
 inline: false
 related_posts: false
 ---
 
-[Biodiversity engenieering conference in ETITC](https://saguileran.github.io/MD-SCPI/) 
+[Biodiversity engenieering conference in ETITC](https://www.etitc.edu.co/es/evento/ingeniera-de-la-biodiversidad-89) the presentation PDF is [here](../../assets/pdf/ETITC_Ingeniería_de_la_Biodiversidad.pdf)
 
 
 <div class="row mt-3">
