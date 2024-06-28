@@ -7,6 +7,7 @@ first_name: Sebastián
 middle_name: Aguilera
 last_name: Novoa
 email: saguileran@unal.edu.co
+github: www.github.com/saguileran
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 icon: rasta.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -171,7 +172,7 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
-  teaching:
+  courses:
     output: true
     permalink: /:collection/:title/
 
@@ -284,8 +285,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["images", "github"] # these tags will be displayed on the front page of your blog
+display_categories: ["learning", "art", "travel", "writing"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -421,6 +422,7 @@ enable_tooltips: false # enables automatic tooltip links generated for each sect
 enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
+enable_course_categories: true # enables categorization of course into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: true # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.

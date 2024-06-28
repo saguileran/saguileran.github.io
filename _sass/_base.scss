@@ -612,6 +612,7 @@ footer.sticky-bottom {
 .projects {
   a {
     text-decoration: none;
+    text-align: justify;
 
     &:hover {
       .card-title {
@@ -623,17 +624,22 @@ footer.sticky-bottom {
   .card {
     img {
       width: 100%;
+      padding-left: 1.25rem;
+      position: absolute;
+      top: 0;
+      bottom: 2;
+      margin: auto;
     }
   }
 
   .col {
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
   }
 
   .grid-sizer,
   .grid-item {
     width: 250px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 
   h2.category {

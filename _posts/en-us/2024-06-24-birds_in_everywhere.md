@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Birds Everywhere
+title: Birds, birds, and more birds
 date: 2024-06-24 21:01:00
 description: Birds and graffiti
-tags: formatting images
-categories: sample-posts
+tags: images
+categories: [birds, art]
 thumbnail: assets/img/3.jpg
 ---
 

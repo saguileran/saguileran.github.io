@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: Acerca
 permalink: /
-subtitle: <a href='http://etitc.com/'>Professor</a>. Bogotá, Colombia.
+subtitle:  <b>Profesor - Programador Junior de Python - Viajero<b>
 
 profile:
   align: right
@@ -21,9 +21,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
+<hr style="width:68%;text-align:left;margin-left:0"> 
 <div style="text-align: justify"> 
 
-<b>!Un gusto conocerte!</b> <br> <br>
+<h5><b>!Un gusto conocerte! ✌️ </b></h5>
 
 <p>Soy físico de la Universidad Nacional de Colombia, donde estudié física y matemáticas. Mis principales intereses se centran en la programación, especialmente en el ámbito de las simulaciones físicas, con especial atención a las ondas sonoras. He estado explorando extensivamente las técnicas de análisis numérico para resolver ecuaciones diferenciales ordinarias y parciales, abarcando la creación de datos, pre-procesamiento, post-procesamiento y visualización. Además, me intriga la aplicación de conceptos de aprendizaje automático a la física.</p> 
 

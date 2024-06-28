@@ -3,13 +3,21 @@ archive_tag: an archive of posts with this tag
 archive_year: an archive of posts from this year
 blog:
   navigation_title: blog
+links:
+  ETITC-1: https://github.com/saguileran/ETITC-2024-1/
+  others: .#Others
 categories:
   fun: Fun
   work: Work
+  ETITC-1: ETITC-1
+  others: Others
+categories_description:
+  ETITC-1: Escuela Tecnológica Instituto Técnico Central (ETITC-1)
+  others: Description of the role
 citation:
   bibtex: "or as a BibTeX entry:"
   introduction: "If you found this useful, please cite this as:"
-contact_note: You can even add a little note about which of these is the best way to reach you.
+contact_note: <b>I answer faster via email or whatsapp.</b>
 cv:
   address: Address
   area: Area
@@ -65,7 +73,7 @@ cv:
   volunteer: Volunteer
   work: Experience
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> theme.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme and <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> plugin.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 latest_posts: Latest Posts
 months:

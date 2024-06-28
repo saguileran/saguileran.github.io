@@ -3,9 +3,14 @@ archive_tag: um arquivo de postagens com este marcador
 archive_year: um arquivo de postagens deste ano
 blog:
   navigation_title: blog
+links:
+  ETITC-1: https://github.com/saguileran/ETITC-2024-1/
+  others: .#Others
 categories:
   fun: diversão
   work: trabalho
+  ETITC-1: ETITC-1
+  others: Otros
 citation:
   bibtex: "ou como uma citação em BibTeX:"
   introduction: "Se você achou isso útil, por favor cite como:"

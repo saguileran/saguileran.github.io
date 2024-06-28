@@ -47,6 +47,8 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
+    <hr style="width:100%;text-align:left;margin-left:0"> 
+
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
       <h2>
@@ -55,6 +57,8 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <hr style="width:100%;text-align:left;margin-left:0"> 
+    
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>

@@ -11,13 +11,10 @@ Poster presentation about my bachelor's degree work, [birdsongs](https://saguile
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/Poster-MAPI3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/Poster-MAPI3.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true caption="Poster presented for MAPI-3" %}
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/photos/mapi3.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/photos/mapi3.jpeg" title="example image" class="img-fluid rounded z-depth-1" caption="Me presenting and discussing about birdsongs" %}
   </div>
 </div>
 
-<div class="caption">
-    Poster presentation and poster for MAPI-3.
-</div>

@@ -2,7 +2,7 @@
 page_id: project_3
 layout: page
 title: Green House
-description: Description
+description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been .
 img: assets/img/3.jpg
 importance: 1
 category: fun

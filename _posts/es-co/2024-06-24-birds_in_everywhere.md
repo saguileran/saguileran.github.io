@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Aves en las Paredes 1
+title: Aves, aves, y más aves
 date: 2024-06-24 21:01:00
-description: Murales y grafitis de aves
+description: Murales y grafitis con y sobre aves
 tags: birds images
 categories: sample-posts
 thumbnail: assets/img/9.jpg

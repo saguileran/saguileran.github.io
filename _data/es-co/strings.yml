@@ -3,13 +3,18 @@ archive_tag: an archive of posts with this tag
 archive_year: an archive of posts from this year
 blog:
   navigation_title: blog
+links:
+  ETITC-1: https://github.com/saguileran/ETITC-2024-1/
+  others: .#Others
 categories:
   fun: Diversion
   work: Trabajo
+  ETITC-1: ETITC-1
+  others: Otros
 citation:
   bibtex: "or as a BibTeX entry:"
   introduction: "If you found this useful, please cite this as:"
-contact_note: You can even add a little note about which of these is the best way to reach you.
+contact_note: Contesto más rápido por correo electrónico o whatsapp.
 cv:
   address: Dirección
   area: Area

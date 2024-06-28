@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simulation of molecules in Sao Carlos at the University of Sao Paulo, Brazil ✈️
+title: Simulating molecules in Sao Carlos, University of Sao Paulo, Brazil ✈️
 date: 2023-04-20 18:00:00-0400
 inline: false
 related_posts: true
@@ -11,21 +11,21 @@ images:
 
 ## Sao Carlos
 
-<div class="row mt-3">
-    <div class="col-sm mt-4 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/photos/Brazil_2023/institute.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Professor, etc" %}
-    </div>
-    <div class="col-sm mt-2 mt-md-0">
+<div class="row mt-3 align-items-center">
+    <div class="col-sm-5 mt-4 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/photos/Brazil_2023/institute.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Campus 2, São Carlos Institute of Physics, Brazil" %}
+    </div>
+    <div class="col-sm-7 mt-4 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/photos/Brazil_2023/institute.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Professor Alessandro, Erick, Luis, and me." %}
     </div>
 </div>
 
 
-<div class="row">
+<div class="row align-items-center">
     <div class="col-sm mt-6 mt-md-0">
-        {% include figure.liquid path="assets/img/photos/Brazil_2023/friends.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Some latinamerican friends =)" %}
+        {% include figure.liquid path="assets/img/photos/Brazil_2023/friends.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Some latinamerican friends: Me, Pedro, Sandra, Pablo, Sofia, José, Luis, and Rolando" %}
     </div>
-    <div class="col-sm mt-6 mt-md-0">
+    <div class="col-sm mt-6 mt-md-0 align-items-center">
         <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" zoom="true">
         <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/photos/Brazil_2023/IPSC.jpg" class="img-fluid rounded z-depth-1" caption="A pretty couple" %}</swiper-slide>
         <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/photos/Brazil_2023/present.jpg" class="img-fluid rounded z-depth-1" caption="A present from Zaighum Agha, a nice pakistan guy" %}</swiper-slide>
@@ -54,7 +54,7 @@ This is a simple image comparison slider. It uses the [img-comparison-slider](ht
 
 <div class="row">
 <div class="col"> 
-    <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" zoom="true">
+    <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" zoom="true" centeredSlides="true">
     <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/photos/Brazil_2023/homeSP.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
     <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/photos/Brazil_2023/homeSP1.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
     <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/photos/Brazil_2023/homeSP2.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
@@ -75,17 +75,23 @@ asdasd
 
 <div class="container">
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/photos/Brazil_2023/parrot.jpg" class="img-fluid rounded z-depth-1" zoomable=true rotate="90" %}
+    <div class="col-sm mt-3 mt-md-3">
+        {% include figure.liquid path="assets/img/photos/Brazil_2023/parrot.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-3">
         {% include figure.liquid path="assets/img/photos/Brazil_2023/ayyy_sii.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-3">
         {% include figure.liquid path="assets/img/photos/Brazil_2023/lol.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-3">
         {% include figure.liquid path="assets/img/photos/Brazil_2023/bosa.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include audio.liquid path="assets/audio/epicaly-short-113909.mp3" controls=true caption="asd"%}
+    </div>
 </div>

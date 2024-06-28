@@ -3,7 +3,8 @@ page_id: news
 layout: page
 title: Noticias
 permalink: /noticias/
-nav: false
+nav: true
+nav_order: 7
 ---
 
 {% include news.liquid %}
