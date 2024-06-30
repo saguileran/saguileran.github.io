@@ -2348,8 +2348,7 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">sample.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" nocite="1">saguileran</bcf:citekey>
-    <bcf:citekey order="1">saguileran</bcf:citekey>
+    <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ydnt">
