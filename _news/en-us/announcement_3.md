@@ -25,13 +25,13 @@ images:
     <div class="col-sm mt-6 mt-md-0">
         {% include figure.liquid path="assets/img/photos/Brazil_2023/friends.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Some latinamerican friends: Me, Pedro, Sandra, Pablo, Sofia, José, Luis, and Rolando" %}
     </div>
-    <div class="col-sm mt-6 mt-md-0 align-items-center">
+    <div class="col-sm mt-6 mt-md-0 align-middle" style="display: flex; justify-content: center; align-items: center;">
         <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" zoom="true">
-        <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/photos/Brazil_2023/IPSC.jpg" class="img-fluid rounded z-depth-1" caption="A pretty couple" %}</swiper-slide>
-        <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/photos/Brazil_2023/present.jpg" class="img-fluid rounded z-depth-1" caption="A present from Zaighum Agha, a nice pakistan guy" %}</swiper-slide>
-        <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/photos/Brazil_2023/ignacio.jpg" class="img-fluid rounded z-depth-1" caption="Ignacio, a chilenean friend with a strange food taste" %}</swiper-slide>
-        <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/photos/Brazil_2023/sofi.jpg" class="img-fluid rounded z-depth-1" caption="Sofi, smart and funny lady" %}</swiper-slide>
-        <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/photos/Brazil_2023/UFSCAR.jpg" class="img-fluid rounded z-depth-1" caption="Federal University of São Carlos" %}</swiper-slide>
+        <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/photos/Brazil_2023/IPSC.jpg" class="img-fluid rounded z-depth-1 align-middle" style="align-items:center;" caption="A pretty couple" %}</swiper-slide>
+        <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/photos/Brazil_2023/present.jpg" class="img-fluid rounded z-depth-1 align-middle" caption="A present from Zaighum Agha, a nice pakistan guy" %}</swiper-slide>
+        <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/photos/Brazil_2023/ignacio.jpg" class="img-fluid rounded z-depth-1 align-middle" style="align-items:center;" caption="Ignacio, a chilenean friend with a strange food taste" %}</swiper-slide>
+        <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/photos/Brazil_2023/sofi.jpg" class="img-fluid rounded z-depth-1 align-middle" caption="Sofi, smart and funny lady" %}</swiper-slide>
+        <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/photos/Brazil_2023/UFSCAR.jpg" class="img-fluid rounded z-depth-1 align-middle" caption="Federal University of São Carlos" %}</swiper-slide>
         </swiper-container>
     </div>
 </div>
