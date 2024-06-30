@@ -17,7 +17,7 @@ categories_description:
 citation:
   bibtex: "or as a BibTeX entry:"
   introduction: "If you found this useful, please cite this as:"
-contact_note: <b>I answer faster via email or whatsapp.</b>
+contact_note: <b>I respond more quickly via email or WhatsApp.</b>
 cv:
   address: Address
   area: Area
@@ -32,6 +32,7 @@ cv:
   education: Education
   email: Email
   endDate: End date
+  event: Workshop/Schools
   fluency: Fluency
   highlights: Highlights
   image: Image

@@ -39,33 +39,43 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- News -->
-    {% if page.news and site.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.news }}</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
-
     <hr style="width:100%;text-align:left;margin-left:0"> 
 
-    <!-- Latest posts -->
-    {% if site.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.latest_posts }}</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <!-- News -->
+          {% if page.news and site.announcements.enabled %}
+            <h2 align="center">
+              <a href="{{ '/news/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.news }}</a>
+            </h2>
+            {% include news.liquid limit=true %}
+          {% endif %}
+        </div>
+        <div class="col-sm">
+          <!-- Latest posts -->
+          {% if site.latest_posts.enabled %}
+            <h2 align="center">
+              <a href="{{ '/blog/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.latest_posts }}</a>
+            </h2>
+            {% include latest_posts.liquid %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    
 
     <hr style="width:100%;text-align:left;margin-left:0"> 
     
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
+      <h2 align="center">
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.selected_publications }}</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
+
+    <hr style="width:70%;align:center"> 
 
     <!-- Social -->
     {% if page.social %}

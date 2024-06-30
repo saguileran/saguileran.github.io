@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.14)  28 JUN 2024 11:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.14)  29 JUN 2024 21:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1214,18 +1214,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'cv.bbl' found.
- (./cv.bbl
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 47.
-LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input l
-ine 47.
-
-(/usr/share/texlive/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
-File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
-)
-LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 47.
-)
+ (./cv.bbl)
 Package biblatex Info: Reference section=0 on input line 84.
 Package biblatex Info: Reference segment=0 on input line 84.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
@@ -1283,6 +1272,16 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 134.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 134.
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 134.
+LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input l
+ine 136.
+
+(/usr/share/texlive/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
+File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 136.
 
 Overfull \hbox (12.89256pt too wide) in paragraph at lines 191--191
 [][] \T1/lato-TLF/b/n/10 Elec-tri-cal & Com-puter En-gi-neer-ing - Uni-ver-sity
@@ -1309,53 +1308,53 @@ Overfull \hbox (11.11pt too wide) in paragraph at lines 334--334
 
 ]
 
-Package biblatex Warning: Split bibliography detected.
-(biblatex)                Many simple split bibliography setups with
-(biblatex)                non-overlapping bibliographies benefit from
-(biblatex)                setting 'defernumbers=true'.
-(biblatex)                See the documentation for details.
-(biblatex)                This warning can be suppressed with
-(biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
+Package biblatex Warning: Type 'book' not found on input line 432.
 
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 432.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 432.
+
+LaTeX Warning: Empty bibliography on input line 432.
+
 [2]
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 492.
  [3] (./cv.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                cv
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'cv.run.xml'.
 \openout1 = `cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40611 strings out of 480204
- 802623 string characters out of 5895010
- 1478286 words of memory out of 5000000
- 57892 multiletter control sequences out of 15000+600000
- 781903 words of font info for 70 fonts, out of 8000000 for 9000
+ 40391 strings out of 480204
+ 798123 string characters out of 5895010
+ 1478236 words of memory out of 5000000
+ 57678 multiletter control sequences out of 15000+600000
+ 736454 words of font info for 65 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 125i,10n,120p,1127b,2603s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/
-texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}{/usr/share/texliv
-e/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/share/texlive/texmf-dist/f
-onts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts
-/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/d
-vips/fontawesome5/fa5free2.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/f
+ 125i,10n,120p,1127b,2570s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}{/us
+r/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/share/texliv
+e/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texlive/te
+xmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texlive/texmf-di
+st/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/share/texlive/texmf-dist/fon
+ts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/f
 ontawesome5/fa5free0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/
 rbto_j2bk2t.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/
 FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/typoland/lato/Lato-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/ty
-poland/lato/Lato-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland
-/lato/Lato-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto
-/RobotoSlab-Bold.pfb>
-Output written on cv.pdf (3 pages, 177192 bytes).
+poland/lato/Lato-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/
+roboto/RobotoSlab-Bold.pfb>
+Output written on cv.pdf (3 pages, 157780 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
+ 109 PDF objects out of 1000 (max. 8388607)
+ 4 named destinations out of 1000 (max. 500000)
  45 words of extra memory for PDF output out of 10000 (max. 10000000)
 

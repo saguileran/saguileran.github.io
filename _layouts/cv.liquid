@@ -89,6 +89,8 @@ layout: default
                   {% include resume/basics.liquid %}
                 {% when 'education' %}
                   {% include resume/education.liquid %}
+                {% when 'event' %}
+                  {% include resume/event.liquid %}
                 {% when 'work' %}
                   {% include resume/work.liquid %}
                 {% when 'volunteer' %}
@@ -118,6 +120,7 @@ layout: default
           </div>
         {% endfor %}
       </div>
+    
     </article>
   </div>
 {% endunless %}
