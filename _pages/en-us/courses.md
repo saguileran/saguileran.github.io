@@ -6,7 +6,7 @@ title: Courses
 description: Materials for courses I have taught. Here there is a brief description of the courses content but further information can be located in the corresponding semester repository, click in the name category. 
 nav: true
 nav_order: 6
-display_categories: [ETITC-1, others]
+display_categories: [ETITC-2024-1, ETITC-2024-2, others]
 horizontal: true
 ---
 
