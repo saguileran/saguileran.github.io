@@ -2,7 +2,7 @@
 page_id: blog
 layout: default
 permalink: /blog/
-title: blog
+title: Blog
 blog_name: al-folio em português brasileiro
 description: um tema simples para acadêmicos
 nav: true

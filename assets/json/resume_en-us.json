@@ -31,26 +31,37 @@
   },
   "work": [
     {
-      "name": "Escuela Tecnológica Instituto Técnico Central (ETITC)",
-      "position": "University Professor",
-      "url": "https://etitc.edu.co",
-      "startDate": "2024-03-01",
-      "endDate": "2024-06-30",
-      "summary": "Teaching java programming (Backend and Frontend), databases, operating systems, and data structure to university students of systems engineering.",
-      "location": "Bogotá D.C., Colombia",
-      "highlights": ["Programming Professor for Web Developers"],
-      "icon": "fa-solid fa-chalkboard-user"
+      "name": "AI GENERATIVE S.A.S. – AIGEN S.A.S.",
+      "position": "Junior Python Developer - Prompt Engineering",
+      "url": "",
+      "startDate": "2024-09-27",
+      "location": "Remote",
+      "endDate": "2025-03-27",
+      "summary": "Utilizing text-to-image models to generate digital media content for social media, featuring fictional characters or non-real personas.",
+      "highlights": ["Python Programmer", "Prompt Engineering"],
+      "icon": "fa-solid fa-laptop"
     },
     {
       "name": "MarBAI",
-      "position": "Python Developer",
-      "url": "https://example.com",
+      "position": "Junior Python Developer - Prompt Engineering",
+      "url": "https://marbai.ai",
       "startDate": "2024-03-01",
       "location": "Remote",
       "endDate": "",
-      "summary": "Create, deploy, and evaluate intelligent agents using Python, the ChatGPT API, and REST APIs to generate digital content for social media.",
-      "highlights": ["Python Programmer"],
+      "summary": "Create, deploy, and evaluate intelligent agents using Python and REST APIs to generate digital content for social media.",
+      "highlights": ["Python Programmer", "Prompt Engineering"],
       "icon": "fa-solid fa-laptop"
+    },
+    {
+      "name": "Escuela Tecnológica Instituto Técnico Central (ETITC)",
+      "position": "Professor",
+      "url": "https://etitc.edu.co",
+      "startDate": "2024-03-01",
+      "endDate": "2024-12-10",
+      "summary": "Teaching Java programming (both backend and frontend), databases, operating systems, software design, and data structures to systems engineering university students.",
+      "location": "Bogotá D.C., Colombia",
+      "highlights": ["Programming Professor for System Engineering students"],
+      "icon": "fa-solid fa-chalkboard-user"
     },
     {
       "name": "Ingresar a la U",

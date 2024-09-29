@@ -1,7 +1,7 @@
 ---
 page_id: projects
 layout: page
-title: projetos
+title: Projetos
 permalink: /projects/
 description: Uma crescente coleção de seus projetos interessantes.
 nav: true

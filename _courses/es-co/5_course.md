@@ -1,7 +1,7 @@
 ---
 page_id: course_5
 layout: page
-title: Data Bases I
+title: Bases de Datos I
 description:
 location: ETITC
 img: 

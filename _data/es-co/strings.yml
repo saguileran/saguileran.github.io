@@ -5,16 +5,22 @@ blog:
   navigation_title: blog
 links:
   ETITC-1: https://github.com/saguileran/ETITC-2024-1/
+  ETITC-2024-2: https://github.com/uetitc/
   others: .#Others
 categories:
   fun: Diversion
   work: Trabajo
-  ETITC-1: ETITC-1
+  ETITC-2024-1: ETITC-2024-1
+  ETITC-2024-2: ETITC-2024-2
+  others: Otros
+categories_description:
+  ETITC-2024-1: Cursos dictados en el primer semestre de 2024 como profesor de ingeniería de sistemas en la Escuela Tecnológica Instituto Técnico Central (ETITC). ETITC es una universidad pública que está ubicada en el sur de Bogotá, en la Universidad Pública de Kennedy (UPK).
+  ETITC-2024-2: Cursos dictados en el primer semestre de 2024 como profesor de ingeniería de sistemas en la Escuela Tecnológica Instituto Técnico Central (ETITC). ETITC es una universidad pública que está ubicada en el sur de Bogotá, en la Universidad Pública de Kennedy (UPK). Todos los contenidos de los cursos están almacenados en GitHub en la organización <a href="https://github.com/uETITC">uETITC</a>.
   others: Otros
 citation:
-  bibtex: "or as a BibTeX entry:"
-  introduction: "If you found this useful, please cite this as:"
-contact_note: Contesto más rápido por correo electrónico o whatsapp.
+  bibtex: "o una entrada de BibTeX:"
+  introduction: "Si te ha resultado útil, cítalo como:"
+contact_note: Contesto más rápido por correo electrónico o Whatsapp.
 cv:
   address: Dirección
   area: Area

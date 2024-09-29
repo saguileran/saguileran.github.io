@@ -2,17 +2,23 @@ archive_category: um arquivo de postagens desta categoria
 archive_tag: um arquivo de postagens com este marcador
 archive_year: um arquivo de postagens deste ano
 blog:
-  navigation_title: blog
+  navigation_title: Blog
 links:
   ETITC-1: https://github.com/saguileran/ETITC-2024-1/
+  ETITC-2024-2: https://github.com/uetitc/
   others: .#Others
 categories:
-  fun: diversão
-  work: trabalho
-  ETITC-1: ETITC-1
-  others: Otros
+  fun: Diversão
+  work: Trabalho
+  ETITC-2024-1: ETITC-2024-1
+  ETITC-2024-2: ETITC-2024-2
+  others: Outros
+categories_description:
+  ETITC-2024-1: Cursos ministrados no primeiro semestre de 2024 como professor de engenharia de sistemas na Escuela Tecnológica Instituto Técnico Central (ETITC). A ETITC é uma universidade pública localizada no sul de Bogotá, na Universidade Pública de Kennedy (UPK).
+  ETITC-2024-2: Cursos ministrados no segundo semestre de 2024 como professor de engenharia de sistemas na Escuela Tecnológica Instituto Técnico Central (ETITC). A ETITC é uma universidade pública localizada no sul de Bogotá, na Universidade Pública de Kennedy (UPK). Todo o conteúdo dos cursos é armazenado no GitHub na organização <a href="https://github.com/uETITC">uETITC</a>.
+  others: Descrição da função
 citation:
-  bibtex: "ou como uma citação em BibTeX:"
+  bibtex: "Ou como uma citação em BibTeX:"
   introduction: "Se você achou isso útil, por favor cite como:"
 contact_note: Você pode até adicionar uma pequena observação sobre qual dessas é a melhor maneira de entrar em contato com você.
 cv:
@@ -98,7 +104,7 @@ months:
     october: Out
     november: Nov
     december: Dez
-news: novidades
+news: Novidades
 no_news: Nenhuma novidade no momento...
 pagination:
   newer: Recentes
@@ -137,5 +143,5 @@ search:
     description: Muda o tema do site para o padrão do sistema
     title: Usa o tema padrão do sistema
   theme: Tema
-selected_publications: publicações selecionadas
+selected_publications: Publicações selecionadas
 site_description: Um tema simples para acadêmicos. Baseado no design do [*folio](https://github.com/bogoli/-folio).

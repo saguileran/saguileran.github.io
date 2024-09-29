@@ -2,7 +2,7 @@
 page_id: project_1
 layout: page
 title: Birdsongs
-description: Bachelor's tessis disertation. Design, development, and evaluation of a computational-physical model for generating synthetic birdsongs from recorded samples using the motor gestures for birdsongs model created by Gabriel Mindlin at LSD of UBA.
+description: Bachelor's tesis dissertation. Design, development, and evaluation of a computational-physical model for generating synthetic birdsongs from recorded samples using the motor gestures for birdsongs model created by Gabriel Mindlin at LSD of UBA.
 location: UNAL
 img: assets/img/dissertation.jpg
 redirect: https://saguileran.github.io/birdsongs/

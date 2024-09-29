@@ -2,7 +2,7 @@
 page_id: project_1
 layout: page
 title: Cantos de Aves
-description: Trabajo de grado como físico
+description: Trabajo de grado de físico. Diseño, desarrollo y evaluación de un modelo computacional-físico para la generación de cantos sintéticos de aves a partir de muestras grabadas utilizando el modelo de gestos motores para cantos de aves creado por Gabriel Mindlin en LSD de la UBA.
 img: assets/img/dissertation.jpg
 redirect: https://saguileran.github.io/birdsongs/
 importance: 0

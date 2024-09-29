@@ -3,7 +3,7 @@ page_id: courses
 layout: page
 permalink: /courses/
 title: Cursos
-description: Materiales de los cursos que he impartido. Aquí hay una breve descripción del contenido de los cursos, pero puede encontrar más información en el repositorio del semestre correspondiente, haga clic en la categoría del nombre.
+description: Materiais dos cursos que ministrei. Aqui há uma breve descrição do conteúdo dos cursos, mas mais informações podem ser encontradas no repositório do semestre correspondente, clique na categoria do nome. 
 nav: true
 nav_order: 6
 display_categories: [ETITC-2024-1, ETITC-2024-2, others]
@@ -31,7 +31,7 @@ horizontal: true
           </div>
         </div>
       {% else %}
-        <div class="row row-cols-1 row-cols-md-3">
+        <div class="row row-cols-1 row-cols-md-4">
           {% for course in sorted_courses %}
             {% include courses.liquid %}
           {% endfor %}

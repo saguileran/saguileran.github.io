@@ -1,7 +1,7 @@
 ---
 page_id: repositories
 layout: page
-permalink: /repositorios/
+permalink: /repositories/
 title: Repositorios
 description: Repositorios en los que he trabajado.
 nav: true

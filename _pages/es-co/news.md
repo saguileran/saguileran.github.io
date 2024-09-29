@@ -2,8 +2,8 @@
 page_id: news
 layout: page
 title: Noticias
-permalink: /noticias/
-nav: true
+permalink: /news/
+nav: false
 nav_order: 7
 ---
 

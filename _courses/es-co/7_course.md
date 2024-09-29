@@ -1,7 +1,7 @@
 ---
 page_id: course_7
 layout: page
-title: Data Structure I
+title: Estructura de Datos
 description: 
 location: ETITC
 img: 

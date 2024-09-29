@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: About
 permalink: /
-subtitle: <b>Professor - Programmer - Traveler<b>
+subtitle: <b>Physicist - Professor - Programmer<b>
 
 profile:
   align: right
@@ -47,7 +47,7 @@ social: true # includes social icons at the bottom of the page
 <h4>Education</h4>
 
 <ul>
-  <li><b><a href="/assets/pdf/certificates/USP.pdf">Undegraduate Intership for Biological Research</a>:</b> Summer research at Sao Carlos Physics Institue invastigating modeling and simulation of molecules.</li>
+  <li><b><a href="/assets/pdf/certificates/USP.pdf">Undegraduate Intership for Biological Research</a>:</b> Summer research at Sao Carlos Physics Institute investigating modeling and simulation of molecules.</li>
   <li><b>Bachelor's Degree in Science (B.S.):</b> Physicist from the National University Of Colombia.</li>
   <li><b><a href="/assets/pdf/certificates/Delaware.pdf">Summer Research Program</a>:</b> Summer research program at th Electrical & Computer Engineering department, University of Delaware University.</li>
 </ul>

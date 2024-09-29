@@ -1,7 +1,7 @@
 ---
 page_id: publications
 layout: page
-permalink: /publicaciones/
+permalink: /publications/
 title: Publicaciones
 description: Publicaciones por categorías en orden cronológico inverso.
 nav: true

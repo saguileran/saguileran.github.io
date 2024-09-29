@@ -1,7 +1,7 @@
 ---
 page_id: course_5
 layout: page
-title: Data Bases I
+title: Banaco de Dados I
 description:
 location: ETITC
 img: 
