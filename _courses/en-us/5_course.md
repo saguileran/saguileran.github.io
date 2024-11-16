@@ -5,7 +5,7 @@ title: Data Bases I
 description:
 location: ETITC
 img: 
-redirect: https://github.com/uETITC/DataBasesI-TPC-4-2011
+redirect: https://uetitc.github.io/DataBasesI-2024-2/README.html
 importance: 0
 category: ETITC-2024-2
 related_publications: true
