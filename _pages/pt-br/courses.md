@@ -24,7 +24,7 @@ horizontal: true
       <!-- Generate cards for each course -->
       {% if page.horizontal %}
         <div class="container">
-          <div class="row row-cols-1 row-cols-md-2">
+          <div class="row row-cols-1 row-cols-md-4">
             {% for course in sorted_courses %}
               {% include courses_horizontal.liquid %}
             {% endfor %}
