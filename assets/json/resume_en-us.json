@@ -69,7 +69,7 @@
       "startDate": "2023-05-01",
       "location": "Colombia",
       "endDate": "2023-08-01",
-      "url": "https://github.com/saguileran/ETITC-2024-1/",
+      "url": "",
       "summary": "Teach mathematics and physics in a preparatory course for the state exam Saber 11, administered by ICFES in Colombia. In this role, I educated a diverse group of students from various regions, both rural and urban, utilizing <a href='https://phet.colorado.edu/es/'>PhET</a> simulations to enhance their learning experience.",
       "highlights": ["Teaching Mathematics and Physics", "Dynamic and Funny Lessons"],
       "icon": "fa-solid fa-chalkboard-user"

@@ -1,14 +1,14 @@
 {
   "basics": {
     "name": "Sebastián Aguilera Novoa",
-    "label": "Physicist - Professor - Programmer",
+    "label": "Físico - Profesor - Programador",
     "image": "",
     "email": "saguileran@unal.edu.co",
     "phone": "(+57) 319 514 0529",
     "url": "https://saguileran.github.io/",
     "github": "https://github.com/saguileran/",
     "linkedin": "https://linkedin.com/in/saguileran/",
-    "summary": "A Colombian physicist interested in computational physics, numerical methods, and machine learning ideas applied to bioacoustics.",
+    "summary": "Físico colombiano interesado en la física computacional, los métodos numéricos y las ideas de aprendizaje automático aplicadas a la bioacústica..",
     "location": {
       "address": "Bogotá D.C.",
       "postalCode": "COL 111621",
@@ -18,7 +18,7 @@
     },
     "profiles": [
       {
-        "network": "Github",
+        "network": "GitHub",
         "username": "saguileran",
         "url": "https://github.com/saguileran"
       },
@@ -32,44 +32,44 @@
   "work": [
     {
       "name": "AI GENERATIVE S.A.S. – AIGEN S.A.S.",
-      "position": "Junior Python Developer - Prompt Engineering",
+      "position": "Desarrollador Junior de Python - Ingeniero de Prompts",
       "url": "",
       "startDate": "2024-09-27",
-      "location": "Remote",
+      "location": "Remoto",
       "endDate": "2025-03-27",
-      "summary": "Utilizing text-to-image models to generate digital media content for social media, featuring fictional characters or non-real personas.",
-      "highlights": ["Python Programmer", "Prompt Engineering"],
+      "summary": "Utilización de modelos texto-imagen para generar contenidos digitales para las redes sociales, con personajes ficticios o no reales.",
+      "highlights": ["Programador de Python", "Ingeniero de Prompts"],
       "icon": "fa-solid fa-laptop"
     },
     {
       "name": "MarBAI",
-      "position": "Junior Python Developer - Prompt Engineering",
+      "position": "Desarrollador Junior de Python - Ingeniero de Prompts",
       "url": "https://marbai.ai",
       "startDate": "2024-03-01",
-      "location": "Remote",
+      "location": "Remoto",
       "endDate": "",
-      "summary": "Create, deploy, and evaluate intelligent agents using Python and REST APIs to generate digital content for social media.",
-      "highlights": ["Python Programmer", "Prompt Engineering"],
+      "summary": "Crear, desplegar y evaluar agentes inteligentes utilizando Python y API REST para generar contenidos digitales para medios sociales.",
+      "highlights": ["Programador de Python", "Ingeniero de Prompts"],
       "icon": "fa-solid fa-laptop"
     },
     {
       "name": "Escuela Tecnológica Instituto Técnico Central (ETITC)",
-      "position": "Professor",
+      "position": "Profesor",
       "url": "https://etitc.edu.co",
       "startDate": "2024-03-01",
       "endDate": "2024-12-10",
-      "summary": "Teaching Java programming (both backend and frontend), databases, operating systems, software design, and data structures to systems engineering university students.",
+      "summary": "Enseñanza de programación Java (tanto backend como frontend), bases de datos, sistemas operativos, diseño de software y estructuras de datos a estudiantes universitarios de ingeniería de sistemas.",
       "location": "Bogotá D.C., Colombia",
-      "highlights": ["Programming Professor for System Engineering students"],
+      "highlights": ["Profesor de programación para estudiantes de Ingeniería de Sistemas"],
       "icon": "fa-solid fa-chalkboard-user"
     },
     {
       "name": "Ingresar a la U",
-      "position": "Particular Professor",
+      "position": "Profesor Particular",
       "startDate": "2023-05-01",
       "location": "Colombia",
       "endDate": "2023-08-01",
-      "url": "https://github.com/saguileran/ETITC-2024-1/",
+      "url": "",
       "summary": "Teach mathematics and physics in a preparatory course for the state exam Saber 11, administered by ICFES in Colombia. In this role, I educated a diverse group of students from various regions, both rural and urban, utilizing <a href='https://phet.colorado.edu/es/'>PhET</a> simulations to enhance their learning experience.",
       "highlights": ["Teaching Mathematics and Physics", "Dynamic and Funny Lessons"],
       "icon": "fa-solid fa-chalkboard-user"
