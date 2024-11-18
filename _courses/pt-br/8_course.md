@@ -5,7 +5,7 @@ title: Projeto de Software I
 description:
 location: ETITC
 img: 
-redirect: https://github.com/uETITC/SoftwareDesignI-TPC-4-2018
+redirect: https://uetitc.github.io/SoftwareDesignI-2024-2/README.html
 importance: 1
 category: ETITC-2024-2
 related_publications: true

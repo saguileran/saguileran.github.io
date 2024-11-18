@@ -3,7 +3,7 @@ page_id: course_6
 layout: page
 title: Programación II
 description:  
-redirect: https://github.com/uETITC/ProgrammingII-TPC-3-2015
+redirect: https://uetitc.github.io/ProgrammingII-2024-2/README.html
 importance: 3
 category: ETITC-2024-2
 ---
