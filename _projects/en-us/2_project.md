@@ -6,6 +6,6 @@ description: Study and evaluation of the un/binding kinetics of Mineralocorticoi
 img: assets/img/simulations.gif
 redirect: https://saguileran.github.io/MD-SCPI/
 importance: 1
-category: work
+category: research
 giscus_comments: true
 ---

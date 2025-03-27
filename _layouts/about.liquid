@@ -11,7 +11,7 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    <p class="desc" style="font-size: 1.2rem;">{{ page.subtitle }}</p>
   </header>
 
   <article>
@@ -39,11 +39,11 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <hr style="width:100%;text-align:left;margin-left:0"> 
+    <hr style="width:100%;text-align:left;margin-left:0">
 
-    <div class="container">
+    <div style="width: 98%; margin: 0 auto 0 auto;">
       <div class="row">
-        <div class="col-sm">
+        <div class="col-sm-6">
           <!-- News -->
           {% if page.news and site.announcements.enabled %}
             <h2 align="center">
@@ -52,7 +52,7 @@ layout: default
             {% include news.liquid limit=true %}
           {% endif %}
         </div>
-        <div class="col-sm">
+        <div class="col-sm-6">
           <!-- Latest posts -->
           {% if site.latest_posts.enabled %}
             <h2 align="center">
@@ -63,10 +63,9 @@ layout: default
         </div>
       </div>
     </div>
-    
 
-    <hr style="width:100%;text-align:left;margin-left:0"> 
-    
+    <hr style="width:100%;text-align:left;margin-left:0">
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2 align="center">
@@ -75,13 +74,12 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <hr style="width:70%;align:center"> 
+    <hr style="width:100%;align:center">
 
     <!-- Social -->
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
-
         <div class="contact-note">{{ site.data[site.active_lang].strings.contact_note }}</div>
       </div>
     {% endif %}

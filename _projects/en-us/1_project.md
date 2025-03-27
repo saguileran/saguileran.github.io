@@ -7,7 +7,7 @@ location: UNAL
 img: assets/img/dissertation.jpg
 redirect: https://saguileran.github.io/birdsongs/
 importance: 0
-category: work
+category: research
 related_publications: true
 ---
 

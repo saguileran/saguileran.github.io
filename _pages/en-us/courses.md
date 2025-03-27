@@ -3,7 +3,7 @@ page_id: courses
 layout: page
 permalink: /courses/
 title: Courses
-description: Materials for courses I have taught. Here there is a brief description of the courses content but further information can be located in the corresponding semester repository, click in the name category. 
+description: Materials for courses I have taught. Here there is a brief description of the courses content but further information can be located in the corresponding semester repository, click in the name category.
 nav: true
 nav_order: 6
 display_categories: [ETITC-2024-1, ETITC-2024-2, others]
@@ -23,7 +23,7 @@ horizontal: true
       {% assign sorted_courses = categorized_courses | sort: "importance" %}
       <!-- Generate cards for each course -->
       {% if page.horizontal %}
-        <div class="container">
+        <div>
           <div class="row row-cols-1 row-cols-md-4">
             {% for course in sorted_courses %}
               {% include courses_horizontal.liquid %}
@@ -43,15 +43,15 @@ horizontal: true
     {% assign sorted_courses = site.courses | sort: "importance" %}
     <!-- Generate cards for each course -->
     {% if page.horizontal %}
-      <div class="container">
-        <div class="row row-cols-1 row-cols-md-2">
+      <div>
+        <div class="row row-cols-1 row-cols-md-2 text-align-center">
           {% for course in sorted_courses %}
             {% include courses_horizontal.liquid %}
           {% endfor %}
         </div>
       </div>
     {% else %}
-      <div class="row row-cols-1 row-cols-md-3">
+      <div class="row row-cols-1 row-cols-md-3 text-align-center">
         {% for course in sorted_courses %}
           {% include courses.liquid %}
         {% endfor %}

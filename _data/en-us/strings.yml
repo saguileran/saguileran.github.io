@@ -10,17 +10,18 @@ links:
 categories:
   fun: Fun
   work: Work
+  research: Research
   ETITC-2024-1: ETITC-2024-1
   ETITC-2024-2: ETITC-2024-2
   others: Others
 categories_description:
   ETITC-2024-1: Courses taught in the first semester of 2024 as a professor of systems engineering at Escuela Tecnológica Instituto Técnico Central (ETITC). ETITC is public university that is located in the south if Bogotá, in the Public University of Kennedy (UPK).
   ETITC-2024-2: Courses taught in the second semester of 2024 as a professor of systems engineering at Escuela Tecnológica Instituto Técnico Central (ETITC). ETITC is public university that is located in the south if Bogotá, in the Public University of Kennedy (UPK). All courses content are stored on GitHub in the <a href="https://github.com/uETITC">uETITC</a> organization.
-  others: 
+  others:
 citation:
   bibtex: "or as a BibTeX entry:"
   introduction: "If you found this useful, please cite this as:"
-contact_note: <b>I respond more quickly via email or WhatsApp.</b>
+contact_note: <b>I respond more quickly via email. Feel free to reach out anytime!</b>
 cv:
   address: Address
   area: Area

@@ -3,9 +3,12 @@ page_id: repositories
 layout: page
 permalink: /repositories/
 title: Repositories
-description: Repositories I have worked on.
+description: Repositories I have developed and am currently working on.
 nav: true
 nav_order: 4
+social: true
+---
+
 ---
 
 ## GitHub Users
@@ -40,9 +43,13 @@ nav_order: 4
 
 {% if site.data.repositories.github_repos %}
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center" style="width: 85%; margin: 0 auto 0 auto;">
   {% for repo in site.data.repositories.github_repos %}
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}
 </div>
 {% endif %}
+
+<br>
+
+---
