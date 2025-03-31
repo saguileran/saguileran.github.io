@@ -8,7 +8,7 @@ categories: [free software, usp]
 thumbnail: https://sagaratechnology.com/blog/wp-content/uploads/2021/11/open-source-software.png
 giscus_comments: true
 toc:
-  beginning: true
+  beginning: false
   sidebar: left
 related_posts: false
 citation: true
@@ -143,7 +143,7 @@ As a practical exercise, let's create a VM using an Ubuntu image. Since the prev
 
    Output:
 
-   ```bash
+   ```text
    1,2G	base-jammy-server-cloudimg-armhf.img
    ```
 
@@ -153,7 +153,7 @@ As a practical exercise, let's create a VM using an Ubuntu image. Since the prev
 
    Output:
 
-   ```bash
+   ```text
    image: base-jammy-server-cloudimg-armhf.img
    file format: qcow2
    virtual size: 3.5 GiB (3758096384 bytes)
@@ -243,39 +243,7 @@ find ~/ -type f -name "postgis-2.0.0"
 
 ### Results
 
-## Tutorial 4
-
-### Parts
-
-### Troubleshooting
-
-### Results
-
-## Tutorial 5
-
-### Parts
-
-### Troubleshooting
-
-### Results
-
-## Tutorial 6
-
-### Parts
-
-### Troubleshooting
-
-### Results
-
-## Tutorial 7
-
-### Parts
-
-### Troubleshooting
-
-### Results
-
-## Tutorial 8
+## Tutorial 4:
 
 ### Parts
 
