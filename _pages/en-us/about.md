@@ -11,12 +11,11 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <center>
-      <p> <a href="mailto:saguileran@usp.br" title="email"><i class="fa-solid fa-envelope"></i></a> <a href="maito:saguileran@usp.br">saguileran@usp.br</a></p>
+      <p> <a href="mailto:saguileran@ime.usp.br" title="email"><i class="fa-solid fa-envelope"></i></a> <a href="maito:saguileran@ime.usp.br">saguileran@ime.usp.br</a></p>
       <p> <a href="mailto:saguileran@unal.edu.co" title="email"><i class="fa-solid fa-envelope"></i></a> <a href="maito:saguileran@unal.edu.co">saguileran@unal.edu.co</a></p>
       <p> <a href="https://github.com/saguileran" title="github"><i class="fa-solid fa-house"></i></a> <a href="https://github.com/saguileran">github.com/saguileran</a></p>
       <p> <a href="https://www.google.com/maps/place/Bogot%C3%A1,+Bogota/@4.6825472,-74.0982784,13z/data=!4m6!3m5!1s0x8e3f9bfd2da6cb29:0x239d635520a33914!8m2!3d4.7109886!4d-74.072092!16zL20vMDFkenlj?entry=ttu" title="email"><i class="fa-solid fa-location-dot"></i></a> 
-      <a href="https://www.google.com/maps/place/Bogot%C3%A1/@4.6486206,-74.2726198,11z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9bfd2da6cb29:0x239d635520a33914!8m2!3d4.7109886!4d-74.072092!16zL20vMDFkenlj?hl=es&entry=ttu&g_ep=EgoyMDI1MDEwMi4wIKXMDSoASAFQAw%3D%3D">Bogotá D.C., Colombia</a> </p> <br>
-      
+      <a href="https://www.google.com.br/maps/place/S%C3%A3o+Paulo,+SP/@-23.5845839,-46.7139151,11.75z/data=!4m15!1m8!3m7!1s0x94ce448183a461d1:0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!3b1!8m2!3d-23.5557714!4d-46.6395571!16zL20vMDIycGZt!3m5!1s0x94ce448183a461d1:0x9ba94b08ff335bae!8m2!3d-23.5557714!4d-46.6395571!16zL20vMDIycGZt?hl=pt-BR&entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D">Sao Paulo, Brazil</a> </p> <br>
     </center>
 
 news: true # includes a list of news items
@@ -24,6 +23,8 @@ latest_posts: true # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+
+<!-- <a href="https://www.google.com/maps/place/Bogot%C3%A1/@4.6486206,-74.2726198,11z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9bfd2da6cb29:0x239d635520a33914!8m2!3d4.7109886!4d-74.072092!16zL20vMDFkenlj?hl=es&entry=ttu&g_ep=EgoyMDI1MDEwMi4wIKXMDSoASAFQAw%3D%3D">Bogotá D.C., Colombia</a> </p> <br> -->
 
 <hr style="width:100%;text-align:left;margin-left:0">
 
