@@ -307,6 +307,7 @@ It is possible to use different cross compilers because there are many available
 > - `kw --version` - Print information about the `kw` release installed
 > - `kw build` - Compile Linux kernel from source considering local configurations
 > - `uname` - Displays information about the operating system and hardware of a Linux or Unix-like computer
+> - `virsh net-dhcp-leases default` - Check the ip VM
 
 ### Troubleshooting
 
