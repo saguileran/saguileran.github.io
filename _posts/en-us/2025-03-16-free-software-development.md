@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Free Software Development
+title: Free Software Development Logbook
 date: 2025-03-15 21:01:00
 description: Logbook and notes for the free software development course at USP, 2025-1
 tags: mac-courses
@@ -12,7 +12,7 @@ toc:
   sidebar: left
 related_posts: false
 citation: true
-related_publications: false
+related_publications: true
 _styles: ".container {
   max-width: 85%;
 } 
@@ -50,7 +50,7 @@ A detailed guide can be found at: [Setting up a test environment for Linux Kerne
 
 The tutorial is divided into the following sections:
 
-1. Preparing testing environment directory and “all-in-one” script
+1. Preparing testing environment directory and "all-in-one" script
 
    - Create necessary folders and files.
    - Give the required permissions for files and folders.
@@ -63,11 +63,19 @@ The tutorial is divided into the following sections:
    - Activate the `libvirt` damen to use `virsh` commands. In addition, starts a default network (to connect the VM with internet) with virsh. It will also enable autostart and persistence for the network.
    - The output for the point, is a bash function that creates a VM named arm64 that creates a VM with some default configuration defined in the activate file.
 
-3. Configure SSH access from the host to the VM. There are two important settigns you must done: enable permit root login and permit empty password, because the VM's credentials are root without password. This can be done by modifying the `/etc/ssh/sshd_config` file. After do it, reconfigure the sshd keys and restart the sshd damon.
-   Now, it is possible to connect to the VM machine via ssh, using a client-server approach. Furthermore, it is possible to sent and recive files using Secure Copy Protocol (scp).
-4. Fetch the modules loaded in the guest kernel. To keep the same machine in every moment, it is highly recommended to create a file with the modules used, this can be done wiht `lsmod > vm_mod_list`.
+3. Configure SSH access from the host to the VM.
+
+   - Allow ssh connection with the current VM's credentials, user root without password. There are two important settigns you must done: enable permit root login and permit empty password. This its done by modifying the `/etc/ssh/sshd_config` file.
+   - Reconfigure the sshd keys and restart the sshd damon.
+   - Now, it is possible to connect to the VM machine via ssh, using a client-server approach. Furthermore, it is possible to sent and recive files using Secure Copy Protocol (scp).
+
+4. Fetch the modules loaded in the guest kernel.
+
+   - Export the modules installed. To keep the same machine in every moment, it is highly recommended to create a file with the modules used, this can be done wiht `lsmod > vm_mod_list`.
+
 5. Set up host <-> VM file sharing (optional)
-   This part was tried but for now is not working. After implemented the changes the suggested (memory backing and file system configurations) the machine does not work.
+
+   - This part was tried but for now is not working. After implemented the changes suggested (memory backing and file system configurations) the machine does not work, it does not boot.
 
 > #### **Useful Commands**
 >
@@ -326,7 +334,7 @@ A detailed guide can be found at: [Introduction to Linux kernel build configurat
 
 1. Creating a simple example module
 
-   - Start by creating a c code, Linux is written in c and some in assembler. The code contains two static cuztomized functions for initilize and exit, bot are loaded with the kernel libraries and the final lines is the license. The modules are saved at `drivers/misc` subfoler.
+   - Start by creating a C code, Linux is written in c and some in assembler. The code contains two static cuztomized functions for initilize and exit, bot are loaded with the kernel libraries and the final lines is the license. The modules are saved at `drivers/misc` subfoler.
 
 2. Creating Linux kernel configuration symbols
 
@@ -369,7 +377,7 @@ A detailed guide can be found at: [Introduction to Linux kernel build configurat
 
 ## Tutorial 4: Introduction to Linux kernel Character Device Drivers
 
-A detailed guide can be found at: [Introduction to Linux kernel Character Device Drivers](https://flusp.ime.usp.br/kernel/char-drivers-intro/)
+A detailed guide can be found at: [Introduction to Linux kernel Character Device Drivers](https://flusp.ime.usp.br/kernel/char-drivers-intro/) written by [Marcelo Schmitt](https://linux.ime.usp.br/~marcelosc/)
 
 ### Summary
 
@@ -391,7 +399,7 @@ A detailed guide can be found at: [The iio_simple_dummy Anatomy](https://flusp.i
 
 ---
 
-## Tutorial
+<!-- ## Tutorial
 
 A detailed guide can be found at:
 
@@ -401,16 +409,100 @@ A detailed guide can be found at:
 
 ### Comments
 
----
+--- -->
 
-## Tutorial
+## Tutorial 6: Sending patches by email with git
 
-A detailed guide can be found at:
+This tutorial describes how to configure Git to send emails using a Gmail, or any other emails sever. In addition, there is a brief description about the `git send-email` command, what flags we are going to use and the meaning of each one. Finally, there are a few tips to test the patch before to sending it, it is highly recommended to avoid send incorrect or wrong styled messages to the main repository.
+
+The patch consists of two parts: the cover letter, which is optional but highly recommended, and the message for each commit. These are specified using flags in the `git send-email` command. Each commit generates an email containing three sections: the header, the body message, and the code differences between the current code and the proposed changes.
+
+1. **Header**:  
+   The header includes essential email metadata such as the sender(s) (`From`), recipient (`To`), and subject (`Subject`). The subject should provide a concise and formal description of the issue being addressed. It is important to use imperative verbs in the subject line, as the changes are presented as actions to be performed. Avoid informal language or unnecessary words. To track patchs use a USP email.
+
+2. **Body Message**:  
+   The body provides a detailed explanation of the issue and the proposed solution. This section may include longer comments, technical details, and any relevant context to help reviewers understand the changes. Be clear and precise, ensuring the message is informative and professional.
+
+3. **Code Differences**:  
+   This section displays the differences between the current code and the proposed changes. It highlights the modifications made in the patch, making it easier for reviewers to evaluate the impact of the changes.
+
+By structuring your patch email in this way, you ensure clarity and professionalism, increasing the likelihood of your patch being accepted.
+
+A detailed guide can be found at: [Sending patches by email with git](https://flusp.ime.usp.br/git/sending-patches-by-email-with-git/) written by [Matheus Tavares](https://matheustavares.dev/).
 
 ### Summary
 
+1. Setting Git up to send emails
+2. How to use `git send-email `
+3. More tips on patch sending
+
 ### Troubleshooting
+
+Since Gmail is being accessed by an external application (a third-party app), it is necessary to enable the connection between Git and Gmail. This can be achieved by adjusting the email's security settings or using a two-factor authentication method. While the latter option is more secure, it is not available for USP emails. Therefore, USP users can lower their email security settings, whereas other users are strongly encouraged to enable two-factor authentication for enhanced security.
 
 ### Comments
 
 ---
+
+## Tutorial 7: Sending a Real Patch
+
+As a first practical exercise, let's send a simple patch to the official Linux kernel. The objective is to contribute to the Linux kernel's IIO subsystem or DRM AMD subsystem. The task involves creating and submitting a patch (similar to a commit) to the official Linux kernel repository using the corresponding latest developer branch. This process is carried out via a mailing list. To send the email, Git is utilized. For detailed instructions, refer to [Tutorial 6: Sending patches by email with git](#tutorial-6-sending-patches-by-email-with-git).
+
+Since students are not required to have deep knowledge of the Linux kernel and its subsystems, the patches suggested by the professor and mentors involve simple modifications to the code. These include code style corrections (though these are less likely to be accepted), removing duplicate code, eliminating unused functions, making small improvements, or other straightforward changes.
+
+> **NOTE**: The goal is to practice creating and submitting patches to the Linux kernel mailing list, not necessarily to have them accepted in the same course period. The focus is on understanding the workflow, adhering to coding standards, and communicating with maintainers.
+
+### IIO Subsystem
+
+A simple patch to start contributing is removing duplicate code or functions. For the IIO subsystem, there are a few functions duplicated in the drivers. One example is located in the driver **hp03**, found at `drivers/iio/pressure/hp03.c`. This file contains four identical lines of code:
+
+```c
+static bool hp03_is_writeable_reg(struct device *dev, unsigned int reg)
+{
+   return false;
+}
+
+static bool hp03_is_volatile_reg(struct device *dev, unsigned int reg)
+{
+   return false;
+}
+```
+
+Both functions always return `false`, regardless of the register number or device. They are used in a single place within the `hp03_regmap_config` structure:
+
+```c
+static const struct regmap_config hp03_regmap_config = {
+   .reg_bits	= 8,
+   .val_bits	= 8,
+
+   .max_register	= HP03_EEPROM_CD_OFFSET + 1,
+   .cache_type	= REGCACHE_RBTREE,
+
+   .writeable_reg	= hp03_is_writeable_reg,  // here
+   .volatile_reg	= hp03_is_volatile_reg,   // here
+};
+```
+
+A naive solution would be to remove the function lines and directly replace them with `false` in the structure. However, this approach breaks the code style and completeness of the kernel driver structure, as all recent drivers are expected to include `writeable` and `volatile` functions based on the device's characteristics. These functions are typically implemented based on the device's datasheet, which defines the register values and possible states.
+
+The `hp03` device, dating back to 2007, lacks detailed information about registers or states in its datasheet ([HP03 Series of Calibrated Sensor Module](https://www.sensorica.ru/pdf/HP03.pdf)). In contrast, modern devices, such as the BMP280 pressure sensor ([BMP280 Datasheet](https://cdn-shop.adafruit.com/datasheets/BST-BMP280-DS001-11.pdf)), provide comprehensive details about registers and states, which are implemented in their `writeable` and `volatile` functions.
+
+This explains why both functions in `hp03.c` return `false` and why any changes are not suitable in this case. The `hp03` device, introduced in 2007, lacks detailed register or state information in its datasheet ([HP03 Series of Calibrated Sensor Module](https://www.sensorica.ru/pdf/HP03.pdf)). Consequently, the functions `hp03_is_writeable_reg` and `hp03_is_volatile_reg` are implemented to always return `false`, as there is no additional information to define specific behavior for these registers.
+
+In contrast, modern devices, such as the BMP280 pressure sensor ([BMP280 Datasheet](https://cdn-shop.adafruit.com/datasheets/BST-BMP280-DS001-11.pdf)), provide comprehensive details about registers and states. These details allow for the implementation of more sophisticated `writeable` and `volatile` functions based on the device's characteristics. For the `hp03` driver, however, any attempt to modify these functions without additional technical information would be inappropriate and could lead to incorrect behavior.
+
+### DRM AMD Subsystem
+
+Given this, the focus shifted to another subsystem requiring less technical knowledge, specifically the DRM AMD Linux subsystem, to identify and address duplicate code lines. Using the `arkanjo` tool on the path `linux/drivers/gpu/drm/amd`, the following results were obtained:
+
+- [`duplicados_amd_drm.txt`](../../../assets/text/duplicados_amd_drm.txt): A report generated by `arkanjo` listing the number of repeated lines in descending order.
+- [`output_parsed.txt`](../../../assets/text/output_parsed.txt): A parsed output listing files with duplicated code, separated by spaces and followed by their similarity coefficient, also ordered in descending order.
+
+These results provide a starting point for identifying and addressing duplicate code in the DRM AMD subsystem, offering a more suitable opportunity for a beginner-level contribution. In summary, there are two functions duplicated many times on the `linux/drivers/gpu/drm/amd/display/dc/irq/dc`.
+
+1. The `hpd_ack()` function acknowledges a display hotplug (HPD) interrupt by reading the HPD status, clearing the interrupt, and flipping the interrupt polarity to detect the next plug/unplug event, ensuring proper handling of display connections.
+2. The `to_dal_irq_source_dcnX()` function maps hardware-specific interrupt source IDs (`src_id` and `ext_id`) to standardized `dc_irq_source` values, handling cases like VBLANK events, page flips, VLINE interrupts, HPD signals, and DMCUB notifications for display control on AMD DCNX GPUs. If no match is found, it returns `DC_IRQ_SOURCE_INVALID`.
+
+Both functions are located at the interrupt request (IRQ) module inside the [Display Core (DC)](https://www.kernel.org/doc/html/next/gpu/amdgpu/display/index.html) linux drive. The same function is writen in many files with different [Display Core Next (DCN)](https://www.kernel.org/doc/html/next/gpu/amdgpu/display/dcn-overview.html) number and have exactly the same code lines. Those duplications are a good patch to send because may remove houndreds lines of code.
+
+### Patch

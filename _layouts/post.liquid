@@ -85,10 +85,18 @@ layout: default
   {% endif %}
 
   {% if page.related_publications %}
+    <br>
+    <hr>
+    <br>
+
     <h2>{{ site.data[site.active_lang].strings.references }}</h2>
     <div class="publications">
-      {% bibliography --cited_in_order %}
+      {% bibliography --file posts --group_by none %}
     </div>
+
+    <br>
+    <hr>
+    <br>
   {% endif %}
 
   {% if site.related_blog_posts.enabled %}
