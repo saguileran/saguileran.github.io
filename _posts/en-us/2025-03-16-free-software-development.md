@@ -478,7 +478,20 @@ static const struct regmap_config hp03_regmap_config = {
 };
 ```
 
-A naive solution would be to remove the function lines and directly replace them with `false` in the structure. However, this approach breaks the code style and completeness of the kernel driver structure, as all recent drivers are expected to include `writeable` and `volatile` functions based on the device's characteristics. These functions are typically implemented based on the device's datasheet, which defines the register values and possible states.
+A naive solution would be to remove the function lines and directly replace them with `false` in the structure. However, this approach breaks the code style and completeness of the kernel driver structure, as all recent drivers are expected to include `writeable` and `volatile` functions based on the device's characteristics. These functions are typically implemented based on the device's datasheet, which defines the register values and possible states. Then, the naive solution may be:
+
+```c
+static const struct regmap_config hp03_regmap_config = {
+.reg_bits	= 8,
+.val_bits	= 8,
+
+.max_register	= HP03_EEPROM_CD_OFFSET + 1,
+.cache_type	= REGCACHE_RBTREE,
+
+.writeable_reg	= false,
+.volatile_reg	= false,
+};
+```
 
 The `hp03` device, dating back to 2007, lacks detailed information about registers or states in its datasheet ([HP03 Series of Calibrated Sensor Module](https://www.sensorica.ru/pdf/HP03.pdf)). In contrast, modern devices, such as the BMP280 pressure sensor ([BMP280 Datasheet](https://cdn-shop.adafruit.com/datasheets/BST-BMP280-DS001-11.pdf)), provide comprehensive details about registers and states, which are implemented in their `writeable` and `volatile` functions.
 
@@ -497,6 +510,8 @@ In contrast, modern devices, such as the BMP280 pressure sensor ([BMP280 Datashe
     
 </div>
 
+#### Feedback (waiting for)
+
 ### DRM AMD Subsystem
 
 The process done here is based in the patch [https://lore.kernel.org/all/20250225015532.303032-1-luanicaro@usp.br/#Z31display:dc:bios:command_table_helper.h](https://lore.kernel.org/all/20250225015532.303032-1-luanicaro@usp.br/#Z31display:dc:bios:command_table_helper.h) developed by Luan Icaro Pinto Arcanjo <luanicaro@usp.br>.
@@ -509,6 +524,36 @@ Because the IIO contribution is too simple, the focus patch shifted to another s
 These results provide a starting point for identifying and addressing duplicate code in the DRM AMD subsystem, offering a more suitable opportunity for a beginner-level contribution. In summary, there are two functions duplicated many times on the `linux/drivers/gpu/drm/amd/display/dc/irq/dc`.
 
 1. The `hpd_ack()` function acknowledges a display hotplug (HPD) interrupt by reading the HPD status, clearing the interrupt, and flipping the interrupt polarity to detect the next plug/unplug event, ensuring proper handling of display connections.
+
+   ```c
+   bool hpd_ack(
+      struct irq_service *irq_service,
+      const struct irq_source_info *info)
+   {
+      uint32_t addr = info->status_reg;
+      uint32_t value = dm_read_reg(irq_service->ctx, addr);
+      uint32_t current_status =
+         get_reg_field_value(
+            value,
+            HPD0_DC_HPD_INT_STATUS,
+            DC_HPD_SENSE_DELAYED);
+
+      dal_irq_service_ack_generic(irq_service, info);
+
+      value = dm_read_reg(irq_service->ctx, info->enable_reg);
+
+      set_reg_field_value(
+         value,
+         current_status ? 0 : 1,
+         HPD0_DC_HPD_INT_CONTROL,
+         DC_HPD_INT_POLARITY);
+
+      dm_write_reg(irq_service->ctx, info->enable_reg, value);
+
+      return true;
+   }
+   ```
+
 2. The `to_dal_irq_source_dcnX()` function maps hardware-specific interrupt source IDs (`src_id` and `ext_id`) to standardized `dc_irq_source` values, handling cases like VBLANK events, page flips, VLINE interrupts, HPD signals, and DMCUB notifications for display control on AMD DCNX GPUs. If no match is found, it returns `DC_IRQ_SOURCE_INVALID`.
 
 Both functions are located at the interrupt request (IRQ) module inside the [Display Core (DC)](https://www.kernel.org/doc/html/next/gpu/amdgpu/display/index.html) linux drive. The same function is writen in many files with different [Display Core Next (DCN)](https://www.kernel.org/doc/html/next/gpu/amdgpu/display/dcn-overview.html) number and have exactly the same code lines. Those duplications are a good patch to send because may remove houndreds lines of code.
@@ -524,4 +569,4 @@ Both functions are located at the interrupt request (IRQ) module inside the [Dis
     
 </div>
 
-### Feedback (waiting for)
+#### Feedback (waiting for)
