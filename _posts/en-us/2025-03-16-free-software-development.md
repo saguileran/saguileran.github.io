@@ -28,7 +28,7 @@ li {
 
 This post is created for the Free Software Development course taught by [Professor Paulo R. M. Meirelles](https://www.ime.usp.br/paulormm/) at the [Institute of Mathematics and Statistics (IME)](https://www.ime.usp.br/) at the [University of São Paulo (USP)](https://www5.usp.br/). The course is designed and maintained by the research group [FLUSP](https://flusp.ime.usp.br/). You can find all tutorials and more detailed information on its official webpage. More information about the course (content, references, etc.) can be found on the official website Janus for the courses, [MAC5856 - Desenvolvimento de Software Livre](https://uspdigital.usp.br/janus/componente/disciplinasOferecidasInicial.jsf?action=3&sgldis=MAC5856).
 
-The objective of the course is to introduce students to free and open source software. In Portuguese, both terms mean the same. The course covers basic concepts, appropriate languages, ethical and technical aspects, etc., with the goal of promoting and constructing open and collaborative software. The course focus is to learn and contribute to open projects like the Linux kernel for the IIO subsystem.
+The objective of the course is to introduce students to free and open source software. In Portuguese, both terms mean the same. The course covers basic concepts, appropriate languages, ethical and technical aspects, etc., with the goal of promoting and constructing open and collaborative software. The course focus is to learn and contribute to open projects like the Linux kernel for the [IIO subsystem](https://www.kernel.org/doc/html/v4.14/driver-api/iio/index.html).
 
 In addition, there is a new tool implemented for the VMs developement and linux modules design, creation, and testing. The tool is `kw`, a kernel developer workflow tool. More information can be found at [kworkflow](https://kworkflow.org/).
 
@@ -85,7 +85,6 @@ The tutorial is divided into the following sections:
 > - `virsh list --all` - Display all VM availables and their current state.
 > - `virsh destroy VM_name` - Destroy the machine, force to close the machine. It is used when the VM does not response.
 > - `virsh undefine VM_name` - Forget the VM in the manager. This should be executed together iwth destroy.
-> - **ADVICE: Always restart the environment after make a change in the activate.sh file.**
 
 ### Troubleshooting
 
@@ -117,7 +116,7 @@ sudo systemctl restart libvirtd
 
 Additionally, check the VM's configuration and logs for any inconsistencies that might cause the freeze. The image below shows the problem.
 
-<div class="row mt-3" style="width:70%; margin: 0 auto 0 auto;">
+<div class="row mt-3" style="width:80%; margin: 0 auto 0 auto;">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/flusp/vm_1.png" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
@@ -128,134 +127,47 @@ Additionally, check the VM's configuration and logs for any inconsistencies that
 
 #### Shared Memory
 
-To edit the VM configuration use `EDITOR=vim; virsh edit arm64`. As mentioned before, after implemented the suggested configurations the machine does not work, there is an available blog to solve the shared memory issue: https://discourse.nixos.org/t/virt-manager-cannot-find-virtiofsd/26752/9. It was tested but does not work`
+To edit the VM configuration use `EDITOR=vim; virsh edit arm64`. As mentioned before, after implemented the suggested configurations the machine does not work, there is an available blog to solve the shared memory issue: [Virt-manager cannot find virtiofsd - discourse.nixos](https://discourse.nixos.org/t/virt-manager-cannot-find-virtiofsd/26752/9). It was tested but does not work`
 
-### Parctical excersie: Ubuntu Jammy kernel
+### Comments
 
-As a practical exercise, let's try to create a VM using an Ubuntu image. Since the previous image is lightweight, let's test with a more robust image. To download visit the website https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-armhf.img. Then following the same steps explored in the first tutorial:
+Although the tutorial introduced powerful tools, their usage is clearly detailed, making them accessible and easy to follow. In my experience, the challenging part was managing the VM with `virsh`, as a domain must be properly defined and either closed or shut down to after using, or reset to update changes. On the other hand, despite being an Ubuntu user, I found the image types (qcow2), kernel, initrd, and VM building processes to be entirely new concepts. Considering the environment setup, it was fascinating to define a simple environment with constants and functions, which is somewhat similar to the `.bashrc` file in Ubuntu for managing user-specific shell configurations.
 
-1.  Add environment constants and functions to the "all-in-one" script. Change and adapt the bash functions to create and launch a VM with more space and a different name. It is also importante to adapt the lines for the new kernel and initrd extracted from the OS guest
+> **ADVICE:** Always is requireted to restart the environment after make a change in the activate.sh file.
 
-    ```bash
-    ++activate.sh
-    export BOOT_DIR_UBUNTU="${VM_DIR}/ubuntu-jammy-arm64" # path to boot artifacts
+### Parctical excersie: Ubuntu Jammy and AMD64 kernels
 
-    function launch_ubuntu_vm_qemu() {
-         ...
-         -m 7G -cpu cortex-a57 \
-         ...
-         -initrd "${BOOT_DIR_UBUNTU}/initrd.img-5.15.0-134-generic-lpae" \
-         -kernel "${BOOT_DIR_UBUNTU}/vmlinuz-5.15.0-134-generic-lpae" \
-         ...
-         -drive if=none,file="${VM_DIR}/ubuntu-jammy-arm64.qcow2",format=qcow2,id=hd \
-    }
+As a practical exercise, let's try to create a VM using the same Debian version but for an AMD64 architecture. The image is at [http://cdimage.debian.org/cdimage/cloud/bookworm/daily/20250217-2026/debian-12-nocloud-amd64-daily-20250217-2026.qcow2](http://cdimage.debian.org/cdimage/cloud/bookworm/daily/20250217-2026/debian-12-nocloud-amd64-daily-20250217-2026.qcow2) and use an Ubuntu image. Since the previous image is lightweight, let's test with a more robust image. To download visit the website [https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-armhf.img](https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-armhf.img). Then, following the same steps explored in the tutorial it is enough to add two new `create_vm_virsh` funtions to the activate file environment for each
 
-    function create_ubuntu_vm_virsh() {
-         ...
-         --name "ubuntu-jammy" \
-         --memory 2048 \
-         ...
-         --disk path="${VM_DIR}/ubuntu-jammy-arm64.qcow2" \
-         --boot kernel=${BOOT_DIR_UBUNTU}/vmlinuz-5.15.0-134-generic-lpae,initrd=${BOOT_DIR_UBUNTU}/initrd.img-5.15.0-134-generic-lpae,kernel_args="loglevel=8 root=/dev/vda2 rootwait" \
-         ...
-    }
-    ```
+```bash
+function create_vm_virsh_amd() {
+   sudo virt-install \
+      --name "amd64" \
+      --memory 4096 \
+      --arch aarch64 --machine virt \
+      --osinfo detect=on,require=off \
+      --import \
+      --features acpi=off \
+      --disk path="${VM_DIR}/amd64_img.qcow2" \
+      --network bridge:virbr0 \
+      --nographic
+}
+```
 
-2.  Set up and configure a VM
+The other function. `create_vm_virsh_ubuntu`, is pretty similar to the tutorial exemple but changing the name and disk path.
 
-    2.1. Download image
+<div class="row mt-3" style="width:80%; margin: 0 auto 0 auto;">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/flusp/AMD64_vm.gif" class="img-fluid rounded z-depth-1" zoomable=true%}
+    </div>
+</div>
+<div class="caption">
+    Example of AMD 64 VM machine initialization.
+</div>
 
-    ```bash
-    wget --directory-prefix="${VM_DIR}" https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-armhf.img
-    mv "${VM_DIR}/jammy-server-cloudimg-armhf.img" "${VM_DIR}/ubuntu-jammy-arm64.qcow2" # rename file for legibility
-    ```
-
-    The kernel downloaded is Debian-12-nocloud-arm64-daily-20250217-2026.qcow2, an image for QEMU without cloud settings and arm64 architecture, [link to download](http://cdimage.debian.org/cdimage/cloud/bookworm/daily/20250217-2026/debian-12-nocloud-arm64-daily-20250217-2026.qcow2). As practice excersie let's download an Ubuntu arm image, [Ubuntu 22.04 LTS (Jammy Jellyfish)](https://cloud-images.ubuntu.com/jammy/current/), select any QCow2 image, note that this image contains a cloud setup.
-
-    2.2. Resize disk image
-
-    Check the current size of the downloaded image:
-
-    ```bash
-    du -h "ubuntu-jammy-arm64.qcow2"
-    ```
-
-    Example output:
-
-    ```text
-    1,2G	base-jammy-server-cloudimg-armhf.img
-    ```
-
-    Retrieve detailed information about the image:
-
-    ```bash
-    qemu-img info "${VM_DIR}/ubuntu-jammy-arm64.qcow2"
-    ```
-
-    Example output:
-
-    ```text
-    image: base-jammy-server-cloudimg-armhf.img
-    file format: qcow2
-    virtual size: 3.5 GiB (3758096384 bytes)
-    disk size: 1.15 GiB
-    cluster_size: 65536
-    Format specific information:
-        compat: 0.10
-        compression type: zlib
-        refcount bits: 16
-    Child node '/file':
-        filename: base-jammy-server-cloudimg-armhf.img
-        protocol type: file
-        file length: 1.15 GiB (1233318400 bytes)
-        disk size: 1.15 GiB
-    ```
-
-    Check the disk partitions of the image:
-
-    ```bash
-    virt-filesystems --long --human-readable --all --add "${VM_DIR}/ubuntu-jammy-arm64.qcow2"
-    ```
-
-    Example output:
-
-    ```text
-    Name        Type        VFS   Label            MBR  Size  Parent
-    /dev/sda1   filesystem  ext4  cloudimg-rootfs  -    3,2G  -
-    /dev/sda15  filesystem  vfat  UEFI             -    97M   -
-    /dev/sda1   partition   -     -                -    3,4G  /dev/sda
-    /dev/sda15  partition   -     -                -    99M   /dev/sda
-    /dev/sda    device      -     -                -    3,5G  -
-    ```
-
-    Create a new image with a larger size (7 GB):
-
-    ```bash
-    qemu-img create -f qcow2 -o preallocation=metadata "${VM_DIR}/ubuntu-jammy-arm64.qcow2" 7G # creates new QCOW2 image with 7GB
-    virt-resize --expand /dev/sda1 "${VM_DIR}/base-jammy-server-cloudimg-armhf.img" "${VM_DIR}/arm64_img.qcow2" # makes a copy of the image expanding the `rootfs`
-    ```
-
-    Example output after resizing:
-
-    ```text
-    Name       Type        VFS   Label            MBR  Size  Parent
-    /dev/sda1  filesystem  vfat  UEFI             -    97M   -
-    /dev/sda2  filesystem  ext4  cloudimg-rootfs  -    6,6G  -
-    /dev/sda1  partition   -     -                -    99M   /dev/sda
-    /dev/sda2  partition   -     -                -    6,9G  /dev/sda
-    /dev/sda   device      -     -                -    7,0G  -
-    ```
-
-    2.2 Check the system partition, `/dev/sad2` and extrac the kernel an initrd. In our case they would be:
-
-    ```text
-     initrd.img-5.15.0-134-generic-lpae
-     vmlinuz-5.15.0-134-generic-lpae
-    ```
-
-    > #### Conclusion
-    >
-    > While all steps execute successfully, the Ubuntu machine does not function as expected. This issue arises because the kernel used in the tutorial includes numerous updates, configurations, drivers, and components that differ from those in the latest version of Ubuntu Jammy.
+> #### **Conclusion**
+>
+> Although all steps were executed successfully, the Ubuntu machine did not perform as expected. This issue likely stems from the kernel used in the tutorial, which includes numerous updates, configurations, drivers, and components that differ significantly from those in the latest version of Ubuntu Jammy. As for the AMD image, it was successfully created; however, due to a lack of in-depth knowledge about AMD systems, its usage was limited to basic operations.
 
 ---
 
@@ -291,7 +203,6 @@ A detailed guide can be found at: [Building and booting a custom Linux kernel fo
 4. Configuring the Linux kernel compilation
 
    - To customize and module the building process the Kernel Build System is used, it uses `make` and other GNU tools, it always generates a `kbuild` and `.config` files. These files contains information about the modules configurations, between other stuff. In most of the directories of the kernel there are always a `Kconfig` file, furthermore there are default configurations, know as _deconfig_ files. In this part, we create default configurations and then update them with new values, both actiosn are executed with make. To do it, the modules list created in the first tutorial is passed to make, to keep the same modules eviroment and make debugging easer.
-
    - It is possible to edit the `.config` files directly although it is not recommended. Instead, a safer and more practical way is to use a Terminal User Interfaces (TUI) provided by kw. It is done with `kw build --menu`. The TUI has many advantages specially for new users. To test the TUI a change in the kernel image is done, expanding or modying it. To verify the change check the building information using `kw build --info`.
 
 5. Building a custom Linux kernel
@@ -319,8 +230,26 @@ It is possible to use different cross compilers because there are many available
 
 ### Troubleshooting
 
-> **NOTE**  
-> Always power off the VM before making any changes or edits to the environment or the `activate.sh` file. Failing to do so may result in unexpected issues. This tutorial was completed without errors; the issues encountered were primarily due to improper VM usage, such as skipping the VM reboot step.
+There were no important issues. The tutorial was completed sucessfully.
+
+**NOTE:** Always power off the VM before making any changes or edits to the environment or the `activate.sh` file. Failing to do so may result in unexpected issues. This tutorial was completed without errors; the issues encountered were primarily due to improper VM usage, such as skipping the VM reboot step.
+
+### Comments
+
+The tutorial was completed smoothly and without any issues. The installation and configuration of `kw` were straightforward. The custom Linux kernel was successfully loaded. One of the most important concepts introduced was the creation and use of the `.config` file. This file was generated and configured using `make`, along with the VM modules, and managed through `kw`'s kernel configuration tools.
+
+Another key feature introduced was the `kw menu`, a powerful tool for managing VM modules, drivers, and other configurations. This interface simplifies the process of customizing and managing kernel settings.
+
+Once everything was properly set up, the final step involved building and deploying the custom kernel with the defined local configurations. Thanks to `kw`, this process was remarkably simple, requiring just two command lines to complete.
+
+<div class="row mt-3" style="width:80%; margin: 0 auto 0 auto;">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/flusp/kw-menu.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+    </div>
+</div>
+<div class="caption">
+    Display the Terminal User Interfaces (TUI) provided by linux, a user friendly interface to make changes in the VM kernel configurations.
+</div>
 
 ---
 
@@ -360,42 +289,99 @@ A detailed guide can be found at: [Introduction to Linux kernel build configurat
    - Rebuild the module to update the version in the VM, via scp or kw.
    - Create a new module to call the sample module. This module also contains an init and exit functions. Then, load the new module and test it as same as before, use the `dmesg` command to chaick the tail after loading and unloading the module.
 
-<div class="row mt-3" style="width:80%; margin: 0 auto 0 auto;">
-<div class="col-sm mt-3 mt-md-0">
-   {% include figure.liquid loading="eager" path="assets/img/flusp/vm_2.png" class="img-fluid rounded z-depth-1" zoomable=true%}
-</div>
-</div>
-<div class="caption">
-  Example of the <b>menuconfig</b> interface after enabling the custom module.
-</div>
+> #### **Useful Commands**
+>
+> - `make -C "$IIO_TREE" menuconfig` - Menuconfig to enable modules and setup kernel configurations.
+> - `kw build --clean` - Clean any artifacts from previous compilations
+> - `kw build` - Build image and modules.
+> - `dmesg  | tail ` - Show last kernel log messages.
+> - `modinfo <module_name>` - Show information related to the kernel module.
+> - `insmod <module_name>` - Loads module at given location.
+> - `rmmod <module_name>` - Remove kernel module.
+> - `modprobe <module_name>` - Loads module of given name and its dependencies
+> - `modprobe -r <module_name>` - Unloads module of given name
 
 ### Troubleshooting
 
+There was a simple issue when loading the module. After creating the simple example module, the configuration symbols were added, but the `simple_mod` module was not included in the list of build objects. As a result, when attempting to test the module, it failed to load and did not function as expected. This minor error highlights the importance of both steps: configuring symbols and ensuring they are added to the list of build objects.
+
+Another issue encountered was related to shutting down and unmanaging the VM. When the VM is shut down and removed from the `kw` environment, the SSH connection is forgotten. Although it is still possible to connect using a standard SSH command, it is highly recommended to reconfigure the connection through `kw` for a smoother workflow.
+
 ### Comments
+
+It was clear how the basic functions of the modules, such as the initialization (`init`) and cleanup (`exit`) functions, operate. However, a deeper analysis requires more advanced knowledge of the C programming language and hardware interactions. The use of `kw` significantly simplifies the configuration process by automatically identifying the kernel image and the IIO tree path.
+
+One of the most valuable insights from the results is understanding how the functions are invoked. With the addition of a second module that calls the simple module, the driver messages displayed using `dmesg` provide a chronological log of function calls. This log demonstrates the order in which drivers are loaded, reflecting the sequence in which they are listed.
+
+It is worth noting that the addition and configuration of modules are performed outside the VM, within the activated environment, directly in the Linux kernel directory. In contrast, the testing and verification of these modules are conducted within the VM environment.
+
+<div class="row mt-3" style="width:80%; margin: 0 auto 0 auto;">
+<div class="col-sm mt-3 mt-md-0">
+{% include figure.liquid loading="eager" path="assets/img/flusp/vm_2.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+</div>
+</div>
+<div class="caption">
+Example of the <b>menuconfig</b> interface after enabling the custom module.
+</div>
 
 ---
 
 ## Tutorial 4: Introduction to Linux kernel Character Device Drivers
 
+This tutorial provides an introduction to Linux character devices, complemented by a practical example: a basic character driver. These character devices facilitate sequential data transfer between the user and the system using dynamic data streams. They act as a bridge between software and hardware, managing device operations, data flow, and access.
+
 A detailed guide can be found at: [Introduction to Linux kernel Character Device Drivers](https://flusp.ime.usp.br/kernel/char-drivers-intro/) written by [Marcelo Schmitt](https://linux.ime.usp.br/~marcelosc/)
 
 ### Summary
 
+The topics cover are:
+
+1. Character devices
+2. Major and Minor Numbers
+3. File operations
+4. Bringing device IDs and file operations together
+5. A character device driver example
+
+   - Create a C code a
+
+6. Testing the `simple_char` driver
+
 ### Troubleshooting
 
+The results from the read test program, `Read buffer: �մ��`, and the write program, `Error: 9wrote -1 bytes to buffer`, were different from what was expected. This discrepancy arises because the implementations are overly simplistic and do not account for hardware characteristics or proper error handling. To address these issues, the programs should be enhanced to include robust error-checking mechanisms and adapt to the specific hardware requirements to ensure accurate and reliable operation.
+
 ### Comments
+
+As a new student exploring the Linux kernel, this tutorial provided an excellent overview of key concepts, particularly the structure and functionality of kernel modules. It clarified how modules are created, their purpose, and the process of writing them. While the tutorial included the necessary code, I spent considerable time analyzing and understanding the logic behind many lines. However, the hands-on testing process was invaluable, as it demonstrated how modules can be tested, modified, and integrated into the kernel effectively.
 
 ---
 
 ## Tutorial 5: The IIO Dummy Simple Anatomy
 
+This tutorial provides an overview of the IIO Simple Dummy module, a foundational example illustrating how kernel modules are structured and implemented. It covers constants, functions, methods, structures, registers, and more. The complete module can be found on GitHub at [IIO Dummy Module on GitHub](https://github.com/torvalds/linux/tree/master/drivers/iio/dummy). Additional documentation and resources are available on the [Welcome to IIO Tasks page](https://kernelnewbies.org/IIO_tasks), which offers comprehensive details about the module.
+
+The tutorial focuses on the key components of a basic kernel module, emphasizing how to read and write data using channels. It also includes a practical example demonstrating the integration of both read and write functionalities. This serves as an excellent starting point for understanding the anatomy of kernel modules and their interaction with the Industrial I/O (IIO) subsystem.
+
 A detailed guide can be found at: [The iio_simple_dummy Anatomy](https://flusp.ime.usp.br/iio/iio-dummy-anatomy/) written by [Rodrigo Siqueira](https://siqueira.tech/).
 
 ### Summary
 
+The tutorial parts are:
+
+1. The IIO Dummy Channels Setup
+2. The `iio_dummy_read_raw()` Function
+3. The `*write_raw` Function
+4. Putting Things Together with Probe Function
+
 ### Troubleshooting
 
+Since the tutorial is mostly theoretical, explaining code concepts and structures, there were no significant issues encountered. The explanations provided were clear and detailed, making it easy to follow along and understand the material.
+
 ### Comments
+
+Despite the tutorial covering several topics, the functions contain numerous lines of code and variables, making them challenging to comprehend. Rodrigo has made a commendable and highly appreciated effort in summarizing all the information about the dummy module into a single tutorial. This consolidation is invaluable for new users, saving them significant time and effort that would otherwise be spent searching for this information or directly analyzing the code to understand its structure.
+
+Regarding the practical aspects, while the code is well-documented, creating, or mofifying, a module or function remains a significant challenge. It demands a deep understanding of the C programming language and the intricacies of driver operations.
 
 ---
 
@@ -417,14 +403,14 @@ This tutorial describes how to configure Git to send emails using a Gmail, or an
 
 The patch consists of two parts: the cover letter, which is optional but highly recommended, and the message for each commit. These are specified using flags in the `git send-email` command. Each commit generates an email containing three sections: the header, the body message, and the code differences between the current code and the proposed changes.
 
-1. **Header**:  
+1. **Header**:
    The header includes essential email metadata such as the sender(s) (`From`), recipient (`To`), and subject (`Subject`). The subject should provide a concise and formal description of the issue being addressed. It is important to use imperative verbs in the subject line, as the changes are presented as actions to be performed. Avoid informal language or unnecessary words. To track patchs use a USP email.
 
-2. **Body Message**:  
+2. **Body Message**:
    The body provides a detailed explanation of the issue and the proposed solution. This section may include longer comments, technical details, and any relevant context to help reviewers understand the changes. Be clear and precise, ensuring the message is informative and professional.
 
-3. **Code Differences**:  
-   This section displays the differences between the current code and the proposed changes. It highlights the modifications made in the patch, making it easier for reviewers to evaluate the impact of the changes.
+3. **Code Differences**:
+   This section displays the differences between the current code and the proposed changes. It highlights the modifications made in the patch, making it easier for reviewers to evaluate the impact of the changes. It is done automatically when using git send email.
 
 By structuring your patch email in this way, you ensure clarity and professionalism, increasing the likelihood of your patch being accepted.
 
@@ -436,11 +422,20 @@ A detailed guide can be found at: [Sending patches by email with git](https://fl
 2. How to use `git send-email `
 3. More tips on patch sending
 
+> #### **Useful Commands**
+>
+> - `git format-patch -1 --stdout | ./scripts/checkpatch.pl --` - Check patch code style errors.
+> - `git send-email -<commits> --dry-run --suppress-cc=all --to=freesoftware2025@gmail.com` - Sent email to course email for verification and feedback.
+> - `git send-email --annotate --to="teste@email.com" --cc="test_cc@mail.com" -1` - Send last patch and open the user editor to modying it.
+> - `git send-email --annotate --cover-letter --thread --no-chain-reply-to --to="teste@email.com" --cc="mailing@list.com" -3 # for a patchset` - Send a patch with some configurations.
+
 ### Troubleshooting
 
 Since Gmail is being accessed by an external application (a third-party app), it is necessary to enable the connection between Git and Gmail. This can be achieved by adjusting the email's security settings or using a two-factor authentication method. While the latter option is more secure, it is not available for USP emails. Therefore, USP users can lower their email security settings, whereas other users are strongly encouraged to enable two-factor authentication for enhanced security.
 
 ### Comments
+
+The tutorial is clear and more for github users.
 
 ---
 
@@ -459,12 +454,12 @@ A simple patch to start contributing is removing duplicate code or functions. Fo
 ```c
 static bool hp03_is_writeable_reg(struct device *dev, unsigned int reg)
 {
-   return false;
+return false;
 }
 
 static bool hp03_is_volatile_reg(struct device *dev, unsigned int reg)
 {
-   return false;
+return false;
 }
 ```
 
@@ -472,14 +467,14 @@ Both functions always return `false`, regardless of the register number or devic
 
 ```c
 static const struct regmap_config hp03_regmap_config = {
-   .reg_bits	= 8,
-   .val_bits	= 8,
+.reg_bits	= 8,
+.val_bits	= 8,
 
-   .max_register	= HP03_EEPROM_CD_OFFSET + 1,
-   .cache_type	= REGCACHE_RBTREE,
+.max_register	= HP03_EEPROM_CD_OFFSET + 1,
+.cache_type	= REGCACHE_RBTREE,
 
-   .writeable_reg	= hp03_is_writeable_reg,  // here
-   .volatile_reg	= hp03_is_volatile_reg,   // here
+.writeable_reg	= hp03_is_writeable_reg,  // here
+.volatile_reg	= hp03_is_volatile_reg,   // here
 };
 ```
 
@@ -491,9 +486,33 @@ This explains why both functions in `hp03.c` return `false` and why any changes 
 
 In contrast, modern devices, such as the BMP280 pressure sensor ([BMP280 Datasheet](https://cdn-shop.adafruit.com/datasheets/BST-BMP280-DS001-11.pdf)), provide comprehensive details about registers and states. These details allow for the implementation of more sophisticated `writeable` and `volatile` functions based on the device's characteristics. For the `hp03` driver, however, any attempt to modify these functions without additional technical information would be inappropriate and could lead to incorrect behavior.
 
+#### Patch
+
+```git
+Author: Sebastian Aguilera Novoa <saguileran@ime.usp.br>
+Date:   Tue Apr 22 23:36:53 2025 -0300
+
+    iio: pressure: hp03: Drop explicit hp03_is_writeable_reg and
+    hp03_is_volatile_reg functions
+
+    Drop functions hp03_is_writeable_reg and hp03_is_volatile_reg. Both
+    functions always return false, regardless of the register number or
+    device. They are used in a single place within the hp03_regmap_config
+    and can be replaced directly.
+
+    The HP03 datasheet document does not contain any information about
+    the register values to define states for the functions.
+
+    Signed-off-by: Sebastian Aguilera Novoa <saguileran@ime.usp.br>
+
+M       drivers/iio/pressure/hp03.c
+```
+
 ### DRM AMD Subsystem
 
-Given this, the focus shifted to another subsystem requiring less technical knowledge, specifically the DRM AMD Linux subsystem, to identify and address duplicate code lines. Using the `arkanjo` tool on the path `linux/drivers/gpu/drm/amd`, the following results were obtained:
+The process done here is based in the patch [https://lore.kernel.org/all/20250225015532.303032-1-luanicaro@usp.br/#Z31display:dc:bios:command_table_helper.h](https://lore.kernel.org/all/20250225015532.303032-1-luanicaro@usp.br/#Z31display:dc:bios:command_table_helper.h) developed by Luan Icaro Pinto Arcanjo <luanicaro@usp.br>.
+
+Because the IIO contribution is too simple, the focus patch shifted to another subsystem requiring less technical knowledge, specifically the DRM AMD Linux subsystem, to identify and address duplicate code lines. Using the `arkanjo` tool on the path `linux/drivers/gpu/drm/amd`, the following results were obtained:
 
 - [`duplicados_amd_drm.txt`](../../../assets/text/duplicados_amd_drm.txt): A report generated by `arkanjo` listing the number of repeated lines in descending order.
 - [`output_parsed.txt`](../../../assets/text/output_parsed.txt): A parsed output listing files with duplicated code, separated by spaces and followed by their similarity coefficient, also ordered in descending order.
@@ -505,4 +524,44 @@ These results provide a starting point for identifying and addressing duplicate 
 
 Both functions are located at the interrupt request (IRQ) module inside the [Display Core (DC)](https://www.kernel.org/doc/html/next/gpu/amdgpu/display/index.html) linux drive. The same function is writen in many files with different [Display Core Next (DCN)](https://www.kernel.org/doc/html/next/gpu/amdgpu/display/dcn-overview.html) number and have exactly the same code lines. Those duplications are a good patch to send because may remove houndreds lines of code.
 
-### Patch
+#### Patch
+
+```git
+Author: Sebastian Aguilera Novoa <saguileran@ime.usp.br>
+Date:   Tue Apr 22 23:36:53 2025 -0300
+   drivers/gpu/drm/amd/display/dc/irq: Remove duplications of
+    hpd_ack function from IRQ
+
+    The major of dcn and dce irqs share a copy-pasted collection
+    of copy-pasted function, which is: hpd_ack.
+
+    This patch removes the multiple copy-pasted by moving them to
+    the irq_service.c and make the irq_service's
+    calls the functions implemented by the irq_service.c
+    instead.
+
+    The changes were not tested on actual hardware. I am only able
+    to verify that the changes keep the code compileable and do my
+    best to look repeatedly if I am not actually changing any code.
+
+    Signed-off-by: Sebastian Aguilera Novoa <saguileran@ime.usp.br>
+
+M       drivers/gpu/drm/amd/display/dc/irq/dce120/irq_service_dce120.c
+M       drivers/gpu/drm/amd/display/dc/irq/dcn10/irq_service_dcn10.c
+M       drivers/gpu/drm/amd/display/dc/irq/dcn20/irq_service_dcn20.c
+M       drivers/gpu/drm/amd/display/dc/irq/dcn201/irq_service_dcn201.c
+M       drivers/gpu/drm/amd/display/dc/irq/dcn21/irq_service_dcn21.c
+M       drivers/gpu/drm/amd/display/dc/irq/dcn30/irq_service_dcn30.c
+M       drivers/gpu/drm/amd/display/dc/irq/dcn31/irq_service_dcn31.c
+M       drivers/gpu/drm/amd/display/dc/irq/dcn314/irq_service_dcn314.c
+M       drivers/gpu/drm/amd/display/dc/irq/dcn315/irq_service_dcn315.c
+M       drivers/gpu/drm/amd/display/dc/irq/dcn32/irq_service_dcn32.c
+M       drivers/gpu/drm/amd/display/dc/irq/dcn35/irq_service_dcn35.c
+M       drivers/gpu/drm/amd/display/dc/irq/dcn351/irq_service_dcn351.c
+M       drivers/gpu/drm/amd/display/dc/irq/dcn36/irq_service_dcn36.c
+M       drivers/gpu/drm/amd/display/dc/irq/dcn401/irq_service_dcn401.c
+M       drivers/gpu/drm/amd/display/dc/irq/irq_service.c
+M       drivers/gpu/drm/amd/display/dc/irq/irq_service.h
+```
+
+### Feedback
