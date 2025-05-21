@@ -503,12 +503,9 @@ In contrast, modern devices, such as the BMP280 pressure sensor ([BMP280 Datashe
 
 #### Patch
 
-<div class="row mt-3" style="width:100%; margin: 0 auto 0 auto;">
+<div class="row mt-3" style="width:80%; margin: 0 auto 0 auto;">
     <div class="col-sm mt-3 mt-md-0" style="margin: auto;">
         {% include figure.liquid loading="eager" path="assets/img/flusp/patch_iio.png" class="img-fluid rounded z-depth-1" zoomable=true%}
-    </div>
-    <div class="col-sm mt-3 mt-md-0" style="margin: auto;">
-        {% include figure.liquid loading="eager" path="assets/img/flusp/patch_iio_answer" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
 </div>
 <div class="caption">
