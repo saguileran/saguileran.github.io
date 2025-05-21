@@ -141,16 +141,18 @@ As a practical exercise, let's try to create a VM using the same Debian version 
 
 ```bash
 function create_vm_virsh_amd() {
-   sudo virt-install \
+    sudo virt-install \
       --name "amd64" \
       --memory 4096 \
-      --arch aarch64 --machine virt \
+      --arch x86_64 \
+      --machine q35 \
       --osinfo detect=on,require=off \
       --import \
-      --features acpi=off \
+      --features acpi=on \
       --disk path="${VM_DIR}/amd64_img.qcow2" \
       --network bridge:virbr0 \
-      --nographic
+      --graphics none \
+      --console pty,target_type=serial
 }
 ```
 
@@ -439,7 +441,7 @@ The tutorial is clear and more for github users.
 
 ---
 
-## Tutorial 7: Sending a Real Patch
+## Project 1: Sending a Real Patch
 
 As a first practical exercise, let's send a simple patch to the official Linux kernel. The objective is to contribute to the Linux kernel's IIO subsystem or DRM AMD subsystem. The task involves creating and submitting a patch (similar to a commit) to the official Linux kernel repository using the corresponding latest developer branch. This process is carried out via a mailing list. To send the email, Git is utilized. For detailed instructions, refer to [Tutorial 6: Sending patches by email with git](#tutorial-6-sending-patches-by-email-with-git).
 
@@ -501,20 +503,23 @@ In contrast, modern devices, such as the BMP280 pressure sensor ([BMP280 Datashe
 
 #### Patch
 
-<div class="row mt-3" style="width:80%; margin: 0 auto 0 auto;">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row mt-3" style="width:100%; margin: 0 auto 0 auto;">
+    <div class="col-sm mt-3 mt-md-0" style="margin: auto;">
         {% include figure.liquid loading="eager" path="assets/img/flusp/patch_iio.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+    </div>
+    <div class="col-sm mt-3 mt-md-0" style="margin: auto;">
+        {% include figure.liquid loading="eager" path="assets/img/flusp/patch_iio_answer" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
 </div>
 <div class="caption">
     
 </div>
 
-#### Feedback (waiting for)
+Because the changes are too simple and generate some warnings, which I was not able to detect, the patch is not accepted.
 
 ### DRM AMD Subsystem
 
-The process done here is based in the patch [https://lore.kernel.org/all/20250225015532.303032-1-luanicaro@usp.br/#Z31display:dc:bios:command_table_helper.h](https://lore.kernel.org/all/20250225015532.303032-1-luanicaro@usp.br/#Z31display:dc:bios:command_table_helper.h) developed by Luan Icaro Pinto Arcanjo <luanicaro@usp.br>.
+The process done here is based in the patch [https://lore.kernel.org/all/20250225015532.303032-1-luanicaro@usp.br/#Z31display:dc:bios:command_table_helper.h](https://lore.kernel.org/all/20250225015532.303032-1-luanicaro@usp.br/#Z31display:dc:bios:command_table_helper.h) developed by Luan Icaro Pinto Arcanjo <luanicaro@usp.br> where he removes some duplications of the amd subsystem.
 
 Because the IIO contribution is too simple, the focus patch shifted to another subsystem requiring less technical knowledge, specifically the DRM AMD Linux subsystem, to identify and address duplicate code lines. Using the `arkanjo` tool on the path `linux/drivers/gpu/drm/amd`, the following results were obtained with 100 % of similarity:
 
@@ -560,13 +565,107 @@ Both functions are located at the interrupt request (IRQ) module inside the [Dis
 
 #### Patch
 
-<div class="row mt-3" style="width:80%; margin: 0 auto 0 auto;">
-    <div class="col-sm mt-3 mt-md-0">
+##### Version 1
+
+The patch is reviewed by Alex Hung. The changes generate some code style warnings and was not tested in building.
+
+<div class="row mt-3 d-flex align-items-center" style="width:100%; margin: 0 auto 0 auto;">
+    <div class="col-sm mt-3 mt-md-0" >
         {% include figure.liquid loading="eager" path="assets/img/flusp/patch_amd.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+    </div>
+   <div class="col-sm mt-3 mt-md-0" >
+        {% include figure.liquid loading="eager" path="assets/img/flusp/patch_amd_response.png" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
 </div>
 <div class="caption">
-    
+   First version of the patch. Left side patch sent and right side review recived. 
 </div>
 
-#### Feedback (waiting for)
+##### Version 2
+
+The patch is build and code styles warnings are removed. There is still a warning because the email is sent from a different email from it was signed off, the problem is related to the USP server inestability.
+
+<div class="row mt-3 d-flex align-items-center" style="width:100%; margin: 0 auto 0 auto;">
+    <div class="col-sm mt-3 mt-md-0" >
+        {% include figure.liquid loading="eager" path="assets/img/flusp/patch2_amd.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+    </div>
+   <div class="col-sm mt-3 mt-md-0" >
+        {% include figure.liquid loading="eager" path="assets/img/flusp/patch2_0_amd_response.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+        <br>
+        {% include figure.liquid loading="eager" path="assets/img/flusp/patch2_1_amd_response.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+    </div>
+</div>
+<div class="caption">
+   Second version of the patch. Left side patch sent and right side review recived. THe patch is accepted.
+</div>
+
+Here's a professionally improved version of your text with corrections for grammar, clarity, and technical accuracy:
+
+---
+
+## Project 2: Contribution to [Arkanjo](https://github.com/LipArcanjo/arkanjo/)
+
+For the second phase of the course, I chose to contribute to [Arkanjo](https://github.com/LipArcanjo/arkanjo/), a tool for detecting duplicated functions in codebases. My contributions included:
+
+### 1. Resolution of Issue [#1](https://github.com/LipArcanjo/arkanjo/issues/1)
+
+This issue concerned a color rendering bug in the output text results. The original implementation was optimized for dark terminal backgrounds, resulting in poor contrast and visibility when used with light themes. My solution involved:
+
+- Implementing two distinct color sets for light and dark terminal backgrounds
+- Creating three platform-specific utility files: `linux_utils`, `windows_utils`, and `apple_utils`. Each file contains a `UtilsOSDependable` class with functions to:
+
+  - Detect terminal background color (in RGB format)
+  - Parse rgb colors and covert them to float data type
+  - Calculate color luminance (perceptual brightness)
+  - Others auxiliar functions
+
+The solution has been tested on Linux (Ubuntu 24) and Windows environments, with Apple platform testing pending. The initial pull request has been accepted, though some bug fixes remain under review. A second pull request is currently undergoing evaluation.
+
+<div class="row mt-3 d-flex align-items-center" style="width:100%; margin: 0 auto 0 auto;">
+    <div class="col-sm mt-3 mt-md-0" >
+        {% include figure.liquid loading="eager" path="assets/img/flusp/arkanjo_dark.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/flusp/arkanjo_ligth.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+    </div>
+</div>
+<div class="caption">
+   Testing colors change depending on the terminal background color. Tested on Linux and Windows.
+</div>
+
+### 2. Documentation Enhancement
+
+I developed comprehensive documentation for the tool using [Doxygen](https://www.doxygen.nl/), a widely-used documentation generator that offers:
+
+- Extensive customization options
+- Rapid build process
+- Multi-language support (C, C++, Python, Java, Fortran)
+- Regular updates
+- Similar functionality to Python's Sphinx, but with broader language support
+
+Implementation details:
+
+- All header files were annotated following Doxygen best practices
+- Documentation includes detailed descriptions of: files, functions, parameters, and namespaces.
+
+The documentation system features:
+
+- Automated builds via GitHub Actions ([workflow file](https://github.com/LipArcanjo/arkanjo/blob/main/.github/workflows/main.yml))
+- Deployment through GitHub Pages
+
+A preview of the documentation is currently available at: [https://saguileran.github.io/arkanjo/html/](https://saguileran.github.io/arkanjo/html/) Final deployment to the main repository is pending configuration.
+
+Additional improvements needed include:
+
+- Code structure refinements
+- Enhanced diagram documentation
+
+<div class="row mt-3 d-flex align-items-center" style="width:80%; margin: 0 auto 0 auto;">
+    <div class="col-sm mt-3 mt-md-0" >
+        {% include figure.liquid loading="eager" path="assets/img/flusp/arkanjo_doc.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+    </div>
+</div>
+<div class="caption">
+</div>
+
+---
+
+## Project 3: Contributing to [scikit-maad](https://scikit-maad.github.io/)
