@@ -504,10 +504,10 @@ In contrast, modern devices, such as the BMP280 pressure sensor ([BMP280 Datashe
 #### Patch
 
 <div class="row mt-3" style="width:100%; margin: 0 auto 0 auto;">
-    <div class="col-sm mt-3 mt-md-0" style="margin: auto;">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/flusp/patch_iio.png" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
-    <div class="col-sm mt-3 mt-md-0" style="margin: auto;">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/flusp/patch_iio_answer.png" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
 </div>
@@ -515,7 +515,7 @@ In contrast, modern devices, such as the BMP280 pressure sensor ([BMP280 Datashe
     
 </div>
 
-Because the changes are too simple and generate some warnings, which I was not able to detect, the patch is not accepted.
+Because the changes are too simple and generate some warnings, which I was not able to detect, the patch is not accepted. You can view the mail sent at [https://lore.kernel.org/linux-iio/20250429184129.7aff4461@jic23-huawei/](https://lore.kernel.org/linux-iio/20250429184129.7aff4461@jic23-huawei/).
 
 ### DRM AMD Subsystem
 
@@ -581,6 +581,8 @@ The patch is reviewed by Alex Hung. The changes generate some code style warning
    First version of the patch. Left side patch sent and right side review recived. 
 </div>
 
+You can view the mail sent at [https://lore.kernel.org/amd-gfx/f78f68ba-80e0-47ca-97a2-37a15d076e68@amd.com/](https://lore.kernel.org/amd-gfx/f78f68ba-80e0-47ca-97a2-37a15d076e68@amd.com/).
+
 ##### Version 2
 
 The patch is build and code styles warnings are removed. There is still a warning because the email is sent from a different email from it was signed off, the problem is related to the USP server inestability.
@@ -599,7 +601,7 @@ The patch is build and code styles warnings are removed. There is still a warnin
    Second version of the patch. Left side patch sent and right side review recived. THe patch is accepted.
 </div>
 
-Here's a professionally improved version of your text with corrections for grammar, clarity, and technical accuracy:
+You can view the mail sent at [https://lore.kernel.org/amd-gfx/f8299b44-1a11-431d-8c04-b0cb44b0b832@amd.com/](https://lore.kernel.org/amd-gfx/f8299b44-1a11-431d-8c04-b0cb44b0b832@amd.com/).
 
 ---
 
