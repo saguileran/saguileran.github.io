@@ -91,7 +91,7 @@ layout: default
 
     <h2>{{ site.data[site.active_lang].strings.references }}</h2>
     <div class="publications">
-      {% bibliography --file posts --group_by none %}
+      {% bibliography --file {{page.bibfile}} --group_by none %}
     </div>
 
     <br>

@@ -13,6 +13,7 @@ toc:
 related_posts: false
 citation: true
 related_publications: true
+bibfile: posts
 _styles: ".container {
   max-width: 85%;
 } 
@@ -660,14 +661,99 @@ Additional improvements needed include:
 - Code structure refinements
 - Enhanced diagram documentation
 
+**The final results looks like:**
+
 <div class="row mt-3 d-flex align-items-center" style="width:80%; margin: 0 auto 0 auto;">
     <div class="col-sm mt-3 mt-md-0" >
         {% include figure.liquid loading="eager" path="assets/img/flusp/arkanjo_doc.png" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
 </div>
 <div class="caption">
+   New Arkanjo documentation website, using doxygen.
 </div>
 
 ---
 
-## Project 3: Contributing to [scikit-maad](https://scikit-maad.github.io/)
+## Projeto 3: Contribuições para Projetos Open Source
+
+Na terceira parte do curso (Projeto 3), realizamos contribuições para dois projetos open source diferentes.
+
+### Contribuindo para o Debian
+
+Esta atividade teve como objetivo ensinar como contribuir para o sistema operacional Debian, abordando:
+
+- A anatomia do SO
+- Arquivos obrigatórios e opcionais nos repositórios
+- Composição dos pacotes
+- Envio de patches para a comunidade Debian
+
+O workshop foi dividido em etapas:
+
+0. **Preparação do ambiente** para testar os pacotes, seguindo o tutorial [Configurando seu Ambiente de Desenvolvimento](https://debianbrasil.org.br/pt-br/empacotamento/configurando-seu-ambiente). O SO foi implantado com QEMU e virsh, como na primeira parte do curso.
+
+   Código para criar a VM com [Debian 12 - nocloud - amd](https://cdimage.debian.org/cdimage/cloud/bookworm/daily/20250603-2132/debian-12-nocloud-amd64-daily-20250603-2132.qcow2):
+
+   ```bash
+   function create_vm_virsh_debian() {
+      sudo virt-install \
+         --name "debian" \
+         --memory 4096 \
+         --arch x86_64 \
+         --machine q35 \
+         --osinfo detect=on,require=off \
+         --import \
+         --features acpi=on \
+         --disk path="${VM_DIR}/debian12.qcow2" \
+         --network bridge:virbr0 \
+         --graphics none \
+         --console pty,target_type=serial
+   }
+   export -f create_vm_virsh_debian
+   ```
+
+   Observação: Foi adicionado ao script `activate.sh`. É necessário aumentar o espaço em disco para pelo menos 6GB para instalar as bibliotecas necessárias.
+
+1. **Seleção do pacote** para modificações simples, atualização de versão e arquivo changelog:
+
+   - Pacote escolhido: **ruby-json**
+   - Rastreador CSV: [https://tracker.debian.org/pkg/ruby-json](https://tracker.debian.org/pkg/ruby-json)
+   - Repositório oficial: [https://salsa.debian.org/ruby-team/ruby-json](https://salsa.debian.org/ruby-team/ruby-json)
+
+   Lista completa de pacotes no [pad principal do curso](https://pad.riseup.net/p/dsl2025-debian-packaging-keep).
+
+2. **Criação de [issue](https://salsa.debian.org/debian-brasil-team/docs/-/issues/500)** no repositório oficial docs
+3. **Build** do software para testes.
+4. **Envio do patch** com as atualizações.
+5. **Criação de pull request**: [Merge request - Update standards-version](https://salsa.debian.org/ruby-team/ruby-json/-/merge_requests/1).
+
+Comandos utilizados no workshop:
+
+```bash
+gbp clone git@salsa.debian.org:saguileran/ruby-json.git # clone todos os branches
+git checkout pristine-tar # em caso de problemas
+gbp dch # criar changelog atualizado
+gbp buildpackage # criar pacote
+git push # enviar alterações
+```
+
+Tempo médio de build: aproximadamente 12 minutos. Resultado final da building:
+
+<div class="row mt-3 d-flex align-items-center" style="width:60%; margin: 0 auto 0 auto;">
+    <div class="col-sm mt-3 mt-md-0" >
+        {% include figure.liquid loading="eager" path="assets/img/flusp/result_debia_pacote.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+    </div>
+</div>
+<div class="caption">
+</div>
+
+### Contributing to [scikit-maad](https://scikit-maad.github.io/)
+
+Solve some of the current [issues](https://github.com/scikit-maad/scikit-maad/issues) of the package.
+
+<div class="row mt-3 d-flex align-items-center" style="width:80%; margin: 0 auto 0 auto;">
+    <div class="col-sm mt-3 mt-md-0" >
+        {% include figure.liquid loading="eager" path="assets/img/flusp/maad_issues.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+    </div>
+</div>
+<div class="caption">
+</div>
