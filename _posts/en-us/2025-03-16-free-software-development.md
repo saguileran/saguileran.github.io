@@ -457,12 +457,12 @@ A simple patch to start contributing is removing duplicate code or functions. Fo
 ```c
 static bool hp03_is_writeable_reg(struct device *dev, unsigned int reg)
 {
-return false;
+   return false;
 }
 
 static bool hp03_is_volatile_reg(struct device *dev, unsigned int reg)
 {
-return false;
+   return false;
 }
 ```
 
@@ -470,14 +470,14 @@ Both functions always return `false`, regardless of the register number or devic
 
 ```c
 static const struct regmap_config hp03_regmap_config = {
-.reg_bits	= 8,
-.val_bits	= 8,
+   .reg_bits	= 8,
+   .val_bits	= 8,
 
-.max_register	= HP03_EEPROM_CD_OFFSET + 1,
-.cache_type	= REGCACHE_RBTREE,
+   .max_register	= HP03_EEPROM_CD_OFFSET + 1,
+   .cache_type	= REGCACHE_RBTREE,
 
-.writeable_reg	= hp03_is_writeable_reg,  // here
-.volatile_reg	= hp03_is_volatile_reg,   // here
+   .writeable_reg	= hp03_is_writeable_reg,  // here
+   .volatile_reg	= hp03_is_volatile_reg,   // here
 };
 ```
 
@@ -485,14 +485,14 @@ A naive solution would be to remove the function lines and directly replace them
 
 ```c
 static const struct regmap_config hp03_regmap_config = {
-.reg_bits	= 8,
-.val_bits	= 8,
+   .reg_bits	= 8,
+   .val_bits	= 8,
 
-.max_register	= HP03_EEPROM_CD_OFFSET + 1,
-.cache_type	= REGCACHE_RBTREE,
+   .max_register	= HP03_EEPROM_CD_OFFSET + 1,
+   .cache_type	= REGCACHE_RBTREE,
 
-.writeable_reg	= false,
-.volatile_reg	= false,
+   .writeable_reg	= false,
+   .volatile_reg	= false,
 };
 ```
 
@@ -517,6 +517,18 @@ In contrast, modern devices, such as the BMP280 pressure sensor ([BMP280 Datashe
 </div>
 
 Because the changes are too simple and generate some warnings, which I was not able to detect, the patch is not accepted. You can view the mail sent at [https://lore.kernel.org/linux-iio/20250429184129.7aff4461@jic23-huawei/](https://lore.kernel.org/linux-iio/20250429184129.7aff4461@jic23-huawei/).
+
+<div class="row mt-3" style="width:100%; margin: 0 auto 0 auto;">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/flusp/patch_IIO_answer_2.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/flusp/patch_IIO_answer_1.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+    </div>
+</div>
+<div class="caption">
+    Responses from Jonathan Cameron, the maintainer of the IIO subsystem kernel.
+</div>
 
 ### DRM AMD Subsystem
 
@@ -661,8 +673,6 @@ Additional improvements needed include:
 - Code structure refinements
 - Enhanced diagram documentation
 
-**The final results looks like:**
-
 <div class="row mt-3 d-flex align-items-center" style="width:80%; margin: 0 auto 0 auto;">
     <div class="col-sm mt-3 mt-md-0" >
         {% include figure.liquid loading="eager" path="assets/img/flusp/arkanjo_doc.png" class="img-fluid rounded z-depth-1" zoomable=true%}
@@ -674,24 +684,24 @@ Additional improvements needed include:
 
 ---
 
-## Projeto 3: Contribuições para Projetos Open Source
+## Project 3: Contributions to Open Source Projects
 
-Na terceira parte do curso (Projeto 3), realizamos contribuições para dois projetos open source diferentes.
+In the third part of the course (Project 3), I contributed to two different open source projects.
 
-### Contribuindo para o Debian
+### Contributing to Debian
 
-Esta atividade teve como objetivo ensinar como contribuir para o sistema operacional Debian, abordando:
+This activity aimed to teach how to contribute to the Debian operating system, covering:
 
-- A anatomia do SO
-- Arquivos obrigatórios e opcionais nos repositórios
-- Composição dos pacotes
-- Envio de patches para a comunidade Debian
+- The anatomy of the OS
+- Mandatory and optional files in repositories
+- Package composition
+- Sending patches to the Debian community
 
-O workshop foi dividido em etapas:
+The workshop was divided into steps:
 
-0. **Preparação do ambiente** para testar os pacotes, seguindo o tutorial [Configurando seu Ambiente de Desenvolvimento](https://debianbrasil.org.br/pt-br/empacotamento/configurando-seu-ambiente). O SO foi implantado com QEMU e virsh, como na primeira parte do curso.
+0. **Preparing the environment** to test packages, following the tutorial [Setting Up Your Development Environment](https://debianbrasil.org.br/pt-br/empacotamento/configurando-seu-ambiente). The OS was deployed using QEMU and virsh, as in the first part of the course.
 
-   Código para criar a VM com [Debian 12 - nocloud - amd](https://cdimage.debian.org/cdimage/cloud/bookworm/daily/20250603-2132/debian-12-nocloud-amd64-daily-20250603-2132.qcow2):
+   Code to create the VM with [Debian 12 - nocloud - amd](https://cdimage.debian.org/cdimage/cloud/bookworm/daily/20250603-2132/debian-12-nocloud-amd64-daily-20250603-2132.qcow2):
 
    ```bash
    function create_vm_virsh_debian() {
@@ -711,44 +721,52 @@ O workshop foi dividido em etapas:
    export -f create_vm_virsh_debian
    ```
 
-   Observação: Foi adicionado ao script `activate.sh`. É necessário aumentar o espaço em disco para pelo menos 6GB para instalar as bibliotecas necessárias.
+   Note: This was added to the `activate.sh` script. It is necessary to increase the disk space to at least 6GB to install the required libraries.
 
-1. **Seleção do pacote** para modificações simples, atualização de versão e arquivo changelog:
+1. **Package selection** for simple modifications, version update, and changelog file:
 
-   - Pacote escolhido: **ruby-json**
-   - Rastreador CSV: [https://tracker.debian.org/pkg/ruby-json](https://tracker.debian.org/pkg/ruby-json)
-   - Repositório oficial: [https://salsa.debian.org/ruby-team/ruby-json](https://salsa.debian.org/ruby-team/ruby-json)
+   - Chosen package: **ruby-json**
+   - CSV tracker: [https://tracker.debian.org/pkg/ruby-json](https://tracker.debian.org/pkg/ruby-json)
+   - Official repository: [https://salsa.debian.org/ruby-team/ruby-json](https://salsa.debian.org/ruby-team/ruby-json)
 
-   Lista completa de pacotes no [pad principal do curso](https://pad.riseup.net/p/dsl2025-debian-packaging-keep).
+   Complete package list available on the [main course pad](https://pad.riseup.net/p/dsl2025-debian-packaging-keep).
 
-2. **Criação de [issue](https://salsa.debian.org/debian-brasil-team/docs/-/issues/500)** no repositório oficial docs
-3. **Build** do software para testes.
-4. **Envio do patch** com as atualizações.
-5. **Criação de pull request**: [Merge request - Update standards-version](https://salsa.debian.org/ruby-team/ruby-json/-/merge_requests/1).
+2. **Issue creation** ([issue](https://salsa.debian.org/debian-brasil-team/docs/-/issues/500)) in the official docs repository
+3. **Build** the software for testing.
+4. **Send the patch** with the updates.
+5. **Create a pull request**: [Merge request - Update standards-version](https://salsa.debian.org/ruby-team/ruby-json/-/merge_requests/1).
 
-Comandos utilizados no workshop:
+Commands used in the workshop:
 
 ```bash
-gbp clone git@salsa.debian.org:saguileran/ruby-json.git # clone todos os branches
-git checkout pristine-tar # em caso de problemas
-gbp dch # criar changelog atualizado
-gbp buildpackage # criar pacote
-git push # enviar alterações
+gbp clone git@salsa.debian.org:saguileran/ruby-json.git  # clone all branches
+git checkout pristine-tar                                # in case of problems which I did not have
+gbp dch                                                  # create updated changelog
+gbp buildpackage                                         # build package
+git push                                                 # push changes
 ```
 
-Tempo médio de build: aproximadamente 12 minutos. Resultado final da building:
+Average build time: approximately 12 minutes.
 
-<div class="row mt-3 d-flex align-items-center" style="width:60%; margin: 0 auto 0 auto;">
+<div class="row mt-3 d-flex align-items-center" style="width:100%; margin: 0 auto 0 auto;">
     <div class="col-sm mt-3 mt-md-0" >
         {% include figure.liquid loading="eager" path="assets/img/flusp/result_debia_pacote.png" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
+    <div class="col-sm mt-3 mt-md-0" >
+        {% include figure.liquid loading="eager" path="assets/img/flusp/debian_approved.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+    </div>
 </div>
 <div class="caption">
+   Left: Final output of the `ruby-json` Debian package build process. Right: Pull request approved and successfully merged into the official repository.
 </div>
 
-### Contributing to [scikit-maad](https://scikit-maad.github.io/)
+> The workshop was excellent and successfully completed without any problems, thanks to the tutors. There was a minor error detected by lintian, but it can be ignored. Although there is a lot of information about Debian packaging, this short workshop gave me a clear overview of the process and the knowledge required to contribute.
 
-Solve some of the current [issues](https://github.com/scikit-maad/scikit-maad/issues) of the package.
+### Contributing to scikit-maad
+
+[**scikit-maad**](https://scikit-maad.github.io/) is an open-source Python package designed for the quantitative analysis of environmental audio recordings, serving as a comprehensive toolkit for scientists interested in soundscape ecology. The project was initiated in 2021 by [Juan Sebastián Ulloa](https://juansulloa.github.io/), a researcher at the [Instituto de Investigación de Recursos Biológicos Alexander von Humboldt](https://www.humboldt.org.co/) in Colombia, along with other collaborators.
+
+My contributions involve addressing some of the [open issues](https://github.com/scikit-maad/scikit-maad/issues) in the package. Additionally, after reaching out to Sebastián, he suggested expanding the package's functionality by implementing new features related to spectrogram analysis, specifically functions for computing mel-spectrograms and Mel-Frequency Cepstral Coefficients (MFCC), which are currently missing from the toolkit.
 
 <div class="row mt-3 d-flex align-items-center" style="width:80%; margin: 0 auto 0 auto;">
     <div class="col-sm mt-3 mt-md-0" >
