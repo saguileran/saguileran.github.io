@@ -596,6 +596,8 @@ The patch is reviewed by Alex Hung. The changes generate some code style warning
 
 You can view the mail sent at [https://lore.kernel.org/amd-gfx/f78f68ba-80e0-47ca-97a2-37a15d076e68@amd.com/](https://lore.kernel.org/amd-gfx/f78f68ba-80e0-47ca-97a2-37a15d076e68@amd.com/).
 
+The patch was accepted and included in the official repository by Alex Hung 🎉.
+
 ##### Version 2
 
 The patch is build and code styles warnings are removed. There is still a warning because the email is sent from a different email from it was signed off, the problem is related to the USP server inestability.
@@ -673,14 +675,21 @@ Additional improvements needed include:
 - Code structure refinements
 - Enhanced diagram documentation
 
-<div class="row mt-3 d-flex align-items-center" style="width:80%; margin: 0 auto 0 auto;">
-    <div class="col-sm mt-3 mt-md-0" >
-        {% include figure.liquid loading="eager" path="assets/img/flusp/arkanjo_doc.png" class="img-fluid rounded z-depth-1" zoomable=true%}
-    </div>
+#### Final Result
+
+<div class="row mt-3 d-flex align-items-center" style="width:100%; margin: 0 auto 0 auto;">
+   <div class="col-sm mt-3 mt-md-0" >
+      {% include figure.liquid loading="eager" path="assets/img/flusp/arkanjo_doc.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+   </div>
+   <div class="col-sm mt-3 mt-md-0" >
+      {% include figure.liquid loading="eager" path="assets/img/flusp/doxygen_theme.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+   </div>
 </div>
 <div class="caption">
-   New Arkanjo documentation website, using doxygen.
+   Left: New Arkanjo documentation website, built with Doxygen. Right: Awesome Doxygen theme, a modern, minimalist, and fresh alternative.
 </div>
+
+Although Doxygen offers customization, it is mostly limited to theme layout components, and the overall style remains largely unchanged. As an alternative, there is Awesome Doxygen—a minimalist and modern theme with both light and dark color schemes. Its style is similar to the [Sphinx Book theme](https://sphinx-themes.org/sample-sites/sphinx-book-theme/). However, in practice, Awesome Doxygen did not render colors and shapes correctly, likely because the theme is not fully compatible with all Doxygen versions.
 
 ---
 
@@ -736,17 +745,17 @@ The workshop was divided into steps:
 4. **Send the patch** with the updates.
 5. **Create a pull request**: [Merge request - Update standards-version](https://salsa.debian.org/ruby-team/ruby-json/-/merge_requests/1).
 
-Commands used in the workshop:
+> #### Used Commands
+>
+> ```bash
+> gbp clone git@salsa.debian.org:saguileran/ruby-json.git  # clone all branches
+> git checkout pristine-tar                                # use in case of problems
+> gbp dch                                                  # create updated changelog
+> gbp buildpackage                                         # build package
+> git push                                                 # push changes
+> ```
 
-```bash
-gbp clone git@salsa.debian.org:saguileran/ruby-json.git  # clone all branches
-git checkout pristine-tar                                # in case of problems which I did not have
-gbp dch                                                  # create updated changelog
-gbp buildpackage                                         # build package
-git push                                                 # push changes
-```
-
-Average build time: approximately 12 minutes.
+#### Final Result
 
 <div class="row mt-3 d-flex align-items-center" style="width:100%; margin: 0 auto 0 auto;">
     <div class="col-sm mt-3 mt-md-0" >
@@ -757,7 +766,7 @@ Average build time: approximately 12 minutes.
     </div>
 </div>
 <div class="caption">
-   Left: Final output of the `ruby-json` Debian package build process. Right: Pull request approved and successfully merged into the official repository.
+   Left: Final output of the `ruby-json` Debian package build process. Average build time: approximately 12 minutes.. Right: Pull request approved and successfully merged into the official repository.
 </div>
 
 > The workshop was excellent and successfully completed without any problems, thanks to the tutors. There was a minor error detected by lintian, but it can be ignored. Although there is a lot of information about Debian packaging, this short workshop gave me a clear overview of the process and the knowledge required to contribute.
@@ -766,7 +775,7 @@ Average build time: approximately 12 minutes.
 
 [**scikit-maad**](https://scikit-maad.github.io/) is an open-source Python package designed for the quantitative analysis of environmental audio recordings, serving as a comprehensive toolkit for scientists interested in soundscape ecology. The project was initiated in 2021 by [Juan Sebastián Ulloa](https://juansulloa.github.io/), a researcher at the [Instituto de Investigación de Recursos Biológicos Alexander von Humboldt](https://www.humboldt.org.co/) in Colombia, along with other collaborators.
 
-My contributions involve addressing some of the [open issues](https://github.com/scikit-maad/scikit-maad/issues) in the package. Additionally, after reaching out to Sebastián, he suggested expanding the package's functionality by implementing new features related to spectrogram analysis, specifically functions for computing mel-spectrograms and Mel-Frequency Cepstral Coefficients (MFCC), which are currently missing from the toolkit.
+My contributions involve addressing some of the [open issues](https://github.com/scikit-maad/scikit-maad/issues) in the package.
 
 <div class="row mt-3 d-flex align-items-center" style="width:80%; margin: 0 auto 0 auto;">
     <div class="col-sm mt-3 mt-md-0" >
@@ -775,3 +784,65 @@ My contributions involve addressing some of the [open issues](https://github.com
 </div>
 <div class="caption">
 </div>
+
+Additionally, after reaching out to Sebastián, he suggested expanding the package's functionality by implementing new features related to spectrogram analysis, specifically functions for computing mel-spectrograms and Mel-Frequency Cepstral Coefficients (MFCC), which are currently missing from the toolkit.
+
+A spectrogram is a visual representation of the frequency content of an audio signal over time. Various types of spectrograms exist, each offering a unique perspective and extracting different features from the audio. While all are derived from the raw spectrogram, they apply different transformations to highlight specific characteristics. The relationships among these representations are illustrated below:
+
+<div class="row mt-3 d-flex align-items-center" style="width:60%; margin: 0 auto 0 auto;">
+    <div class="col-sm mt-3 mt-md-0" >
+        {% include figure.liquid loading="eager" path="assets/img/flusp/torchaudio_feature_extractions.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+    </div>
+</div>
+<div class="caption">
+</div>
+
+#### Example
+
+Let's see an example of a spectrogram generated from an audio recording:
+
+- The original audio waveform shows amplitude over time.
+- The spectrogram transforms this into a time-frequency plot, where brighter or more intense colors indicate higher energy at specific frequencies and times.
+
+Below, you can listen to an audio sample and see its corresponding spectrogram and related feature representations.
+
+<div class="row mt-3 justify-content-center">
+   <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
+      {% include audio.liquid path="assets/audio/BpZC57J7.wav" controls=true %}
+   </div>
+</div>
+<div class="caption text-center">
+   Audio sample: a record of human voice.
+</div>
+
+<div class="row mt-3 d-flex align-items-center" style="width:100%; margin: 0 auto 0 auto;">
+    <div class="col-sm mt-3 mt-md-0" >
+        {% include figure.liquid loading="eager" path="https://docs.pytorch.org/audio/master/_images/sphx_glr_audio_feature_extractions_tutorial_001.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+    </div>
+
+    <div class="col-sm mt-3 mt-md-0" >
+        {% include figure.liquid loading="eager" path="https://docs.pytorch.org/audio/master/_images/sphx_glr_audio_feature_extractions_tutorial_007.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+    </div>
+
+    <div class="col-sm mt-3 mt-md-0" >
+        {% include figure.liquid loading="eager" path="https://docs.pytorch.org/audio/master/_images/sphx_glr_audio_feature_extractions_tutorial_009.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+    </div>
+
+</div>
+<div class="caption">
+Images taken and modified from the Pytorch tutorial <a href="https://docs.pytorch.org/audio/master/tutorials/audio_feature_extractions_tutorial.html#sphx-glr-tutorials-audio-feature-extractions-tutorial-py">Audio Feature Extractions</a>
+</div>
+
+## Final Comments
+
+At first, the course seemed challenging due to the unfamiliar languages and tools involved, particularly regarding VM setup and deployment. However, since I had prior experience with Ubuntu, I was able to overcome these difficulties successfully—thanks in large part to the helpful monitors, whom I deeply appreciate.
+
+The first project proved difficult because I spent too much time deciding how to refactor the code. I initially chose to work on an IIO kernel patch with a simple but tricky change, which I implemented. However, my submission was rejected due to introduced warnings and errors. As a backup plan, I used Arkanjo to search for code duplications and discovered several in the AMD DMR subsystem. There, I removed nearly 500 lines of redundant code, and this time, my patch was accepted quickly.
+
+For the second part, I selected Arkanjo—a tool developed at IME—which I explored in depth. I resolved one issue and added robust documentation. While the code changes were applied, the documentation deployment remains pending because pushing to the official repository requires owner permissions, which I don’t have. As a solution, we proposed creating an organization, but this is still in progress.
+
+The final project workshop was well-structured and guided, so I encountered no major issues. Additionally, as supplementary work, I spoke with Professor Paulo about contributing to an open-source project from Colombia (scikit-maad), which was my primary motivation for taking the course. While my contributions are complete, they have yet to be published.
+
+Overall, I enjoyed the course because most of the work was hands-on, and the proposed activities provided an excellent introduction to contributing to both small and large open-source projects. The foundational theory was clear and helped clarify concepts like "free" vs. "open" software. The classes were engaging and productive, thanks to active discussions among students, professors, and monitors. Personally, I highly recommend this course.
+
+> As a final comment I want to recommend the [**al-folio**](https://github.com/alshedivat/al-folio) website theme, _"a beautiful, simple, clean, and responsive Jekyll theme for academics"_. It is a great tool with highly customing, look the deployed [website](https://alshedivat.github.io/al-folio/) for more information.
