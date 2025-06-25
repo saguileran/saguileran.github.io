@@ -520,11 +520,13 @@ Because the changes are too simple and generate some warnings, which I was not a
 
 <div class="row mt-3" style="width:100%; margin: 0 auto 0 auto;">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/flusp/patch_IIO_answer_2.png" class="img-fluid rounded z-depth-1" zoomable=true%}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/flusp/patch_IIO_answer_1.png" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
+    
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/flusp/patch_IIO_answer_2.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+    </div>
+    
 </div>
 <div class="caption">
     Responses from Jonathan Cameron, the maintainer of the IIO subsystem kernel.
@@ -785,7 +787,7 @@ My contributions involve addressing some of the [open issues](https://github.com
 <div class="caption">
 </div>
 
-Additionally, after reaching out to Sebastián, he suggested expanding the package's functionality by implementing new features related to spectrogram analysis, specifically functions for computing mel-spectrograms and Mel-Frequency Cepstral Coefficients (MFCC), which are currently missing from the toolkit.
+Additionally, after reaching out to Sebastián, he suggested expanding the package's functionality by implementing new features related to spectrogram analysis, specifically functions for computing mel-spectrograms, Mel-Frequency Cepstral Coefficients (MFCC), and Linear Frequency Cepstral Coefficients (LFCC), which are currently missing from the toolkit.
 
 A spectrogram is a visual representation of the frequency content of an audio signal over time. Various types of spectrograms exist, each offering a unique perspective and extracting different features from the audio. While all are derived from the raw spectrogram, they apply different transformations to highlight specific characteristics. The relationships among these representations are illustrated below:
 
@@ -812,7 +814,7 @@ Below, you can listen to an audio sample and see its corresponding spectrogram a
    </div>
 </div>
 <div class="caption text-center">
-   Audio sample: a record of human voice.
+   Audio sample with a recording of human voice syaing: *"I have that curiosity beside me at this moment"*.
 </div>
 
 <div class="row mt-3 d-flex align-items-center" style="width:100%; margin: 0 auto 0 auto;">
@@ -826,6 +828,10 @@ Below, you can listen to an audio sample and see its corresponding spectrogram a
 
     <div class="col-sm mt-3 mt-md-0" >
         {% include figure.liquid loading="eager" path="https://docs.pytorch.org/audio/master/_images/sphx_glr_audio_feature_extractions_tutorial_009.png" class="img-fluid rounded z-depth-1" zoomable=true%}
+    </div>
+
+    <div class="col-sm mt-3 mt-md-0" >
+        {% include figure.liquid loading="eager" path="https://docs.pytorch.org/audio/master/_images/sphx_glr_audio_feature_extractions_tutorial_011.png" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
 
 </div>
