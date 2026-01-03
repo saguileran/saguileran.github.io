@@ -5,7 +5,7 @@ title: Molecular Modeling and Simulation
 description: Study and evaluation of the un/binding kinetics of Mineralocorticoid receptor steroid agonist Aldosterone, Cortisol, and Progesterone ligands using Molecular Dynamics and Monte Carlo simulations.
 img: assets/img/simulations.gif
 redirect: https://saguileran.github.io/MD-SCPI/
-importance: 1
+importance: 2
 category: research
 giscus_comments: true
 ---

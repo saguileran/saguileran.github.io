@@ -6,7 +6,7 @@ description: Bachelor's tesis dissertation. Design, development, and evaluation 
 location: UNAL
 img: assets/img/dissertation.jpg
 redirect: https://saguileran.github.io/birdsongs/
-importance: 0
+importance: 1
 category: research
 related_publications: true
 ---

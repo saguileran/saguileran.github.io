@@ -2,13 +2,12 @@
 page_id: project_3
 layout: page
 title: Green House
-description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been .
+description:
 img: assets/img/3.jpg
 importance: 1
 category: fun
 giscus_comments: true
 ---
-
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

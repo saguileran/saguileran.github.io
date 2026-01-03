@@ -39,9 +39,8 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <hr style="width:100%;text-align:left;margin-left:0">
-
     <div style="width: 98%; margin: 0 auto 0 auto;">
+      <hr style="width:100%;text-align:left;margin-left:0">
       <div class="row">
         <div class="col-sm-6">
           <!-- News -->
@@ -54,7 +53,7 @@ layout: default
         </div>
         <div class="col-sm-6">
           <!-- Latest posts -->
-          {% if site.latest_posts.enabled %}
+          {% if page.latest_posts %}
             <h2 align="center">
               <a href="{{ '/blog/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.latest_posts }}</a>
             </h2>
@@ -64,20 +63,18 @@ layout: default
       </div>
     </div>
 
-    <hr style="width:100%;text-align:left;margin-left:0">
-
     <!-- Selected papers -->
     {% if page.selected_papers %}
+      <hr style="width:100%;text-align:left;margin-left:0">
       <h2 align="center">
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.selected_publications }}</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <hr style="width:100%;align:center">
-
     <!-- Social -->
     {% if page.social %}
+      <hr style="width:100%;text-align:left;margin-left:0">
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
         <div class="contact-note">{{ site.data[site.active_lang].strings.contact_note }}</div>

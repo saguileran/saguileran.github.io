@@ -47,7 +47,7 @@
       "url": "https://marbai.ai",
       "startDate": "2024-03-01",
       "location": "Remote",
-      "endDate": "",
+      "endDate": "2025-03-01",
       "summary": "Create, deploy, and evaluate intelligent agents using Python and REST APIs to generate digital content for social media.",
       "highlights": ["Python Programmer", "Prompt Engineering"],
       "icon": "fa-solid fa-laptop"
@@ -60,7 +60,7 @@
       "endDate": "2024-12-10",
       "summary": "Teaching Java programming (both backend and frontend), databases, operating systems, software design, and data structures to systems engineering university students.",
       "location": "Bogotá D.C., Colombia",
-      "highlights": ["Programming Professor for System Engineering students"],
+      "highlights": ["Java Programming", "Databases", "Data Structures", "Software Design"],
       "icon": "fa-solid fa-chalkboard-user"
     },
     {
@@ -107,6 +107,18 @@
     }
   ],
   "education": [
+    {
+      "institution": "University of Sao Paulo (USP)",
+      "location": "São Paulo, Brazil",
+      "url": "https://www5.usp.br/",
+      "area": "Institue of Mathematics, Stadistics, and Computer Science (IME)",
+      "studyType": "Magister in Computer Science (M.S.)",
+      "startDate": "2025",
+      "endDate": "",
+      "score": "",
+      "courses": ["Numerical Methods", "Physical Modeling", "Bioacoustics", "DSP"],
+      "icon": "fa-solid fa-university"
+    },
     {
       "institution": "National University of Colombia",
       "location": "Bogotá D.C., Colombia",
@@ -241,13 +253,13 @@
       "name": "Basic",
       "level": "Basic",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["JS, HTML, CSS", "Arduino", "Workbrench", "Eclipse, Netbeans"]
+      "keywords": ["Arduino", "Workbrench", "Eclipse, Netbeans"]
     },
     {
       "name": "Intermediate",
       "level": "Intermediate",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Julia, c++", "Mathematica, Power BI", "Canva, Krita", "AWS, Google Cloud, Firebase"]
+      "keywords": ["JS, HTML, CSS", "Julia, c++", "Mathematica, Power BI", "Canva, Krita", "AWS, Google Cloud, Firebase"]
     },
     {
       "name": "Advanced",
@@ -319,7 +331,7 @@
       "icon": "fa-solid fa-volume-up",
       "university": "University of Sao Paulo (USP)",
       "email": "mqz@ime.usp.br",
-      "reference": "",
+      "reference": "Computer scientist and associate professor at the Institute of Mathematics and Computer Science (IME) at the University of São Paulo (USP). His research interests include numerical methods, optimization, DSP, musical instruments simulation, sound processing.",
       "url": "https://www.ime.usp.br/~mqz/"
     },
 
@@ -333,11 +345,20 @@
   ],
   "projects": [
     {
+      "name": "WaveSongs",
+      "summary": "A python package to analyze, visualize and generate synthetic birdsongs.",
+      "highlights": ["Sound Produciton", "Syrinx", "Birdsongs", "Digital Signal Processing", "Open Source"],
+      "startDate": "2025",
+      "endDate": "2027",
+      "url": "https://wavesongs.github.io/",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
       "name": "Birdsongs",
       "summary": "A python package to analyze, visualize and generate synthetic birdsongs.",
-      "highlights": ["Sound Produciton, Syrinx", "Birdsongs", "Numerical Optimization", "Signal Processing", "Open Source"],
+      "highlights": ["Sound Produciton", "Syrinx", "Birdsongs", "Numerical Optimization", "Signal Processing", "Open Source"],
       "startDate": "2022",
-      "endDate": "",
+      "endDate": "2025",
       "url": "https://saguileran.github.io/birdsongs/",
       "icon": "fa-solid fa-clipboard-check"
     },
