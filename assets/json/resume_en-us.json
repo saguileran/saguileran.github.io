@@ -8,7 +8,7 @@
     "url": "https://saguileran.github.io/",
     "github": "https://github.com/saguileran/",
     "linkedin": "https://linkedin.com/in/saguileran/",
-    "summary": "A Colombian physicist interested in computational physics, numerical methods, and machine learning ideas applied to bioacoustics.",
+    "summary": "A Colombian physicist interested in computational physics, numerical methods, and deep learning ideas applied to bioacoustics.",
     "location": {
       "address": "Bogotá D.C.",
       "postalCode": "COL 111621",
@@ -114,7 +114,7 @@
       "area": "Institue of Mathematics, Stadistics, and Computer Science (IME)",
       "studyType": "Magister in Computer Science (M.S.)",
       "startDate": "2025",
-      "endDate": "",
+      "endDate": "2026",
       "score": "",
       "courses": ["Numerical Methods", "Physical Modeling", "Bioacoustics", "DSP"],
       "icon": "fa-solid fa-university"
@@ -252,20 +252,20 @@
     {
       "name": "Basic",
       "level": "Basic",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": ["Arduino", "Workbrench", "Eclipse, Netbeans"]
+      "icon": "fa-solid fa-tree",
+      "keywords": ["Arduino", "SQL/Workbench", "Eclipse, Netbeans", "AWS, Google Cloud, Firebase"]
     },
     {
       "name": "Intermediate",
       "level": "Intermediate",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": ["JS, HTML, CSS", "Julia, c++", "Mathematica, Power BI", "Canva, Krita", "AWS, Google Cloud, Firebase"]
+      "icon": "fa-solid fa-tree",
+      "keywords": ["JS, HTML, CSS", "Julia, C++, Java", "Mathematica, Power BI", "SSH, Github", "Canva, Krita"]
     },
     {
       "name": "Advanced",
       "level": "Advanced",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": ["Python, Java, Matlab", "Latex, Office, Markdown", "Jupyter-Notebook/Lab", "Linux, SSH, Github"]
+      "icon": "fa-solid fa-tree",
+      "keywords": ["Python, Matlab", "Latex, Office, Markdown", "Jupyter-Notebook/Lab", "Linux, Windows, VSC", "Moodle LMS"]
     }
   ],
   "strengths": [
@@ -296,17 +296,17 @@
   "interests": [
     {
       "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": ["Acoustics, Bioacustics", "Fluids Dynamics", "Physical Simulations", "Sound Production", "Teaching"]
+      "icon": "fa-solid fa-atom",
+      "keywords": ["Acoustics", "Bioacoustics", "Physical Simulations", "Sound Production", "Teaching"]
     },
     {
       "name": "Computer Science",
-      "icon": "fa-solid fa-tag",
-      "keywords": ["Machine Learning", "Numerical Methods", "Optimization", "Digital Signal Processing", "PDEs and PDOs"]
+      "icon": "fa-solid fa-laptop",
+      "keywords": ["Digital Signal Processing", "Data Science and Analytics", "Deep Learning", "Numerical Methods", "Optimization", "PDEs and ODEs"]
     },
     {
       "name": "Hobbies",
-      "icon": "fa-solid fa-tag",
+      "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Travel  ✈️, Ride Bike  🚲",
         "Listenning Music  🎧",
@@ -323,7 +323,7 @@
       "icon": "fa-solid fa-laptop",
       "university": "National University of Colombia (UNAL)",
       "email": "fagomezj@unal.edu.co",
-      "reference": "Engineering and associate professor in the Mathematics Department at Universidad Nacional de Colombia, in Bogotá (Colombia), working in computer science and applied math. His research interests include computational sustainability, specifically brain imaging and computational ecology. He works on computational sustainability problems interacting with the private and public sectors.",
+      "reference": "Engineer and associate professor in the Mathematics Department at the National University of Colombia, Bogotá D.C. His research focuses on computer science and applied mathematics, with interests in computational sustainability, brain imaging, computational ecology, and AI agents. He works on projects in collaboration with the private and public sectors.",
       "url": "www.em"
     },
     {
@@ -331,16 +331,16 @@
       "icon": "fa-solid fa-volume-up",
       "university": "University of Sao Paulo (USP)",
       "email": "mqz@ime.usp.br",
-      "reference": "Computer scientist and associate professor at the Institute of Mathematics and Computer Science (IME) at the University of São Paulo (USP). His research interests include numerical methods, optimization, DSP, musical instruments simulation, sound processing.",
+      "reference": "Computer scientist and associate professor at the Institute of Mathematics, Statistics, and Computer Science (IME) at the University of São Paulo (USP), Brazil. His research interests are in computational music, encompassing topics such as numerical methods, optimization, DSP, musical instrument simulation, and AI for music.",
       "url": "https://www.ime.usp.br/~mqz/"
     },
 
     {
       "name": "Professor Gabriel Mindlin",
-      "icon": "fa-solid fa-volume-up",
+      "icon": "fa-solid fa-atom",
       "university": "University of Buenos Aires (UBA)",
       "email": "gabo@df.uba.ar",
-      "reference": "Physicist and associate professor at the Universidad de Buenos Aires (UBA). Gabriel is leader of the Dynamic System Laboratory (LSD) which is a pioneering laboratory in the Physics/Biology interdiscipline, furthermore, it has produced high impact publications and patents. He is mainly interested in dynamics and biophysics."
+      "reference": "Physicist and associate professor at the Universidad de Buenos Aires (UBA), Argentina. Gabriel is leader of the Dynamic System Laboratory (LSD) which is a pioneering laboratory in the Physics/Biology interdiscipline, furthermore, it has produced high impact publications and patents. He is mainly interested in dynamics and biophysics."
     }
   ],
   "projects": [

@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: About
 permalink: /
-subtitle: Physicist - Computer Scientist - Passionate
+subtitle: Physicist - Computer Scientist - Problem Solver
 
 profile:
   align: right
@@ -28,19 +28,19 @@ social: true # includes social icons at the bottom of the page
 
 <h5 align="left" style="margin: 2pt 0 10pt 0;"><i style="margin: 0 2pt 0 0;">Pleased to meet you!</i> 😁 ✌️</h5>
 
-<p>I'm a physicist and M.Sc. student in Computer Science at the <a href="https://www.ime.usp.br/">Institute of Mathematics, Statistics, and Computer Science, University of São Paulo</a> (IME-USP), with undergraduate training in physics from the National University of Colombia. My passion centers on the physical modeling of sound, from its generation and propagation to its computational simulation using ordinary and partial differential equations and numerical methods. I combine computational physics, acoustics, and simulation techniques to develop models that capture real acoustic behavior while maintaining theoretical rigor and practical applicability.</p>
+<p>Currently I am a M.Sc. student in Computer Science at the <a href="https://www.ime.usp.br/">Institute of Mathematics, Statistics, and Computer Science, University of São Paulo</a> (IME-USP), with undergraduate training in physics from the <a href="https://unal.edu.co/guc/">National University of Colombia </a> (UNAL). My passion centers on the physical modeling of sound, from its generation and propagation to its computational simulation using ordinary and partial differential equations as well as numerical methods. I combine computational physics, acoustics, and simulation techniques to develop models that capture real acoustic behavior while maintaining theoretical rigor and practical applicability.</p>
 
 <p>I leverage signal processing and machine learning tools strategically, viewing them as complementary to, rather than replacements for, deep physical understanding. I'm driven by the challenge of developing models that bridge theory and computation, particularly in bioacoustics where physical insight and data-driven methods converge most powerfully.</p>
 
 <p>Currently, I'm advancing research in bioacoustics, investigating bird vocalizations and acoustic signal analysis. I develop tools like <a href="https://wavesongs.github.io/">WaveSongs</a> to enable accessible, reproducible research within the scientific community. My work spans the complete acoustic pipeline, from computational modeling and simulation to visualization and data analysis.</p>
 
-<p>Learn more about my work through my <a href="/projects">Projects</a>, <a href="/courses">Courses</a>, and <a href="/cv">CV</a>. Curious about me? Check my <a href="/bio">Bio</a>.</p>
+<p>Learn more about my work through my <a href="/projects">Projects</a> and <a href="/cv">CV</a>. Curious about me? Check my <a href="/bio">Bio</a>.</p>
 
 <h3>Education</h3>
 
 <ul>
-  <li><b>Master's Degree in Computer Science (M.S.C.S.) (2026):</b> Research in bioacoustics at the <a href="https://www.ime.usp.br/">IME-USP</a>, Brazil.</li>
-  <li><b>Undergraduate Internship for Biological Research (2023):</b> Summer research at <a href="https://www2.ifsc.usp.br/english/">Sao Carlos Physics Institute-USP</a>, Brazil.</li>
+  <li><b>Master's Degree in Computer Science (M.S.C.S.) (2026):</b> Research in bioacoustics at the <a href="https://www.ime.usp.br/">IME-USP</a>, Sao Paulo, Brazil.</li>
+  <li><b>Undergraduate Internship for Biological Research (2023):</b> Summer research at <a href="https://www2.ifsc.usp.br/english/">Sao Carlos Physics Institute-USP</a>, Sao Carlos, Brazil.</li>
   <li><b>Bachelor's Degree in Science (B.S.) (2023):</b> Physicist from the <a href="https://diracad.bogota.unal.edu.co/unaspirante/programas/fisica">Physics Department</a> at the <a href="https://bogota.unal.edu.co/">National University of Colombia</a>, Bogotá D.C., Colombia.</li>
   <li><b>Summer Research Program (2021):</b> Research at the <a href="https://www.ece.udel.edu/">Electrical & Computer Engineering Department</a>, <a href="https://www.udel.edu/">University of Delaware</a>, USA.</li>
 </ul>
@@ -49,7 +49,7 @@ social: true # includes social icons at the bottom of the page
 
 <div style="display: flex; flex-wrap: wrap; gap: 0 40px;">
   <ul style="flex: 1 1 250px; min-width: 220px; margin: 0; padding-left: 20px;">
-    <li><b>Data Analysis:</b> Proficient in extracting, processing, and interpreting complex and huge datasets.</li>
+    <li><b>Data Analysis:</b> Proficient in extracting, processing, and interpreting complex and large datasets. Extensive experience in data visualization to identify relationships and extract meaningful insights.</li>
     <li><b>Mathematical Thinking:</b> Strong foundation in theoretical and applied mathematics.</li>
     <li><b>Communication:</b> Excellent communication skills, fostering effective teamwork and collaboration.</li>
     <li><b>Adaptability:</b> Quick learner capable of mastering new software environments and technologies.</li>

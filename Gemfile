@@ -26,4 +26,5 @@ group :other_plugins do
     gem 'css_parser'
     gem 'feedjira'
     gem 'httparty'
+    gem 'ostruct'  # Required for Ruby 4.0+
 end

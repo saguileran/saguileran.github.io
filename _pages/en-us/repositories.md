@@ -51,5 +51,3 @@ social: true
 {% endif %}
 
 <br>
-
----
