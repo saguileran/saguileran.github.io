@@ -1,0 +1,11 @@
+_base.scss: 
+  - img profile size and margin
+
+about_liquid:
+  - two column: news and latest posts
+
+resume liquid: change two 3 or 4 columns
+
+themes were modified by changing the colors in the sass variables file
+
+liquid post to each post has is own bib file
