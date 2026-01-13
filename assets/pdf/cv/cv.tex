@@ -1,0 +1,543 @@
+%%%%%%%%%%%%%%%%%
+% This is an sample CV template created using altacv.cls
+% (v1.6.5, 3 Nov 2022) written by LianTze Lim (liantze@gmail.com). Compiles with pdfLaTeX, XeLaTeX and LuaLaTeX.
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,letter,ragged2e,withhyper]{altacv}
+%% AltaCV uses the fontawesome5 and packages.
+%% See http://texdoc.net/pkg/fontawesome5 for full list of symbols.
+
+% Change the page layout if you need to
+\geometry{left=1.5cm,right=1.5cm,top=2cm,bottom=2cm,columnsep=1.cm}
+
+% The paracol package lets you typeset columns of text in parallel
+\usepackage{paracol}
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\usepackage{hyperref}
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Roboto Slab}
+  \setsansfont{Lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\else
+  % If using pdflatex:
+  \usepackage[rm]{roboto}
+  \usepackage[defaultsans]{lato}
+  % \usepackage{sourcesanspro}
+  \renewcommand{\familydefault}{\sfdefault}
+\fi
+
+% Change the colours if you want to
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{DarkPastelRed}{HTML}{003100}
+\definecolor{PastelRed}{HTML}{4d7c4d}
+\definecolor{GoldenEarth}{HTML}{023020}
+%\definecolor{GoldenEarth}{HTML}{E7D192}
+\colorlet{name}{black}
+\colorlet{tagline}{PastelRed}
+\colorlet{heading}{DarkPastelRed}
+\colorlet{headingrule}{GoldenEarth}
+\colorlet{subheading}{PastelRed}
+\colorlet{accent}{PastelRed}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change some fonts, if necessary
+\renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+\renewcommand{\personalinfofont}{\footnotesize}
+\renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+\renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% Use (and optionally edit if necessary) this .tex if you
+%% want to use an author-year reference style like APA(6)
+%% for your publication list
+% \input{pubs-authoryear}
+
+%% Use (and optionally edit if necessary) this .tex if you
+%% want an originally numerical reference style like IEEE
+%% for your publication list
+\input{pubs-num}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Sebastián Aguilera Novoa}
+\tagline{Physicist - Computer Scientist - Problem Solver}
+%% You can add multiple photos on the left or right
+%\photoR{2.8cm}{Globe_High}
+% \photoL{2.5cm}{Yacht_High,Suitcase_High}
+
+\personalinfo{%
+  % Not all of these are required!
+  \email{saguileran@unal.edu.co} \hspace{-2pt}
+  \phone{+57 3195140529}% \hspace{50pt}
+  %\mailaddress{Åddrésş, Street, 00000 Cóuntry}
+  \homepage{saguileran.github.io} \hspace{-2pt}%\hspace{50pt}
+  %\twitter{@twitterhandle}
+  \linkedin{saguileran} \hspace{-3pt}%\hspace{50pt}
+  \github{saguileran} \hspace{5pt}
+  \location{Bogotá D.C.}
+  %\orcid{0000-0000-0000-0000}
+  %% You can add your own arbitrary detail with
+  %% \printinfo{symbol}{detail}[optional hyperlink prefix]
+  % \printinfo{\faPaw}{Hey ho!}[https://example.com/]
+  %% Or you can declare your own field with
+  %% \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
+  % \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
+  % \gitlab{your_id}
+  %%
+  %% For services and platforms like Mastodon where there isn't a
+  %% straightforward relation between the user ID/nickname and the hyperlink,
+  %% you can use \printinfo directly e.g.
+  % \printinfo{\faMastodon}{@username@instace}[https://instance.url/@username]
+  %% But if you absolutely want to create new dedicated info fields for
+  %% such platforms, then use \NewInfoField* with a star:
+  % \NewInfoField*{mastodon}{\faMastodon}
+  %% then you can use \mastodon, with TWO arguments where the 2nd argument is
+  %% the full hyperlink.
+  % \mastodon{@username@instance}{https://instance.url/@username}
+}
+
+\makecvheader
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+% \AtBeginEnvironment{itemize}{\small}
+
+%% Set the left/right column width ratio to 6:4.
+\columnratio{0.5}
+
+% Start a 2-column paracol. Both the left and right columns will automatically
+% break across pages if things get too long.
+\begin{paracol}{2}
+\cvsection{Experience}
+
+\cvevent{Junior Python Developer - Prompt Engineering}{\href{www.marbai.ai}{MarBAI}}{Mar 2024 -- Mar 2025}{Remote}
+\begin{itemize}
+	\item Create, deploy, and evaluate intelligent agents using Python and REST APIs to generate digital content for social media.
+\end{itemize}
+
+\divider
+
+
+\cvevent{Junior Python Developer - Prompt Engineering}{AI GENERATIVE S.A.S. – AIGEN S.A.S.}{Sep 2024 -- Mar 2025}{Remote}
+\begin{itemize}
+\item Utilizing text-to-image models to generate digital media content for social media, featuring fictional characters or non-real personas.
+\end{itemize}
+
+\divider
+
+\cvevent{\href{https://github.com/saguileran/ETITC-2024-1/}{Professor}}{\href{https://www.etitc.edu.co/es/}{Escuela Tecnológica Instituto Técnico Central (ETITC)}}{Mar 2024 -- Dec 2024}{Bogotá, Colombia}
+\begin{itemize}
+\item Teaching Java programming (both backend and frontend), databases, operating systems, software design, and data structures to systems engineering university students. All courses are hosted on GitHub and can be accessed via the link \href{https://saguileran.github.io/courses/}{courses}.
+\end{itemize}
+
+\divider
+
+
+\cvevent{Professor - Trainer}{Ingresar a la U}{Mar 2023 -- Jul 2024}{Colombia}
+\begin{itemize}
+	\item Teaching mathematics, physics, and tips and techniques for answering multiple-choice questions on the Saber 11 exam administered by ICFES, to school students from both urban and rural areas of Colombia.
+	\item Training professors to instruct students on effectively answering multiple-choice questions.
+\end{itemize}
+
+\divider
+%\cvevent{Private Professor}{Freelance}{Jan 2016 -- Today}{Bogotá, Colombia}
+%\begin{itemize}
+%\item Teaching mathematics and physics to high school and university students.
+%\end{itemize}
+
+%\divider
+
+%\cvevent{Customer Service Agent}{Concentrix}{Sep 2023 -- Dic 2023}{Bogotá, Colombia}
+%\begin{itemize}
+%\item Assist customers in placing orders and help them resolve order-related problems.
+%\end{itemize}
+
+%\divider
+\cvevent{\href{https://saguileran.github.io/maad/}{MAAD - Soundscape Analysis in Python}}{scikit-maad project}{Jan 2023 -- Feb 2023}{Bogotá D.C., Colombia}
+\begin{itemize}
+	\item Create spectral and time traits with examples, test, and documentation. 
+	% \item Job description 2
+\end{itemize}
+
+
+\cvsection{Research Experience}
+
+
+\cvevent{\href{https://saguileran.github.io/MD-SCPI/}{Internship in Molecular Modeling and Simulations}}{São Carlos Institute of Physics - University of São Paulo}{Feb 2023 -- Apr 2023}{São Carlos, Brazil}
+\begin{itemize}
+\item Set up and contrast Monte Carlo (MC) and molecular dynamics (MD) simulations of a protein-ligand system to generate structured data (positions, velocities, RMS, etc).
+\item Analyze the structured data generated by the MC and MD simulations using Markov model algorithms (lagtime, hiden markov chains, etc). %Job description 1
+% \item Job description 2
+\end{itemize}
+
+
+\divider
+
+%\cvevent{\href{https://saguileran.github.io/birdsongs/}{Birdsongs}}{Research group Datalab - National University of Colombia}{2022}{Bogotá D.C., Colombia}
+%\begin{itemize}
+%\item Set up and evaluate a ML algorithm (using \href{https://github.com/HpWang-whu/YOHO}{YOHO/CNN}) using the data generated by the model as an augmentation data technique (\textit{in process}).
+%\item Create and analyze synthetic birdsongs of the specie Zonotrichia Capensis from five countries.
+%\item Generate unstructured data (audio/images of birdsongs) using a physical model and Python language.
+
+%\end{itemize}
+
+%\divider
+
+\cvevent{\href{https://saguileran.github.io/assets/pdf/certificates/Delaware.PDF}{Summer Research Program}}{Electrical \& Computer Engineering - University of Delaware}{Jun 2021 -- Sep 2021}{Delaware, EEUU}
+\begin{itemize}
+\item Analyze and visualize long raw audio data using signal processing and Matlab, 2-week continuous records from a microphone in a the Delaware Bay river.
+%\item Visualize and identify 
+\end{itemize}
+
+
+
+\cvsection{Projects}
+
+\cvevent{\href{https://saguileran.github.io/birdsongs/}{Birdsongs}}{National University of Colombia}{Aug 2022 -- Currently}{Bogotá D.C., Colombia}
+\begin{itemize}
+\item Python packing of the \textbf{motor gestures for birdsongs} model that simulates the sound production in birds.
+\item Automate the generation of synthetic birdsongs (audio/images) using numerical optimization theory and algorithms, numerical methods, and signal processing.
+\item Study and analyze of bandwidth as function of the length of the trilled syllables (last syllables of the birdsongs) for several Zonotrichia Capensis from different countries.
+\item Generate comparable synthetic birdsongs of some Colombian bird species: Zonotrichia Capensis, Rhinocryptidae, and Mimus Gilvus.
+%\item Generate and evaluate audio/images of synthetic birdsongs, unstructured data.
+
+\end{itemize}
+%A short abstract would also work.
+
+\divider
+
+\cvevent{\href{https://saguileran.github.io/MD-SCPI/}{Molecular Modeling and Simulations}}{University of Sao Paulo}{Feb 2023 -- Apr 2023}{Sao Carlos, Brazil}
+\begin{itemize}
+\item Study and evaluation of molecular simulations of the un/binding kinetics in a protein-ligand system.
+\item Set up and execution of several MD and MC simulations for different systems.
+\item Analysis the un/binding events of the MD and MC simulations by numerical analysis.
+\end{itemize}
+%A short abstract would also work.
+
+\divider
+
+\cvevent{\href{https://saguileran.github.io/aprender/}{Aprender - A New Way of Learning}}{Freelance}{2019 -- 2022}{Bogotá D.C., Colombia}
+\begin{itemize}
+\item Design, create and host a homepage for the preparatory.
+\item Implement the Moodle platform on the homepage as a Learning Management Platform.
+\item Mathematics and physics teacher: design and creation of lessons and tests for evaluation.
+% with interactive activities using virtual tools such as PhET simulations, and tests for evaluation.
+\end{itemize}
+%A short abstract would also work.
+
+\divider
+
+\cvevent{\href{https://github.com/saguileran/Acoustics-Instruments}{Recorder Characterization}}{National University of Colombia}{2020}{Bogotá D.C., Colombia}
+\begin{itemize}
+\item Study the recorder musical instrument from experimental, theoretical, and computational physics.
+\item Analyze and visualize the structured data generated and measured from the study in order to compare them.
+\item Development wave acoustic pressure visualization using a LBM and Paraview for comparison with measurements.
+
+\end{itemize}
+%A short abstract would also work.
+
+\divider
+
+\cvevent{\href{https://github.com/danielfelipe-df/Metodos-de-simulacion}{Acoustic Simulation of a Classroom}}{National University of Colombia}{2019}{Bogotá D.C., Colombia}
+\begin{itemize}
+\item Modeling and simulation of a conference classroom using the Lattice Boltzmann Method (LBM), writing in c++ using OOP, to generate comparable structured data.
+\item Physical and computational measurement of classroom reverberation time for comparison.
+\end{itemize}
+%A short abstract would also work.
+
+\divider
+
+\cvevent{Physics Laboratories}{National University of Colombia}{Aug 2015 -- Dec 2021}{Bogotá D.C., Colombia}
+\begin{itemize}
+\item Set up laboratories to validate physical theories by measuring structured data (physical measurable quantities).
+\item Create lab reports with the state of art, discussion and analysis (involving mathematical fittings to the structured data), methodology, and conclusions.
+\end{itemize}
+%A short abstract would also work.
+
+
+%\medskip
+
+ %\cvsection{A Day of My Life}
+
+% % Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+  %\wheelchart{outer radius}{inner radius}{
+  %comma-separated list of value/text width/color/detail}
+ %\wheelchart{1.5cm}{0.5cm}{%
+   %6/8em/accent!30/{Sleep,\\beautiful sleep},
+   %3/8em/accent!40/Hopeful novelist by night,
+   %8/8em/accent!60/Daytime job,
+   %2/10em/accent/Sports and relaxation,
+   %5/6em/accent!20/Spending time with family
+ %}
+
+% % use ONLY \newpage if you want to force a page break for
+% % ONLY the current column
+% \newpage
+
+
+
+
+\smallskip
+
+\switchcolumn
+
+% \cvsection{My Life Philosophy}
+
+% \begin{quote}
+% ``Something smart or heartfelt, preferably in one sentence.''
+% \end{quote}
+
+\cvsection{interested in}
+
+\smallskip
+
+\cvtag{Bioacoustics}
+\cvtag{Deep Learning}
+\cvtag{Languages}
+
+\smallskip
+
+% \cvtag{Bioacustics}
+\cvtag{Ecology}
+\cvtag{Simulations}
+\cvtag{Music}
+\cvtag{Teaching}
+
+
+
+\cvsection{Education}
+
+% \cvevent{Ph.D.\ in Your Discipline}{Your University}{Sept 2002 -- June 2006}{}
+% Thesis title: Wonderful Research
+
+% \divider
+
+% \cvevent{M.Sc.\ in Your Discipline}{Your University}{Sept 2001 -- June 2002}{}
+
+\cvevent{M.Sc.\ in Computer Science}{University of Sao Paulo}{2025 -- 2026}{Sao Paulo, Brazil}
+
+\divider
+
+\cvevent{B.Sc.\ in Physics}{National University of Colombia}{2015 -- 2023}{Bogotá D.C., Colombia}
+
+\divider
+
+\cvevent{Residential Electrical Installation Technician}{Servicio Nacional de Aprendizaje (SENA)}{2012 -- 2013}{Bogotá D.C., Colombia}
+
+\cvsection{Most Proud of}
+
+\cvachievement{\faGraduationCap}{\href{https://saguileran.github.io/assets/pdf/certificates/USP.pdf}{Awarded Jhoti and Salazar Scholarship}}{São Carlos Institute of Physics, USP}{2023}{São Carlos, Brazil}
+
+\divider
+
+\cvachievement{\faTrophy}{Second best undergraduate dissertation in physics}{Physics Department, UNAL}{2023}{Bogotá, Colombia}
+
+%\divider
+
+%\cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
+\cvsection{Languages}
+\cvskill{Spanish}{5}
+\cvskill{English}{4.5}
+\cvskill{Portuguese}{3}
+\cvskill{German}{0.5}
+%\divider
+\vspace{50pt}
+
+
+\cvsection{Strengths}
+
+\smallskip
+
+\cvtag{Hard-Working}
+\cvtag{Eye for detail}
+\cvtag{Fast-Learning}
+
+\smallskip
+
+\cvtag{Creativity}
+\cvtag{Adaptability}
+\cvtag{Passionate}
+\cvtag{Curious}
+
+\smallskip \divider
+
+\cvtag{Problem Solving}
+\cvtag{Self-Learner}
+\cvtag{Leadership}
+
+\smallskip
+
+\cvtag{Mathematical Modeling}
+\cvtag{Critical Thinking}
+
+
+\divider
+
+\cvtag{Active Listening}
+\cvtag{Empathy}
+\cvtag{Patience}
+\cvtag{Analysis}
+%\smallskip \divider
+%
+%\cvtag{Numerical Optimization}
+%\cvtag{Signal Processing}
+%
+%\smallskip
+%
+%\cvtag{Mathematical Modeling}
+%\cvtag{Critical Analysis}
+
+%\cvtag{Embedded Systems}\\
+%\cvtag{Statistical Analysis}
+
+
+\vspace{10pt}
+
+%\cvskill{German}{3.5} %% Supports X.5 values.
+
+%% Yeah I didn't spend too much time making all the
+%% spacing consistent... sorry. Use \smallskip, \medskip,
+%% \bigskip, \vspace etc to make adjustments.
+\medskip
+%\medskip
+
+%\vspace{50pt}
+%\vfill
+
+
+% \divider
+
+\cvsection{Workshops/Schools}
+
+\cvevent{19th Brazilian Symposium on Computer Music (SBCM 2025)}{Computer Music Interest Group (CECM) of the Brazilian Computing Society (SBC)}{September 15-17, 2025}{Campinhas, Brazil}
+
+\cvevent{\href{https://saguileran.github.io/assets/pdf/certificates/MAPI3.pdf}{Poster Presentation - 3rd Conferencia Colombiana de Matemáticas Aplicadas e Industriales (MAPI 3)}}{Comisión de Matemáticas Aplicadas e Industriales de la Sociedad Colombiana de Matemáticas}{June 12-14, 2024}{Bucaramanga, Colombia}
+
+\cvevent{\href{https://math.uniandes.edu.co/~cursillo_gr/escuela2019/}{Machine Learning for Quantum Matter and Technology}}{Workshop - Organized by University of the Andes }{May 27-31, 2019}{Bogotá, Colombia}
+
+\vspace{10pt}
+
+\cvsection{Publications}
+
+%% Specify your last name(s) and first name(s) as given in the .bib to automatically bold your own name in the publications list. 
+%% One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly; or write \bibnamedelimi if you use initials in the .bib
+%% You can specify multiple names, especially if you have changed your name or if you need to highlight multiple authors. 
+%\mynames{Lim/Lian\bibnamedelima Tze,
+%  Wong/Lian\bibnamedelima Tze,
+%  Lim/Tracy,
+%  Lim/L.\bibnamedelimi T.}
+%% MAKE SURE THERE IS NO SPACE AFTER THE FINAL NAME IN YOUR \mynames LIST
+
+\nocite{*}
+
+\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+
+% \divider
+
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}},type=article]
+
+% \divider
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
+
+%% Switch to the right column. This will now automatically move to the second
+%% page if the content is too long.
+
+\vspace{10pt}
+\cvsection{Software SKILLS}
+
+\cvskill{Python, Latex, Office, VSC}{4.5}
+\cvskill{Java, Github, Linux, SSH, Matlab}{4}
+\cvskill{Jupyter-Notebook/Lab, Markdown}{4}
+\cvskill{Julia,  Krita, C++, Power BI, OpenAI}{3.5}
+\cvskill{Mathematica, Canva, Comfyui}{3.5}
+\cvskill{Postman, Google Cloud, Firebase}{3}
+\cvskill{JS, HTML, SQL, CSS, Workbrench}{3}
+
+\smallskip
+\vspace{10pt}
+
+\cvsection{Python Libraries}
+
+\smallskip
+
+\cvskill{Matplotlib, Numpy, Pandas}{4.5}
+\cvskill{Tensorflow, Scipy, Plotly, Pytorch}{4}
+\cvskill{Scikit-Learn, Sympy, Seaborn, Librosa}{3}
+\cvskill{Sphinx, Seaborn, OpenCV, Requests}{3}
+\cvskill{Django, LangChain}{1}
+
+\vspace{10pt}
+
+
+\cvsection{Training/Certifications}
+
+\cvevent{\href{https://www.coursera.org/account/accomplishments/verify/EEAPCA6DUALG}{Sequence Models}}{Coursera}{2024}{Online}
+
+\cvevent{\href{https://www.coursera.org/account/accomplishments/verify/WJKJG4RKL7NR}{Convolutional Neural Networks}}{Coursera}{2023}{Online}
+
+\cvevent{\href{https://www.coursera.org/account/accomplishments/verify/H76ELSAQH37Y}{Structuring Machine Learning Projects}}{Coursera}{2023}{Online}
+
+
+\cvevent{\href{https://www.coursera.org/account/accomplishments/verify/Z2M58E79QSMM}{Introduction to Structured Query Language (SQL)}}{Coursera}{2022}{Online}
+
+
+\cvevent{\href{https://www.coursera.org/account/accomplishments/verify/JKPQ8LM8KWUC}{Neural Networks and Deep Learning}}{Coursera}{2021}{Online}
+
+\cvevent{\href{https://www.coursera.org/account/accomplishments/verify/9WF6F7FQNH38}{Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization}}{Coursera}{2021}{Online}
+
+
+\cvsection{Referees}
+
+% \cvref{name}{email}{mailing address}
+%\cvref{Prof.\ Alpha Beta}{Institute}{a.beta@university.edu} {Address Line 1\\Address line 2}
+
+\cvref{Prof.\ Francisco Gómez Jaramillo}{National University of Colombia (UNAL)}
+{fagomezj@unal.edu.co}
+\hspace{0.05pt}
+%\divider
+
+
+
+\cvref{Prof.\ Marcelo Gomes de Queiroz}{University of Sao Paulo (USP), Brazil}
+{mqz@ime.usp.br}
+\hspace{0.05pt}
+
+\cvref{Prof.\ Gabo Mindlin}{University of Buenos Aires (UBA), Argentina}
+{gabo@df.uba.ar}
+
+%\cvref{Res.\ Juan Sebastián  Ulloa}{Instituto de Investigación de Recursos Biológicos
+%Alexander von Humboldt, CO}
+%{julloa@humboldt.org.co}
+%\hspace{0.05pt}
+
+
+
+% \divider
+
+
+\end{paracol}
+
+\end{document}

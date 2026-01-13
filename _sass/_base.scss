@@ -211,16 +211,16 @@ ul.task-list input[type="checkbox"] {
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin: 10pt 0 0 2rem;
 }
 
 .profile.float-left {
-  margin-right: 1rem;
+  margin: 10pt 1rem 0 0;
 }
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 28%;
 
     .address {
       p {
@@ -1496,4 +1496,9 @@ figure.cover {
 
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
+}
+
+
+p {
+  text-align: justify;
 }
