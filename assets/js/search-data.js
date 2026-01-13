@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "Repositories",
-          description: "Repositories I have developed and am currently working on.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "A detailed description of my profile with all my experience, education, and hobbies.",
@@ -194,7 +187,7 @@ ninja.data = [{
               window.location.href = "/projects/3_project/";
             },},{id: "projects-aprender",
           title: 'Aprender',
-          description: "A digital interactive course initiative designed to prepare students for university entrance exams. The program included classes and mock tests for the UNAL admission exam and the ICFES assessment.",
+          description: "A start up of digital interactive course initiative designed to prepare students for university entrance exams. The program included classes and mock tests for the UNAL admission exam and the ICFES assessment.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-wavesongs",
