@@ -163,6 +163,8 @@ newsletter:
 collections:
   books:
     output: true
+  animes:
+    output: true
   news:
     defaults:
       layout: post
@@ -275,6 +277,8 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
   teaching:
+    enabled: [year, tags, categories]
+  animes:
     enabled: [year, tags, categories]
 
 # display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog

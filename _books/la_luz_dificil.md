@@ -8,7 +8,8 @@ isbn: # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: novel
 tags: top-100
 buy_link: https://www.librerianacional.com/la-luz-dificil-426281/p
-started: 2026
+date: 2026-01-31
+started: 2026-01-31
 finished: 2026
 released: 1949
 stars:

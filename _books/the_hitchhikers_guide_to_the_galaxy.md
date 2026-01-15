@@ -8,8 +8,9 @@ isbn: # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: comedy science fiction, interestelar traveling
 tags: top-100
 buy_link:
-started: 2025-06
-finished: 2025-08
+date: 2025-08-01
+started: 2025-08-01
+finished: 2025-10-01
 released: 1979
 stars: 5
 goodreads_review: 55708
