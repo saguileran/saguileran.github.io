@@ -44,19 +44,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "dropdown-bookshelf",
+        },{id: "dropdown-bio",
+              title: "Bio",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/bio/";
+              },
+            },{id: "dropdown-bookshelf",
               title: "Bookshelf",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/books/";
               },
-            },{id: "dropdown-bio",
-              title: "Bio",
+            },{id: "dropdown-anime-archive",
+              title: "Anime Archive",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/bio/";
+                window.location.href = "/animes/";
               },
             },{id: "post-free-software-development-logbook",
         
@@ -135,26 +142,191 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "books-one-hundread-years-of-solitude",
+      },{id: "animes-attack-on-titan",
+          title: 'Attack on Titan',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/aot/";
+            },},{id: "animes-berserk",
+          title: 'Berserk',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/berserk/";
+            },},{id: "animes-black-clover",
+          title: 'Black Clover',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/black_clover/";
+            },},{id: "animes-bleach",
+          title: 'Bleach',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/bleach/";
+            },},{id: "animes-chainsaw-main",
+          title: 'Chainsaw Main',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/chainsawman/";
+            },},{id: "animes-orb-on-the-movements-of-the-earth",
+          title: 'Orb: On the Movements of the Earth',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/chi/";
+            },},{id: "animes-dan-da-dan",
+          title: 'Dan Da Dan',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/dandadan/";
+            },},{id: "animes-dragon-ball-z",
+          title: 'Dragon Ball Z',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/dbz/";
+            },},{id: "animes-death-note",
+          title: 'Death Note',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/death_note/";
+            },},{id: "animes-demon-slayer-kimetsu-no-yaiba",
+          title: 'Demon Slayer: Kimetsu no Yaiba',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/demon_slayer/";
+            },},{id: "animes-dr-stone",
+          title: 'Dr. Stone',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/doctor_stone/";
+            },},{id: "animes-neon-genesis-evangelion",
+          title: 'Neon Genesis Evangelion',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/evangeleon/";
+            },},{id: "animes-fire-force",
+          title: 'Fire Force',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/fire_force/";
+            },},{id: "animes-gachiakuta",
+          title: 'Gachiakuta',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/gachiakuta/";
+            },},{id: "animes-goblin-slayer",
+          title: 'Goblin Slayer',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/goblin_slayer/";
+            },},{id: "animes-golden-kamuy",
+          title: 'Golden Kamuy',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/golden_kamuy/";
+            },},{id: "animes-hell-39-s-paradise-jigokuraku",
+          title: 'Hell&amp;#39;s Paradise - Jigokuraku',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/hells_paradaise/";
+            },},{id: "animes-hunter-hunter",
+          title: 'Hunter × Hunter',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/hunter_x_hunter/";
+            },},{id: "animes-jujutsu-kaisen",
+          title: 'Jujutsu Kaisen',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/jujutsu_kaisen/";
+            },},{id: "animes-kaiju-no-8",
+          title: 'Kaiju No. 8',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/kaju/";
+            },},{id: "animes-serial-experiments-lain",
+          title: 'Serial Experiments Lain',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/lain/";
+            },},{id: "animes-tsukimichi-moonlit-fantasy",
+          title: 'Tsukimichi - Moonlit Fantasy',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/makoto/";
+            },},{id: "animes-naruto",
+          title: 'Naruto',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/naruto/";
+            },},{id: "animes-naruto-shippuden",
+          title: 'Naruto Shippuden',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/naruto_shippuden/";
+            },},{id: "animes-one-piece",
+          title: 'One Piece',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/one_piece/";
+            },},{id: "animes-psycho-pass",
+          title: 'Psycho-Pass',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/psyco_pass/";
+            },},{id: "animes-that-time-i-got-reincarnated-as-a-slime",
+          title: 'That Time I Got Reincarnated as a Slime',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/slime/";
+            },},{id: "animes-solo-leveling-only-i-level-up",
+          title: 'Solo Leveling / Only I Level Up',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/solo_leveling/";
+            },},{id: "animes-soul-eater",
+          title: 'Soul Eater',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/soul_eater/";
+            },},{id: "animes-the-promised-neverland",
+          title: 'The Promised Neverland',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/the_promised_neverland/";
+            },},{id: "books-leer-es-resistir",
+          title: 'Leer es Resistir',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/leer_es_resistir/";
+            },},{id: "books-one-hundread-years-of-solitude",
           title: 'One hundread years of solitude',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/100_years_of_solitude/";
-            },},{id: "books-1984",
-          title: '1984',
+            },},{id: "books-the-capital",
+          title: 'The capital',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/1984/";
-            },},{id: "books-la-luz-difícil",
-          title: 'La luz difícil',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/la_luz_dificil/";
+              window.location.href = "/books/the_capital/";
             },},{id: "books-the-hitchhiker-39-s-guide-to-the-galaxy",
           title: 'The Hitchhiker&amp;#39;s Guide to the Galaxy',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_hitchhikers_guide_to_the_galaxy/";
+            },},{id: "books-1984",
+          title: '1984',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/1984/";
+            },},{id: "books-holy-bible",
+          title: 'Holy Bible',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/bible/";
+            },},{id: "books-la-luz-difícil",
+          title: 'La luz difícil',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/la_luz_dificil/";
             },},{id: "news-hello-united-states",
           title: 'Hello, United States!',
           description: "",
@@ -284,6 +456,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.kaggle.com/9930992", "_blank");
+        },
+      },{
+        id: 'social-letter_boxd_username',
+        title: 'Letter_boxd_username',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
         },
       },{
         id: 'social-linkedin',
