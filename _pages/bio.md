@@ -2,7 +2,7 @@
 page_id: bio
 layout: page
 title: Bio
-permalink: /bio
+permalink: /bio/
 subtitle: Biography
 description: Detailed biography
 nav: false
