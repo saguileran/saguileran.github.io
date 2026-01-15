@@ -140,6 +140,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/100_years_of_solitude/";
+            },},{id: "books-1984",
+          title: '1984',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/1984/";
+            },},{id: "books-la-luz-difícil",
+          title: 'La luz difícil',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/la_luz_dificil/";
+            },},{id: "books-the-hitchhiker-39-s-guide-to-the-galaxy",
+          title: 'The Hitchhiker&amp;#39;s Guide to the Galaxy',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_hitchhikers_guide_to_the_galaxy/";
             },},{id: "news-hello-united-states",
           title: 'Hello, United States!',
           description: "",
