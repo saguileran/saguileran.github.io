@@ -1,12 +1,14 @@
 github_users:
   - saguileran
-  - wavesongs
 
 repo_description_lines_max: 2
 
 github_repos:
   - wavesongs/wavesongs
   - uetitc/uetitc.github.io
+  - saguileran/projeito_CG
+  - saguileran/birdsongs
+  - saguileran/aprender
   - saguileran/MD-SCPI
   - saguileran/DeepLearningSpecialization
   - saguileran/Acoustics-Instruments
