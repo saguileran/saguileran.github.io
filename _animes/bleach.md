@@ -13,6 +13,6 @@ finished:
 released: 2001
 stars: 5
 status: Paused
-date: 2026-06-01
+date: 2026-01-01
 seasons:
 ---

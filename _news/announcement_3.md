@@ -20,7 +20,6 @@ images:
     </div>
 </div>
 
-
 <div class="row align-items-center">
     <div class="col-sm mt-6 mt-md-0">
         {% include figure.liquid path="assets/img/photos/Brazil_2023/friends.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Some latinamerican friends: Me, Pedro, Sandra, Pablo, Sofia, José, Luis, and Rolando" %}
@@ -38,8 +37,8 @@ images:
 
 ## Sao Paulo
 
+{% comment %}
 
-{% comment %}  
 ## Image Comparison Slider
 
 This is a simple image comparison slider. It uses the [img-comparison-slider](https://img-comparison-slider.sneas.io/) library. Check the [examples page](https://img-comparison-slider.sneas.io/examples.html) for more information of what you can achieve with it.
@@ -49,8 +48,6 @@ This is a simple image comparison slider. It uses the [img-comparison-slider](ht
   {% include figure.liquid path="assets/img/prof_pic.jpg" class="img-fluid rounded z-depth-1" slot="second" %}
 </img-comparison-slider>  
 {% endcomment %}
-
-
 
 <div class="row">
 <div class="col"> 
@@ -65,7 +62,8 @@ This is a simple image comparison slider. It uses the [img-comparison-slider](ht
 <div class="col">
     A litte descprition of my trip in Brazil.
 
-    Spoiler: It was awesome! 
+    Spoiler: It was awesome!
+
 </div>
 </div>
 

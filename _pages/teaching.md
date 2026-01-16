@@ -10,7 +10,6 @@ horizontal: false
 collection: teaching
 ---
 
-
 <!-- pages/projects.md -->
 <div class="teaching">
 {% if site.enable_teaching_categories and page.display_categories %}

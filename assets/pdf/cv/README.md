@@ -2,12 +2,12 @@
 
 v1.6.5 (3 Nov 2022), by LianTze Lim (liantze@gmail.com)
 
-* Added \mynames{...} to specify names to be highlighted in the publication list on 3 Nov 2022
-* Starred `\NewInfoField*` command to handle Mastodon; Icons, `\cvskills`, `\wheelchart` have "copyable" text values; `\cvskill` supports numerical values {0.5, 1, ..., 4.5, 5} on 21 May 2021
-* Moved `biblatex`-related code to `*.cfg` files for easier edit on 8 May 2021
-* Removed dependency on `academicons` on 12 Apr 2021
-* Clickable hyperlinked info fields added on 10 May 2020
-* Sample file with new `paracol` layout added on 2 February 2020
+- Added \mynames{...} to specify names to be highlighted in the publication list on 3 Nov 2022
+- Starred `\NewInfoField*` command to handle Mastodon; Icons, `\cvskills`, `\wheelchart` have "copyable" text values; `\cvskill` supports numerical values {0.5, 1, ..., 4.5, 5} on 21 May 2021
+- Moved `biblatex`-related code to `*.cfg` files for easier edit on 8 May 2021
+- Removed dependency on `academicons` on 12 Apr 2021
+- Clickable hyperlinked info fields added on 10 May 2020
+- Sample file with new `paracol` layout added on 2 February 2020
 
 (Thanks to [Nur](https://github.com/nurh) for the name.)
 
@@ -28,20 +28,20 @@ Though if you're creating your own CV/résumé, you'd probably prefer using the 
 
 <img src="sample.png" alt="sample barebones AltaCV template" width="600px">
 
-
 ## Requirements and Compilation
 
-* pdflatex + biber + pdflatex
-* AltaCV uses [`fontawesome5`](http://www.ctan.org/pkg/fontawesome5).
-* Use the `normalphoto` option to get normal (i.e. non-circular) photos.
-* As of v1.2 you can add multiple photos on the left or right: `\photoL{2cm}{logo1}` and `\photoR{2.5cm}{logo2,photo}`. (`\photo` will work like `\photoR`.) Separate your image filenames with commas _without_ spaces.
-* Use the `ragged2e` option to activate hyphenations while keeping text left-justified; line endings will thus be less jagged and more aesthetically pleasing.
-* As of v1.3 the `withhyper` document class option will make the "personal info" fields into clickable hyperlinks (where it makes sense). See below for more details.
-* Can now be compiled with pdflatex, XeLaTeX and LuaLaTeX!
-  * Note that to compile with XeLaTeX, you should use a command line as follows, per [the `pdfx` documentation](http://mirrors.ctan.org/macros/latex/contrib/pdfx/pdfx.pdf): `xelatex -shell-escape -output-driver="xdvipdfmx -z 0" sample.tex`
-* The samples here use the [Lato](http://www.latofonts.com/lato-free-fonts/) and [Roboto Slab fonts](https://github.com/googlefonts/robotoslab). Feel free to use a different typeface package instead—often a different typeface will change the entire CV's feel.
+- pdflatex + biber + pdflatex
+- AltaCV uses [`fontawesome5`](http://www.ctan.org/pkg/fontawesome5).
+- Use the `normalphoto` option to get normal (i.e. non-circular) photos.
+- As of v1.2 you can add multiple photos on the left or right: `\photoL{2cm}{logo1}` and `\photoR{2.5cm}{logo2,photo}`. (`\photo` will work like `\photoR`.) Separate your image filenames with commas _without_ spaces.
+- Use the `ragged2e` option to activate hyphenations while keeping text left-justified; line endings will thus be less jagged and more aesthetically pleasing.
+- As of v1.3 the `withhyper` document class option will make the "personal info" fields into clickable hyperlinks (where it makes sense). See below for more details.
+- Can now be compiled with pdflatex, XeLaTeX and LuaLaTeX!
+  - Note that to compile with XeLaTeX, you should use a command line as follows, per [the `pdfx` documentation](http://mirrors.ctan.org/macros/latex/contrib/pdfx/pdfx.pdf): `xelatex -shell-escape -output-driver="xdvipdfmx -z 0" sample.tex`
+- The samples here use the [Lato](http://www.latofonts.com/lato-free-fonts/) and [Roboto Slab fonts](https://github.com/googlefonts/robotoslab). Feel free to use a different typeface package instead—often a different typeface will change the entire CV's feel.
 
-## `sample.tex` [WAS `sample-alt.tex` 2 FEBRUARY 2020, DEFAULT SINCE 10 MAY 2020] ##
+## `sample.tex` [WAS `sample-alt.tex` 2 FEBRUARY 2020, DEFAULT SINCE 10 MAY 2020]
+
 Many users have overlooked the optional argument of `\cvsection` to insert the right sidebar contents, and often confused that the right sidebar doesn't automatically break across pages. This new layout uses the `paracol` package for typesetting the left and right columns that _can_ break across pages. It also makes changing the column widths easier:
 
 ```latex
@@ -62,6 +62,7 @@ Many users have overlooked the optional argument of `\cvsection` to insert the r
 ...END OF RIGHT COLUMN CONTENTS ...
 \end{paracol}
 ```
+
 You can also use `\swithcolumn*` for "synchronising" the columns, as well as other commands from the `paracol` package. See the [`paracol` package documentation](http://texdoc.net/pkg/paracol) for further details.
 
 **You do not need use the `fullwidth` environment nor use optional arguments with `\cvsection` with this new template.**
@@ -70,34 +71,34 @@ You can also use `\swithcolumn*` for "synchronising" the columns, as well as oth
 
 As of v1.3, the `withhyper` document class option will load the `hyperref` package, and make fields in the personal detail fields into clickable hyperlinks (where it makes sense anyway).
 
-*BIG CAVEAT:* Remember that not all readers may want to click on hyperlinks in PDFs. You may therefore sometimes want to _remove_ `withhyper`, and spell out the field URL details a bit more completely, e.g. `\github{github.com/your-id}`.
+_BIG CAVEAT:_ Remember that not all readers may want to click on hyperlinks in PDFs. You may therefore sometimes want to _remove_ `withhyper`, and spell out the field URL details a bit more completely, e.g. `\github{github.com/your-id}`.
 
 Anyway assuming that you _do_ keep `withhyper` enabled: For each field e.g. `\homepage{foobar.com}`, a `\homepagesymbol` has been defined, and the clickable hyperlink is generated by prepending the `\homepagehyperprefix` to `foobar.com`. The `\homepgehyperprefix` is defined to be `\https://`, so this generates the hyperlink `https://foobar.com`.
 
 If your homepage doesn't use HTTPS yet, or if you want to use a different symbol, you can re-define them with
+
 ```latex
 \renewcommand{\homepagehyperprefix}{http://}
 \renewcommand{\homepagesymbol}{\faLink}
 ```
 
-
-## New Information Fields ####
+## New Information Fields
 
 I've decided against adding definitions for too many fields and symbols in the `.cls` itself; otherwise we'll have all possible platforms in the world (and more services are born everyday!) within `altacv.cls` before we know it.
 
 You can actually just typeset your own arbitrary information fields using the `\printinfo{symbol}{detail}[optional hyperlink prefix]` command within `\personalinfo`:
 
-````latex
+```latex
 \printinfo{\faPaw}{Hey ho!}
 \printinfo{\faGitLab}{your-handle}[https://gitlab.com/]
-````
+```
 
-Or if you really prefer, you can define a new field yourself with `\NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix]` before  using it:
+Or if you really prefer, you can define a new field yourself with `\NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix]` before using it:
 
-````latex
+```latex
 \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
 \gitlab{your_id}
-````
+```
 
 For services and platforms like Mastodon where there isn't a straightforward relation between the more popular user ID or nickname and the hyperlink, you can use `\printinfo` directly e.g.
 
@@ -117,27 +118,28 @@ then you can use `\mastodon` with TWO arguments where the 2nd argument is the fu
 \mastodon{@username@instance}{https://instance.url/@username}
 ```
 
-
 ## Configurable colours
 
 Use `\colorlet` or `\definecolor` to change these.
-* `accent`
-* `emphasis`
-* `heading`
-* `headingrule`
-* `subheading`
-* `body`
-* `name`
-* `tagline`
+
+- `accent`
+- `emphasis`
+- `heading`
+- `headingrule`
+- `subheading`
+- `body`
+- `name`
+- `tagline`
 
 ## Configurable fonts
 
 Use `\renewcommand` to change these.
-* `\namefont`
-* `\taglinefont`
-* `\personalinfofont`
-* `\cvsectionfont`
-* `\cvsubsectionfont`
+
+- `\namefont`
+- `\taglinefont`
+- `\personalinfofont`
+- `\cvsectionfont`
+- `\cvsubsectionfont`
 
 ---
 
@@ -165,6 +167,7 @@ If you want to change the left and right columns' widths, you'll need to tinker 
 %% original was right=9cm, marginparwidth=6.8cm
 \geometry{left=1cm,right=11cm,marginparwidth=8.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
 ```
+
 as well as doing a bit of arithmetic when you're making the header to get it full-width, i.e. reducing the sidebar by 2cm and extending the main column by 2cm.
 
 ```latex

@@ -13,6 +13,6 @@ finished:
 released:
 stars: 5
 status: Paused
-date: 2026-07-07
+date: 2026-01-07
 seasons:
 ---

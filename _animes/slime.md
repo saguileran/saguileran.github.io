@@ -13,6 +13,6 @@ finished:
 released: 2013
 stars: 5
 status: Paused
-date: 2026-10-01
-seasons:
+date: 2026-01-16
+seasons: 3
 ---

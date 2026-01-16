@@ -2,9 +2,9 @@
 page_id: course_3
 layout: page
 title: Operating Systems I
-description: 
+description:
 location: ETITC
-img: 
+img:
 redirect: https://github.com/saguileran/ETITC-2024-1/tree/main/Operating%20Systems%20I
 importance: 2
 category: 2024-1
