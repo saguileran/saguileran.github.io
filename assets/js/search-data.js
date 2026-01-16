@@ -252,6 +252,11 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/gachiakuta/";
+            },},{id: "animes-bleach",
+          title: 'Bleach',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/bleach/";
             },},{id: "animes-hell-39-s-paradise-jigokuraku",
           title: 'Hell&amp;#39;s Paradise - Jigokuraku',
           description: "",
@@ -267,6 +272,11 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/fire_force/";
+            },},{id: "animes-tsukimichi-moonlit-fantasy",
+          title: 'Tsukimichi - Moonlit Fantasy',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/makoto/";
             },},{id: "animes-golden-kamuy",
           title: 'Golden Kamuy',
           description: "",
@@ -277,26 +287,16 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/freiren/";
-            },},{id: "animes-bleach",
-          title: 'Bleach',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/bleach/";
-            },},{id: "animes-tsukimichi-moonlit-fantasy",
-          title: 'Tsukimichi - Moonlit Fantasy',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/makoto/";
-            },},{id: "animes-that-time-i-got-reincarnated-as-a-slime",
-          title: 'That Time I Got Reincarnated as a Slime',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/slime/";
             },},{id: "animes-one-piece",
           title: 'One Piece',
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/one_piece/";
+            },},{id: "animes-that-time-i-got-reincarnated-as-a-slime",
+          title: 'That Time I Got Reincarnated as a Slime',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/slime/";
             },},{id: "books-leer-es-resistir",
           title: 'Leer es Resistir',
           description: "",
