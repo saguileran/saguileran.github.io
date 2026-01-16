@@ -142,11 +142,41 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "animes-attack-on-titan",
-          title: 'Attack on Titan',
+      },{id: "animes-dragon-ball-z",
+          title: 'Dragon Ball Z',
           description: "",
           section: "Animes",handler: () => {
-              window.location.href = "/animes/aot/";
+              window.location.href = "/animes/dbz/";
+            },},{id: "animes-naruto",
+          title: 'Naruto',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/naruto/";
+            },},{id: "animes-death-note",
+          title: 'Death Note',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/death_note/";
+            },},{id: "animes-hunter-hunter",
+          title: 'Hunter × Hunter',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/hunter_x_hunter/";
+            },},{id: "animes-naruto-shippuden",
+          title: 'Naruto Shippuden',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/naruto_shippuden/";
+            },},{id: "animes-the-promised-neverland",
+          title: 'The Promised Neverland',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/the_promised_neverland/";
+            },},{id: "animes-soul-eater",
+          title: 'Soul Eater',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/soul_eater/";
             },},{id: "animes-berserk",
           title: 'Berserk',
           description: "",
@@ -157,141 +187,116 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/black_clover/";
-            },},{id: "animes-bleach",
-          title: 'Bleach',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/bleach/";
-            },},{id: "animes-chainsaw-main",
-          title: 'Chainsaw Main',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/chainsawman/";
-            },},{id: "animes-orb-on-the-movements-of-the-earth",
-          title: 'Orb: On the Movements of the Earth',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/chi/";
-            },},{id: "animes-dan-da-dan",
-          title: 'Dan Da Dan',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/dandadan/";
-            },},{id: "animes-dragon-ball-z",
-          title: 'Dragon Ball Z',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/dbz/";
-            },},{id: "animes-death-note",
-          title: 'Death Note',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/death_note/";
-            },},{id: "animes-demon-slayer-kimetsu-no-yaiba",
-          title: 'Demon Slayer: Kimetsu no Yaiba',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/demon_slayer/";
-            },},{id: "animes-dr-stone",
-          title: 'Dr. Stone',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/doctor_stone/";
-            },},{id: "animes-neon-genesis-evangelion",
-          title: 'Neon Genesis Evangelion',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/evangeleon/";
-            },},{id: "animes-fire-force",
-          title: 'Fire Force',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/fire_force/";
-            },},{id: "animes-gachiakuta",
-          title: 'Gachiakuta',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/gachiakuta/";
-            },},{id: "animes-goblin-slayer",
-          title: 'Goblin Slayer',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/goblin_slayer/";
-            },},{id: "animes-golden-kamuy",
-          title: 'Golden Kamuy',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/golden_kamuy/";
-            },},{id: "animes-hell-39-s-paradise-jigokuraku",
-          title: 'Hell&amp;#39;s Paradise - Jigokuraku',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/hells_paradaise/";
-            },},{id: "animes-hunter-hunter",
-          title: 'Hunter × Hunter',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/hunter_x_hunter/";
-            },},{id: "animes-jujutsu-kaisen",
-          title: 'Jujutsu Kaisen',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/jujutsu_kaisen/";
-            },},{id: "animes-kaiju-no-8",
-          title: 'Kaiju No. 8',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/kaju/";
-            },},{id: "animes-serial-experiments-lain",
-          title: 'Serial Experiments Lain',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/lain/";
-            },},{id: "animes-tsukimichi-moonlit-fantasy",
-          title: 'Tsukimichi - Moonlit Fantasy',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/makoto/";
-            },},{id: "animes-naruto",
-          title: 'Naruto',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/naruto/";
-            },},{id: "animes-naruto-shippuden",
-          title: 'Naruto Shippuden',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/naruto_shippuden/";
-            },},{id: "animes-one-piece",
-          title: 'One Piece',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/one_piece/";
-            },},{id: "animes-psycho-pass",
-          title: 'Psycho-Pass',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/psyco_pass/";
-            },},{id: "animes-that-time-i-got-reincarnated-as-a-slime",
-          title: 'That Time I Got Reincarnated as a Slime',
-          description: "",
-          section: "Animes",handler: () => {
-              window.location.href = "/animes/slime/";
             },},{id: "animes-solo-leveling-only-i-level-up",
           title: 'Solo Leveling / Only I Level Up',
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/solo_leveling/";
-            },},{id: "animes-soul-eater",
-          title: 'Soul Eater',
+            },},{id: "animes-attack-on-titan",
+          title: 'Attack on Titan',
           description: "",
           section: "Animes",handler: () => {
-              window.location.href = "/animes/soul_eater/";
-            },},{id: "animes-the-promised-neverland",
-          title: 'The Promised Neverland',
+              window.location.href = "/animes/aot/";
+            },},{id: "animes-goblin-slayer",
+          title: 'Goblin Slayer',
           description: "",
           section: "Animes",handler: () => {
-              window.location.href = "/animes/the_promised_neverland/";
+              window.location.href = "/animes/goblin_slayer/";
+            },},{id: "animes-kaiju-no-8",
+          title: 'Kaiju No. 8',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/kaju/";
+            },},{id: "animes-orb-on-the-movements-of-the-earth",
+          title: 'Orb: On the Movements of the Earth',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/chi/";
+            },},{id: "animes-neon-genesis-evangelion",
+          title: 'Neon Genesis Evangelion',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/evangeleon/";
+            },},{id: "animes-dr-stone",
+          title: 'Dr. Stone',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/doctor_stone/";
+            },},{id: "animes-demon-slayer-kimetsu-no-yaiba",
+          title: 'Demon Slayer: Kimetsu no Yaiba',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/demon_slayer/";
+            },},{id: "animes-psycho-pass",
+          title: 'Psycho-Pass',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/psyco_pass/";
+            },},{id: "animes-serial-experiments-lain",
+          title: 'Serial Experiments Lain',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/lain/";
+            },},{id: "animes-dan-da-dan",
+          title: 'Dan Da Dan',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/dandadan/";
+            },},{id: "animes-chainsaw-main",
+          title: 'Chainsaw Main',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/chainsawman/";
+            },},{id: "animes-gachiakuta",
+          title: 'Gachiakuta',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/gachiakuta/";
+            },},{id: "animes-hell-39-s-paradise-jigokuraku",
+          title: 'Hell&amp;#39;s Paradise - Jigokuraku',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/hells_paradaise/";
+            },},{id: "animes-sorcery-battle",
+          title: 'Sorcery Battle',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/jujutsu_kaisen/";
+            },},{id: "animes-fire-force",
+          title: 'Fire Force',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/fire_force/";
+            },},{id: "animes-golden-kamuy",
+          title: 'Golden Kamuy',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/golden_kamuy/";
+            },},{id: "animes-frieren-beyond-journey-39-s-end",
+          title: 'Frieren: Beyond Journey&amp;#39;s End',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/freiren/";
+            },},{id: "animes-bleach",
+          title: 'Bleach',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/bleach/";
+            },},{id: "animes-tsukimichi-moonlit-fantasy",
+          title: 'Tsukimichi - Moonlit Fantasy',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/makoto/";
+            },},{id: "animes-that-time-i-got-reincarnated-as-a-slime",
+          title: 'That Time I Got Reincarnated as a Slime',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/slime/";
+            },},{id: "animes-one-piece",
+          title: 'One Piece',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/one_piece/";
             },},{id: "books-leer-es-resistir",
           title: 'Leer es Resistir',
           description: "",
