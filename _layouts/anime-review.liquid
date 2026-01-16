@@ -25,6 +25,7 @@ layout: default
           <b>Written by:</b> {{ page.author }}
         {% endif %}
         {% if page.illustrator %}
+          &nbsp;&middot;&nbsp;
           <b>Illustrated by:</b> {{ page.illustrator }}
         {% endif %}
         {% if page.author and page.released %} &nbsp;&middot;&nbsp; {% endif %}
@@ -36,6 +37,9 @@ layout: default
 
     {% if page.started or page.finished or page.stars %}
       <p class="post-meta">
+        {% if page.seasons %}
+          <b>Seasons:</b> {{ page.seasons }} -
+        {% endif %}
         {% if page.started %}
           <i class="fa-solid fa-play fa-sm" style="color: var(--global-tip-block) !important"></i> <em>{{ page.started }}</em>
         {% endif %}
@@ -73,7 +77,7 @@ layout: default
       </p>
     {% endif %}
     <p class="post-tags">
-      <a href="{{ year | prepend: '/animes/' | relative_url }}"> <i class="fa-solid fa-calendar fa-sm"></i> {{ year }}</a>
+      <a href="{{ year | date: '%Y' | prepend: '/animes/' | relative_url }}"> <i class="fa-solid fa-calendar fa-sm"></i> {{ year }}</a>
       {% if tags != '' %}
         &nbsp;&middot;&nbsp;
         {% for tag in page.tags %}
@@ -172,7 +176,7 @@ layout: default
          .empty-review-caption {
                   caption-side: left;
                   text-align: center;
-
+                  width: 300px;
 
                   }
 
@@ -192,7 +196,7 @@ layout: default
               }
 
           figure img {
-                  width:300px;
+                  width: 300px;
                   vertical-align: top;
 
                 }
@@ -200,6 +204,7 @@ layout: default
           figure figcaption {
                   caption-side: bottom;
                   text-align: center;
+                  width: 300px;
 
                   }
 

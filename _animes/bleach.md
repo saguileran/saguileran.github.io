@@ -1,6 +1,8 @@
 ---
 layout: anime-review
 title: Bleach
+original_title:
+illustrator:
 author: Tite Kubo
 cover: assets/img/animes/bleach.png
 categories: adventure, martial arts, supernatural
@@ -10,6 +12,7 @@ started: 2004
 finished:
 released: 2001
 stars: 5
-goodreads_review:
-status: Watching
+status: Paused
+date: 2026-06-01
+seasons:
 ---

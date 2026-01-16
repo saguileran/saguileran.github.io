@@ -1,15 +1,18 @@
 ---
 layout: anime-review
-title: Tsukimichi - Moonlit Fantasy
+title: "Tsukimichi - Moonlit Fantasy"
+original_title:
+illustrator:
 author: Kei Azumi
 cover: assets/img/animes/makoto.png
 categories: isekai, adventure, mage
 tags: top-100
 buy_link:
-started: 2013
+started: 2013-05-05
 finished:
 released:
 stars: 5
-goodreads_review:
-status: Finished
+status: Paused
+date: 2026-07-07
+seasons:
 ---

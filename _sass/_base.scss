@@ -1502,6 +1502,13 @@ figure.cover {
     background-color: #bdac7e;
   }
 
+  figcaption.waiting {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #465494;
+  }
+
   figcaption.queued {
     font-family: monospace;
     color: #23212d;

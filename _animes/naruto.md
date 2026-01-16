@@ -12,4 +12,5 @@ released: 1997
 stars: 5
 goodreads_review:
 status: Finished
+date: 2013-09-06
 ---

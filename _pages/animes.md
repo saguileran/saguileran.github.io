@@ -10,4 +10,4 @@ collection: animes
 >
 > --
 
-## Animes that I am watching, have watched, or will watch
+### Animes that I am watching, have watched, or will watch
