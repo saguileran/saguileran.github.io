@@ -1,6 +1,6 @@
 ---
 layout: course
-title: Introduction to Machine Learning
+title: Programming III
 description: 
 instructor: 
 year: 2024

@@ -38,6 +38,7 @@ a.btncv:hover {
   text-decoration: none !important;
 }
 
+
 /*****************************
  * CV TIME_TABLE styles
  *****************************/
@@ -218,3 +219,30 @@ ul.timeline li::before {
      color: var(--global-text-color);
 }
 */
+
+/*****************************
+ * CV publications hide/show button styles
+ *****************************/
+
+button.btn-summary-toggle {
+  color: var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
+}
+
+button.btn-summary-toggle:hover,
+button.btn-summary-toggle:active {
+  color: var(--global-bg-color);
+  background-color: var(--global-theme-color);
+}
+
+button.btn-summary-toggle:focus,
+button.btn-summary-toggle:focus-visible {
+  color: var(--global-theme-color);
+  background-color: transparent;
+}
+
+.summary_btn {
+  font-size: 0.95rem;
+  font-style: italic;
+  text-align: justify;
+}
