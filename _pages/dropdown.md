@@ -1,13 +1,16 @@
 ---
 layout: page
-title: submenus
+title: More
 nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: bookshelf
+  - title: Bio
+    permalink: /bio/
+  - title: divider
+  - title: Bookshelf
     permalink: /books/
   - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: Anime Archive
+    permalink: /animes/
 ---

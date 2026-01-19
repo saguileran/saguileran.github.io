@@ -1,0 +1,61 @@
+---
+layout: page
+---
+{{ content }}
+
+{% if page.collection and page.collection.size > 0 %}
+  {% assign collection = site[page.collection] | sort: 'status' %}
+  {% if collection and collection.size > 0 %}
+    {% for item in collection reversed %}
+      {% assign current_status = item.status | downcase | strip %}
+      {% if current_status != status_group %}
+        {% unless forloop.first %}
+          </ul>
+        {% endunless %}
+        <h1 id="{{current_status | slugify}}">
+          <a href="{{ current_status | prepend: '/animes/status/' | relative_url }}">{{ current_status | capitalize }}</a>
+        </h1>
+        <ul>
+          {% assign status_group = current_status %}
+      {% endif %}
+
+      <figure class="cover">
+        <a class="cover-link" href="{{ item.url | relative_url }}">
+          {% if item.cover %}
+            <img alt="{{ item.title }}" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:300px">
+          {% endif %}
+          {% if item.status %}
+            {% assign statuses = 'abandoned,finished,interested,paused,queued,watching,rewatch' | split: ',' %}
+            {% assign status = item.status | downcase | strip %}
+            {% if statuses contains status %}
+              <figcaption class="{{ status | downcase }}">{{ status | upcase }}</figcaption>
+            {% else %}
+              <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+            {% endif %}
+          {% else %}
+            <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+          {% endif %}
+
+          {% assign full_stars = item.stars | floor %}
+          {% assign half_star = item.stars | minus: full_stars %}
+          {% assign empty_stars = 5 | minus: full_stars %}
+          {% if half_star > 0 %}
+            {% assign empty_stars = empty_stars | minus: 1 %}
+          {% endif %}
+          <figcaption class="{{ status | downcase }}">
+            {% for i in (1..full_stars) -%}
+              <i class="fa-solid fa-star fa-sm"></i>
+            {%- endfor -%}
+            {%- if half_star > 0 %}<i class="fa-solid fa-star-half-stroke fa-sm"></i>{% endif -%}
+            {%- for i in (1..empty_stars) -%}
+              <i class="fa-regular fa-star fa-sm"></i>
+            {%- endfor -%}
+          </figcaption>
+        </a>
+      </figure>
+      {% if forloop.last %}
+        </ul>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endif %}

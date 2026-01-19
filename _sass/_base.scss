@@ -211,16 +211,16 @@ ul.task-list input[type="checkbox"] {
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin: 20pt 0 0 2rem;
 }
 
 .profile.float-left {
-  margin-right: 1rem;
+  margin: 20pt 1rem 0 0;
 }
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 28%;
 
     .address {
       p {
@@ -232,7 +232,7 @@ ul.task-list input[type="checkbox"] {
 
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: 1rem; //0.875rem;
 
   a {
     color: inherit;
@@ -926,7 +926,10 @@ pre {
     border-radius: 0;
     margin-bottom: 0;
     padding: 0;
-    white-space: inherit;
+    // white-space: inherit;
+    // make the bib text code wrap
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
   }
 }
 
@@ -1525,4 +1528,8 @@ figure.cover {
 
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
+}
+
+p {
+  text-align: justify;
 }

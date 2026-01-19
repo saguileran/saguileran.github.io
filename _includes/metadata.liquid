@@ -144,6 +144,9 @@
       {% when 'leetcode_id' %}
         {% capture link %}https://leetcode.com/u/{{ social[1] }}/{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
+      {% when 'letter_boxd_username' %}
+        {% capture link %}https://letterboxd.com/{{ social[1] }}{% endcapture %}
+        {% assign sameaslinks = sameaslinks | push: link %}
       {% when 'linkedin_username' %}
         {% capture link %}https://www.linkedin.com/in/{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}

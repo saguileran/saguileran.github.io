@@ -1,14 +1,15 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - saguileran
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - wavesongs/wavesongs
+  - uetitc/uetitc.github.io
+  - saguileran/projeito_CG
+  - saguileran/birdsongs
+  - saguileran/aprender
+  - saguileran/MD-SCPI
+  - saguileran/DeepLearningSpecialization
+  - saguileran/Acoustics-Instruments
+  - danielfelipe-df/Metodos-de-simulacion

@@ -9,7 +9,11 @@
         {% for course in year_courses %}
           <div class="course-item">
             <h3 class="course-title">
-              <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
+              {% if course.redirect contains '://' %}
+                <a href="{{ course.redirect }}" target="_blank">{{ course.title }}</a>
+              {% else %}
+                <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
+              {% endif %}
             </h3>
 
             <div class="course-meta">

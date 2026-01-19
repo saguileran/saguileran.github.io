@@ -5,23 +5,30 @@
         <tbody>
           <tr>
             {% if content.icon %}
-              <td class="list-group-category-icon">
-                <i class="{{ content.icon }}"></i>
-              </td>
-            {% else %}
               <td class="list-group-category-icon"></td>
+            {% else %}
+              <td class="list-group-category-icon" style="text-align:right"></td>
             {% endif %}
             <!-- Calculate colspan number for category title -->
             {% assign i = 1 %}
             {% for item in content.items %}
               {% assign i = i | plus: 1 %}
             {% endfor %}
-            <td colspan="{{ i }}" class="list-group-category">{{ content.name }}</td>
+            <td colspan="{{ i }}" class="list-group-category" style="text-align: center;">
+              <i class="{{ content.icon }}"></i> &nbsp; {{ content.name }}
+            </td>
           </tr>
           <tr>
             <td></td>
-            <td class="list-group-name">
-              <b>{{ content.reference }}</b>
+            <td class="list-group-name" style="text-align: justify;">
+              <div align="justify">
+                <h6 style="font-size: 0.9rem; text-align:center"><i class="fa-solid fa-at"></i> &nbsp; {{ content.university }}</h6>
+                <h6 style="font-size: 0.9rem; font-style: italic; text-align:center">
+                  <i class="fa-solid fa-envelope"></i> &nbsp; <a href="mailto:{{ content.email }}"> {{ content.email }} </a>
+                </h6>
+
+                <b>{{ content.reference }}</b>
+              </div>
             </td>
           </tr>
         </tbody>
