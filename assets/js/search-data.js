@@ -339,18 +339,37 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/la_luz_dificil/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-hello-united-states",
+          title: 'Hello, United States!',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_1/";
+            },},{id: "news-finally-physicist",
+          title: 'Finally, physicist! 🎓 🎉',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-simulating-molecules-in-sao-carlos-university-of-sao-paulo-brazil-️",
+          title: 'Simulating molecules in Sao Carlos, University of Sao Paulo, Brazil ✈️',
           description: "",
-          section: "News",},{id: "projects-birdsongs",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_3/";
+            },},{id: "news-programmer-professor-at-etitc",
+          title: 'Programmer Professor at ETITC 👨🏽‍🏫',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_4/";
+            },},{id: "news-biodiversity-engenieering-conference-in-etitc-️",
+          title: 'Biodiversity engenieering conference in ETITC 🎙️',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_5/";
+            },},{id: "news-poster-pesentation-in-mapi-3-️",
+          title: 'Poster pesentation in MAPI-3 🖼️',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_6/";
+            },},{id: "projects-birdsongs",
           title: 'Birdsongs',
           description: "Bachelor&#39;s tesis dissertation. Design, development, and evaluation of a computational-physical model for generating synthetic birdsongs from recorded samples using the motor gestures for birdsongs model created by Gabriel Mindlin at LSD of UBA.",
           section: "Projects",handler: () => {
