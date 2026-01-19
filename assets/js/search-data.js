@@ -405,8 +405,8 @@ ninja.data = [{
           description: "",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/programming-2-2024-2/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
+            },},{id: "teachings-programming-iii",
+          title: 'Programming III',
           description: "",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/programming-3-2024-1/";
