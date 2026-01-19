@@ -52,12 +52,10 @@ A detailed guide can be found at: [Setting up a test environment for Linux Kerne
 The tutorial is divided into the following sections:
 
 1. Preparing testing environment directory and "all-in-one" script
-
    - Create necessary folders and files.
    - Give the required permissions for files and folders.
 
 2. Set up and configure a VM running a guest OS
-
    - Create an `activate.sh` file to deploy VMs manager. To enable it, execute the comand `home/lk_dev/activate.sh` or, located in the folder `lk_dev` use `.activate.sh` or `soruce activate.sh`, this will print some green text and a pink prompt preamble to indicate you are in the VM's manager.
    - Check image OS properties and partition size, then resize the disk image to 5Gb to give space for more linux modules.
    - Extract kernel and initrd images from OS image to create the VM with them
@@ -65,17 +63,14 @@ The tutorial is divided into the following sections:
    - The output for the point, is a bash function that creates a VM named arm64 that creates a VM with some default configuration defined in the activate file.
 
 3. Configure SSH access from the host to the VM.
-
    - Allow ssh connection with the current VM's credentials, user root without password. There are two important settigns you must done: enable permit root login and permit empty password. This its done by modifying the `/etc/ssh/sshd_config` file.
    - Reconfigure the sshd keys and restart the sshd damon.
    - Now, it is possible to connect to the VM machine via ssh, using a client-server approach. Furthermore, it is possible to sent and recive files using Secure Copy Protocol (scp).
 
 4. Fetch the modules loaded in the guest kernel.
-
    - Export the modules installed. To keep the same machine in every moment, it is highly recommended to create a file with the modules used, this can be done wiht `lsmod > vm_mod_list`.
 
 5. Set up host <-> VM file sharing (optional)
-
    - This part was tried but for now is not working. After implemented the changes suggested (memory backing and file system configurations) the machine does not work, it does not boot.
 
 > #### **Useful Commands**
@@ -187,35 +182,29 @@ A detailed guide can be found at: [Building and booting a custom Linux kernel fo
 ### Summary
 
 1. Installing kw
-
    - Clone the official `kw` repository `https://github.com/kworkflow/kworkflow.git` and switch for the unstable branch, this branch is also very stable and contains new updates created for the developers that are not included in the main branch.
    - Install the software by executing `setup.sh --full-installation`. The flag passed for the isntallation script is for including tne dependencies installation.
    - To update kw use `kw self-update` if is the main branch, in other case add `--unestable` for update the pacakge respect the unestable branch.
 
 2. Cloning a Linux kernel tree
-
    - Linux kernels can be found in many official places. These repositories are also known as _trees_, because the software designed is a tree-like hierarchy. You can get more information of the linux by looking the version name. The most updated official tree versions are known as _mainline_, also as Linus Torvalds's tree.
    - Download the IIO subsystem tree by cloning the repo `git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git`. This repository contains a huge quantity of comments and weveral branches, since it is a educational excersie is enough to download a single branch (testing) and a few commits, the last 10 for example. This is done using git and its flags.
 
 3. Configure kw in a local context for IIO development
-
    - Initialize `kw`. This create an isoleted environment for the kernel development, or even create multple environments for a singe tree.
    - Start the libvirt deamon and the default network, to enalbe ssh connection.
    - Start the VM created in the first tutorial with vrish and check the IP for the VM. If everything goes correctly, now you can connect to the machine with `kw ssh`.
 
 4. Configuring the Linux kernel compilation
-
    - To customize and module the building process the Kernel Build System is used, it uses `make` and other GNU tools, it always generates a `kbuild` and `.config` files. These files contains information about the modules configurations, between other stuff. In most of the directories of the kernel there are always a `Kconfig` file, furthermore there are default configurations, know as _deconfig_ files. In this part, we create default configurations and then update them with new values, both actiosn are executed with make. To do it, the modules list created in the first tutorial is passed to make, to keep the same modules eviroment and make debugging easer.
    - It is possible to edit the `.config` files directly although it is not recommended. Instead, a safer and more practical way is to use a Terminal User Interfaces (TUI) provided by kw. It is done with `kw build --menu`. The TUI has many advantages specially for new users. To test the TUI a change in the kernel image is done, expanding or modying it. To verify the change check the building information using `kw build --info`.
 
 5. Building a custom Linux kernel
-
    - At present there are many manufactures for hardware with different architectures, where everyone has different instructions for reading and integration. As result, it is necesarry to donwload a suitable GCC compiler, for ARM64 architecture. In debian systems the library is `gcc-aarch64-linux-gnu`.
    - Add kw configuraitons fo the arch target architecture (ARM64), corss compiler, and kernel image (the one created in the second tutorial with the name `Image.gz`). To check if everyting is sucessfully setup use the command `kw condif --show build`.
    - The last substep is compile the linux kernel with the local configurations implemented, `kw build`.
 
 6. Installing modules and booting the custom-built Linux kernel
-
    - Although the module was created it is still not installed in the VM, it is necessary to move the module objects. This is done with `kw deploy --modules`. It is always required when modifying or adding modules.
    - Update the activate script with the new kernel in the launch and create functions. Then, activate or reload the main environment.
    - To implement the changes done it is required to poweroff the VM and remove it from the virsh manager. Then, create it again using the new kernel configurations.
@@ -265,29 +254,24 @@ A detailed guide can be found at: [Introduction to Linux kernel build configurat
 ### Summary
 
 1. Creating a simple example module
-
    - Start by creating a C code, Linux is written in c and some in assembler. The code contains two static cuztomized functions for initilize and exit, bot are loaded with the kernel libraries and the final lines is the license. The modules are saved at `drivers/misc` subfoler.
 
 2. Creating Linux kernel configuration symbols
-
    - Create a Kconfig configuration symble, this means to add some configurations to the Kconfig file. The configuration added has the same name of the module, im lettercases, and attributes (trista, default, help, help, depends on, select) which help the user for more control and setup.
    - Add the module to the list of build objects in the Makefile.
 
 3. Configuring the Linux kernel build with menuconfig
-
    - Enter to the _menuconfig_ and enable the module. Go to general setup, search the module by name, select it, and then enable it to be loaded.
    - Build the image an modules again, update the `Image.gz` then mount the VM and isntall the modules, taking in account the customized module
    - Start the VM and acces to it, could be via ssh.
    - Verify the kernel version, `uname --all`.
 
 4. Installing Linux kernel modules
-
    - Verify the modules loaded (`modinfo simple_mod`) and the smplae mod information (`lsmod`).
    - Load the module, module file (.ko), to the running kernel (`insmod path/to/module.ko` or `modprobe module_nam`). It is also possible to remove the module with `rmmod module_name` or `modprobe -r simple_mode`
    - Display the tail of display message, driver message, to check if the module start and exit functions were executed sucessfully. They have to print the same message defined in the first step.
 
 5. Dependencies between kernel features
-
    - Add a callable function to the module. This function is called from other modules and displaies a simple message that contains the module name. In addition, the init and exit functions are updated to be more dinamycal, print the module name from where there been called.
    - Rebuild the module to update the version in the VM, via scp or kw.
    - Create a new module to call the sample module. This module also contains an init and exit functions. Then, load the new module and test it as same as before, use the `dmesg` command to chaick the tail after loading and unloading the module.
@@ -344,7 +328,6 @@ The topics cover are:
 3. File operations
 4. Bringing device IDs and file operations together
 5. A character device driver example
-
    - Create a C code a
 
 6. Testing the `simple_char` driver
@@ -632,7 +615,6 @@ This issue concerned a color rendering bug in the output text results. The origi
 
 - Implementing two distinct color sets for light and dark terminal backgrounds
 - Creating three platform-specific utility files: `linux_utils`, `windows_utils`, and `apple_utils`. Each file contains a `UtilsOSDependable` class with functions to:
-
   - Detect terminal background color (in RGB format)
   - Parse rgb colors and covert them to float data type
   - Calculate color luminance (perceptual brightness)
@@ -735,7 +717,6 @@ The workshop was divided into steps:
    Note: This was added to the `activate.sh` script. It is necessary to increase the disk space to at least 6GB to install the required libraries.
 
 1. **Package selection** for simple modifications, version update, and changelog file:
-
    - Chosen package: **ruby-json**
    - CSV tracker: [https://tracker.debian.org/pkg/ruby-json](https://tracker.debian.org/pkg/ruby-json)
    - Official repository: [https://salsa.debian.org/ruby-team/ruby-json](https://salsa.debian.org/ruby-team/ruby-json)

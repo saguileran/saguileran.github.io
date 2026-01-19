@@ -32,7 +32,6 @@ latest_posts:
 news: true # includes a list of news items
 ---
 
-
 <hr style="width:100%;text-align:left;margin-left:0">
 
 <h4 align="left" style="margin: 2pt 0 10pt 0;"><i style="margin: 0 2pt 0 0;">Pleased to meet you!</i> 😁 ✌️</h4>
