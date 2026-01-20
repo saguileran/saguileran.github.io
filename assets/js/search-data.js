@@ -396,42 +396,42 @@ ninja.data = [{
               window.location.href = "/projects/5_project/";
             },},{id: "teachings-data-bases-i",
           title: 'Data Bases I',
-          description: "",
+          description: "This course covers modeling, querying, and using relational databases for data storage and manipulation, considering multi-user transactional environments.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/data-bases-1-2024-1/";
             },},{id: "teachings-data-bases-i",
           title: 'Data Bases I',
-          description: "",
+          description: "This course covers modeling, querying, and using relational databases for data storage and manipulation, considering multi-user transactional environments.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/data-bases-1-2024-2/";
             },},{id: "teachings-data-structure",
           title: 'Data Structure',
-          description: "",
+          description: "This course covers strategies to analyze, design, and program data structures for efficient data organization, search, and manipulation.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/data_structure-2024-1/";
             },},{id: "teachings-data-structure",
           title: 'Data Structure',
-          description: "",
+          description: "This course covers strategies to analyze, design, and program data structures for efficient data organization, search, and manipulation.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/data_structure-2024-2/";
             },},{id: "teachings-operating-systems-i",
           title: 'Operating Systems I',
-          description: "",
+          description: "This course presents the fundamental operating principles of the most common commercially used operating systems.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/operating-systems-1-2024-1/";
             },},{id: "teachings-programming-ii",
           title: 'Programming II',
-          description: "",
+          description: "This course presents programming logic fundamentals to define, create, code, and structure algorithms for problem solving.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/programming-2-2024-2/";
             },},{id: "teachings-programming-iii",
           title: 'Programming III',
-          description: "",
+          description: "This course covers the client-server model for web development, using front-end tools and server-side Java technologies (Servlets, JSP) to build responsive applications.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/programming-3-2024-1/";
             },},{id: "teachings-software-design-i",
           title: 'Software Design I',
-          description: "",
+          description: "This course presents the structures and methodologies required for software design and the support of computer systems or related activities.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/software-design-2024-2/";
             },},{
@@ -468,6 +468,20 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.kaggle.com/9930992", "_blank");
+        },
+      },{
+        id: 'social-lattes',
+        title: 'Lattes',
+        section: 'Socials',
+        handler: () => {
+          window.open("http://lattes.cnpq.br/4675277688054618", "_blank");
+        },
+      },{
+        id: 'social-letterboxd_id',
+        title: 'Letterboxd_id',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
         },
       },{
         id: 'social-linkedin',
