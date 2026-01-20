@@ -1,10 +1,10 @@
 ---
 layout: course
 title: Data Bases I
-description:
-instructor:
+description: This course covers modeling, querying, and using relational databases for data storage and manipulation, considering multi-user transactional environments.
+instructor: <a href="https://github.com/uetitc/">uETITC</a>
 year: 2024
-term: 02
+term: S2
 location: ETITC - Tintal
 time:
 course_id: data-structure-2024-1

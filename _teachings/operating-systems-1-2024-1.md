@@ -1,10 +1,10 @@
 ---
 layout: course
 title: Operating Systems I
-description:
-instructor:
+description: This course presents the fundamental operating principles of the most common commercially used operating systems.
+instructor: <a href="https://github.com/saguileran/ETITC-2024-1/">ETITC</a>
 year: 2024
-term: 01
+term: S1
 location: ETITC - Tintal
 time:
 course_id: data-structure-2024-1

@@ -24,9 +24,11 @@ gitlab_username: saguileran # your GitLab user name
 kaggle_id: 9930992 # your kaggle id
 # keybase_username: # your keybase user name
 # lastfm_id: # your lastfm id
-# lattes_id: # your ID on Lattes (Brazilian Lattes CV)
+lattes_id: 4675277688054618 # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-# letter_boxd_username: saguileran # your Letterboxd user name
+letterboxd_id:
+  value: saguileran # the actual username or ID value
+  logo: fa-brands fa-letterboxd # override with custom icon class
 linkedin_username: saguileran # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username

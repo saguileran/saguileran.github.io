@@ -28,9 +28,34 @@ news: false # includes a list of news items
 
 <h2>Music</h2>
 
-<p>Currently, I am exploring salsa, rock, and jazz music, but I always love discovering new music of any kind and origin. On the left side are some of the music I am listening to now, maybe you will like some of them.</p>
+<div style="display: grid; grid-template-columns: 0.3fr 0.7fr; gap: 24px; align-items: start; margin: 16px 0;">
+  <p style="margin: 0; text-align: justify;">
+    Currently, I am exploring salsa, rock, and jazz music, but I always love discovering new music of any kind and origin. On the left side are some of the music I am listening to now, maybe you will like some of them.
+  </p>
+  <div style="display: flex; justify-content: flex-end;">
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0BBSkmLwvXtNmcAmjmHrxZ?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+</div>
 
-<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0BBSkmLwvXtNmcAmjmHrxZ?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<!-- <hr style="width:100%;text-align:left;margin-left:0"> -->
+
+<h3>Skills and Expertise</h3>
+
+<div style="display: flex; flex-wrap: wrap; gap: 0 40px;">
+  <ul style="flex: 1 1 250px; min-width: 220px; margin: 0; padding-left: 20px;">
+    <li style="text-align: justify;"><b>Data Analysis:</b> Proficient in extracting, processing, and interpreting complex and large datasets. Extensive experience in data visualization to identify relationships and extract meaningful insights.</li>
+    <li style="text-align: justify;"><b>Mathematical Thinking:</b> Strong foundation in theoretical and applied mathematics. Adept at formulating and solving complex problems through mathematical modeling and analytical reasoning.</li>
+    <li style="text-align: justify;"><b>Communication:</b> Excellent communication skills, fostering effective teamwork and collaboration.</li>
+    <li style="text-align: justify;"><b>Adaptability:</b> Quick learner capable of mastering new software environments and technologies.</li>
+  </ul>
+  <ul style="flex: 1 1 250px; min-width: 220px; margin: 0; padding-left: 20px;">
+    <li style="text-align: justify;"><b>Technical Proficiency:</b> Proficient in Python, Java, MATLAB, and LaTeX. Additional expertise in version control (GitHub), SSH, and SQL. Intermediate knowledge of C, C++, and front-end development.</li>
+    <li style="text-align: justify;"><b>Numerical Analysis:</b> Extensive knowledge and experience in numerical methods and analysis for physical and mathematical modeling.</li>
+    <li style="text-align: justify;"><b>Machine Learning:</b> Intermediate understanding of machine learning and deep learning algorithms with hands-on experience in PyTorch.</li>
+    <li style="text-align: justify;"><b>Language Skills:</b> Native Spanish speaker. Fluent in English, intermediate Portuguese, and interested in German.</li>
+  </ul>
+</div>
+
 
 <h2>Friends</h2>
 
