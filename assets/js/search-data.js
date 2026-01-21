@@ -159,11 +159,26 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/naruto/";
+            },},{id: "animes-fullmetal-alchemist",
+          title: 'Fullmetal Alchemist',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/full_metal/";
+            },},{id: "animes-fullmetal-alchemist-brotherhood",
+          title: 'Fullmetal Alchemist: Brotherhood',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/full_metal_brotherhood/";
             },},{id: "animes-death-note",
           title: 'Death Note',
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/death_note/";
+            },},{id: "animes-sword-art-online",
+          title: 'Sword Art Online',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/sao/";
             },},{id: "animes-hunter-hunter",
           title: 'Hunter × Hunter',
           description: "",
@@ -179,11 +194,21 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/the_promised_neverland/";
+            },},{id: "animes-cowboy-bebop",
+          title: 'Cowboy Bebop',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/cowboy_bebop/";
             },},{id: "animes-soul-eater",
           title: 'Soul Eater',
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/soul_eater/";
+            },},{id: "animes-food-wars-shokugeki-no-soma",
+          title: 'Food Wars!: Shokugeki no Soma',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/food_wars/";
             },},{id: "animes-berserk",
           title: 'Berserk',
           description: "",
@@ -204,6 +229,16 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/aot/";
+            },},{id: "animes-log-horizon",
+          title: 'Log Horizon',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/log_horizon/";
+            },},{id: "animes-one-punch-man",
+          title: 'One-Punch Man',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/one_punch_man/";
             },},{id: "animes-goblin-slayer",
           title: 'Goblin Slayer',
           description: "",
@@ -269,6 +304,11 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/hells_paradaise/";
+            },},{id: "animes-monster",
+          title: 'Monster',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/monster/";
             },},{id: "animes-sorcery-battle",
           title: 'Sorcery Battle',
           description: "",
