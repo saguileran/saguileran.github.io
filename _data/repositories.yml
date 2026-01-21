@@ -6,11 +6,9 @@ repo_description_lines_max: 2
 github_repos:
   - wavesongs/wavesongs
   - uetitc/uetitc.github.io
+  - saguileran/saguileran.github.io
   - saguileran/projeito_CG
-  - saguileran/birdsongs
-  - saguileran/aprender
   - saguileran/MD-SCPI
   - saguileran/DeepLearningSpecialization
   - saguileran/Acoustics-Instruments
-  - saguileran/saguileran.github.io
   - danielfelipe-df/Metodos-de-simulacion

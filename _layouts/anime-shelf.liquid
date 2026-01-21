@@ -22,10 +22,10 @@ layout: page
       <figure class="cover">
         <a class="cover-link" href="{{ item.url | relative_url }}">
           {% if item.cover %}
-            <img alt="{{ item.title }}" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:300px">
+            <img alt="{{ item.title }}" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:280px">
           {% endif %}
           {% if item.status %}
-            {% assign statuses = 'abandoned,finished,interested,paused,queued,watching,rewatch' | split: ',' %}
+            {% assign statuses = 'abandoned,finished,interested,paused,queued,watching,rewatch,waiting' | split: ',' %}
             {% assign status = item.status | downcase | strip %}
             {% if statuses contains status %}
               <figcaption class="{{ status | downcase }}">{{ status | upcase }}</figcaption>

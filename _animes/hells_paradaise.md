@@ -1,7 +1,7 @@
 ---
 layout: anime-review
-title: Hell's Paradise - Jigokuraku
-original_title:
+title: Hell's Paradise
+original_title: Jigokuraku
 illustrator:
 author:
 cover: assets/img/animes/hells_paradaise.png
