@@ -56,7 +56,6 @@ news: false # includes a list of news items
   </ul>
 </div>
 
-
 <h2>Friends</h2>
 
 <h3>If you have any questions or would like to connect, please do not hesitate to contact me!</h3>
