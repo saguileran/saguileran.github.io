@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/animes/";
               },
-            },{id: "post-free-software-development-logbook",
+            },{id: "post-master-39-s-project-talks",
+        
+          title: "Master&#39;s project talks",
+        
+        description: "Talks I gave during my master&#39;s research.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/talks/";
+          
+        },
+      },{id: "post-free-software-development-logbook",
         
           title: "Free Software Development Logbook",
         
@@ -149,16 +160,51 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "animes-dragon-ball-z",
+      },{id: "animes-dragon-ball",
+          title: 'Dragon Ball',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/dragon_ball/";
+            },},{id: "animes-dragon-ball-z",
           title: 'Dragon Ball Z',
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/dbz/";
+            },},{id: "animes-dragon-ball-gt",
+          title: 'Dragon Ball GT',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/dragon_ball%20_gt/";
+            },},{id: "animes-inuyasha",
+          title: 'Inuyasha',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/inuyasha/";
             },},{id: "animes-naruto",
           title: 'Naruto',
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/naruto/";
+            },},{id: "animes-tokyo-ghoul",
+          title: 'Tokyo Ghoul',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/tokyo_ghoul/";
+            },},{id: "animes-yu-gi-oh",
+          title: 'Yu-Gi-Oh!',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/yu_gi_oh/";
+            },},{id: "animes-samurái-champloo",
+          title: 'Samurái Champloo',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/samurai_champloo/";
+            },},{id: "animes-my-hero-academia",
+          title: 'My Hero Academia',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/boku_no_hero/";
             },},{id: "animes-the-rising-of-the-shield-hero",
           title: 'The Rising of the Shield Hero',
           description: "",
@@ -184,6 +230,11 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/parasyte/";
+            },},{id: "animes-rurouni-kenshin-meiji-swordsman-romantic-story-samurai-x",
+          title: 'Rurouni Kenshin: Meiji Swordsman Romantic Story / Samurai X',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/rurouni_kenshin/";
             },},{id: "animes-grappler-baki",
           title: 'Grappler Baki',
           description: "",
@@ -194,6 +245,11 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/death_note/";
+            },},{id: "animes-gangsta",
+          title: 'Gangsta',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/gangsta/";
             },},{id: "animes-sword-art-online",
           title: 'Sword Art Online',
           description: "",
@@ -214,6 +270,11 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/naruto_shippuden/";
+            },},{id: "animes-devilman-crybaby",
+          title: 'Devilman Crybaby',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/devilman_crybaby/";
             },},{id: "animes-akame-ga-kill",
           title: 'Akame ga Kill!',
           description: "",
@@ -224,6 +285,16 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/code_geass/";
+            },},{id: "animes-tokyo-revengers",
+          title: 'Tokyo Revengers',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/tokyo_revengers/";
+            },},{id: "animes-hellsing",
+          title: 'Hellsing',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/hellsing/";
             },},{id: "animes-the-promised-neverland",
           title: 'The Promised Neverland',
           description: "",
@@ -249,6 +320,11 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/food_wars/";
+            },},{id: "animes-campfire-cooking-in-another-world-with-my-absurd-skill",
+          title: 'Campfire Cooking in Another World with My Absurd Skill',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/campfire_cooking/";
             },},{id: "animes-the-seven-deadly-sins",
           title: 'The Seven Deadly Sins',
           description: "",
@@ -264,11 +340,26 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/berserk/";
+            },},{id: "animes-shangri-la-frontier",
+          title: 'Shangri-La Frontier',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/shangri_la_frontier/";
+            },},{id: "animes-undead-unluck",
+          title: 'Undead Unluck',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/undead_unluck/";
             },},{id: "animes-black-clover",
           title: 'Black Clover',
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/black_clover/";
+            },},{id: "animes-ishura",
+          title: 'Ishura',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/ishura/";
             },},{id: "animes-solo-leveling-only-i-level-up",
           title: 'Solo Leveling / Only I Level Up',
           description: "",
@@ -284,6 +375,26 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/mobe_pshyco_100/";
+            },},{id: "animes-i-was-reincarnated-as-the-7th-prince-so-i-can-take-my-time-perfecting-my-magical-ability",
+          title: 'I Was Reincarnated as the 7th Prince so I Can Take My Time...',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/tensei_shitara/";
+            },},{id: "animes-the-ossan-newbie-adventurer-trained-to-death-by-the-most-powerful-party-became-invincible",
+          title: 'The Ossan Newbie Adventurer, Trained to Death by the Most Powerful Party, Became...',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/the_ossan_newbie_adventurer/";
+            },},{id: "animes-i-parry-everything-what-do-you-mean-i-39-m-the-strongest-i-39-m-not-even-an-adventurer-yet",
+          title: 'I Parry Everything: What Do You Mean I&amp;#39;m the Strongest? I&amp;#39;m Not Even...',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/i_parry_everything/";
+            },},{id: "animes-spiral",
+          title: 'Spiral',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/uzumaki/";
             },},{id: "animes-attack-on-titan",
           title: 'Attack on Titan',
           description: "",
@@ -314,11 +425,31 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/elfen_lied/";
+            },},{id: "animes-sakamoto-days",
+          title: 'Sakamoto Days',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/sakamoto_days/";
             },},{id: "animes-jojo-39-s-bizarre-adventure-the-animation",
           title: 'JoJo&amp;#39;s Bizarre Adventure The Animation',
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/jojos/";
+            },},{id: "animes-from-old-country-bumpkin-to-master-swordsman-my-hotshot-disciples-are-all-grown-up-now-and-they-won-39-t-leave-me-alone",
+          title: 'From Old Country Bumpkin to Master Swordsman: My Hotshot Disciples Are All Grown...',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/master_swordsman/";
+            },},{id: "animes-yaiba-samurai-legend",
+          title: 'Yaiba: Samurai Legend',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/yaiba/";
+            },},{id: "animes-lazarus",
+          title: 'Lazarus',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/lazarus/";
             },},{id: "animes-orb-on-the-movements-of-the-earth",
           title: 'Orb: On the Movements of the Earth',
           description: "",
@@ -334,6 +465,11 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/re_zero/";
+            },},{id: "animes-clevatess-the-king-of-magical-beasts-the-baby-and-the-corpse-hero",
+          title: 'Clevatess: The King of Magical Beasts, the Baby, and the Corpse Hero',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/clevatess/";
             },},{id: "animes-dr-stone",
           title: 'Dr. Stone',
           description: "",
@@ -359,6 +495,26 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/dandadan/";
+            },},{id: "animes-uglymug-epicfighter",
+          title: 'Uglymug, Epicfighter',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/busamen_gachi/";
+            },},{id: "animes-a-gatherer-39-s-adventure-in-isekai",
+          title: 'A Gatherer&amp;#39;s Adventure in Isekai',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/sozai_saishuka/";
+            },},{id: "animes-ninja-vs-gokudo",
+          title: 'Ninja vs. Gokudo',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/ninva_vs_gokudo/";
+            },},{id: "animes-devil-may-cry-the-animated-series",
+          title: 'Devil May Cry: The Animated Series',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/devil_may_cry/";
             },},{id: "animes-dorohedoro",
           title: 'Dorohedoro',
           description: "",
@@ -374,11 +530,26 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/chainsawman/";
+            },},{id: "animes-erased",
+          title: 'Erased',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/erased/";
             },},{id: "animes-gachiakuta",
           title: 'Gachiakuta',
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/gachiakuta/";
+            },},{id: "animes-assassination-classroom",
+          title: 'Assassination Classroom',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/assassination_classroom/";
+            },},{id: "animes-banana-fish",
+          title: 'Banana Fish',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/banan_fish/";
             },},{id: "animes-bleach",
           title: 'Bleach',
           description: "",
@@ -394,16 +565,56 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/hells_paradaise/";
+            },},{id: "animes-kingdom",
+          title: 'Kingdom',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/kingdom/";
             },},{id: "animes-monster",
           title: 'Monster',
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/monster/";
+            },},{id: "animes-overload",
+          title: 'Overload',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/overload/";
+            },},{id: "animes-record-of-ragnarok",
+          title: 'Record of Ragnarok',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/ragnarok/";
+            },},{id: "animes-ranma",
+          title: 'Ranma ½',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/ranma_12/";
+            },},{id: "animes-seven-scissors-killer-7",
+          title: 'Seven Scissors / Killer 7',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/seven_scissors/";
+            },},{id: "animes-wind-breaker",
+          title: 'Wind Breaker',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/wind_breaker/";
             },},{id: "animes-sorcery-battle",
           title: 'Sorcery Battle',
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/jujutsu_kaisen/";
+            },},{id: "animes-sentenced-to-be-a-hero-the-prison-records-of-penal-hero-unit-9004",
+          title: 'Sentenced to Be a Hero: The Prison Records of Penal Hero Unit 9004...',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/sentenced_to_be_a_hero/";
+            },},{id: "animes-dragon-ball-super",
+          title: 'Dragon Ball Super',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/dragon_ball%20_super/";
             },},{id: "animes-fire-force",
           title: 'Fire Force',
           description: "",
