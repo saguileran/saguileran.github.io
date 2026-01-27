@@ -11,7 +11,7 @@ buy_link:
 started: 2004-04-07
 finished: 2001-12-01
 released: 1994-01-12
-stars: 5
+stars:
 status: Interested
 date: 2026-01-01
 seasons: 1

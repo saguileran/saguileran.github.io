@@ -1,8 +1,8 @@
 ---
 layout: anime-review
 title: Golden Kamuy
-original_title:
-illustrator:
+original_title: Gōruden Kamui
+illustrator: Satoru Noda
 author: Satoru Noda
 cover: assets/img/animes/golden_kamuy.png
 categories: adventure, historical, japanese-style-western
