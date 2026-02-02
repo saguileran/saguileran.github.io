@@ -15,7 +15,7 @@
               {% assign i = i | plus: 1 %}
             {% endfor %}
             <td colspan="{{ i }}" class="list-group-category" style="text-align: center;">
-              <i class="{{ content.icon }}"></i> &nbsp; {{ content.name }}
+              <a href="{{ content.url }}"> <i class="{{ content.icon }}"></i> &nbsp; {{ content.name }} </a>
             </td>
           </tr>
           <tr>

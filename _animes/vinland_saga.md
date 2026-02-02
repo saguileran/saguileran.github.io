@@ -2,17 +2,21 @@
 layout: anime-review
 title: Vinland Saga
 original_title: Vinrando Saga
-illustrator: Makoto Yukimura
 author: Makoto Yukimura
+illustrator: Makoto Yukimura
 cover: assets/img/animes/vinland_saga.png
-categories: adventure, epic, historical
+categories: adventure epic historical
 tags: top-100
-buy_link:
-started: 2019-07-08
-finished: 2025-06-25
-released: 2005-04-13
+wikipedia: https://en.wikipedia.org/wiki/Vinland_Saga_(manga)
+types: manga anime
+started: 2006-04-13
+ended: 2025-07-25
+volumes: 29
+released: 2019-07-08
+finished: 2023-06-20
+episodes: 24, 24 (48)
+date: 2019-07-08
 stars: 5
 status: Paused
-date: 2026-01-21
-seasons: 3
+seasons: 2
 ---

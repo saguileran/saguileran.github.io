@@ -179,6 +179,8 @@ ul.task-list input[type="checkbox"] {
 
   .card-title {
     color: var(--global-text-color);
+    align-items: center;
+    text-align: center;
   }
 
   .card-body {
@@ -965,7 +967,7 @@ html.transition *:after {
     color: var(--global-text-color-light);
     font-size: 0.875rem;
     padding-top: 0.25rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
 
     a {
       color: var(--global-text-color-light);

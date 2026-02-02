@@ -2,17 +2,21 @@
 layout: anime-review
 title: Steins;Gate
 original_title:
-illustrator:
 author: Jukki Hanada
+illustrator:
 cover: assets/img/animes/steins_gate.png
-categories: psychological, thriller, science-fiction, comedy, time-travel
+categories: psychological thriller science-fiction comedy time-travel
 tags: top-100
-buy_link:
-started: 2014-10-14
-finished: 2011-04-06
-released: 2011-09-14
+wikipedia: https://en.wikipedia.org/wiki/Steins;Gate_(TV_series)
+types: visual-novel anime ONA
+started:
+ended:
+volumes:
+released: 2011-04-06
+finished: 2011-09-14
+episodes: 24
+date: 2024-03-15
 stars: 4
 status: Abandoned
-date: 2024-02-02
 seasons: 1
 ---

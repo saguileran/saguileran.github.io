@@ -1,16 +1,22 @@
 ---
 layout: anime-review
 title: Naruto
+original:
 author: Masashi Kishimoto
+illustrator: Masashi Kishimoto
 cover: assets/img/animes/naruto.png
-categories: shounen, adventure, ninjas, war
+categories: shounen adventure ninjas war
 tags: top-100
-buy_link:
-started: 2002
-finished: 2007
-released: 1997
+wikipedia: https://en.wikipedia.org/wiki/Naruto
+types: anime manga video-game
+started: 1999-09-21
+ended: 2014-11-10
+volumes: 72
+released: 2007-02-15
+finished: 2017-03-22
+episodes: 35, 48, 48, 48, 41
+date: 2012-12-05
 stars: 5
-goodreads_review:
 status: Finished
-date: 2013-09-06
+seasons: 5
 ---

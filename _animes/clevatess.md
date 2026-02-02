@@ -2,17 +2,21 @@
 layout: anime-review
 title: "Clevatess: The King of Magical Beasts, the Baby, and the Corpse Hero"
 original_title: "Clevatess: Majū no Ō to Akago to Shikabane no Yūsh"
-illustrator: Yūji Iwahara
 author: Yūji Iwahara
+illustrator: Yūji Iwahara
 cover: assets/img/animes/clevatess.png
 categories: dark-fantasy
 tags: top-100
-buy_link:
-started: 2025-07-02
+wikipedia: https://en.wikipedia.org/wiki/Clevatess
+types: manga anime
+started: 2020-08-12
+ended: present
+released: 2025-07-02
 finished: present
-released: 2020-08-12
+date: 2025-07-02
 stars:
 status: Interested
-date: 2025-07-02
 seasons: 1
+episodes: 12
+volumes: 11
 ---

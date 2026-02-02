@@ -2,17 +2,21 @@
 layout: anime-review
 title: Hellsing
 original_title:
-illustrator: Kouta Hirano
 author: Kouta Hirano
+illustrator: Kouta Hirano
 cover: assets/img/animes/hellsing.png
-categories: action, dark-fantasy, vampire
+categories: action dark-fantasy vampire
 tags: top-100
-buy_link:
-started: 2011-10-11
-finished: 2008-09-30
-released: 1997-04-30
+wikipedia: https://en.wikipedia.org/wiki/Hellsing
+types: manga anime
+started: 1997-04-30
+ended: 2008-09-30
+volumes: 10
+released: 2001-10-11
+finished: 2002-01-17
+episodes: 13
+date: 2019-02-15
 stars: 4.5
 status: Paused
-date: 2021-05-25
-seasons: 2
+seasons: 3
 ---

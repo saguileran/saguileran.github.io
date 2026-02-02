@@ -2,17 +2,21 @@
 layout: anime-review
 title: Monster
 original_title:
-illustrator: Naoki Urasawa
 author: Naoki Urasawa
+illustrator: Naoki Urasawa
 cover: assets/img/animes/monster.png
-categories: crime, mystery, psychological, thriller
+categories: crime mystery psychological thriller
 tags: top-100
-buy_link:
-started: 2004-04-07
-finished: 2001-12-01
-released: 1994-01-12
+wikipedia: https://en.wikipedia.org/wiki/Monster_(manga)
+types: manga anime novel
+started: 1994-12-01
+ended: 2001-12-01
+volumes: 18
+released: 2004-04-07
+finished: 2005-09-28
+episodes: 74
+date: 2025-04-20
 stars:
 status: Interested
-date: 2026-01-01
 seasons: 1
 ---

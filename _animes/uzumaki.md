@@ -2,17 +2,21 @@
 layout: anime-review
 title: Spiral
 original_title: Uzumaki
-illustrator: Junji Ito
 author: Junji Ito
+illustrator: Junji Ito
 cover: assets/img/animes/uzumaki.png
-categories: dark-fantasy, psychological-horror, supernatural
+categories: dark-fantasy psychological-horror supernatural
 tags: top-100
-buy_link:
-started: 2024-09-29
-finished: 1999-08-30
-released: 1998-01-19
+wikipedia: https://en.wikipedia.org/wiki/Uzumaki
+types: manga anime live-action
+started: 1998-01-19
+ended: 199-08-30
+volumes: 3
+released: 2024-09-29
+finished: 2024-10-20
+episodes: 4
+date: 2024-09-29
 stars: 5
 status: Finished
-date: 2024-09-29
 seasons: 1
 ---

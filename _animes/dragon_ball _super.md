@@ -2,17 +2,21 @@
 layout: anime-review
 title: Dragon Ball Super
 original_title: Doragon Bōru Sūpā
-illustrator: Toyotarou
 author: Akira Toriyama
+illustrator: Toyotarou
 cover: assets/img/animes/dragon_ball_super.png
-categories: adventure, fantasy, comedy, martial-arts
+categories: adventure fantasy comedy martial-arts
 tags: top-100
-buy_link:
-started:
-finished: present
-released: 2015-07-20
+wikipedia: https://en.wikipedia.org/wiki/Dragon_Ball_Super
+types: manga anime film
+started: 2015-06-20
+ended: present
+volumes: 24
+released: 2015-07-05
+finished: 2018-03-25
+episodes: 131
+date: 2015-07-05
 stars:
-status: Interested
-date: 2026-01-05
-seasons: 2
+status: Abandoned
+seasons: 3
 ---

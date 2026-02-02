@@ -11,6 +11,6 @@ children:
   - title: Bookshelf
     permalink: /books/
   - title: divider
-  - title: Anime Archive
+  - title: My Watch List
     permalink: /animes/
 ---

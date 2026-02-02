@@ -2,17 +2,23 @@
 layout: anime-review
 title: "Re:Zero − Starting Life in Another World "
 original_title: "Ri:Zero kara Hajimeru Isekai Seikatsu"
-illustrator: Shinichirou Otsuka
 author: Tappei Nagatsuki
+illustrator: Shinichirou Otsuka
 cover: assets/img/animes/re_zero.png
-categories: adventure, dark-fantasy, isekai
+categories: adventure dark-fantasy isekai
 tags: top-100
-buy_link:
-started: 2016-04-04
+wikipedia: https://en.wikipedia.org/wiki/Re:Zero
+types: novel light-novel manga anime video-game
+started: 2012-04-20
+ended: present
+volumes: 43, 2, 5, 12, 2
+released: 2016-04-04
 finished: present
-released: 2012-04-20
+episodes: 25, 25, 16
+date: 2024-05-18
 stars: 5
 status: Paused
-date: 2025-06-17
 seasons: 3
 ---
+
+2 OVAs

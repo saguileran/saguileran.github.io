@@ -281,7 +281,7 @@ jekyll-archives:
   # teaching:
   #   enabled: [year, tags, categories]
   animes:
-    enabled: [year, tags, categories, status]
+    enabled: [year, tags, categories, status, types]
 
 display_tags: ["images", "github"] # these tags will be displayed on the front page of your blog
 display_categories: ["learning", "art", "travel", "writing", "external-services"] # these categories will be displayed on the front page of your blog

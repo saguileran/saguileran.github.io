@@ -2,17 +2,21 @@
 layout: anime-review
 title:
 original_title:
-illustrator:
 author:
+illustrator:
 cover: assets/img/animes/.png
 categories:
 tags: top-100
-buy_link:
+wikipedia:
+types:
 started:
-finished:
+ended:
+volumes:
 released:
+finished:
+episodes:
+seasons:
+date:
 stars:
 status: # Finished
-date:
-seasons:
 ---

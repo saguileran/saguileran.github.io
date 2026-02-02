@@ -2,17 +2,21 @@
 layout: anime-review
 title: Overload
 original_title: Ōbārōdo
-illustrator: So-Bin
 author: Kugane Maruyama
+illustrator: So-Bin
 cover: assets/img/animes/overload.png
-categories: dark-fantasy, isekay
+categories: dark-fantasy isekai
 tags: top-100
-buy_link:
-started: 2015-07-07
-finished: 2012-03-30
-released: 2010-05-09
+wikipedia: https://en.wikipedia.org/wiki/Overlord_(novel_series)
+types: novel light-novel anime manga film
+started: 2012-07-30
+ended: present
+volumes: 16
+released: 2014-11-26
+finished: 2015-07-07
+episodes: 13, 13, 13, 13
+date: 2024-01-05
 stars:
 status: Interested
-date: 2026-01-01
 seasons: 4
 ---

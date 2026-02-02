@@ -2,17 +2,21 @@
 layout: anime-review
 title: Dragon Ball GT
 original_title: Doragon Bōru Jī Tī
-illustrator:
 author: Aya Matsui and Atsushi Maekawa
+illustrator:
 cover: assets/img/animes/dragon_ball_gt.png
-categories: adventure, fantasy, comedy, martial-arts
+categories: adventure fantasy comedy martial-arts
 tags: top-100
-buy_link:
+wikipedia: https://en.wikipedia.org/wiki/Dragon_Ball_GT
+types: anime
 started:
-finished: 1997-11-19
+ended:
+volumes:
 released: 1996-02-07
+finished: 1997-11-19
+episodes: 64
+date: 2011-09-25
 stars: 4.5
 status: Finished
-date: 2011-10-05
 seasons: 1
 ---

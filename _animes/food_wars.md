@@ -2,17 +2,21 @@
 layout: anime-review
 title: "Food Wars!: Shokugeki no Soma"
 original_title: Shokugeki no Sōma
-illustrator: Shun Saeki
 author: Yūto Tsukuda
+illustrator: Shun Saeki
 cover: assets/img/animes/food_war.png
-categories: comedy, cooking, slice-of-life
+categories: comedy cooking slice-of-life
 tags: top-100
-buy_link:
-started: 2015-04-04
-finished: 2019-08-29
-released: 2012-11-26
+wikipedia: https://en.wikipedia.org/wiki/Food_Wars!:_Shokugeki_no_Soma
+types: manga anime ligth-novel video-game
+started: 2012-11-26
+ended: 2019-08-29
+volumes: 36
+released: 2015-04-04
+finished: 2020-09-26
+episodes: 86
+date: 2016-04-04
 stars: 5
 status: Finished
-date: 2022-10-01
-seasons: 1
+seasons: 5
 ---

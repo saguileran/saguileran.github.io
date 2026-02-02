@@ -2,7 +2,7 @@
 layout: post
 title: Free Software Development Logbook
 date: 2025-03-15 21:01:00
-description: Logbook and notes for the free software development course at USP, 2025-1
+description: Logbook and notes for the free software development course at IME-USP, 2025-1
 tags: mac-courses
 categories: [free software, usp]
 thumbnail: https://sagaratechnology.com/blog/wp-content/uploads/2021/11/open-source-software.png

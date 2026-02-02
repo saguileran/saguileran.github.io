@@ -2,17 +2,21 @@
 layout: anime-review
 title: Fate/Zero
 original_title: Feito/Zero
-illustrator: Takashi Takeuchi
 author: Gen Urobuchi
+illustrator: Takashi Takeuchi
 cover: assets/img/animes/fate_zero.png
-categories: action, dark-fantasy, tragedy
+categories: action dark-fantasy tragedy
 tags: top-100
-buy_link:
-started: 2011-10-01
-finished: present
-released: 2006-12-29
+wikipedia: https://en.wikipedia.org/wiki/Fate/Zero
+types: ligth-novel manga anime
+started: 2006-12-29
+ended: 2007-12-29
+volumes: 4
+released: 2011-10-01
+finished: 2012-06-23
+episodes: 25
+date: 2018-04-22
 stars: 4.5
 status: Abandoned
-date: 2018-01-02
 seasons: 2
 ---

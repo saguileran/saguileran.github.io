@@ -15,6 +15,9 @@ layout: default
     {% elsif page.type == 'status' %}
       <h1 class="post-title"><i class="fa-solid fa-check-circle fa-sm"></i> {{ page.title }}</h1>
       <p class="post-description">An archive of {{ page.collection_name }} with this status</p>
+    {% elsif page.type == 'types' %}
+      <h1 class="post-title"><i class="fa-solid fa-clapperboard fa-sm"></i> {{ page.title }}</h1>
+      <p class="post-description">An archive of {{ page.collection_name }} with this type of media</p>
     {% endif %}
   </header>
 

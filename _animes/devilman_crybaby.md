@@ -2,17 +2,23 @@
 layout: anime-review
 title: Devilman Crybaby
 original_title: Devilman
-illustrator:
 author: Ichirō Ōkouchi
+illustrator:
 cover: assets/img/animes/devilman_crybaby.png
-categories: action, dark-fantasy, superhero
+categories: action dark-fantasy superhero
 tags: top-100
-buy_link:
+wikipedia: https://en.wikipedia.org/wiki/Devilman_Crybaby
+types: ONA anime
 started:
-finished:
+ended:
 released: 2018-01-05
+finished:
+date: 2025-10-01
 stars: 4.5
 status: Finished
-date: 2020-04-05
-seasons: 1
+seasons: 2
+episodes: 10
+volumes:
 ---
+
+Based on the manga Devilman

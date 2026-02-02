@@ -1,18 +1,22 @@
 ---
 layout: anime-review
 title: "Orb: On the Movements of the Earth"
-original_title:
-illustrator:
+original_title: "Chi: Chikyū no Undō ni Tsuite"
 author: Uoto
+illustrator: Uoto
 cover: assets/img/animes/chi.png
-categories: historical, mystery, science-fiction, religion
-tags: top-100
-buy_link:
-started: 2024
-finished: 2025
-released: 2020
+categories: historical mystery science-fiction religion
+tags: top-100 top-10
+wikipedia: https://en.wikipedia.org/wiki/Orb:_On_the_Movements_of_the_Earth
+types: manga anime
+started: 2020-09-14
+ended: 2022-04-18
+released: 2024-10-05
+finished: 2025-03-15
+date: 2024-10-05
 stars: 5
 status: Finished
-date: 2025-05-15
-seasons:
+seasons: 1
+episodes: 25
+volumes: 8
 ---

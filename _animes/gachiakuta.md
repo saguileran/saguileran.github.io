@@ -2,17 +2,21 @@
 layout: anime-review
 title: Gachiakuta
 original_title:
-illustrator:
 author: Kei Urana
+illustrator:
 cover: assets/img/animes/gachiakuta.png
-categories: action, dark-fantasy, dystopian
+categories: action dark-fantasy dystopian
 tags: top-100
-buy_link:
-started: 2022
-finished:
-released: 2022
+wikipedia: https://en.wikipedia.org/wiki/Gachiakuta
+types: manga anime
+started: 2022-02-16
+ended: present
+volumes: 17
+released: 2025-07-06
+finished: 2025-12-05
+episodes: 24
+date: 2025-07-06
 stars: 5
 status: Finished
-date: 2025-12-06
-seasons:
+seasons: 1
 ---

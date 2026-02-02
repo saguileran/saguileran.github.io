@@ -2,17 +2,21 @@
 layout: anime-review
 title: Sword Art Online
 original_title: Sōdo Āto Onrain
-illustrator: Reki Kawahara
 author: Reki Kawahara
+illustrator: Reki Kawahara
 cover: assets/img/animes/sao.png
-categories: adventure, science-fiction
+categories: adventure science-fiction
 tags: top-100
-buy_link:
-started: 2002-01-01
-finished: 2008-01-01
-released:
+wikipedia: https://en.wikipedia.org/wiki/Sword_Art_Online
+types: novel anime manga ligth-novel film video-game
+started: 2009-04-10
+ended: present
+volumes: 28
+released: 2012-07-08
+finished: 2020-09-20
+episodes: 25, 24, 47
+date: 2016-01-05
 stars: 5
 status: Finished
-date: 2019-10-01
 seasons: 3
 ---
