@@ -1,6 +1,6 @@
 ---
 layout: anime-shelf
-title: My Watch List
+title: my watch list
 permalink: /animes/
 nav: false
 collection: animes

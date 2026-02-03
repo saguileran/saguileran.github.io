@@ -8,7 +8,7 @@ cover: assets/img/animes/kizumonogatari.png
 categories: vampire
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Kizumonogatari
-types: film
+formats: film
 started:
 ended:
 volumes:

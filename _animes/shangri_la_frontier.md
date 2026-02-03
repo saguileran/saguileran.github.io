@@ -8,7 +8,7 @@ cover: assets/img/animes/shangri_la_frontier.png
 categories: adventure fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Shangri-La_Frontier
-types: novel manga anime video-game
+formats: novel manga anime video-game
 started: 2020-07-15
 ended: present
 volumes: 25

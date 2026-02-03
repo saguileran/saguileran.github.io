@@ -8,7 +8,7 @@ cover: assets/img/animes/lazarus.png
 categories: action science-fiction
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Lazarus_(Japanese_TV_series)
-types: anime
+formats: anime
 started:
 ended:
 volumes:

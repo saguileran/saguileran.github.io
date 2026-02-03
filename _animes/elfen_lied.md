@@ -8,7 +8,7 @@ cover: assets/img/animes/elfen_lied.png
 categories: dark-fantasy science-fiction
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Elfen_Lied
-types: manga anime
+formats: manga anime
 started: 2002-06-06
 ended: 2005-08-25
 volumes: 12

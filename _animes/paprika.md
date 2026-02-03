@@ -8,7 +8,7 @@ cover: assets/img/animes/paprika.png
 categories: science-fiction psychological thriller
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Paprika_(2006_film)
-types: film
+formats: film
 started:
 ended:
 volumes:

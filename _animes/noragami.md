@@ -8,7 +8,7 @@ cover: assets/img/animes/noragami.png
 categories: action supernatural urban-fantasy comedy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Noragami
-types: manga anime
+formats: manga anime
 started: 2010-12-06
 ended: 2024-04-06
 volumes: 27+3

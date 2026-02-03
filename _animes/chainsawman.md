@@ -8,7 +8,7 @@ cover: assets/img/animes/chainsaw_man.png
 categories: action comedy horror dark-fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Chainsaw_Man
-types: manga anime film
+formats: manga anime film
 started: 2018-12-03
 ended: present
 released: 2022-10-12

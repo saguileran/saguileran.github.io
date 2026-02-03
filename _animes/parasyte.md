@@ -8,7 +8,7 @@ cover: assets/img/animes/parasyte.png
 categories: body-horror horror thriller science-fiction
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Parasyte#Anime
-types: manga anime live-action
+formats: manga anime live-action
 started: 1989-08-01
 ended: 1994-12-24
 volumes: 10, 8

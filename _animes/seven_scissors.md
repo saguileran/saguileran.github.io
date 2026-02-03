@@ -8,7 +8,7 @@ cover: assets/img/animes/seven_scissors.png
 categories: fithg dark-fantasy comedy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Scissor_Seven
-types: manhua anime
+formats: manhua anime
 started: 2016-01-01
 ended: 2017-12-31
 volumes:

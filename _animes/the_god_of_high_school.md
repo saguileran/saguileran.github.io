@@ -8,7 +8,7 @@ cover: assets/img/animes/the_god_of_high_school.png
 categories: comedy martial-arts supernatural
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/The_God_of_High_School
-types: webtoon manhwa light-novel video-game anime
+formats: webtoon manhwa light-novel video-game anime
 started: 2011-04-08
 ended: 2022-11-03
 volumes: 4

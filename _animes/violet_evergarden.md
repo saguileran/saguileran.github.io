@@ -8,7 +8,7 @@ cover: assets/img/animes/violet_evergarden.png
 categories: coming-of-age steampunk
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Violet_Evergarden
-types: light-novel anime film
+formats: light-novel anime film
 started: 2015-12-25
 ended: 2020-03-27
 volumes: 4

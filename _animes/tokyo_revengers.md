@@ -8,7 +8,7 @@ cover: assets/img/animes/tokyo_revengers.png
 categories: action science-fiction time-travel yankee
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Tokyo_Revengers
-types: manga anime ONA live-action video-game
+formats: manga anime ONA live-action video-game
 started: 2017-03-01
 ended: 2022-11-16
 volumes: 31

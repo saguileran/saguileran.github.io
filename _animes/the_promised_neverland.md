@@ -8,7 +8,7 @@ cover: assets/img/animes/the_promised_neverland.png
 categories: dark-fantasy science-fiction thriller
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/The_Promised_Neverland
-types: manga anime light-novel video-game live-action
+formats: manga anime light-novel video-game live-action
 started: 2018-07-26
 ended: 2019-03-28
 volumes: 1

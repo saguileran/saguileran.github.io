@@ -8,7 +8,7 @@ cover: assets/img/animes/tate_no_yusha.png
 categories: dark-fantasy isekai adventure
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/The_Rising_of_the_Shield_Hero
-types: novel light-novel manga anime
+formats: novel light-novel manga anime
 started: 2014-02-05
 ended: present
 volumes: 29

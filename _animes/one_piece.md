@@ -8,7 +8,7 @@ cover: assets/img/animes/one_piece.png
 categories: shonen action fantasy adventure
 tags: top-100 top-10
 wikipedia: https://en.wikipedia.org/wiki/One_Piece
-types: manga anime film video-game
+formats: manga anime film video-game
 started: 1997-07-22
 ended: present
 volumes: 113

@@ -8,7 +8,7 @@ cover: assets/img/animes/dragon_ball_gt.png
 categories: adventure fantasy comedy martial-arts
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Dragon_Ball_GT
-types: anime
+formats: anime
 started:
 ended:
 volumes:

@@ -8,7 +8,7 @@ cover: assets/img/animes/shaman_king.png
 categories: adventure supernatural
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Shaman_King
-types: manga anime
+formats: manga anime
 started: 1998-06-30
 ended: 2004-08-30
 volumes: 35

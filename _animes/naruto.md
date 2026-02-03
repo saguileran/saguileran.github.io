@@ -8,7 +8,7 @@ cover: assets/img/animes/naruto.png
 categories: shounen adventure ninjas war
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Naruto
-types: anime manga video-game
+formats: anime manga video-game
 started: 1999-09-21
 ended: 2014-11-10
 volumes: 72

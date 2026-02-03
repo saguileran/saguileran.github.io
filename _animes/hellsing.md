@@ -8,7 +8,7 @@ cover: assets/img/animes/hellsing.png
 categories: action dark-fantasy vampire
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Hellsing
-types: manga anime
+formats: manga anime
 started: 1997-04-30
 ended: 2008-09-30
 volumes: 10

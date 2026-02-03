@@ -8,7 +8,7 @@ cover: assets/img/animes/jojos.png
 categories: adventure supernatural bizarre
 tags: top-100 top-10
 wikipedia: https://en.wikipedia.org/wiki/JoJo%27s_Bizarre_Adventure
-types: manga anime film video-game
+formats: manga anime film video-game
 started: 1987-01-01
 ended: presnet
 volumes: 138

@@ -8,7 +8,7 @@ cover: assets/img/animes/akudama_drive.png
 categories: action cyberpunk
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Akudama_Drive
-types: manga anime
+formats: manga anime
 started: 2020-07-07
 ended: 2023-04-25
 released: 2020-10-08

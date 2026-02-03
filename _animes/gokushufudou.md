@@ -8,7 +8,7 @@ cover: assets/img/animes/gokushufudou.png
 categories: action comedy slice_of_life
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/The_Way_of_the_Househusband
-types: manga tv-drama ONA live-action
+formats: manga tv-drama ONA live-action
 started: 2018-02-23
 ended: present
 volumes: 16

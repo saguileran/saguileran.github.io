@@ -8,7 +8,7 @@ cover: assets/img/animes/kaju_no_8.png
 categories: adventure science fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Kaiju_No._8
-types: anime manga light-novel
+formats: anime manga light-novel
 started: 2020-07-03
 ended: 2025-07-18
 volumes: 16, 3

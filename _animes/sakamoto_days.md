@@ -8,7 +8,7 @@ cover: assets/img/animes/sakamoto_days.png
 categories: action comedy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Sakamoto_Days
-types: manga anime live-action
+formats: manga anime live-action
 started: 2020-11-21
 ended: present
 volumes: 25

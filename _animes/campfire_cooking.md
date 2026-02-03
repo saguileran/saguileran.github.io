@@ -8,7 +8,7 @@ cover: assets/img/animes/campfire_cooking.png
 categories: cooking fantasy comedy isekai
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Campfire_Cooking_in_Another_World_with_My_Absurd_Skill
-types: novel ligth-novel manga anime
+formats: novel ligth-novel manga anime
 started: 2016-01-05
 ended: present
 released: 2023-01-11

@@ -8,7 +8,7 @@ cover: assets/img/animes/dororo.png
 categories: action dark-fantasy historical fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Dororo
-types: manga anime video-game live-action
+formats: manga anime video-game live-action
 started: 1967-08-01
 ended: 1696-10-01
 volumes: 4

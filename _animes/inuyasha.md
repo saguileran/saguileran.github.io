@@ -8,7 +8,7 @@ cover: assets/img/animes/inuyasha.png
 categories: adventure fantasy romance
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Inuyasha
-types: manga anime spin-off
+formats: manga anime spin-off
 started: 1996-11-13
 ended: 2008-06-18
 volumes: 56

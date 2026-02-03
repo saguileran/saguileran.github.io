@@ -8,7 +8,7 @@ cover: assets/img/animes/blue_exorcist.png
 categories: adventure dark-fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Blue_Exorcist
-types: manga anime film
+formats: manga anime film
 started: 2009-04-04
 ended: present
 released: 2011-04-17

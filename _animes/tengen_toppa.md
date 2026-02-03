@@ -8,7 +8,7 @@ cover: assets/img/animes/tengen_toppa.png
 categories: adventure comedy drama mecha coming-of-age
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Gurren_Lagann
-types: anime manga light-novel film
+formats: anime manga light-novel film
 started: 2007-06-01
 ended: 2013-07-01
 volumes: 10

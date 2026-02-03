@@ -8,7 +8,7 @@ cover: assets/img/animes/clevatess.png
 categories: dark-fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Clevatess
-types: manga anime
+formats: manga anime
 started: 2020-08-12
 ended: present
 released: 2025-07-02

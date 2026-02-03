@@ -8,7 +8,7 @@ cover: assets/img/animes/avatar.png
 categories: fantasy action
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender
-types: american live-action anime
+formats: american live-action anime
 started:
 ended:
 volumes:

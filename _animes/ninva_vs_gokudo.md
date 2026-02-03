@@ -8,7 +8,7 @@ cover: assets/img/animes/ninja_vs_gokudo.png
 categories: action comedy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Ninja_vs._Gokudo
-types: manga anime
+formats: manga anime
 started: 2020-01-20
 ended: present
 volumes: 16
