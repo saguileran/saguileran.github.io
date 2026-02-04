@@ -490,6 +490,11 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/lupin_III/";
+            },},{id: "animes-ghost-in-the-shell",
+          title: 'Ghost in the Shell',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/ghost_in_the_shell/";
             },},{id: "animes-the-god-of-high-school",
           title: 'The God of High School',
           description: "",
@@ -625,6 +630,11 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/chainsawman/";
+            },},{id: "animes-akira",
+          title: 'Akira',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/akira/";
             },},{id: "animes-campfire-cooking-in-another-world-with-my-absurd-skill",
           title: 'Campfire Cooking in Another World with My Absurd Skill',
           description: "",
@@ -825,6 +835,11 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/devilman_crybaby/";
+            },},{id: "animes-perfect-blue",
+          title: 'Perfect Blue',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/perfect_blue/";
             },},{id: "animes-a-gatherer-39-s-adventure-in-isekai",
           title: 'A Gatherer&amp;#39;s Adventure in Isekai',
           description: "",
