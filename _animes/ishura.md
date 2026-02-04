@@ -8,7 +8,7 @@ cover: assets/img/animes/ishura.png
 categories: action dark-fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Ishura
-types: novel manga anime light-novel
+formats: novel manga anime light-novel
 started: 2017-06-30
 ended: present
 volumes: 10

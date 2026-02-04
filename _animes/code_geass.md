@@ -8,7 +8,7 @@ cover: assets/img/animes/code_geass.png
 categories: mecha political trhiller
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Code_Geass
-types: anime manga video-games
+formats: anime manga video-games
 started: 2008-12-26
 ended: 2010-03-26
 released: 2006-10-06

@@ -8,7 +8,7 @@ cover: assets/img/animes/frieren.png
 categories: adventure drama fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Frieren
-types: manga anime
+formats: manga anime
 started: 2020-04-28
 ended: present
 volumes: 15

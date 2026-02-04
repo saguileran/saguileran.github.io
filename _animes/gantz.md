@@ -8,7 +8,7 @@ cover: assets/img/animes/gantz.png
 categories: action psychological-horror psychological-thriller science-fiction
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Gantz
-types: manga anime film spin-off
+formats: manga anime film spin-off
 started: 2000-06-29
 ended: 2013-06-20
 volumes: 37

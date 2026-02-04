@@ -8,7 +8,7 @@ cover: assets/img/animes/banan_fish.png
 categories: drama thriller
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Banana_Fish
-types: anime manga
+formats: anime manga
 started: 1985-05-01
 ended: 1994-04-01
 released: 2018-07-05

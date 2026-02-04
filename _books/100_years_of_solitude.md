@@ -13,6 +13,6 @@ finished: 2025-01-22
 released: 1967
 stars: 5
 goodreads_review:
-status: Reading
+status: Paused
 date: 2024-10-01
 ---

@@ -8,7 +8,7 @@ cover: assets/img/animes/captain_tsubasa.png
 categories: sports
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Captain_Tsubasa
-types: manga anime film
+formats: manga anime film
 started: 1981-03-31
 ended: 1988-05-09
 released: 1983-10-13

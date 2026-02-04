@@ -8,7 +8,7 @@ cover: assets/img/animes/goblin_slayer.png
 categories: adventure dark-fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Goblin_Slayer
-types: light-novel anime manga
+formats: light-novel anime manga
 started: 2016-03-25
 ended: present
 volumes: 17, 2, 9, 3

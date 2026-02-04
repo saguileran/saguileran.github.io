@@ -8,7 +8,7 @@ cover: assets/img/animes/berserk.png
 categories: dark-fantasy epic-fantasy sword sorcery
 tags: top-100 top-10
 wikipedia: https://en.wikipedia.org/wiki/Berserk_(manga)
-types: manga anime film
+formats: manga anime film
 started: 1989-08-25
 ended: present
 released: 1997-10-08

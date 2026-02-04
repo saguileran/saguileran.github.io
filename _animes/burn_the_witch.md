@@ -8,7 +8,7 @@ cover: assets/img/animes/burn_the_witch.png
 categories: action fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Burn_the_Witch_(manga)
-types: manga film
+formats: manga film
 started: 2018-07-14
 ended: present
 released: 2020-10-02

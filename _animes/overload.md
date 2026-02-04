@@ -8,7 +8,7 @@ cover: assets/img/animes/overload.png
 categories: dark-fantasy isekai
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Overlord_(novel_series)
-types: novel light-novel anime manga film
+formats: novel light-novel anime manga film
 started: 2012-07-30
 ended: present
 volumes: 16

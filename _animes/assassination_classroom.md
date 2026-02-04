@@ -8,7 +8,7 @@ cover: assets/img/animes/assassination_classroom.png
 categories: action science-fiction comedy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Assassination_Classroom
-types: anime manga films video-game film live-action spin-off
+formats: anime manga films video-game film live-action spin-off
 started: 2012-07-02
 ended: 2016-03-25
 released: 2015-01-09

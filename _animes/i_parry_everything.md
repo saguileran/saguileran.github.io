@@ -8,7 +8,7 @@ cover: assets/img/animes/i_parry_everything.png
 categories: adventure fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/I_Parry_Everything
-types: light-novel manga anime
+formats: light-novel manga anime
 started: 2019-10-17
 ended: present
 volumes: 11

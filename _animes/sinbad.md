@@ -8,7 +8,7 @@ cover: assets/img/animes/sinbad.png
 categories: adventure fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Magi:_Adventure_of_Sinbad
-types: manga anime
+formats: manga anime
 started: 2013-05-18
 ended: 2018-04-25
 volumes: 19

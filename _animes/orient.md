@@ -8,7 +8,7 @@ cover: assets/img/animes/orient.png
 categories: adventure historical fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Orient_(manga)
-types: manga anime
+formats: manga anime
 started: 2018-05-30
 ended: 2024-10-09
 volumes: 22

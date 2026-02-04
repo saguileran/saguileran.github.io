@@ -8,7 +8,7 @@ cover: assets/img/animes/knights_of_sidonia.png
 categories: mecha space-opera
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Knights_of_Sidonia
-types: manga anime film
+formats: manga anime film
 started: 2009-04-25
 ended: 2015-09-25
 volumes: 15

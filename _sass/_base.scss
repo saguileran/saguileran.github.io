@@ -222,7 +222,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 28%;
+    width: 32%;
 
     .address {
       p {
@@ -453,7 +453,8 @@ ul.task-list input[type="checkbox"] {
   }
 
   .contact-note {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    font-style: italic;
   }
 }
 
@@ -597,6 +598,7 @@ footer.sticky-bottom {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
+  // text-transform: capitalize;
 }
 
 .post-list {

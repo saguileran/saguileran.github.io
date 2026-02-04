@@ -8,7 +8,7 @@ cover: assets/img/animes/devilman_crybaby.png
 categories: action dark-fantasy superhero
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Devilman_Crybaby
-types: ONA anime
+formats: ONA anime
 started:
 ended:
 released: 2018-01-05

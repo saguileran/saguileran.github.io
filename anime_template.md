@@ -8,7 +8,7 @@ cover: assets/img/animes/.png
 categories:
 tags: top-100
 wikipedia:
-types:
+formats:
 started:
 ended:
 volumes:

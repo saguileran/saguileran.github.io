@@ -8,7 +8,7 @@ cover: assets/img/animes/chi.png
 categories: historical mystery science-fiction religion
 tags: top-100 top-10
 wikipedia: https://en.wikipedia.org/wiki/Orb:_On_the_Movements_of_the_Earth
-types: manga anime
+formats: manga anime
 started: 2020-09-14
 ended: 2022-04-18
 released: 2024-10-05

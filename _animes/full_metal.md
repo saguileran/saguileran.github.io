@@ -8,7 +8,7 @@ cover: assets/img/animes/full_metal.png
 categories: adventure dark-fantasy steampunk
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Fullmetal_Alchemist
-types: manga anime light-novel live-action film
+formats: manga anime light-novel live-action film
 started: 2001-07-12
 ended: 2010-06-11
 volumes: 27

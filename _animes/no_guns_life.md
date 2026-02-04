@@ -8,7 +8,7 @@ cover: assets/img/animes/no_guns_life.png
 categories: cyberpunk
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/No_Guns_Life
-types: manga anime
+formats: manga anime
 started: 2014-09-19
 ended: 2021-09-18
 volumes: 13

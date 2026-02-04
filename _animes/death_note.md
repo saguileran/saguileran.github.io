@@ -8,7 +8,7 @@ cover: assets/img/animes/death_note.png
 categories: mystery psychological thriller supernatural
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Death_Note
-types: manga anime novel live-action video-game
+formats: manga anime novel live-action video-game
 started: 2003-12-01
 ended: 2006-05-15
 released: 2006-10-04

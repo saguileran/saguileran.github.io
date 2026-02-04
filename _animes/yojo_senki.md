@@ -8,7 +8,7 @@ cover: assets/img/animes/yojo_senki.png
 categories: dark-fantasy isekai military
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/The_Saga_of_Tanya_the_Evil
-types: novel light-novel manga anime film
+formats: novel light-novel manga anime film
 started: 2016-04-26
 ended: present
 volumes: 33

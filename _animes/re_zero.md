@@ -8,7 +8,7 @@ cover: assets/img/animes/re_zero.png
 categories: adventure dark-fantasy isekai
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Re:Zero
-types: novel light-novel manga anime video-game
+formats: novel light-novel manga anime video-game
 started: 2012-04-20
 ended: present
 volumes: 43, 2, 5, 12, 2

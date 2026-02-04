@@ -8,7 +8,7 @@ cover: assets/img/animes/cowboy_bebop.png
 categories: neo-noir space Western
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Cowboy_Bebop
-types: manga anime film livea-ction soundtrack
+formats: manga anime film livea-ction soundtrack
 started: 1997-09-18
 ended: 1998-06-18
 released: 1998-04-03

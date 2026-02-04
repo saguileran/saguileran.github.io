@@ -8,7 +8,7 @@ cover: assets/img/animes/dorohedoro.png
 categories: action dark-fantasy science-fiction
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Dorohedoro
-types: manga anime
+formats: manga anime
 started: 2000-11-30
 ended: 2018-09-12
 released: 2020-01-12

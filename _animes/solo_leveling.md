@@ -8,7 +8,7 @@ cover: assets/img/animes/solo_leveling.png
 categories: action fantasy cosmic-horror videogame
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Solo_Leveling
-types: web novel
+formats: web novel
 started: 2018-03-04
 ended: 2021-12-29
 volumes: 15

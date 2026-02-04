@@ -34,15 +34,15 @@ news: true # includes a list of news items
 
 <hr style="width:100%;text-align:left;margin-left:0">
 
-<h4 align="left" style="margin: 2pt 0 10pt 0;"><i style="margin: 0 2pt 0 0;">Pleased to meet you!</i> 😁 ✌️</h4>
+<h5 align="left" style="margin: 2pt 0 10pt 0;"><i style="margin: 0 2pt 0 0;">Pleased to meet you!</i> 😁 ✌️</h5>
 
-<p>I'm a CS master's student at the <a href="https://www.ime.usp.br/">Institute of Mathematics, Statistics, and Computer Science, University of São Paulo (IME-USP)</a>, working on bioacoustics and dynamical systems. I studied Physics at the <a href="https://unal.edu.co/guc/">National University of Colombia (UNAL)</a> and have hands-on experience from a DSP project on underwater sound at the <a href="https://www.ece.udel.edu/">University of Delaware</a> and molecular simulation work at the <a href="https://www2.ifsc.usp.br/english/">Sao Carlos Physics Institute (IFSC-USP)</a>. I like combining math modeling with data analysis and programming.</p>
+<p>I'm a CS master's student at the <a href="https://www.ime.usp.br/">IME-USP</a>, working on bioacoustics and dynamical systems. I studied Physics at the <a href="https://unal.edu.co/guc/">UNAL</a> and have hands-on experience from a DSP project on underwater sound at the <a href="https://www.ece.udel.edu/">University of Delaware</a> and molecular simulation work at the <a href="https://www2.ifsc.usp.br/english/">IFSC-USP</a>. I like combining math modeling with data analysis and programming.</p>
 
 <hr style="width:70%;text-align:left;margin-left:0">
 
 <h3>Research</h3>
 
-<p>My passion centers on the physical modeling of sound, from its generation and propagation to its computational simulation using ordinary and partial differential equations as well as numerical methods. I combine computational physics, acoustics, and simulation techniques to develop models that capture real acoustic behavior while maintaining theoretical rigor and practical applicability. I leverage signal processing and machine learning tools strategically, viewing them as complementary to deep physical understanding. I'm driven by the challenge of developing models that bridge theory and computation, particularly in bioacoustics where physical insight and data-driven methods converge most powerfully.</p>
+<p>My passion centers on the physical modeling of sound, from its generation and propagation to its computational simulation using ODEs and PDEs  as well as numerical methods. I combine computational physics, acoustics, and simulation techniques to develop models that capture real acoustic behavior while maintaining theoretical rigor and practical applicability. I leverage DSP and ML tools strategically, viewing them as complementary to deep physical understanding. I'm driven by the challenge of developing models that bridge theory and computation, particularly in bioacoustics where physical insight and data-driven methods converge most powerfully.</p>
 
 <p>At present, I'm advancing research in bioacoustics, investigating bird vocalizations (sound production) and acoustic signal analysis. I develop tools like <a href="https://wavesongs.github.io/">WaveSongs</a> to enable accessible, reproducible research within the scientific community. My work spans the complete acoustic pipeline, from computational modeling and simulation to visualization and data analysis. I'm particularly passionate about leveraging computational science to understand and conserve our fauna and biodiversity.</p>
 

@@ -8,7 +8,7 @@ cover: assets/img/animes/gachiakuta.png
 categories: action dark-fantasy dystopian
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Gachiakuta
-types: manga anime
+formats: manga anime
 started: 2022-02-16
 ended: present
 volumes: 17

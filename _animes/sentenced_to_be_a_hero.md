@@ -8,7 +8,7 @@ cover: assets/img/animes/sentenced_to_be_a_hero.png
 categories: adventure dark-fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Sentenced_to_Be_a_Hero
-types: novel light-novel manga anime
+formats: novel light-novel manga anime
 started: 2021-09-17
 ended: present
 volumes: 8

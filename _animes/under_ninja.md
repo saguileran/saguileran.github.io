@@ -8,7 +8,7 @@ cover: assets/img/animes/under_ninja.png
 categories: action comedy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Under_Ninja
-types: manga anime live-action
+formats: manga anime live-action
 started: 2018-07-23
 ended: present
 volumes: 16

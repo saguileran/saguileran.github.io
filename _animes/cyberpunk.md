@@ -8,7 +8,7 @@ cover: assets/img/animes/cyberpunk.png
 categories: cyberpunk
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Cyberpunk:_Edgerunners
-types: ONA anime web-serie video-game
+formats: ONA anime web-serie video-game
 started:
 ended:
 released: 2022-09-13

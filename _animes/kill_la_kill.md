@@ -8,7 +8,7 @@ cover: assets/img/animes/kill_la_kill.png
 categories: action comedy magical-girl
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Kill_la_Kill
-types: manga anime
+formats: manga anime
 started: 2013-10-04
 ended: 2015-10-04
 volumes: 3

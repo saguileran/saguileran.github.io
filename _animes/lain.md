@@ -8,7 +8,7 @@ cover: assets/img/animes/lain.png
 categories: cyberpunk psychological horror techno-horror
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Serial_Experiments_Lain
-types: manga anime video-game
+formats: manga anime video-game
 started: 1999-05-01
 ended: 1999-07-01
 volumes:

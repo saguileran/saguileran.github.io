@@ -8,7 +8,7 @@ cover: assets/img/animes/the_ossan_newbie_adventurer.png
 categories: adventure fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/The_Ossan_Newbie_Adventurer
-types: novel ligth-novel manga anime
+formats: novel ligth-novel manga anime
 started: 2019-11-22
 ended: present
 volumes: 12

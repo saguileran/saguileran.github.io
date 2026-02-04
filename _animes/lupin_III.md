@@ -8,7 +8,7 @@ cover: assets/img/animes/lupin_III.png
 categories: action comedy mystery
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Lupin_the_Third
-types: manga anime film theater video-game soundtrack
+formats: manga anime film theater video-game soundtrack
 started: 1967-08-10
 ended: present
 volumes: 10, 1, 20, 8, 7, 9, 1

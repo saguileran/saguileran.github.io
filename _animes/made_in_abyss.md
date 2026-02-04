@@ -8,7 +8,7 @@ cover: assets/img/animes/made_in_abyss.png
 categories: adventure dark-fantasy science-fiction
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Made_in_Abyss
-types: manga anime film video-game
+formats: manga anime film video-game
 started: 2012-10-20
 ended: present
 volumes: 14

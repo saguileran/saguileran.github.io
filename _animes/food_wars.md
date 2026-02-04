@@ -8,7 +8,7 @@ cover: assets/img/animes/food_war.png
 categories: comedy cooking slice-of-life
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Food_Wars!:_Shokugeki_no_Soma
-types: manga anime ligth-novel video-game
+formats: manga anime ligth-novel video-game
 started: 2012-11-26
 ended: 2019-08-29
 volumes: 36

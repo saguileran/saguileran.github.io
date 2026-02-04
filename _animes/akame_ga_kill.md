@@ -14,7 +14,7 @@ released: 2014-07-07
 finished: 2014-12-15
 date: 2018-05-06
 stars: 5
-types: anime manga
+formats: anime manga
 status: Finished
 date: 2020-05-06
 seasons: 1

@@ -8,7 +8,7 @@ cover: assets/img/animes/uzumaki.png
 categories: dark-fantasy psychological-horror supernatural
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Uzumaki
-types: manga anime live-action
+formats: manga anime live-action
 started: 1998-01-19
 ended: 199-08-30
 volumes: 3
