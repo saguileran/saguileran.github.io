@@ -8,7 +8,7 @@ cover: assets/img/animes/boruto.png
 categories: adventure fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Boruto
-formats: manga anime film
+types: manga anime film
 started: 2016-05-09
 ended: present
 released: 2017-04-05

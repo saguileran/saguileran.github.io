@@ -8,7 +8,7 @@ cover: assets/img/animes/devil_may_cry.png
 categories: action horror fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Devil_May_Cry:_The_Animated_Series
-formats: video-game anime
+types: video-game anime
 started:
 ended:
 released: 2007-06-14

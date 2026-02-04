@@ -8,7 +8,7 @@ cover: assets/img/animes/ninja_kamui.png
 categories: action science-fiction
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Ninja_Kamui
-formats: anime
+types: anime
 started:
 ended:
 volumes:

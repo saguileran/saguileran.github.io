@@ -8,7 +8,7 @@ cover: assets/img/animes/wind_breaker.png
 categories: adventure martial-arts yankee
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Wind_Breaker_(manga)
-formats: manga anime live-action
+types: manga anime live-action
 started: 2021-01-13
 ended: present
 volumes: 24

@@ -8,7 +8,7 @@ cover: assets/img/animes/kakegurui.png
 categories: gambling psychological-thriller
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Kakegurui
-formats: manga anime spin-off,live-action
+types: manga anime spin-off,live-action
 started: 2014-03-22
 ended: present
 volumes: 20

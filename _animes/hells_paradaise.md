@@ -8,7 +8,7 @@ cover: assets/img/animes/hells_paradaise.png
 categories: action dark-fantasy psychological thriller
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Hell%27s_Paradise:_Jigokuraku
-formats: anime manga
+types: anime manga
 started: 2018-01-22
 ended: 2021-01-25
 volumes: 13

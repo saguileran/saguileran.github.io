@@ -8,7 +8,7 @@ cover: assets/img/animes/sozai_saishuka.png
 categories: isekai
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/A_Gatherer%27s_Adventure_in_Isekai
-formats: novel light-novel manga anime
+types: novel light-novel manga anime
 started: 2017-12-13
 ended: present
 volumes: 9

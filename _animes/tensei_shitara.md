@@ -8,7 +8,7 @@ cover: assets/img/animes/tensei_shitara.png
 categories: fantasy comedy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/I_Was_Reincarnated_as_the_7th_Prince_so_I_Can_Take_My_Time_Perfecting_My_Magical_Ability
-formats: novel light-novel manga anime
+types: novel light-novel manga anime
 started: 2020-06-27
 ended: present
 volumes: 10, 20, 2

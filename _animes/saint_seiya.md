@@ -8,7 +8,7 @@ cover: assets/img/animes/saint_seiya.png
 categories: fantasy martial_arts mythological
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Saint_Seiya
-formats: manga anime video-game film
+types: manga anime video-game film
 started: 1985-12-03
 ended: 1990-12-12
 volumes: 28

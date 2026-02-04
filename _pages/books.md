@@ -1,6 +1,6 @@
 ---
 layout: book-shelf
-title: bookshelf
+title: Bookshelf
 description: Books that I am reading, have read, or will read.
 permalink: /books/
 nav: false

@@ -8,7 +8,7 @@ cover: assets/img/animes/ragnarok.png
 categories: adventure dark-fantasy martial-arts
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Record_of_Ragnarok
-formats: manga anime ONA
+types: manga anime ONA
 started: 2017-11-25
 ended: present
 volumes: 26, 8, 3

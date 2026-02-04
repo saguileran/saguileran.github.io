@@ -8,7 +8,7 @@ cover: assets/img/animes/trigun.png
 categories: action post-apocalyptic space-western
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Trigun
-formats: manga anime film
+types: manga anime film
 started: 1995-03-25
 ended: 1996-12-26
 volumes: 3, 2, 14

@@ -8,7 +8,7 @@ cover: assets/img/animes/gangsta.png
 categories: adventure thriller action
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Gangsta_(manga)
-formats: manga anime novel
+types: manga anime novel
 started: 2011-07-08
 ended: 2018-05-09
 volumes: 8, 5

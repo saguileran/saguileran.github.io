@@ -8,7 +8,7 @@ cover: assets/img/animes/hajime_no_ippo.png
 categories: action comedy sports
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Hajime_no_Ippo
-formats: manga anime film
+types: manga anime film
 started: 1989-10-11
 ended: present
 volumes: 145

@@ -8,7 +8,7 @@ cover: assets/img/animes/the_boy_and_the_heron.png
 categories: fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/The_Boy_and_the_Heron
-formats: film anime
+types: film anime
 started:
 ended:
 volumes:

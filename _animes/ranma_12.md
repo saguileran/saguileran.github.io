@@ -8,7 +8,7 @@ cover: assets/img/animes/ranma_12.png
 categories: adventure martial-arts romance comedy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Ranma_%C2%BD
-formats: manga anime film live-action video-game
+types: manga anime film live-action video-game
 started: 1987-08-19
 ended: 1996-03-06
 volumes: 38

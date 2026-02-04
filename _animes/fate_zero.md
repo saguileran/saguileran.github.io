@@ -8,7 +8,7 @@ cover: assets/img/animes/fate_zero.png
 categories: action dark-fantasy tragedy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Fate/Zero
-formats: ligth-novel manga anime
+types: ligth-novel manga anime
 started: 2006-12-29
 ended: 2007-12-29
 volumes: 4

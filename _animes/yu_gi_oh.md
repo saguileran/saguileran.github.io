@@ -8,7 +8,7 @@ cover: assets/img/animes/yu_gi_oh.png
 categories: adventure science-fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Yu-Gi-Oh!
-formats: manga anime film video-game
+types: manga anime film video-game
 started: 1996-09-17
 ended: 2004-03-08
 volumes: 38

@@ -8,7 +8,7 @@ cover: assets/img/animes/dragon_ball.png
 categories: adventure fantasy comedy martial-arts
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Dragon_Ball_(manga)
-formats: manga anime
+types: manga anime
 started: 1984-11-20
 ended: 1995-05-23
 volumes: 42

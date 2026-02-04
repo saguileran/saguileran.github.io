@@ -8,7 +8,7 @@ cover: assets/img/animes/sabikui_bisco.png
 categories: adventure post-apocalyptic
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Sabikui_Bisco
-formats: light-novel manga anime
+types: light-novel manga anime
 started: 2018-03-10
 ended: 2025-01-10
 volumes: 10, 4, 3

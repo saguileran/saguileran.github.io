@@ -8,7 +8,7 @@ cover: assets/img/animes/deca_dence.png
 categories: action science-fiction
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Deca-Dence
-formats: anime
+types: anime
 started:
 ended:
 volumes:

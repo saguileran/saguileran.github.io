@@ -8,7 +8,7 @@ cover: assets/img/animes/vinland_saga.png
 categories: adventure epic historical
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Vinland_Saga_(manga)
-formats: manga anime
+types: manga anime
 started: 2006-04-13
 ended: 2025-07-25
 volumes: 29

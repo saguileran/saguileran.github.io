@@ -8,7 +8,7 @@ cover: assets/img/animes/gankutsuou.png
 categories: science-fiction
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Gankutsuou:_The_Count_of_Monte_Cristo
-formats: anime manga
+types: anime manga
 started: 2005-03-25
 ended: 2008-03-25
 volumes: 3, 3

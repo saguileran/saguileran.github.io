@@ -281,13 +281,7 @@ jekyll-archives:
   # teaching:
   #   enabled: [year, tags, categories]
   animes:
-    enabled: [year, tags, categories, status, formats]
-    permalinks:
-      year: "/:collection/:year/"
-      tags: "/:collection/:type/:name/"
-      categories: "/:collection/:type/:name/"
-      status: "/:collection/:type/:name/"
-      formats: "/:collection/:type/:name/" # Add permalink pattern here
+    enabled: [year, tags, categories, status, types]
 
 display_tags: ["images", "github"] # these tags will be displayed on the front page of your blog
 display_categories: ["learning", "art", "travel", "writing", "external-services"] # these categories will be displayed on the front page of your blog

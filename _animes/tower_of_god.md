@@ -8,7 +8,7 @@ cover: assets/img/animes/tower_of_god.png
 categories: action dark-fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Tower_of_God
-formats: manwha webtoon anime
+types: manwha webtoon anime
 started: 2010-06-30
 ended: present
 volumes: 19

@@ -8,7 +8,7 @@ cover: assets/img/animes/baki.png
 categories: martial-arts
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Baki_the_Grappler
-formats: anime manga
+types: anime manga
 started: 1991-09-30
 ended: present
 released: 2001-01-08

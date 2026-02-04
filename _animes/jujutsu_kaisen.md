@@ -8,7 +8,7 @@ cover: assets/img/animes/jujutsu_kaisen.png
 categories: adventure dark-fantasy supernatural sorcery
 tags: top-100 top-10
 wikipedia: https://en.wikipedia.org/wiki/Jujutsu_Kaisen
-formats: manga anime video-game
+types: manga anime video-game
 started: 2018-03-05
 ended: 2024-09-30
 volumes: 30

@@ -3,7 +3,7 @@ layout: default
 ---
 {% assign year = page.date | date: '%Y' %}
 {% assign tags = page.tags | join: '' %}
-{% assign formats = page.formats | split: ' ' %}
+{% assign types = page.types | join: '' %}
 {% assign categories = page.categories | join: '' %}
 
 {% if page._styles %}
@@ -21,44 +21,38 @@ layout: default
     {% endif %}
     {% if page.author or page.illustrator or page.stars or page.wikipedia %}
       <p class="post-meta">
-        <b>Rating:</b>
-        {% assign full_stars = page.stars | floor %}
-        {% assign half_star = page.stars | minus: full_stars %}
-        {% assign empty_stars = 5 | minus: full_stars %}
-        {% if half_star > 0 %}
-          {% assign empty_stars = empty_stars | minus: 1 %}
+        {% if page.author %}
+          <b>Written by:</b> {{ page.author }}
         {% endif %}
-        {% for i in (1..full_stars) -%}
-          <i class="fa-solid fa-star fa-sm"></i>
-        {%- endfor -%}
-        {%- if half_star > 0 %}<i class="fa-solid fa-star-half-stroke fa-sm"></i>{% endif -%}
-        {%- for i in (1..empty_stars) -%}
-          <i class="fa-regular fa-star fa-sm"></i>
-        {%- endfor -%}
-    {% endif %}
-    {% if page.wikipedia %}
-      {% if page.started or page.finished or page.stars %}
-        &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-      {% endif %}
-      <a target="_blank" href="{{ page.wikipedia }}"><i class="fa-brands fa-wikipedia-w"></i>ikipedia </a>
-    {% endif %}
-    {% if year %}
-      &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-      <a href="{{ year | prepend: '/animes/' | relative_url }}"> <i class="fa-solid fa-calendar fa-sm"></i> {{ year }}</a>
-    {% endif %}
-    <br>
-    {% if page.author %}
-      <b>Written by:</b> {{ page.author }}
-    {% endif %}
-    {% if page.illustrator %}
-      &nbsp;&middot;&nbsp;
-      <b>Illustrated by:</b> {{ page.illustrator }}
-    {% endif %}
-    {% if page.stars %}
-      {% if page.released or page.finished %}
-        {% comment %} &nbsp;&nbsp;&middot;&nbsp;&nbsp; {% endcomment %}
-      {% endif %}
-
+        {% if page.illustrator %}
+          &nbsp;&middot;&nbsp;
+          <b>Illustrated by:</b> {{ page.illustrator }}
+        {% endif %}
+        {% if page.stars %}
+          {% if page.released or page.finished %}
+            &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+          {% endif %}
+          <b>Rating:</b>
+          {% assign full_stars = page.stars | floor %}
+          {% assign half_star = page.stars | minus: full_stars %}
+          {% assign empty_stars = 5 | minus: full_stars %}
+          {% if half_star > 0 %}
+            {% assign empty_stars = empty_stars | minus: 1 %}
+          {% endif %}
+          {% for i in (1..full_stars) -%}
+            <i class="fa-solid fa-star fa-sm"></i>
+          {%- endfor -%}
+          {%- if half_star > 0 %}<i class="fa-solid fa-star-half-stroke fa-sm"></i>{% endif -%}
+          {%- for i in (1..empty_stars) -%}
+            <i class="fa-regular fa-star fa-sm"></i>
+          {%- endfor -%}
+        {% endif %}
+        {% if page.wikipedia %}
+          {% if page.started or page.finished or page.stars %}
+            &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+          {% endif %}
+          <a target="_blank" href="{{ page.wikipedia }}"><i class="fa-brands fa-wikipedia-w"></i>ikipedia </a>
+        {% endif %}
       </p>
     {% endif %}
 
@@ -77,10 +71,9 @@ layout: default
           <i class="fa-solid fa-stop fa-sm" style="color: #e56565 !important"></i> <em>{{ page.ended }}</em>
         {% endif %}
         {% if page.volumes %}
-          &nbsp;&middot;&nbsp; <b>Volumes:</b>&nbsp; {{ page.volumes }}
-          {% comment %} &nbsp;&nbsp;<b>|</b>&nbsp;&nbsp; {% endcomment %}
+          &nbsp;&middot;&nbsp; <b>Volumes:</b>&nbsp; {{ page.volumes }} &nbsp;&nbsp;<b>|</b>&nbsp;&nbsp;
         {% endif %}
-        <br>
+
         <b>Anime</b> &nbsp;
         {% if page.released %}
           <i class="fa-solid fa-play fa-sm" style="color: var(--global-tip-block) !important"></i> <em>{{ page.released }}</em>
@@ -94,16 +87,14 @@ layout: default
         {% if page.seasons %}
           &nbsp;&middot;&nbsp; <b>Seasons:</b> {{ page.seasons }}
         {% endif %}
-
-        {% if page.episodes %}
-          &nbsp;&middot;&nbsp; <b>Episodes:</b> {{ page.episodes }}
-        {% endif %}
       </p>
     {% endif %}
     <p class="post-tags">
       {% comment %} <b>Watched on:</b>&nbsp;&nbsp; {% endcomment %}
+      <a href="{{ year | prepend: '/animes/' | relative_url }}"> <i class="fa-solid fa-calendar fa-sm"></i> {{ year }}</a>
+
       {% if tags != '' %}
-        {% comment %} &nbsp;&nbsp;&middot;&nbsp;&nbsp; {% endcomment %}
+        &nbsp;&nbsp;&middot;&nbsp;&nbsp;
         {% for tag in page.tags %}
           <a href="{{ tag | slugify | prepend: '/animes/tag/' | relative_url }}"> <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
           {% unless forloop.last %}
@@ -122,12 +113,10 @@ layout: default
         {% endfor %}
       {% endif %}
 
-      {% if page.formats %}
+      {% if types != '' %}
         &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-        {% for format in formats %}
-          <a href="{{ format | slugify | prepend: '/animes/format/' | relative_url }}">
-            <i class="fa-solid fa-clapperboard fa-sm"></i> {{ format -}}
-          </a>
+        {% for type in page.types %}
+          <a href="{{ type | slugify | prepend: '/animes/type/' | relative_url }}"> <i class="fa-solid fa-clapperboard fa-sm"></i> {{ type }}</a>
           {% unless forloop.last %}
             &nbsp;
           {% endunless %}
@@ -135,7 +124,6 @@ layout: default
       {% endif %}
     </p>
     <hr>
-    <p>{{ content }}</p>
   </header>
 
   <article>
@@ -166,6 +154,7 @@ layout: default
         {% if page.start %} Start Date: {{ page.start | date: '%-d %B %Y' }}. {% endif %}
         {% if page.end %} End Date: {{ page.end | date: '%-d %B %Y' }}. {% endif %}
       </h4>
+      {{ content }}
     {% endif %}
   </article>
 
@@ -175,21 +164,6 @@ layout: default
 </div>
 
 <style>
-      .post {
-        display: flex;
-        gap: 20px;
-      }
-
-      .post-header {
-        flex: 0 0 65%;
-        order: 2;
-      }
-
-      .post article {
-        flex: 0 0 35%;
-        order: 1;
-      }
-
       figure {
         float: none;
         width: auto;
@@ -212,7 +186,6 @@ layout: default
         display: block;
         text-align: center;
         width: 250px;
-        margin: 0 0 0 -7px;
       }
 
       @media screen and (min-width: 600px)  {
@@ -254,7 +227,6 @@ layout: default
             figure figcaption {
               text-align: center;
               width: 350px;
-              margin: 0 0 0 -7px;
               }
 
           .mobile-break { display: none; }

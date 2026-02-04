@@ -8,7 +8,7 @@ cover: assets/img/animes/pluto.png
 categories: mystery science-fiction thriller superhero
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Pluto:_Urasawa_x_Tezuka
-formats: manga anime
+types: manga anime
 started: 20003-09-05
 ended: 2009-04-04
 volumes: 8

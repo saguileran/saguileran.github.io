@@ -8,7 +8,7 @@ cover: assets/img/animes/fairy_tail.png
 categories: adventure fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Fairy_Tail
-formats: manga anime film video-game
+types: manga anime film video-game
 started: 2006-08-02
 ended: 2017-07-26
 volumes: 63

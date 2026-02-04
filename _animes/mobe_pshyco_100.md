@@ -8,7 +8,7 @@ cover: assets/img/animes/mob_psycho_100.png
 categories: action comedy supernatural
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Mob_Psycho_100
-formats: manga anime tv-drama
+types: manga anime tv-drama
 started: 2012-04-18
 ended: 2017-12-22
 volumes: 16

@@ -8,7 +8,7 @@ cover: assets/img/animes/rurouni_kenshin.png
 categories: adventure martial-arts romance
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Rurouni_Kenshin
-formats: manga anime live-action
+types: manga anime live-action
 started: 1994-04-12
 ended: 1999-09-21
 volumes: 28

@@ -8,7 +8,7 @@ cover: assets/img/animes/the_faraway_paladin.png
 categories: fantasy isekai
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/The_Faraway_Paladin
-formats: novel manga anime light-novel
+types: novel manga anime light-novel
 started: 2017-09-25
 ended: present
 volumes: 14

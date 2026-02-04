@@ -8,7 +8,7 @@ cover: assets/img/animes/god_eater.png
 categories: war
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/God_Eater_(TV_series)
-formats: anime video-game
+types: anime video-game
 started:
 ended:
 volumes:

@@ -8,7 +8,7 @@ cover: assets/img/animes/boku_no_hero.png
 categories: adventure science-fantasy superhero
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/My_Hero_Academia
-formats: manga anime spin-off video-game
+types: manga anime spin-off video-game
 started: 2014-07-07
 ended: 2024-08-05
 released: 2016-04-03

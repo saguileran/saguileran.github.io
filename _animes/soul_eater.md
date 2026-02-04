@@ -8,7 +8,7 @@ cover: assets/img/animes/soul_eater.png
 categories: action comedy dark-fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Soul_Eater
-formats: manga anime spin-off
+types: manga anime spin-off
 started: 2004-05-12
 ended: 2013-08-12
 volumes: 25

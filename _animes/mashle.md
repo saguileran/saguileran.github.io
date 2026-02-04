@@ -8,7 +8,7 @@ cover: assets/img/animes/mashle.png
 categories: adventure fantasy comedy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Mashle
-formats: manga anime
+types: manga anime
 started: 2020-01-27
 ended: 2023-07-03
 volumes: 18

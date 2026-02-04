@@ -8,7 +8,7 @@ cover: assets/img/animes/kingdom.png
 categories: adventure fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Kingdom_(manga)
-formats: manga anime live-action
+types: manga anime live-action
 started: 2006-01-26
 ended: present
 volumes: 78

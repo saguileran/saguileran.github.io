@@ -8,7 +8,7 @@ cover: assets/img/animes/psycho_pass.png
 categories: crime cyberpunk psychological thriller
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Psycho-Pass
-formats: manga anime light-novel film
+types: manga anime light-novel film
 started: 2012-11-02
 ended: 2017-11-04
 volumes: 6, 6

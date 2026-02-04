@@ -8,7 +8,7 @@ cover: assets/img/animes/makoto.png
 categories: isekai adventure mage
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Tsukimichi:_Moonlit_Fantasy
-formats: manga light-novel anime
+types: manga light-novel anime
 started: 2013-05-28
 ended: present
 volumes: 20, 14

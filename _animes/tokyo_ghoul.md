@@ -8,7 +8,7 @@ cover: assets/img/animes/tokyio_ghoul.png
 categories: dark-fantasy supernatural-thriller
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Tokyo_Ghoul
-formats: manga anime film light-novel live-action video-game
+types: manga anime film light-novel live-action video-game
 started: 2011-09-08
 ended: 2014-09-18
 volumes: 14, 1, 16,

@@ -8,7 +8,7 @@ cover: assets/img/animes/bartender.png
 categories: drama iyashikei
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Bartender_(manga)
-formats: anime manga tv
+types: anime manga tv
 started: 2004-05-01
 ended: 2011-12-01
 released: 2006-10-15

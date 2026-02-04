@@ -8,7 +8,7 @@ cover: assets/img/animes/busamen_gachi.png
 categories: isekai
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Uglymug,_Epicfighter
-formats: novel manga anime
+types: novel manga anime
 started: 2015-02-19
 ended: present
 released: 2025-07-06

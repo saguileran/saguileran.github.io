@@ -8,7 +8,7 @@ cover: assets/img/animes/spy_family.png
 categories: action spy_comedy slice-of-life
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Spy_%C3%97_Family
-formats: web-manga manga anime film
+types: web-manga manga anime film
 started: 2019-03-25
 ended: present
 volumes: 16

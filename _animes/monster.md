@@ -8,7 +8,7 @@ cover: assets/img/animes/monster.png
 categories: crime mystery psychological thriller
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Monster_(manga)
-formats: manga anime novel
+types: manga anime novel
 started: 1994-12-01
 ended: 2001-12-01
 volumes: 18

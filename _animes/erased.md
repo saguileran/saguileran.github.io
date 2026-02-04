@@ -8,7 +8,7 @@ cover: assets/img/animes/erased.png
 categories: mystery science-fiction thriller
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Erased_(manga)
-formats: manga anime ligth-novel live-action tv-drama
+types: manga anime ligth-novel live-action tv-drama
 started: 2012-06-04
 ended: 2016-03-04
 volumes: 8

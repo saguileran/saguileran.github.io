@@ -8,7 +8,7 @@ cover: assets/img/animes/log_horizon.png
 categories: adventure isekai science-fiction
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Log_Horizon
-formats: novel ligth-novel anime manga
+types: novel ligth-novel anime manga
 started: 2010-04-13
 ended: present
 volumes: 14, 4, 1, 11, 6, 2

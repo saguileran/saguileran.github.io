@@ -8,7 +8,7 @@ cover: assets/img/animes/full_metal_brotherhood.png
 categories: adventure dark-fantasy steampunk
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Fullmetal_Alchemist:_Brotherhood
-formats: anime
+types: anime
 started:
 ended:
 volumes:

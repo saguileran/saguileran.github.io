@@ -8,7 +8,7 @@ cover: assets/img/animes/afro_samurai.png
 categories: action period-piece post-apocalyptic samurai
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Afro_Samurai
-formats: manga anime film
+types: manga anime film
 started: 1998-11-01
 ended: 2002-09-01
 released: 2007-01-04

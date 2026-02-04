@@ -8,7 +8,7 @@ cover: assets/img/animes/master_swordsman.png
 categories: fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/From_Old_Country_Bumpkin_to_Master_Swordsman
-formats: novel manga anime ligth-novel
+types: novel manga anime ligth-novel
 started: 2021-04-07
 ended: present
 volumes: 10, 8 2, 2

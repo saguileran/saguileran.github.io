@@ -8,7 +8,7 @@ cover: assets/img/animes/steins_gate.png
 categories: psychological thriller science-fiction comedy time-travel
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Steins;Gate_(TV_series)
-formats: visual-novel anime ONA
+types: visual-novel anime ONA
 started:
 ended:
 volumes:

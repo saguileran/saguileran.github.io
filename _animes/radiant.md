@@ -8,7 +8,7 @@ cover: assets/img/animes/radiant.png
 categories: adventure fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Radiant_(manfra)
-formats: manfra anime
+types: manfra anime
 started: 2013-07-04
 ended: present
 volumes: 19

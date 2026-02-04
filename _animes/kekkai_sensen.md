@@ -8,7 +8,7 @@ cover: assets/img/animes/kekkai_sensen.png
 categories: action science-fiction urban-fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Blood_Blockade_Battlefront
-formats: manga anime
+types: manga anime
 started: 2009-01-05
 ended: 2015-02-19
 volumes: 10, 10, 3

@@ -1,16 +1,16 @@
 ---
 layout: page
-title: more
+title: More
 nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: bio
+  - title: Bio
     permalink: /bio/
   - title: divider
-  - title: bookshelf
+  - title: Bookshelf
     permalink: /books/
   - title: divider
-  - title: my watch list
+  - title: My Watch List
     permalink: /animes/
 ---

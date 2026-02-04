@@ -8,7 +8,7 @@ cover: assets/img/animes/bakemono_no_ko.png
 categories: adventure fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/The_Boy_and_the_Beast
-formats: film
+types: film
 started:
 ended:
 released: 2015-07-11

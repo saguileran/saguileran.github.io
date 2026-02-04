@@ -8,7 +8,7 @@ cover: assets/img/animes/black_clover.png
 categories: adventure fantasy mage
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Black_Clover
-formats: manga anime novel video-game film
+types: manga anime novel video-game film
 started: 2015-02-16
 ended: present
 released: 2017-10-03

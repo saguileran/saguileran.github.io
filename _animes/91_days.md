@@ -13,7 +13,7 @@ ended: 2016-10-01
 released:
 finished:
 date: 2020-01-01
-formats: anime ova
+types: anime ova
 stars:
 status: Interested
 seasons: 1

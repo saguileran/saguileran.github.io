@@ -8,7 +8,7 @@ cover: assets/img/animes/dr_stone.png
 categories: adventure post-apocalyptic science-fiction
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Dr._Stone
-formats: manga anime film video-game
+types: manga anime film video-game
 started: 2017-03-06
 ended: 2022-03-07
 released: 2019-07-05

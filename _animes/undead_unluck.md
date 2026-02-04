@@ -8,7 +8,7 @@ cover: assets/img/animes/undead_unluck.png
 categories: adventure comedy supernatural
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Undead_Unluck
-formats: manga anime novel film
+types: manga anime novel film
 started: 2020-01-20
 ended: 2025-01-27
 volumes: 27

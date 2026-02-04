@@ -8,7 +8,7 @@ cover: assets/img/animes/dimension_w.png
 categories: action cyberpunk
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Dimension_W
-formats: manga anime
+types: manga anime
 started: 2011-09-16
 ended: 2019-06-25
 released: 2016-01-10

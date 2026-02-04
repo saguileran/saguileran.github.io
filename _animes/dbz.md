@@ -8,7 +8,7 @@ cover: assets/img/animes/dbz.png
 categories: adventure fantasy comedy martial-arts
 tags: top-100 top-10
 wikipedia: https://en.wikipedia.org/wiki/Dragon_Ball_Z
-formats: manga anime
+types: manga anime
 started: 1988-01-01
 ended: 1995-01-01
 released: 1989-04-26

@@ -8,7 +8,7 @@ cover: assets/img/animes/megalobox.png
 categories: sports
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Megalobox
-formats: manga anime
+types: manga anime
 started: 2018-02-17
 ended: 2018-08-17
 volumes: 2

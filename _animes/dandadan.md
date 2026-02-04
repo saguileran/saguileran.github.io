@@ -8,7 +8,7 @@ cover: assets/img/animes/dandadan.png
 categories: action romantic comedy supernatural trhiller
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Dandadan
-formats: anime film web-manga
+types: anime film web-manga
 started: 2021-04-06
 ended: present
 released: 2024-10-04

@@ -8,7 +8,7 @@ cover: assets/img/animes/fire_force.png
 categories: adventure dark-fantasy science fantasy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Fire_Force
-formats: manga anime
+types: manga anime
 started: 2015-09-23
 ended: 2022-02-22
 volumes: 34

@@ -8,7 +8,7 @@ cover: assets/img/animes/kimetsu.png
 categories: adventure dark-fantasy martial-arts
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba
-formats: manga anime film video-game
+types: manga anime film video-game
 started: 2016-02-15
 ended: 2020-05-18
 released: 2019-04-06

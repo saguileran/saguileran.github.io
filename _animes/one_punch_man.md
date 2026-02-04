@@ -8,7 +8,7 @@ cover: assets/img/animes/one_punch_man.png
 categories: action comedy superhero
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/One-Punch_Man
-formats: webcomic manga anime video-game
+types: webcomic manga anime video-game
 started: 2012-06-14
 ended: present
 volumes: 35

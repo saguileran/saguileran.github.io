@@ -8,7 +8,7 @@ cover: assets/img/animes/sao.png
 categories: adventure science-fiction
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Sword_Art_Online
-formats: novel anime manga ligth-novel film video-game
+types: novel anime manga ligth-novel film video-game
 started: 2009-04-10
 ended: present
 volumes: 28

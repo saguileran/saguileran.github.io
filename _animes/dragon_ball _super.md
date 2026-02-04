@@ -8,7 +8,7 @@ cover: assets/img/animes/dragon_ball_super.png
 categories: adventure fantasy comedy martial-arts
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Dragon_Ball_Super
-formats: manga anime film
+types: manga anime film
 started: 2015-06-20
 ended: present
 volumes: 24

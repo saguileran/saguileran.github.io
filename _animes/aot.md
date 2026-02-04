@@ -8,7 +8,7 @@ cover: assets/img/animes/aot.png
 categories: war action dark-fantasy post-apocalyptic
 tags: top-100 top-10
 wikipedia: https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)
-formats: anime manga film live-action video-game novel
+types: anime manga film live-action video-game novel
 started: 2009-09-09
 ended: 2021-04-09
 released: 2013-04-07

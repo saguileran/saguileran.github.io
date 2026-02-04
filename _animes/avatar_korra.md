@@ -8,7 +8,7 @@ cover: assets/img/animes/korra.png
 categories: fantasy action drama
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/The_Legend_of_Korra
-formats: anime american
+types: anime american
 started:
 ended:
 volumes:

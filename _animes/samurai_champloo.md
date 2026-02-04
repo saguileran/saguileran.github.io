@@ -8,7 +8,7 @@ cover: assets/img/animes/samurai_champloo.png
 categories: adventure historical samurai
 tags: top-100 top-10
 wikipedia: https://en.wikipedia.org/wiki/Samurai_Champloo
-formats: manga anime
+types: manga anime
 started: 2004-02-26
 ended: 2004-09-25
 volumes: 2

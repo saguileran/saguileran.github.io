@@ -8,7 +8,7 @@ cover: assets/img/animes/yaiba.png
 categories: adventure comedy
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Yaiba
-formats: manga anime
+types: manga anime
 started: 1988-09-07
 ended: 1993-12-01
 volumes: 24

@@ -8,7 +8,7 @@ cover: assets/img/animes/evangeleon.png
 categories: apocalyptic mecha psychological drama
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Neon_Genesis_Evangelion
-formats: manga anime film video-game
+types: manga anime film video-game
 started: 1994-02-01
 ended: 1994-12-01
 volumes: 11
