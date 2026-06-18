@@ -14,5 +14,5 @@ finished:
 released:
 stars: 4
 goodreads_review: 13476
-status: Reading
+status: Paused
 ---

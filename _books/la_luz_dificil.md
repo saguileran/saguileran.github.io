@@ -11,8 +11,8 @@ buy_link: https://www.librerianacional.com/la-luz-dificil-426281/p
 date: 2026-01-15
 started: 2026-01-15
 finished: 2026
-released: 1949
-stars:
+released: 2011
+stars: 5
 goodreads_review:
-status: Queued
+status: Finished
 ---

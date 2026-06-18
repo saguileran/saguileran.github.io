@@ -36,7 +36,7 @@ news: true # includes a list of news items
 
 <h5 align="left" style="margin: 2pt 0 10pt 0;"><i style="margin: 0 2pt 0 0;">Pleased to meet you!</i> 😁 ✌️</h5>
 
-<p>I'm a CS master's student at the <a href="https://www.ime.usp.br/">IME-USP</a>, working on bioacoustics and dynamical systems. I studied Physics at the <a href="https://unal.edu.co/guc/">UNAL</a> and have hands-on experience from a DSP project on underwater sound at the <a href="https://www.ece.udel.edu/">University of Delaware</a> and molecular simulation work at the <a href="https://www2.ifsc.usp.br/english/">IFSC-USP</a>. I like combining math modeling with data analysis and programming.</p>
+<p>I'm a CS master's student at the <a href="https://www.ime.usp.br/">IME-USP</a>, working on bioacoustics and dynamical systems. I studied Physics at the <a href="https://unal.edu.co/guc/">UNAL</a> and have hands-on experience from a DSP project on underwater sound at the <a href="https://www.ece.udel.edu/">University of Delaware</a> and molecular simulation work at the <a href="https://www2.ifsc.usp.br/english/">IFSC-USP</a>. I like combining physics modeling with data analysis and programming.</p>
 
 <hr style="width:70%;text-align:left;margin-left:0">
 
