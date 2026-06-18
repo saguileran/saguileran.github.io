@@ -910,6 +910,11 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/hells_paradaise/";
+            },},{id: "books-el-mundo-y-sus-demonios",
+          title: 'El mundo y sus demonios',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/el_mundo_y_sus_demonios/";
             },},{id: "books-leer-es-resistir",
           title: 'Leer es Resistir',
           description: "",
@@ -945,6 +950,56 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/la_luz_dificil/";
+            },},{id: "books-rebelión-en-la-granja",
+          title: 'Rebelión en la granja',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/rebelion_en_la_granja/";
+            },},{id: "books-la-casa-de-los-espíritus",
+          title: 'La casa de los espíritus',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/la_casa_de_los_espirituos/";
+            },},{id: "books-crimen-y-castigo",
+          title: 'Crimen y castigo',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/crimen_y_castigo/";
+            },},{id: "books-ficciones",
+          title: 'Ficciones',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/ficciones/";
+            },},{id: "books-una-habitación-propia",
+          title: 'Una habitación propia',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/una_habitacion_propia/";
+            },},{id: "books-la-metamorfosis-y-otros-cuentos",
+          title: 'La Metamorfosis y Otros Cuentos',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/metamorfosis/";
+            },},{id: "books-cadaver-exquisito",
+          title: 'Cadaver Exquisito',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/cadaver_exquisito/";
+            },},{id: "books-el-milagro-metabólico",
+          title: 'El milagro metabólico',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/el_milagro_metabolico/";
+            },},{id: "books-un-mundo-feliz",
+          title: 'Un Mundo Feliz',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/un_mundo_feliz/";
+            },},{id: "books-meditaciones",
+          title: 'Meditaciones',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/meditaciones/";
             },},{id: "news-hello-united-states",
           title: 'Hello, United States!',
           description: "",
