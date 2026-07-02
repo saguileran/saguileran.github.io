@@ -16,7 +16,7 @@ released: 2019-01-11
 finished: 2021-03-26
 episodes: 12, 11 (23)
 date: 2019-01-11
-stars: 5
+stars: 4.5
 status: Finished
 seasons:
 ---

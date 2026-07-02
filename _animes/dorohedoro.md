@@ -12,11 +12,11 @@ formats: manga anime
 started: 2000-11-30
 ended: 2018-09-12
 released: 2020-01-12
-finished: present
+finished: 2026-05-27
 date: 2025-11-15
 stars: 4.5
 status: Paused
-seasons: 1
+seasons: 2
 episodes: 18
 volumes: 23
 ---

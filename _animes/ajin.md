@@ -15,7 +15,7 @@ released: 2016-01-16
 finished: 2016-12-24
 date: 2016-01-16
 stars: 5
-status: Finished
+status: Paused
 seasons: 3
 episodes: 29
 volumes: 17

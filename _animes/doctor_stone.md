@@ -12,10 +12,10 @@ formats: manga anime film video-game
 started: 2017-03-06
 ended: 2022-03-07
 released: 2019-07-05
-finished: present
+finished: 2026-06-25
 date: 2019-07-05
 stars: 5
-status: Paused
+status: Finished
 seasons: 4
 episodes: 24, 11, 22, TBA
 volumes: 27, 1

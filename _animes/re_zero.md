@@ -18,7 +18,7 @@ episodes: 25, 25, 16
 date: 2024-05-18
 stars: 5
 status: Paused
-seasons: 3
+seasons: 4
 ---
 
 2 OVAs

@@ -19,3 +19,15 @@ _styles: "
 ---
 
 <!-- ### Animes that I am watching, have watched, or will watch -->
+
+<!-- Missing animes to add:
+
+- Tongari Boushi no Atelier
+- Mairimashita! Iruma-kun 4th Season
+- Yomi no Tsugai
+- Tensei shitara Slime Datta Ken 4th Season
+- Mamonogurai no Boukensha: Ore dake Mamono wo Kuratte Tsuyoku Naru
+- Steel Ball Run: JoJo no Kimyou na Bouken
+- Animatrix
+- De colores
+-->

@@ -15,7 +15,7 @@ released: 2022-09-13
 finished:
 date: 2022-09-13
 stars: 5
-status: Finished
+status: Paused
 seasons: 1
 episodes: 10
 volumes:

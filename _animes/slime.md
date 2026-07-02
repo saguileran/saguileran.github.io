@@ -18,7 +18,7 @@ episodes: 24, 24, 24, 12 (87)
 date: 2018-10-02
 stars: 5
 status: Paused
-seasons: 3
+seasons: 4
 ---
 
 5 OADs

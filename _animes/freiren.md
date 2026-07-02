@@ -10,13 +10,13 @@ tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Frieren
 formats: manga anime
 started: 2020-04-28
-ended: present
+ended: 2026-03-27
 volumes: 15
 released: 2026-09-29
 finished: present
 episodes: 38
 date: 2026-02-01
 stars: 5
-status: Watching
+status: Paused
 seasons: 2
 ---

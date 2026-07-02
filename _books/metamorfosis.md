@@ -9,10 +9,10 @@ categories: fiction, classical
 tags: top-100
 buy_link: https://www.buscalibre.com.co/libro-la-metamorfosis-y-otros-cuentos/9786287641358/p/55821177
 date: 2026-06-05
-started: 2026-06-15
+started: 2026-07-04
 finished: 2026
 released: 1915
 stars: 4
 goodreads_review:
-status: Reading
+status: Finished
 ---

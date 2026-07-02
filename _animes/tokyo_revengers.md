@@ -17,6 +17,6 @@ finished: present
 episodes: 24, 13, 13 (50)
 date: 2021-04-11
 stars: 5
-status: Finished
+status: Paused
 seasons: 2
 ---

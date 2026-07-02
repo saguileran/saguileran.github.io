@@ -13,11 +13,11 @@ started: 2014-08-21
 ended: 2022-04-28
 volumes: 31
 released: 2018-04-09
-finished: present
+finished: 2026-03-30
 episodes: 50
 date: 2018-04-09
 stars: 5
-status: Watching
+status: Paused
 seasons: 4
 ---
 

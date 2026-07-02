@@ -15,7 +15,7 @@ released: 2023-01-11
 finished: 2025-12-24
 date: 2023-01-11
 stars: 5
-status: Finished
+status: Paused
 seasons: 2
 episodes: 24
 volumes: 17, 11, 8

@@ -11,7 +11,7 @@ profile:
   more_info: >
     <center>
       <p> <a href="https://github.com/saguileran" title="github"><i class="fa-brands fa-github"></i></a> <a href="https://github.com/saguileran">www.github.com/saguileran</a></p> <br>
-      <p> <a href="mailto:saguileran@unal.edu.co" title="email"><i class="fa-solid fa-envelope"></i></a> <a href="maito:saguileran@unal.edu.co">saguileran@unal.edu.co</a></p> <br>
+      <p> <a href="mailto:saguileran@ime.usp.br" title="email"><i class="fa-solid fa-envelope"></i></a> <a href="maito:saguileran@ime.usp.br">saguileran@ime.usp.br</a></p> <br>
       <p> <a href="https://www.google.com/maps/place/Bogot%C3%A1,+Bogota/@4.6825472,-74.0982784,13z/data=!4m6!3m5!1s0x8e3f9bfd2da6cb29:0x239d635520a33914!8m2!3d4.7109886!4d-74.072092!16zL20vMDFkenlj?entry=ttu" title="email"><i class="fa-solid fa-location-dot"></i></a> 
       <a href="https://www.google.com.br/maps/place/Universidade+de+S%C3%A3o+Paulo/@-23.5579782,-46.7326375,15.82z/data=!4m15!1m8!3m7!1s0x94ce448183a461d1:0x9ba94b08ff335bae!2sS%C3%A3o+Paulo,+SP,+Brasil!3b1!8m2!3d-23.5557714!4d-46.6395571!16zL20vMDIycGZt!3m5!1s0x94ce5611e0f05911:0x4f4f4d2c7e06e56!8m2!3d-23.5613991!4d-46.7307891!16zL20vMDJxNWpj?hl=pt-BR&entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D">Sao Paulo, Brazil</a> </p>
     </center>
@@ -36,7 +36,7 @@ news: true # includes a list of news items
 
 <h5 align="left" style="margin: 2pt 0 10pt 0;"><i style="margin: 0 2pt 0 0;">Pleased to meet you!</i> 😁 ✌️</h5>
 
-<p>I'm a CS master's student at the <a href="https://www.ime.usp.br/">IME-USP</a>, working on bioacoustics and dynamical systems. I studied Physics at the <a href="https://unal.edu.co/guc/">UNAL</a> and have hands-on experience from a DSP project on underwater sound at the <a href="https://www.ece.udel.edu/">University of Delaware</a> and molecular simulation work at the <a href="https://www2.ifsc.usp.br/english/">IFSC-USP</a>. I like combining physics modeling with data analysis and programming.</p>
+<p>I'm a CS master's student at the <a href="https://www.ime.usp.br/">IME-USP</a> at the <a href="https://compmus.ime.usp.br/pt-br/">Computer Music</a> research group, working the application of AI ideas to bioacoustics and dynamical systems. I studied Physics at the <a href="https://unal.edu.co/guc/">UNAL</a> and have hands-on experience from a DSP project on underwater sound at the <a href="https://www.ece.udel.edu/">University of Delaware</a> and molecular simulation work at the <a href="https://www2.ifsc.usp.br/english/">IFSC-USP</a>. I like combining physics modeling with data analysis and programming.</p>
 
 <hr style="width:70%;text-align:left;margin-left:0">
 

@@ -13,10 +13,10 @@ started: 2021-09-17
 ended: present
 volumes: 8
 released: 2026-01-03
-finished: present
+finished: 2026-03-26
 episodes: 4
 date: 2026-01-03
 stars: 5
-status: Watching
+status: Paused
 seasons: 1
 ---

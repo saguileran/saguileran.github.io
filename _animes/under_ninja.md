@@ -17,6 +17,6 @@ finished: 2023-12-22
 episodes: 12
 date: 2023-10-06
 stars: 5
-status: Finished
+status: Paused
 seasons: 1
 ---
