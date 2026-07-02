@@ -1000,6 +1000,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/meditaciones/";
+            },},{id: "books-fahrenheit-451",
+          title: 'Fahrenheit 451',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/451F/";
             },},{id: "news-hello-united-states",
           title: 'Hello, United States!',
           description: "",
