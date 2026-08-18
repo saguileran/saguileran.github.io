@@ -8,11 +8,11 @@ isbn: # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: fiction, classic
 tags: top-100
 buy_link: https://www.buscalibre.com.co/libro-crimen-y-castigo/9789588925295/p/46796885
-date: 2026-05-15
-started: 2026-05-15
+date: 2026-08-09
+started: 2026-08-01
 finished: 2026
-released: 1015
+released: 1866
 stars:
 goodreads_review:
-status: Interested
+status: Queued
 ---

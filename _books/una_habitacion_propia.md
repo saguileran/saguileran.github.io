@@ -10,9 +10,9 @@ tags: top-100
 buy_link: https://www.buscalibre.com.co/libro-una-habitacion-propia/9786287624108/p/63256486
 date: 2026-05-18
 started: 2026-05-18
-finished: 2026
+finished: 2026-07-22
 released: 1949
 stars:
 goodreads_review:
-status: Queued
+status: Finished
 ---

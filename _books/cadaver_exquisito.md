@@ -9,10 +9,10 @@ categories: modern-fiction
 tags: top-100
 buy_link: https://www.buscalibre.com.co/libro-cadaver-exquisito/9789585118409/p/53085781
 date: 2026-06-15
-started: 2026-06-15
+started: 2026-07-09
 finished: 2026
 released: 2020
 stars:
 goodreads_review:
-status: Interested
+status: Queued
 ---
