@@ -960,11 +960,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/la_casa_de_los_espirituos/";
-            },},{id: "books-crimen-y-castigo",
-          title: 'Crimen y castigo',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/crimen_y_castigo/";
             },},{id: "books-ficciones",
           title: 'Ficciones',
           description: "",
@@ -990,6 +985,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/el_milagro_metabolico/";
+            },},{id: "books-ensayo-sobre-la-ceguera",
+          title: 'Ensayo sobre la ceguera',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/ensayo_sobre_la_ceguera/";
             },},{id: "books-un-mundo-feliz",
           title: 'Un Mundo Feliz',
           description: "",
@@ -1005,6 +1005,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/451F/";
+            },},{id: "books-crimen-y-castigo",
+          title: 'Crimen y castigo',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/crimen_y_castigo/";
             },},{id: "news-hello-united-states",
           title: 'Hello, United States!',
           description: "",
