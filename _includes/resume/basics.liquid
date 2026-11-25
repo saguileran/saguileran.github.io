@@ -12,18 +12,14 @@
     <tr>
       <td class="p-1 pr-2 font-weight-bold">
         <b>
-          {% if content_key == 'url' %}
-            URL
-          {% else %}
-            {% assign label_words = content[0] | split: ' ' %}
-            {% for word in label_words %}
-              {{ word | capitalize }}{% unless forloop.last %} {% endunless %}
-            {% endfor %}
-          {% endif %}
+          {% assign label_words = content[0] | split: ' ' %}
+          {% for word in label_words %}
+            {{ word | capitalize }}{% unless forloop.last %} {% endunless %}
+          {% endfor %}
         </b>
       </td>
       <td class="p-1 pl-2 font-weight-light text">
-        {% if content_key == 'url' %}
+        {% if content_key == 'homepage' %}
           <a href="{{ content[1] }}" target="_blank" rel="noopener noreferrer">{{ content[1] }}</a>
         {% elsif content[0] == 'email' %}
           <a href="mailto:{{ content[1] }}" target="_blank">{{ content[1] }}</a>
