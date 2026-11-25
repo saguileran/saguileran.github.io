@@ -1,7 +1,7 @@
 ---
 layout: anime-review
 title: Akira
-original_title: 
+original_title:
 author: Katsuhiro Otomo and Izo Hashimoto
 illustrator: Katsuhiro Otomo
 cover: assets/img/animes/akira.png

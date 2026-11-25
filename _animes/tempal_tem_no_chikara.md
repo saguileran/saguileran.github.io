@@ -20,5 +20,3 @@ stars: 4
 status: Watching
 seasons: 1
 ---
-
-

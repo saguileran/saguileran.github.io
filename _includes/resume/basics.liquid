@@ -14,7 +14,8 @@
         <b>
           {% assign label_words = content[0] | split: ' ' %}
           {% for word in label_words %}
-            {{ word | capitalize }}{% unless forloop.last %} {% endunless %}
+            {{ word | capitalize -}}
+            {%- unless forloop.last %} {% endunless %}
           {% endfor %}
         </b>
       </td>

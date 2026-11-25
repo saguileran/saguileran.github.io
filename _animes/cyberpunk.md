@@ -21,4 +21,4 @@ episodes: 10
 volumes:
 ---
 
-Based on game Cyberpunk 2077. 
+Based on game Cyberpunk 2077.

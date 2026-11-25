@@ -77,11 +77,7 @@
       "studyType": "Technician",
       "startDate": "2012",
       "endDate": "2013",
-      "courses": [
-        "Digital and Power Electronics",
-        "Microcontrollers",
-        "Residential Electricity"
-      ],
+      "courses": ["Digital and Power Electronics", "Microcontrollers", "Residential Electricity"],
       "icon": "fa-solid fa-university"
     }
   ],
@@ -94,10 +90,7 @@
       "location": "Remote",
       "endDate": "2025-03-27",
       "summary": "Utilizing text-to-image models to generate digital media content for social media, featuring fictional characters or non-real personas.",
-      "highlights": [
-        "Prompt Engineering",
-        "Python Programmer"
-      ],
+      "highlights": ["Prompt Engineering", "Python Programmer"],
       "icon": "fa-solid fa-laptop"
     },
     {
@@ -108,10 +101,7 @@
       "location": "Remote",
       "endDate": "2025-03-01",
       "summary": "Create, deploy, and evaluate intelligent agents using Python and REST APIs to generate digital content for social media.",
-      "highlights": [
-        "Prompt Engineering",
-        "Python Programmer"
-      ],
+      "highlights": ["Prompt Engineering", "Python Programmer"],
       "icon": "fa-solid fa-laptop"
     },
     {
@@ -122,12 +112,7 @@
       "endDate": "2024-12-10",
       "summary": "Teaching Java programming (both backend and frontend), databases, operating systems, software design, and data structures to systems engineering university students.",
       "location": "Bogotá D.C., Colombia",
-      "highlights": [
-        "Databases",
-        "Data Structures",
-        "Java Programming",
-        "Software Design"
-      ],
+      "highlights": ["Databases", "Data Structures", "Java Programming", "Software Design"],
       "icon": "fa-solid fa-chalkboard-user"
     },
     {
@@ -138,10 +123,7 @@
       "endDate": "2023-08-01",
       "url": "",
       "summary": "Teach mathematics and physics in a preparatory course for the state exam Saber 11, administered by ICFES in Colombia. In this role, I educated a diverse group of students from various regions, both rural and urban, utilizing <a href='https://phet.colorado.edu/es/'>PhET</a> simulations to enhance their learning experience.",
-      "highlights": [
-        "Dynamic and Funny Lessons",
-        "Teaching Mathematics and Physics"
-      ],
+      "highlights": ["Dynamic and Funny Lessons", "Teaching Mathematics and Physics"],
       "icon": "fa-solid fa-chalkboard-user"
     }
   ],
@@ -355,14 +337,7 @@
     {
       "name": "WaveSongs",
       "summary": "A python package to analyze, visualize and generate synthetic birdsongs.",
-      "highlights": [
-        "Birdsongs",
-        "Deep Learning",
-        "Digital Signal Processing",
-        "Open Source",
-        "Sound Produciton",
-        "Syrinx"
-      ],
+      "highlights": ["Birdsongs", "Deep Learning", "Digital Signal Processing", "Open Source", "Sound Produciton", "Syrinx"],
       "startDate": "2025",
       "endDate": "2027",
       "url": "https://wavesongs.github.io/",
@@ -371,14 +346,7 @@
     {
       "name": "Birdsongs",
       "summary": "A python package to analyze, visualize and generate synthetic birdsongs.",
-      "highlights": [
-        "Birdsongs",
-        "Numerical Optimization",
-        "Open Source",
-        "Signal Processing",
-        "Sound Production",
-        "Syrinx"
-      ],
+      "highlights": ["Birdsongs", "Numerical Optimization", "Open Source", "Signal Processing", "Sound Production", "Syrinx"],
       "startDate": "2022",
       "endDate": "2025",
       "url": "https://saguileran.github.io/birdsongs/",
@@ -387,11 +355,7 @@
     {
       "name": "Molecular modeling and simulations",
       "summary": "Study and evaluation of the unbinding kinetics of Mineralocorticoid (MR and MR-S810L) receptor steroid agonist Cortisol (COL), Aldosterone (AS4), and Progesterone (STR) ligands using Molecular Dynamics (MD) and Monte Carlo (MC) simulations, LiGaMD and LiBELa softwares respectively.",
-      "highlights": [
-        "Molecular Dynamics",
-        "Monte Carlo Simulations",
-        "Open Source"
-      ],
+      "highlights": ["Molecular Dynamics", "Monte Carlo Simulations", "Open Source"],
       "startDate": "2023-02",
       "endDate": "2023-04",
       "url": "https://saguileran.github.io/MD-SCPI/",
@@ -400,10 +364,7 @@
     {
       "name": "Soundscapes analysis - maad",
       "summary": "Create code, examples, and documentation of spectral and time trait functions.",
-      "highlights": [
-        "Digital Signal Processing (DSP)",
-        "Python Programming"
-      ],
+      "highlights": ["Digital Signal Processing (DSP)", "Python Programming"],
       "startDate": "2023-02",
       "endDate": "2023-04",
       "url": "https://github.com/scikit-maad/scikit-maad",
@@ -412,10 +373,7 @@
     {
       "name": "Aprender - A New Way of Learning",
       "summary": "A course preparatory of physics and mathematics for the exam Saber 11 applied by ICFES. I designed, created and hosted a homepage for the preparatory. For the webpage I implemented the Moodle platform as a Learning Management Platform. Furthermore,  I teach mathematics and physics, I designed and created of lessons and tests for evaluation.",
-      "highlights": [
-        "Teaching Mathematics and Physics",
-        "Full bStack Web Developer"
-      ],
+      "highlights": ["Teaching Mathematics and Physics", "Full bStack Web Developer"],
       "startDate": "2019",
       "endDate": "2022",
       "url": "https://saguileran.github.io/Aprender",
@@ -424,11 +382,7 @@
     {
       "name": "Recorder Characterization",
       "summary": "Study the recorder musical instrument from experimental, theoretical, and computational physics. Addionally, analyze and visualize the structured data generated and measured from the study in order to compare them.",
-      "highlights": [
-        "Acoustics of Musical Instruments",
-        "Lattice Boltzmann Simulations",
-        "Sound Recording"
-      ],
+      "highlights": ["Acoustics of Musical Instruments", "Lattice Boltzmann Simulations", "Sound Recording"],
       "startDate": "2020",
       "endDate": "2020",
       "url": "https://github.com/saguileran/Acoustics-Instruments",

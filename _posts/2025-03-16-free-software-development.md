@@ -496,7 +496,7 @@ In contrast, modern devices, such as the BMP280 pressure sensor ([BMP280 Datashe
     </div>
 </div>
 <div class="caption">
-    
+
 </div>
 
 Because the changes are too simple and generate some warnings, which I was not able to detect, the patch is not accepted. You can view the mail sent at [https://lore.kernel.org/linux-iio/20250429184129.7aff4461@jic23-huawei/](https://lore.kernel.org/linux-iio/20250429184129.7aff4461@jic23-huawei/).
@@ -505,11 +505,11 @@ Because the changes are too simple and generate some warnings, which I was not a
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/posts/flusp/patch_IIO_answer_1.png" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
-    
+
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/posts/flusp/patch_IIO_answer_2.png" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
-    
+
 </div>
 <div class="caption">
     Responses from Jonathan Cameron, the maintainer of the IIO subsystem kernel.
