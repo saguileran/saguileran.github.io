@@ -4,9 +4,9 @@ title: "Cyberpunk: Edgerunners"
 original_title: Saibāpanku Edjirannāzu
 author: Rafal Jaki and Mike Pondsmith
 illustrator:
-cover: assets/img/animes/cyberpunk.png
+cover: assets/img/animes/ciberpunk.jpeg # cyberpunk.png
 categories: cyberpunk
-tags: top-100
+tags: top-100 top-10
 wikipedia: https://en.wikipedia.org/wiki/Cyberpunk:_Edgerunners
 formats: ONA anime web-serie video-game
 started:
@@ -15,10 +15,10 @@ released: 2022-09-13
 finished:
 date: 2022-09-13
 stars: 5
-status: Paused
-seasons: 1
+status: Finished
+seasons: 2
 episodes: 10
 volumes:
 ---
 
-Based on game Cyberpunk 2077
+Based on game Cyberpunk 2077. 

@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Sebastián
+first_name: Sebastian
 middle_name: Aguilera
 last_name: Novoa
 email: saguileran@unal.edu.co
@@ -668,8 +668,10 @@ jekyll_get_json:
 
 jsonresume:
   - basics
+  - prof_summary
   - work
   - education
+  - research
   - publications
   - projects
   - volunteer

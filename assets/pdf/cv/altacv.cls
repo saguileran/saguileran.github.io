@@ -200,7 +200,7 @@
 \NewInfoField{github}{\faGithub}[https://github.com/]
 % v1.?? Use fontawesome5 for Orcid symbol
 \NewInfoField{orcid}{\faOrcid}[https://orcid.org/]
-\NewInfoField{location}{\faMapMarker}[https://www.google.com/maps/place/Bogotá\%C3\%A1/@4.6482784,-74.2726234,11z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9bfd2da6cb29:0x239d635520a33914!8m2!3d4.7109886!4d-74.072092!16zL20vMDFkenlj?entry=ttu?]
+\NewInfoField{location}{\faMapMarker}[https://www.google.com/maps/place/Instituto+de+Matem\%C3\%A1tica,+Estat\%C3\%ADstica+e+Ci\%C3\%AAncia+da+Computa\%C3\%A7\%C3\%A3o+-+IME\%2FUSP/@-23.5593975,-46.7344131,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce5614445ea63f:0x81bb971c3a8f0fcf!8m2!3d-23.5594024!4d-46.7318382!16s\%2Fg\%2F1214s356!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw\%3D\\texttt{}\%3D]
 
 % v1.2: Support for multiple photos
 \newlength{\altacv@photos@width}

@@ -14,7 +14,7 @@
 %% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
 % \documentclass[10pt,a4paper,normalphoto]{altacv}
 
-\documentclass[10pt,letter,ragged2e,withhyper]{altacv}
+\documentclass[10pt,legalpaper,ragged2e,withhyper]{altacv}
 %% AltaCV uses the fontawesome5 and packages.
 %% See http://texdoc.net/pkg/fontawesome5 for full list of symbols.
 
@@ -78,26 +78,32 @@
 %% for your publication list
 \input{pubs-num}
 
+\usepackage{enumitem}
+\setlist[itemize]{align=left} % Adjusts label alignment; text remains justified by default
+
+
 %% sample.bib contains your publications
 \addbibresource{sample.bib}
 
 \begin{document}
-\name{Sebastián Aguilera Novoa}
-\tagline{Physicist - Computer Scientist - Problem Solver}
+\name{Sebastian Aguilera Novoa}
+\tagline{Computer Scientist - Problem Solver}
 %% You can add multiple photos on the left or right
 %\photoR{2.8cm}{Globe_High}
 % \photoL{2.5cm}{Yacht_High,Suitcase_High}
 
 \personalinfo{%
   % Not all of these are required!
-  \email{saguileran@unal.edu.co} \hspace{-2pt}
-  \phone{+57 3195140529}% \hspace{50pt}
+  \email{saguileran@ime.usp.br} \hspace{-4pt}
+%  \phone{+57 3195140529}% \hspace{50pt}
+  \phone{+55 (21) 99535-3787} \hspace{-4pt}% \hspace{50pt}
   %\mailaddress{Åddrésş, Street, 00000 Cóuntry}
-  \homepage{saguileran.github.io} \hspace{-2pt}%\hspace{50pt}
+  \homepage{saguileran.github.io} \hspace{-4pt}%\hspace{50pt}
   %\twitter{@twitterhandle}
-  \linkedin{saguileran} \hspace{-3pt}%\hspace{50pt}
-  \github{saguileran} \hspace{5pt}
-  \location{Bogotá D.C.}
+  \linkedin{saguileran} \hspace{-4pt}%\hspace{50pt}
+  \github{saguileran} \hspace{-4.pt}
+%  \location{Bogotá D.C.}
+  \location{São Paulo, BR}
   %\orcid{0000-0000-0000-0000}
   %% You can add your own arbitrary detail with
   %% \printinfo{symbol}{detail}[optional hyperlink prefix]
@@ -131,35 +137,38 @@
 \begin{paracol}{2}
 \cvsection{Experience}
 
-\cvevent{Junior Python Developer - Prompt Engineering}{\href{www.marbai.ai}{MarBAI}}{Mar 2024 -- Mar 2025}{Remote}
+\cvevent{Junior Python Developer}{\href{www.marbai.ai}{MarBAI}}{Mar 2024 -- Mar 2025}{Remote}
 \begin{itemize}
-	\item Create, deploy, and evaluate intelligent agents using Python and REST APIs to generate digital content for social media.
+	\item Create, deploy, and evaluate intelligent agents using Python and REST APIs to generate digital content (images, post, and texts) for social media.
+	\item Design, implement, and evaluate LLM-based and RAG systems.
+	\item Use prompt engineering techniques to improve agents performance.
 \end{itemize}
 
 \divider
 
 
-\cvevent{Junior Python Developer - Prompt Engineering}{AI GENERATIVE S.A.S. – AIGEN S.A.S.}{Sep 2024 -- Mar 2025}{Remote}
+\cvevent{Junior Python Developer}{AI GENERATIVE S.A.S. – AIGEN S.A.S.}{Sep 2024 -- Mar 2025}{Remote}
 \begin{itemize}
-\item Utilizing text-to-image models to generate digital media content for social media, featuring fictional characters or non-real personas.
+\item Utilize diffusion models (text-to-image/video) to generate digital media content, including images, videos, and voices for social media.
+\item Evaluate and improve model performance using pre-trained models and prompt engineering techniques.
 \end{itemize}
 
 \divider
 
 \cvevent{\href{https://github.com/saguileran/ETITC-2024-1/}{Professor}}{\href{https://www.etitc.edu.co/es/}{Escuela Tecnológica Instituto Técnico Central (ETITC)}}{Mar 2024 -- Dec 2024}{Bogotá, Colombia}
 \begin{itemize}
-\item Teaching Java programming (both backend and frontend), databases, operating systems, software design, and data structures to systems engineering university students. All courses are hosted on GitHub and can be accessed via the link \href{https://saguileran.github.io/courses/}{courses}.
+\item Teach Java programming (both backend and frontend), databases, operating systems, software design, and data structures to undergraduate Systems Engineering students.
+\item Develop and provide course content through GitHub under the \textcolor{teal}{\href{https://github.com/uetitc}{uETITC}} organization.
 \end{itemize}
-
 \divider
 
 
-\cvevent{Professor - Trainer}{Ingresar a la U}{Mar 2023 -- Jul 2024}{Colombia}
+\cvevent{ICFES Trainer}{Ingresar a la U}{Mar 2023 -- Jul 2024}{Colombia}
 \begin{itemize}
-	\item Teaching mathematics, physics, and tips and techniques for answering multiple-choice questions on the Saber 11 exam administered by ICFES, to school students from both urban and rural areas of Colombia.
-	\item Training professors to instruct students on effectively answering multiple-choice questions.
+	\item Teach strategies and techniques for answering multiple-choice questions on the Saber 11 exam in mathematics and physics to school students from both urban and rural areas of Colombia.
+	
+	\item Train professors to effectively teach students how to answer multiple-choice questions.
 \end{itemize}
-
 \divider
 %\cvevent{Private Professor}{Freelance}{Jan 2016 -- Today}{Bogotá, Colombia}
 %\begin{itemize}
@@ -174,21 +183,25 @@
 %\end{itemize}
 
 %\divider
-\cvevent{\href{https://saguileran.github.io/maad/}{MAAD - Soundscape Analysis in Python}}{scikit-maad project}{Jan 2023 -- Feb 2023}{Bogotá D.C., Colombia}
+\cvevent{Python Developer}{scikit-maad project}{Jan 2023 -- Feb 2023}{Bogotá D.C., Colombia}
 \begin{itemize}
-	\item Create spectral and time traits with examples, test, and documentation. 
+	\item Create spectral and temporal features with examples, tests, and documentation for the Python package \textcolor{teal}{\href{https://scikit-maad.github.io/}{scikit-maad}}, specialized in soundscape analysis.
 	% \item Job description 2
 \end{itemize}
 
 
+\vspace{10pt}
 \cvsection{Research Experience}
 
 
-\cvevent{\href{https://saguileran.github.io/MD-SCPI/}{Internship in Molecular Modeling and Simulations}}{São Carlos Institute of Physics - University of São Paulo}{Feb 2023 -- Apr 2023}{São Carlos, Brazil}
+\cvevent{\href{https://saguileran.github.io/MD-SCPI/}{Internship in Molecular Modeling and Simulations}}{São Carlos Institute of Physics - USP}{Feb 2023 -- Apr 2023}{São Carlos, Brazil}
 \begin{itemize}
-\item Set up and contrast Monte Carlo (MC) and molecular dynamics (MD) simulations of a protein-ligand system to generate structured data (positions, velocities, RMS, etc).
-\item Analyze the structured data generated by the MC and MD simulations using Markov model algorithms (lagtime, hiden markov chains, etc). %Job description 1
-% \item Job description 2
+\item Set up and compare Monte Carlo (MC) and molecular dynamics (MD) simulations of a protein–ligand system using LiGaMD and LiBELa software.
+
+\item Analyze data generated by MC and MD simulations using Markov model algorithms (lag time, hidden Markov models, etc.) and video visualization.
+
+\item Analyze binding and unbinding events in MD and MC simulations using numerical analysis tools such as PyEMMA.
+
 \end{itemize}
 
 
@@ -204,22 +217,39 @@
 
 %\divider
 
-\cvevent{\href{https://saguileran.github.io/assets/pdf/certificates/Delaware.PDF}{Summer Research Program}}{Electrical \& Computer Engineering - University of Delaware}{Jun 2021 -- Sep 2021}{Delaware, EEUU}
+\cvevent{\href{https://saguileran.github.io/assets/pdf/certificates/Delaware.PDF}{Summer Research Program}}{Electrical \& Computer Engineering - University of Delaware}{Jun 2021 -- Sep 2021}{Delaware, USA}
 \begin{itemize}
-\item Analyze and visualize long raw audio data using signal processing and Matlab, 2-week continuous records from a microphone in a the Delaware Bay river.
-%\item Visualize and identify 
+\item Analyze and explore long-duration raw underwater audio recordings using signal processing techniques and MATLAB, including two-week continuous recordings from a microphone in the Delaware Bay River.
 \end{itemize}
 
 
-
+\vspace{15pt}
 \cvsection{Projects}
 
-\cvevent{\href{https://saguileran.github.io/birdsongs/}{Birdsongs}}{National University of Colombia}{Aug 2022 -- Currently}{Bogotá D.C., Colombia}
+\cvevent{\href{https://wavesongs.github.io/}{Wavesongs}}{\href{https://compmus.ime.usp.br/en/}{Computer Music Group} - IMEC/USP}{Jan 2026 -- Present}{São Paulo, Brazil}
 \begin{itemize}
-\item Python packing of the \textbf{motor gestures for birdsongs} model that simulates the sound production in birds.
-\item Automate the generation of synthetic birdsongs (audio/images) using numerical optimization theory and algorithms, numerical methods, and signal processing.
-\item Study and analyze of bandwidth as function of the length of the trilled syllables (last syllables of the birdsongs) for several Zonotrichia Capensis from different countries.
-\item Generate comparable synthetic birdsongs of some Colombian bird species: Zonotrichia Capensis, Rhinocryptidae, and Mimus Gilvus.
+	\item Create ground-truth birdsong audio datasets using dynamical systems modeling and numerical optimization.
+	
+	\item Design, train, and evaluate deep learning models for solving inverse problems and representing bidirectional mappings between biomechanical variables and acoustic descriptors for birdsong synthesis.
+	
+	\item Create and deploy a well-documented open-source Python package following good software engineering practices.
+	
+	
+%	and Zonotrichia Capensis and Zebra Finch.
+	%\item Generate and evaluate audio/images of synthetic birdsongs, unstructured data.
+	
+\end{itemize}
+
+\divider
+
+\cvevent{\href{https://saguileran.github.io/birdsongs/}{Birdsongs}}{Physics Department - UNAL}{Aug 2022 -- Dec 2024}{Bogotá D.C., Colombia}
+\begin{itemize}
+	\item Develop a Python package implementing the motor-gesture model for birdsong production to simulate sound generation in birds.
+
+	\item Automate the generation of synthetic birdsongs using optimization theory and algorithms, numerical methods for ODE systems, and digital signal processing.
+
+	\item Evaluate the model's capabilities by comparing synthetic birdsongs from selected Colombian bird species.
+
 %\item Generate and evaluate audio/images of synthetic birdsongs, unstructured data.
 
 \end{itemize}
@@ -227,51 +257,57 @@
 
 \divider
 
-\cvevent{\href{https://saguileran.github.io/MD-SCPI/}{Molecular Modeling and Simulations}}{University of Sao Paulo}{Feb 2023 -- Apr 2023}{Sao Carlos, Brazil}
-\begin{itemize}
-\item Study and evaluation of molecular simulations of the un/binding kinetics in a protein-ligand system.
-\item Set up and execution of several MD and MC simulations for different systems.
-\item Analysis the un/binding events of the MD and MC simulations by numerical analysis.
-\end{itemize}
+%\cvevent{\href{https://saguileran.github.io/MD-SCPI/}{Molecular Modeling and Simulations}}{University of São Paulo, IFSC/USP}{Feb 2023 -- Apr 2023}{São Carlos, Brazil}
+%\begin{itemize}
+%\item Study and evaluation of molecular simulations of the un/binding kinetics in a protein-ligand system.
+%\item Set up and execution of several MD and MC simulations for different systems.
+%\item Analysis the un/binding events of the MD and MC simulations by numerical analysis.
+%\end{itemize}
 %A short abstract would also work.
-
-\divider
 
 \cvevent{\href{https://saguileran.github.io/aprender/}{Aprender - A New Way of Learning}}{Freelance}{2019 -- 2022}{Bogotá D.C., Colombia}
 \begin{itemize}
-\item Design, create and host a homepage for the preparatory.
-\item Implement the Moodle platform on the homepage as a Learning Management Platform.
-\item Mathematics and physics teacher: design and creation of lessons and tests for evaluation.
+\item Design, develop, and deploy a homepage for the startup.
+
+\item Install and configure Moodle, a Learning Management System (LMS), to host course content.
+
+\item Teach mathematics and physics and design and develop course content, including lessons and exams.
+
+
 % with interactive activities using virtual tools such as PhET simulations, and tests for evaluation.
 \end{itemize}
 %A short abstract would also work.
 
 \divider
 
-\cvevent{\href{https://github.com/saguileran/Acoustics-Instruments}{Recorder Characterization}}{National University of Colombia}{2020}{Bogotá D.C., Colombia}
+\cvevent{\href{https://github.com/saguileran/Acoustics-Instruments}{Recorder Characterization}}{Physics Department - UNAL}{2020}{Bogotá D.C., Colombia}
 \begin{itemize}
-\item Study the recorder musical instrument from experimental, theoretical, and computational physics.
-\item Analyze and visualize the structured data generated and measured from the study in order to compare them.
-\item Development wave acoustic pressure visualization using a LBM and Paraview for comparison with measurements.
+\item Study the recorder as a musical instrument using experimental, theoretical, and computational physics.
+
+\item Analyze and visualize data generated by simulations and measurements obtained from experiments.
+
+\item Develop and evaluate Computational Fluid Dynamics (CFD) and acoustic wave-pressure simulations using the Lattice Boltzmann Method (LBM) and ParaView for data visualization.
 
 \end{itemize}
 %A short abstract would also work.
 
 \divider
 
-\cvevent{\href{https://github.com/danielfelipe-df/Metodos-de-simulacion}{Acoustic Simulation of a Classroom}}{National University of Colombia}{2019}{Bogotá D.C., Colombia}
+\cvevent{\href{https://github.com/danielfelipe-df/Metodos-de-simulacion}{Acoustic Simulation of a Classroom}}{Physics Department - UNAL}{2019}{Bogotá D.C., Colombia}
 \begin{itemize}
-\item Modeling and simulation of a conference classroom using the Lattice Boltzmann Method (LBM), writing in c++ using OOP, to generate comparable structured data.
-\item Physical and computational measurement of classroom reverberation time for comparison.
+\item Model and simulate a conference classroom using the Lattice Boltzmann Method (LBM), implementing the simulations in C++ using object-oriented programming (OOP) to generate comparable data.
+
+\item Measure the classroom reverberation time through simulations and experiments for comparison.
 \end{itemize}
 %A short abstract would also work.
 
 \divider
 
-\cvevent{Physics Laboratories}{National University of Colombia}{Aug 2015 -- Dec 2021}{Bogotá D.C., Colombia}
+\cvevent{Physics Laboratories}{Physics Department - UNAL}{Aug 2015 -- Dec 2021}{Bogotá D.C., Colombia}
 \begin{itemize}
-\item Set up laboratories to validate physical theories by measuring structured data (physical measurable quantities).
-\item Create lab reports with the state of art, discussion and analysis (involving mathematical fittings to the structured data), methodology, and conclusions.
+\item Set up and conduct laboratory experiments to validate physical theories.
+
+\item Create complete laboratory reports including a state-of-the-art review, discussion, analysis involving mathematical fitting, methodology, and conclusions. conclusions.
 \end{itemize}
 %A short abstract would also work.
 
@@ -325,7 +361,7 @@
 \cvtag{Teaching}
 
 
-
+\vspace{15pt}
 \cvsection{Education}
 
 % \cvevent{Ph.D.\ in Your Discipline}{Your University}{Sept 2002 -- June 2006}{}
@@ -335,35 +371,40 @@
 
 % \cvevent{M.Sc.\ in Your Discipline}{Your University}{Sept 2001 -- June 2002}{}
 
-\cvevent{M.Sc.\ in Computer Science}{University of Sao Paulo}{2025 -- 2026}{Sao Paulo, Brazil}
+\cvevent{M.Sc.\ in Computer Science}{Institute of Mathematics, Statistics, and Computer Science (IMECC) - University of São Paulo (USP)}{Feb 2025 -- Mar 2027}{São Paulo, Brazil}
 
 \divider
 
-\cvevent{B.Sc.\ in Physics}{National University of Colombia}{2015 -- 2023}{Bogotá D.C., Colombia}
+\cvevent{B.Sc.\ in Physics}{Physics Department (PD) - National University of Colombia (UNAL)}{Oct 2015 -- Dec 2022}{Bogotá D.C., Colombia}
 
 \divider
 
-\cvevent{Residential Electrical Installation Technician}{Servicio Nacional de Aprendizaje (SENA)}{2012 -- 2013}{Bogotá D.C., Colombia}
+\cvevent{Residential Electrical Installation Technician}{Servicio Nacional de Aprendizaje (SENA)}{Jan 2012 -- Dec 2013}{Bogotá D.C., Colombia}
 
+\vspace{15pt}
 \cvsection{Most Proud of}
 
-\cvachievement{\faGraduationCap}{\href{https://saguileran.github.io/assets/pdf/certificates/USP.pdf}{Awarded Jhoti and Salazar Scholarship}}{São Carlos Institute of Physics, USP}{2023}{São Carlos, Brazil}
+\cvachievement{\faTrophy}{Second best undergraduate dissertation in physics}{Physics Department - UNAL}{2023}{Bogotá, Colombia}
 
 \divider
 
-\cvachievement{\faTrophy}{Second best undergraduate dissertation in physics}{Physics Department, UNAL}{2023}{Bogotá, Colombia}
+\cvachievement{\faGraduationCap}{\href{https://saguileran.github.io/assets/pdf/certificates/USP.pdf}{Awarded Jhoti and Salazar Scholarship}}{São Carlos Institute of Physics - USP}{2023}{São Carlos, Brazil}
 
+
+\vspace{15pt}
 %\divider
 
 %\cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
 \cvsection{Languages}
-\cvskill{Spanish}{5}
+\cvskill{Spanish (Native)}{5}
 \cvskill{English}{4.5}
-\cvskill{Portuguese}{3}
-\cvskill{German}{0.5}
+\cvskill{Portuguese}{3.5}
+%\cvskill{German}{0.5}
 %\divider
-\vspace{50pt}
 
+%\vspace{50pt}
+
+\vspace{15pt}
 
 \cvsection{Strengths}
 
@@ -412,7 +453,7 @@
 %\cvtag{Statistical Analysis}
 
 
-\vspace{10pt}
+\vspace{15pt}
 
 %\cvskill{German}{3.5} %% Supports X.5 values.
 
@@ -430,7 +471,7 @@
 
 \cvsection{Workshops/Schools}
 
-\cvevent{19th Brazilian Symposium on Computer Music (SBCM 2025)}{Computer Music Interest Group (CECM) of the Brazilian Computing Society (SBC)}{September 15-17, 2025}{Campinhas, Brazil}
+\cvevent{19th Brazilian Symposium on Computer Music (SBCM 2025)}{Computer Music Interest Group (CECM) of the Brazilian Computing Society (SBC)}{September 15-17, 2025}{Campinas, Brazil}
 
 \cvevent{\href{https://saguileran.github.io/assets/pdf/certificates/MAPI3.pdf}{Poster Presentation - 3rd Conferencia Colombiana de Matemáticas Aplicadas e Industriales (MAPI 3)}}{Comisión de Matemáticas Aplicadas e Industriales de la Sociedad Colombiana de Matemáticas}{June 12-14, 2024}{Bucaramanga, Colombia}
 
@@ -466,30 +507,30 @@
 %% page if the content is too long.
 
 \vspace{10pt}
-\cvsection{Software SKILLS}
+\cvsection{Software}
 
 \cvskill{Python, Latex, Office, VSC}{4.5}
-\cvskill{Java, Github, Linux, SSH, Matlab}{4}
-\cvskill{Jupyter-Notebook/Lab, Markdown}{4}
+\cvskill{Java, Github, Linux, Matlab, LLMs}{4}
+%\cvskill{Jupyter-Notebook/Lab, Markdown}{4}
 \cvskill{Julia,  Krita, C++, Power BI, OpenAI}{3.5}
-\cvskill{Mathematica, Canva, Comfyui}{3.5}
+\cvskill{Mathematica, Canva, SSH, SQL}{3.5} % Comfyui
 \cvskill{Postman, Google Cloud, Firebase}{3}
-\cvskill{JS, HTML, SQL, CSS, Workbrench}{3}
+\cvskill{JS, HTML, CSS, MySQL Workbench}{3}
 
-\smallskip
-\vspace{10pt}
+%\smallskip
+\vspace{15pt}
 
 \cvsection{Python Libraries}
 
 \smallskip
 
-\cvskill{Matplotlib, Numpy, Pandas}{4.5}
-\cvskill{Tensorflow, Scipy, Plotly, Pytorch}{4}
-\cvskill{Scikit-Learn, Sympy, Seaborn, Librosa}{3}
+\cvskill{Matplotlib, Numpy, Pandas, Pytorch}{4.5}
+\cvskill{Tensorflow, Scipy, Plotly, Librosa}{4}
+\cvskill{Scikit-Learn, Sympy, Seaborn, PyTest}{3}
 \cvskill{Sphinx, Seaborn, OpenCV, Requests}{3}
-\cvskill{Django, LangChain}{1}
+\cvskill{Django, LangChain, FastAPI}{2}
 
-\vspace{10pt}
+\vspace{15pt}
 
 
 \cvsection{Training/Certifications}
@@ -508,25 +549,27 @@
 
 \cvevent{\href{https://www.coursera.org/account/accomplishments/verify/9WF6F7FQNH38}{Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization}}{Coursera}{2021}{Online}
 
-
+\vspace{15pt}
 \cvsection{Referees}
 
 % \cvref{name}{email}{mailing address}
 %\cvref{Prof.\ Alpha Beta}{Institute}{a.beta@university.edu} {Address Line 1\\Address line 2}
 
-\cvref{Prof.\ Francisco Gómez Jaramillo}{National University of Colombia (UNAL)}
-{fagomezj@unal.edu.co}
-\hspace{0.05pt}
-%\divider
-
-
-
-\cvref{Prof.\ Marcelo Gomes de Queiroz}{University of Sao Paulo (USP), Brazil}
+\cvref{\href{https://www.ime.usp.br/mqz/}{Prof. Dr.\ Marcelo Gomes de Queiroz}}{Computer Music Group - USP,  Brazil} %IMECC - São Paulo,
 {mqz@ime.usp.br}
+
 \hspace{0.05pt}
 
-\cvref{Prof.\ Gabo Mindlin}{University of Buenos Aires (UBA), Argentina}
-{gabo@df.uba.ar}
+\cvref{\href{https://www.researchgate.net/profile/Gabriel-Mindlin}{Prof. Dr.\ Gabriel B. Mindlin}}{Dynamical Systems Laboratory - UBA, Argentina} 
+{gabo@df.uba.ar} % Buenos Aires,
+
+\hspace{0.05pt}
+
+%\divider
+\cvref{\href{https://sites.google.com/site/fagomezj/}{Prof. Dr.\ Francisco Gómez Jaramillo}}{DivULab - UNAL,  Colombia}
+{fagomezj@unal.edu.co} % Bogotá D.C.,
+
+
 
 %\cvref{Res.\ Juan Sebastián  Ulloa}{Instituto de Investigación de Recursos Biológicos
 %Alexander von Humboldt, CO}

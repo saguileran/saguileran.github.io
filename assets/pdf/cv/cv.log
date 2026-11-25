@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.28)  12 JAN 2026 17:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.28)  21 OCT 2026 22:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1098,40 +1098,36 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 \@quotelevel=\count450
 \@quotereset=\count451
 LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input li
-ne 84.
+ne 88.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lato/T1lato-TLF.fd
 File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 84.
-
-
-LaTeX Warning: Unused global option(s):
-    [letter].
-
-(./cv.aux)
+(Font)              scaled to size 10.0pt on input line 88.
+ (./cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count452
 \scratchdimen=\dimen282
@@ -1153,7 +1149,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 84.
+Package hyperref Info: Link coloring OFF on input line 88.
 
 (./cv.out) (./cv.out)
 \@outlinefile=\write6
@@ -1164,16 +1160,16 @@ Package hyperref Info: Link coloring OFF on input line 84.
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: <default>
+* paper: legalpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(42.67912pt, 528.93675pt, 42.67912pt)
-* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 897.969pt, 56.9055pt)
 * \paperwidth=614.295pt
-* \paperheight=794.96999pt
+* \paperheight=1011.78pt
 * \textwidth=528.93675pt
-* \textheight=681.15898pt
+* \textheight=897.969pt
 * \oddsidemargin=-29.59087pt
 * \evensidemargin=-29.59087pt
 * \topmargin=-52.36449pt
@@ -1220,82 +1216,102 @@ File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 47.
 )
-Package biblatex Info: Reference section=0 on input line 84.
-Package biblatex Info: Reference segment=0 on input line 84.
+Package biblatex Info: Reference section=0 on input line 88.
+Package biblatex Info: Reference segment=0 on input line 88.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 122.
+(Font)              scaled to size 24.88pt on input line 128.
 LaTeX Font Info:    Trying to load font information for T1+RobotoSlab-TLF on in
-put line 122.
+put line 128.
 
 (/usr/share/texlive/texmf-dist/tex/latex/roboto/T1RobotoSlab-TLF.fd
 File: T1RobotoSlab-TLF.fd 2019/12/11 (autoinst) Font definitions for T1/RobotoS
 lab-TLF.
 )
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/m/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 122.
+(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 128.
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/b/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 122.
+(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 128.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 122.
+(Font)              scaled to size 14.4pt on input line 128.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 122.
+(Font)              scaled to size 14.4pt on input line 128.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 122.
+(Font)              scaled to size 8.0pt on input line 128.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
-nput line 122.
+nput line 128.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 122.
+nput line 128.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 122.
+nput line 128.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 122.
+ input line 128.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <8> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 122.
+n input line 128.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>>
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 122.
+(Font)              <7> on input line 128.
 <<omx.cmap>>
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 122.
+(Font)              <5> on input line 128.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 132.
+(Font)              scaled to size 17.28pt on input line 138.
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/m/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 132.
+(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 138.
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/b/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 132.
+(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 138.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 134.
+(Font)              scaled to size 12.0pt on input line 140.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 134.
+(Font)              scaled to size 10.0pt on input line 140.
+LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 142.
 
-Overfull \hbox (12.89256pt too wide) in paragraph at lines 207--207
+Overfull \hbox (4.26749pt too wide) in paragraph at lines 168--169
+[]\T1/lato-TLF/m/n/10 Teach strate-gies and tech-niques for an-swer-ing multipl
+e- 
+ []
+
+
+Overfull \hbox (8.0375pt too wide) in paragraph at lines 201--202
+\T1/lato-TLF/m/n/10 us-ing Markov model al-go-rithms (lag time, hid-den Markov 
+
+ []
+
+
+Overfull \hbox (12.89256pt too wide) in paragraph at lines 220--220
 [][] \T1/lato-TLF/b/n/10 Elec-tri-cal & Com-puter En-gi-neer-ing - Uni-ver-sity
  of Delaware[]  
  []
 
 
-Overfull \hbox (11.5295pt too wide) in paragraph at lines 222--224
-\T1/lato-TLF/m/n/10 Colom-bian bird species: Zonotrichia Capen-sis, Rhinocryp- 
-
+Overfull \hbox (7.71251pt too wide) in paragraph at lines 270--271
+[]\T1/lato-TLF/m/n/10 Design, de-velop, and de-ploy a home-page for the startup
+.  
  []
 
 
-Overfull \hbox (11.11pt too wide) in paragraph at lines 350--350
-[]|[]| 
+Overfull \hbox (1.80756pt too wide) in paragraph at lines 378--378
+[][] \T1/lato-TLF/b/n/10 Physics De-part-ment (PD) - Na-tional Uni-ver-sity of 
+Colom- 
  []
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd)
-Overfull \hbox (11.11pt too wide) in paragraph at lines 354--354
+Overfull \hbox (11.11pt too wide) in paragraph at lines 387--387
+[]|[]| 
+ []
+
+
+Overfull \hbox (11.11pt too wide) in paragraph at lines 391--391
 []|[]| 
  []
 
@@ -1319,12 +1335,12 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 454.
+(Font)              scaled to size 12.0pt on input line 495.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 454.
+(Font)              scaled to size 10.0pt on input line 495.
 [2]
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 518.
+(Font)              scaled to size 9.0pt on input line 559.
  [3] (./cv.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -1337,13 +1353,13 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40672 strings out of 474222
- 804150 string characters out of 5748732
- 1975975 words of memory out of 5000000
+ 40673 strings out of 474222
+ 804186 string characters out of 5748732
+ 1992975 words of memory out of 5000000
  62271 multiletter control sequences out of 15000+600000
- 870713 words of font info for 78 fonts, out of 8000000 for 9000
+ 871394 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,10n,121p,1127b,2659s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,10n,121p,1127b,2688s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Br
 ands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5
 /FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland
@@ -1351,9 +1367,9 @@ ands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5
 to-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Reg
 ular.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/RobotoSlab-Bo
 ld.pfb>
-Output written on cv.pdf (3 pages, 185368 bytes).
+Output written on cv.pdf (3 pages, 185953 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 500000)
  45 words of extra memory for PDF output out of 10000 (max. 10000000)
 

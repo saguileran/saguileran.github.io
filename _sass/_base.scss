@@ -965,6 +965,17 @@ html.transition *:after {
     margin-bottom: 0;
   }
 
+  .last-update {
+    align-items: center;
+    display: flex;
+    gap: 0.35rem;
+    margin-top: 0.2rem;
+
+    i {
+      color: var(--global-theme-color);
+    }
+  }
+
   .post-tags {
     color: var(--global-text-color-light);
     font-size: 0.875rem;

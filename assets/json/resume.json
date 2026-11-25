@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Sebastián Aguilera Novoa",
-    "label": "Physicist - Professor - Problem Solver",
+    "name": "Sebastian Aguilera Novoa",
+    "professional title": "Computer Scientist - Physicist - Problem Solver",
     "image": "",
     "email": "saguileran@ime.usp.br",
     "phone": "(+57) 21 995353787",
-    "url": "https://saguileran.github.io/",
+    "URL": "https://saguileran.github.io/",
     "github": "https://github.com/saguileran/",
     "linkedin": "https://linkedin.com/in/saguileran/",
-    "summary": "A Colombian physicist interested in computational physics, numerical methods, and deep learning ideas and algorithms applied to bioacoustics.",
-    "location": {
+    "location": "Ciudade Universitaria, Sao Paulo, Brazil",
+    "location1": {
       "address": "Bogotá D.C.",
       "postalCode": "COL 111621",
       "city": "Bogotá D.C.",
@@ -29,6 +29,62 @@
       }
     ]
   },
+  "prof_summary": "I am a Colombian computer scienteist with background in physics, and a strong interest in computational physics, numerical methods, and deep learning algorithms applied to bioacoustics. I am corious about how the sound is produced.",
+  "education": [
+    {
+      "institution": "University of Sao Paulo (USP)",
+      "location": "São Paulo, Brazil",
+      "url": "https://www.ime.usp.br/pos-computacao/",
+      "area": "Institue of Mathematics, Stadistics, and Computer Science (IMECC)",
+      "studyType": "Magister in Computer Science (M.S.)",
+      "startDate": "2025",
+      "endDate": "2026",
+      "score": "",
+      "courses": [
+        "Bioacoustics",
+        "Deep Learning",
+        "Digital Signal Processing",
+        "Numerical Methods",
+        "Optimization",
+        "Physical Modeling (Dynamical Systems)",
+        "Python Programming"
+      ],
+      "icon": "fa-solid fa-university"
+    },
+    {
+      "institution": "National University of Colombia",
+      "location": "Bogotá D.C., Colombia",
+      "url": "https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/pregrados/fisica/",
+      "area": "Physics Department",
+      "studyType": "Bachelor of Science in Physics (B.S.)",
+      "startDate": "2015",
+      "endDate": "2023",
+      "score": "4/5",
+      "courses": [
+        "Acoustics",
+        "Advanced Simulation Methods for Physicist",
+        "Numerical Methods",
+        "Numerical Optimization",
+        "Grade Point Average (GPA): 4/5"
+      ],
+      "icon": "fa-solid fa-university"
+    },
+    {
+      "institution": " Servicio Nacional de Aprendizaje (SENA)",
+      "location": "Bogotá D.C., Colombia",
+      "url": "https://electricidadelectronicaytelecomu.blogspot.com/p/instalaciones-electricas-residenciales.html",
+      "area": "Center for Electricity, Electronics and Telecommunications",
+      "studyType": "Technician",
+      "startDate": "2012",
+      "endDate": "2013",
+      "courses": [
+        "Digital and Power Electronics",
+        "Microcontrollers",
+        "Residential Electricity"
+      ],
+      "icon": "fa-solid fa-university"
+    }
+  ],
   "work": [
     {
       "name": "AI GENERATIVE S.A.S. – AIGEN S.A.S.",
@@ -38,7 +94,10 @@
       "location": "Remote",
       "endDate": "2025-03-27",
       "summary": "Utilizing text-to-image models to generate digital media content for social media, featuring fictional characters or non-real personas.",
-      "highlights": ["Python Programmer", "Prompt Engineering"],
+      "highlights": [
+        "Prompt Engineering",
+        "Python Programmer"
+      ],
       "icon": "fa-solid fa-laptop"
     },
     {
@@ -49,7 +108,10 @@
       "location": "Remote",
       "endDate": "2025-03-01",
       "summary": "Create, deploy, and evaluate intelligent agents using Python and REST APIs to generate digital content for social media.",
-      "highlights": ["Python Programmer", "Prompt Engineering"],
+      "highlights": [
+        "Prompt Engineering",
+        "Python Programmer"
+      ],
       "icon": "fa-solid fa-laptop"
     },
     {
@@ -60,7 +122,12 @@
       "endDate": "2024-12-10",
       "summary": "Teaching Java programming (both backend and frontend), databases, operating systems, software design, and data structures to systems engineering university students.",
       "location": "Bogotá D.C., Colombia",
-      "highlights": ["Java Programming", "Databases", "Data Structures", "Software Design"],
+      "highlights": [
+        "Databases",
+        "Data Structures",
+        "Java Programming",
+        "Software Design"
+      ],
       "icon": "fa-solid fa-chalkboard-user"
     },
     {
@@ -71,9 +138,14 @@
       "endDate": "2023-08-01",
       "url": "",
       "summary": "Teach mathematics and physics in a preparatory course for the state exam Saber 11, administered by ICFES in Colombia. In this role, I educated a diverse group of students from various regions, both rural and urban, utilizing <a href='https://phet.colorado.edu/es/'>PhET</a> simulations to enhance their learning experience.",
-      "highlights": ["Teaching Mathematics and Physics", "Dynamic and Funny Lessons"],
+      "highlights": [
+        "Dynamic and Funny Lessons",
+        "Teaching Mathematics and Physics"
+      ],
       "icon": "fa-solid fa-chalkboard-user"
-    },
+    }
+  ],
+  "research": [
     {
       "name": "São Carlos Institute of Physics, Universty of Sao Paulo (USP)",
       "position": "Undegraduate Intership for Biological Research",
@@ -83,9 +155,9 @@
       "endDate": "2023-04-20",
       "summary": "Set up and contrast Monte Carlo (MC) and molecular dynamics (MD) simulations of a protein-ligand system to generate structured data (positions, velocities, RMS, etc). In addition, analyze the structured data generated by the MC and MD simulations using Markov model algorithms (lag-time, hiden markov chains, etc).",
       "highlights": [
+        "LIBELA",
         "Molecular Dynamics (MD)",
         "Monte Carlo (MC) simulations",
-        "LIBELA",
         "<a href='../assets/pdf/certificates/USP.pdf'>Certificate</a>"
       ],
       "icon": "fa-solid fa-laptop"
@@ -99,54 +171,11 @@
       "summary": "Analyze and visualize long raw audio data using digital signal processing and Matlab, 2-week continuous records from a microphone in a the Delaware Bay river.",
       "highlights": [
         "Digital Signal Processing (DSP)",
-        "Sound Characterization",
         "Matlab",
+        "Sound Characterization",
         " <a href='../assets/pdf/certificates/Delaware.pdf'>Certificate</a>"
       ],
       "icon": "fa-solid fa-laptop"
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Sao Paulo (USP)",
-      "location": "São Paulo, Brazil",
-      "url": "https://www5.usp.br/",
-      "area": "Institue of Mathematics, Stadistics, and Computer Science (IME)",
-      "studyType": "Magister in Computer Science (M.S.)",
-      "startDate": "2025",
-      "endDate": "2026",
-      "score": "",
-      "courses": ["Numerical Methods", "Physical Modeling", "Bioacoustics", "DSP"],
-      "icon": "fa-solid fa-university"
-    },
-    {
-      "institution": "National University of Colombia",
-      "location": "Bogotá D.C., Colombia",
-      "url": "https://unal.edu.co/",
-      "area": "Physics Department",
-      "studyType": "Bachelor of Science in Physics (B.S.)",
-      "startDate": "2015",
-      "endDate": "2023",
-      "score": "4/5",
-      "courses": [
-        "Numerical Methods",
-        "Numerical Optimization",
-        "Acoustics",
-        "Advanced Simulation Methods for Physicist",
-        "Grade Point Average (GPA): 4/5"
-      ],
-      "icon": "fa-solid fa-university"
-    },
-    {
-      "institution": " Servicio Nacional de Aprendizaje (SENA)",
-      "location": "Bogotá D.C., Colombia",
-      "url": "https://www.sena.edu.co/es-co",
-      "area": "Center for Electricity, Electronics and Telecommunications",
-      "studyType": "Technician",
-      "startDate": "2012",
-      "endDate": "2013",
-      "courses": ["Residential Electricity", "Microcontrollers", "Digital and Power Electronics"],
-      "icon": "fa-solid fa-university"
     }
   ],
   "awards": [
@@ -300,14 +329,14 @@
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-atom",
-      "keywords": ["Acoustics", "Bioacoustics", "Physical Simulations", "Sound Production", "Teaching", "Dynamical Systems"]
-    },
-    {
       "name": "Computer Science",
       "icon": "fa-solid fa-laptop",
       "keywords": ["Digital Signal Processing", "Data Science and Analytics", "Deep Learning", "Numerical Methods", "Optimization", "PDEs and ODEs"]
+    },
+    {
+      "name": "Physics",
+      "icon": "fa-solid fa-atom",
+      "keywords": ["Acoustics", "Bioacoustics", "Physical Simulations", "Sound Production", "Teaching", "Dynamical Systems"]
     },
     {
       "name": "Hobbies",
@@ -320,6 +349,91 @@
         "Soccer Tennis  ⚽",
         "Beer 🍺, Wine 🍷"
       ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "WaveSongs",
+      "summary": "A python package to analyze, visualize and generate synthetic birdsongs.",
+      "highlights": [
+        "Birdsongs",
+        "Deep Learning",
+        "Digital Signal Processing",
+        "Open Source",
+        "Sound Produciton",
+        "Syrinx"
+      ],
+      "startDate": "2025",
+      "endDate": "2027",
+      "url": "https://wavesongs.github.io/",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Birdsongs",
+      "summary": "A python package to analyze, visualize and generate synthetic birdsongs.",
+      "highlights": [
+        "Birdsongs",
+        "Numerical Optimization",
+        "Open Source",
+        "Signal Processing",
+        "Sound Production",
+        "Syrinx"
+      ],
+      "startDate": "2022",
+      "endDate": "2025",
+      "url": "https://saguileran.github.io/birdsongs/",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Molecular modeling and simulations",
+      "summary": "Study and evaluation of the unbinding kinetics of Mineralocorticoid (MR and MR-S810L) receptor steroid agonist Cortisol (COL), Aldosterone (AS4), and Progesterone (STR) ligands using Molecular Dynamics (MD) and Monte Carlo (MC) simulations, LiGaMD and LiBELa softwares respectively.",
+      "highlights": [
+        "Molecular Dynamics",
+        "Monte Carlo Simulations",
+        "Open Source"
+      ],
+      "startDate": "2023-02",
+      "endDate": "2023-04",
+      "url": "https://saguileran.github.io/MD-SCPI/",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Soundscapes analysis - maad",
+      "summary": "Create code, examples, and documentation of spectral and time trait functions.",
+      "highlights": [
+        "Digital Signal Processing (DSP)",
+        "Python Programming"
+      ],
+      "startDate": "2023-02",
+      "endDate": "2023-04",
+      "url": "https://github.com/scikit-maad/scikit-maad",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Aprender - A New Way of Learning",
+      "summary": "A course preparatory of physics and mathematics for the exam Saber 11 applied by ICFES. I designed, created and hosted a homepage for the preparatory. For the webpage I implemented the Moodle platform as a Learning Management Platform. Furthermore,  I teach mathematics and physics, I designed and created of lessons and tests for evaluation.",
+      "highlights": [
+        "Teaching Mathematics and Physics",
+        "Full bStack Web Developer"
+      ],
+      "startDate": "2019",
+      "endDate": "2022",
+      "url": "https://saguileran.github.io/Aprender",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Recorder Characterization",
+      "summary": "Study the recorder musical instrument from experimental, theoretical, and computational physics. Addionally, analyze and visualize the structured data generated and measured from the study in order to compare them.",
+      "highlights": [
+        "Acoustics of Musical Instruments",
+        "Lattice Boltzmann Simulations",
+        "Sound Recording"
+      ],
+      "startDate": "2020",
+      "endDate": "2020",
+      "url": "https://github.com/saguileran/Acoustics-Instruments",
+      "icon": "fa-solid fa-clipboard-check",
+      "location": "Bogotá"
     }
   ],
   "references": [
@@ -362,63 +476,6 @@
       "url": "https://www.instagram.com/mindlingabriel/",
       "lab": "LSD",
       "lab_url": "http://www.lsd.df.uba.ar/"
-    }
-  ],
-  "projects": [
-    {
-      "name": "WaveSongs",
-      "summary": "A python package to analyze, visualize and generate synthetic birdsongs.",
-      "highlights": ["Sound Produciton", "Syrinx", "Birdsongs", "Digital Signal Processing", "Open Source"],
-      "startDate": "2025",
-      "endDate": "2027",
-      "url": "https://wavesongs.github.io/",
-      "icon": "fa-solid fa-clipboard-check"
-    },
-    {
-      "name": "Birdsongs",
-      "summary": "A python package to analyze, visualize and generate synthetic birdsongs.",
-      "highlights": ["Sound Produciton", "Syrinx", "Birdsongs", "Numerical Optimization", "Signal Processing", "Open Source"],
-      "startDate": "2022",
-      "endDate": "2025",
-      "url": "https://saguileran.github.io/birdsongs/",
-      "icon": "fa-solid fa-clipboard-check"
-    },
-    {
-      "name": "Molecular modeling and simulations",
-      "summary": "Study and evaluation of the unbinding kinetics of Mineralocorticoid (MR and MR-S810L) receptor steroid agonist Cortisol (COL), Aldosterone (AS4), and Progesterone (STR) ligands using Molecular Dynamics (MD) and Monte Carlo (MC) simulations, LiGaMD and LiBELa softwares respectively.",
-      "highlights": ["Molecular Dynamics", "Monte Carlo Simulations", "Open Source"],
-      "startDate": "2023-02",
-      "endDate": "2023-04",
-      "url": "https://saguileran.github.io/MD-SCPI/",
-      "icon": "fa-solid fa-clipboard-check"
-    },
-    {
-      "name": "Soundscapes analysis - maad",
-      "summary": "Create code, examples, and documentation of spectral and time trait functions.",
-      "highlights": ["Digital Signal Processing (DSP)", "Python"],
-      "startDate": "2023-02",
-      "endDate": "2023-04",
-      "url": "https://github.com/scikit-maad/scikit-maad",
-      "icon": "fa-solid fa-clipboard-check"
-    },
-    {
-      "name": "Aprender - A New Way of Learning",
-      "summary": "A course preparatory of physics and mathematics for the exam Saber 11 applied by ICFES. I designed, created and hosted a homepage for the preparatory. For the webpage I implemented the Moodle platform as a Learning Management Platform. Furthermore,  I teach mathematics and physics, I designed and created of lessons and tests for evaluation.",
-      "highlights": ["Teaching Mathematics and Physics", "Full bStack Web Developer"],
-      "startDate": "2019",
-      "endDate": "2022",
-      "url": "https://saguileran.github.io/Aprender",
-      "icon": "fa-solid fa-clipboard-check"
-    },
-    {
-      "name": "Recorder Characterization",
-      "summary": "Study the recorder musical instrument from experimental, theoretical, and computational physics. Addionally, analyze and visualize the structured data generated and measured from the study in order to compare them.",
-      "highlights": ["Acoustics of Musical Instruments", "Sound Recording", "Lattice Boltzmann Simulations"],
-      "startDate": "2020",
-      "endDate": "2020",
-      "url": "https://github.com/saguileran/Acoustics-Instruments",
-      "icon": "fa-solid fa-clipboard-check",
-      "location": "Bogotá"
     }
   ]
 }

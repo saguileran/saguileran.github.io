@@ -24,10 +24,11 @@ layout: default
             rel="noopener noreferrer"
             class="float-right"
           >
-            <i class="fa-solid fa-file-pdf"></i>
+            <i class="fa-solid fa-file-pdf cv-pdf-icon"></i>
           </a>
         {% endif %}
       </h1>
+
       {% if page.description %}
         <p class="post-description">{{ page.description }}</p>
       {% endif %}
@@ -75,10 +76,19 @@ layout: default
             rel="noopener noreferrer"
             class="float-right"
           >
-            <i class="fa-solid fa-file-pdf"></i>
+            <i class="fa-solid fa-file-pdf cv-pdf-icon"></i>
           </a>
         {% endif %}
       </h1>
+
+      {% if page.last_updated %}
+        <p class="post-meta last-update">
+          <i class="fa-solid fa-clock-rotate-left fa-sm" aria-hidden="true"></i>
+          Last updated:
+          <time datetime="{{ page.last_updated | date_to_xmlschema }}">{{ page.last_updated | date: '%B %-d, %Y' }}.</time>
+        </p>
+      {% endif %}
+
       {% if page.description %}
         <p class="post-description">{{ page.description }}</p>
       {% endif %}
@@ -95,15 +105,32 @@ layout: default
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            <h3 class="card-title font-weight-medium">
+              {% if data[0] == 'basics' %}
+                Contact Information
+              {% elsif data[0] == 'work' %}
+                Professional Experience
+              {% elsif data[0] == 'research' %}
+                Internships
+              {% elsif data[0] == 'prof_summary' %}
+                Professional Summary
+              {% else %}
+                {{ data[0] | capitalize }}
+              {% endif %}
+            </h3>
+
             <div>
               {% case data[0] %}
                 {% when 'basics' %}
                   {% include resume/basics.liquid %}
+                {% when 'prof_summary' %}
+                  {% include resume/prof_summary.liquid %}
                 {% when 'education' %}
                   {% include resume/education.liquid %}
                 {% when 'work' %}
                   {% include resume/work.liquid %}
+                {% when 'research' %}
+                  {% include resume/research.liquid %}
                 {% when 'volunteer' %}
                   {% include resume/volunteer.liquid %}
                 {% when 'projects' %}

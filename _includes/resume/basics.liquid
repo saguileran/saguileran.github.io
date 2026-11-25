@@ -1,5 +1,5 @@
-<table class="table table-cv table-sm table-borderless table-responsive table-cv-map">
-  {% assign skip_basics = 'image,profiles,location' | split: ',' %}
+<table class="table table-cv table-sm table-borderless table-responsive table-cv-map basics-table">
+  {% assign skip_basics = 'image,profiles,location1' | split: ',' %}
   {% for content in data[1] %}
     {%
       if (content[1] == "") or (skip_basics contains
@@ -8,12 +8,22 @@
       {% continue %}
     {% endif %}
 
+    {% assign content_key = content[0] | downcase %}
     <tr>
       <td class="p-1 pr-2 font-weight-bold">
-        <b>{{ content[0] | capitalize }}</b>
+        <b>
+          {% if content_key == 'url' %}
+            URL
+          {% else %}
+            {% assign label_words = content[0] | split: ' ' %}
+            {% for word in label_words %}
+              {{ word | capitalize }}{% unless forloop.last %} {% endunless %}
+            {% endfor %}
+          {% endif %}
+        </b>
       </td>
       <td class="p-1 pl-2 font-weight-light text">
-        {% if content[0] == 'url' %}
+        {% if content_key == 'url' %}
           <a href="{{ content[1] }}" target="_blank" rel="noopener noreferrer">{{ content[1] }}</a>
         {% elsif content[0] == 'email' %}
           <a href="mailto:{{ content[1] }}" target="_blank">{{ content[1] }}</a>

@@ -15,6 +15,14 @@ table.table-cv {
   }
 }
 
+.basics-table td:first-child {
+  padding-right: 1.5rem !important;
+}
+
+.basics-table td:last-child {
+  padding-left: 1.5rem !important;
+}
+
 a.btncv {
   color: var(--global-text-color) !important;
   border: 1px solid var(--global-text-color) !important;
@@ -244,4 +252,26 @@ button.btn-summary-toggle:focus-visible {
   font-size: 0.95rem;
   font-style: italic;
   text-align: justify;
+}
+
+.prof-summary {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: justify;
+  font-weight: 300;
+}
+
+.cv-pdf-icon {
+  font-size: 4.0rem;
+  padding-top: 1.0rem;
+}
+
+// card titles
+.cv .card .card-title {
+  text-align: left;
+  font-size: 1.85rem;
+  font-weight: 400;
+  font-family: inherit;
+  letter-spacing: 0.1rem;
 }

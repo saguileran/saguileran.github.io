@@ -4,7 +4,7 @@ title: JoJo's Bizarre Adventure The Animation
 original_title: JoJo no Kimyō na Bōken
 author: Hirohiko Araki
 illustrator: Hirohiko Araki
-cover: assets/img/animes/jojos.png
+cover: assets/img/animes/jojos.jpg # jojos.png
 categories: adventure supernatural bizarre
 tags: top-100 top-10
 wikipedia: https://en.wikipedia.org/wiki/JoJo%27s_Bizarre_Adventure
@@ -17,8 +17,10 @@ finished: present
 episodes: 26, 48, 39, 39, 38
 date: 2022-05-29
 stars: 5
-status: Paused
+status: Watching
 seasons: 7
 ---
 
 4 OVAS
+
+**Current season:** Steel Ball Run

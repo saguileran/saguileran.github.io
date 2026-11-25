@@ -17,6 +17,8 @@ finished: present
 episodes: 61, 16, 15, 38, 13, 52, 33, 35, 73, 45, 26, 14, 35, 60, 62, 50, 118, 36, 109, 197, 67
 date: 2016-05-17
 stars: 5
-status: Watching
+status: Paused
 seasons: 22
 ---
+
+Best anime of all time.

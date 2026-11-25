@@ -4,7 +4,7 @@ title: Tokyo Revengers
 original_title: Tōkyō Ribenjāzu
 author: Ken Wakui
 illustrator: Ken Wakui
-cover: assets/img/animes/tokyo_revengers.png
+cover: assets/img/animes/tokyo_revengers.jpeg # .png
 categories: action science-fiction time-travel yankee
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Tokyo_Revengers
@@ -17,6 +17,6 @@ finished: present
 episodes: 24, 13, 13 (50)
 date: 2021-04-11
 stars: 5
-status: Paused
-seasons: 2
+status: Watching
+seasons: 4
 ---
