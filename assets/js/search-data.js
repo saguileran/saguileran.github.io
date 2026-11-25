@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/animes/";
               },
-            },{id: "post-building-websites-using-github-pages",
+            },{id: "post-master-39-s-project-talks",
+        
+          title: "Master&#39;s project talks",
+        
+        description: "Talks I gave during my master&#39;s research.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/talks/";
+          
+        },
+      },{id: "post-building-websites-using-github-pages",
         
           title: "Building websites using Github pages",
         
@@ -81,17 +92,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2026/github-pages/";
-          
-        },
-      },{id: "post-master-39-s-project-talks",
-        
-          title: "Master&#39;s project talks",
-        
-        description: "Talks I gave during my master&#39;s research.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/talks/";
           
         },
       },{id: "post-free-software-development-logbook",
@@ -910,6 +910,11 @@ ninja.data = [{
           description: "",
           section: "Animes",handler: () => {
               window.location.href = "/animes/hells_paradaise/";
+            },},{id: "animes-tempal-item-no-chikara-overgeared",
+          title: 'Tempal: Item no Chikara (Overgeared)',
+          description: "",
+          section: "Animes",handler: () => {
+              window.location.href = "/animes/tempal_tem_no_chikara/";
             },},{id: "books-el-mundo-y-sus-demonios",
           title: 'El mundo y sus demonios',
           description: "",
