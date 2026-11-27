@@ -5,7 +5,7 @@ original_title: Tōkyō Gūru
 author: Sui Ishida
 illustrator: Sui Ishida
 cover: assets/img/animes/tokyio_ghoul.png
-categories: dark-fantasy supernatural-thriller
+categories: dark-fantasy supernatural thriller
 tags: top-100
 wikipedia: https://en.wikipedia.org/wiki/Tokyo_Ghoul
 formats: manga anime film light-novel live-action video-game

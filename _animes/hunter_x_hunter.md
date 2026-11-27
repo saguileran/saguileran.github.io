@@ -6,7 +6,7 @@ author: Yoshihiro Togashi
 illustrator:
 cover: assets/img/animes/hunterxhunter.png
 categories: adventure fantasy martial-arts
-tags: top-100 top-10
+tags: top-10 top-100
 wikipedia: https://en.wikipedia.org/wiki/Hunter_%C3%97_Hunter
 formats: manga anime film
 started: 1998-03-03

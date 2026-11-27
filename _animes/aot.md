@@ -6,7 +6,7 @@ author: Hajime Isayama
 illustrator: Hajime Isayama
 cover: assets/img/animes/aot.png
 categories: war action dark-fantasy post-apocalyptic
-tags: top-100 top-10
+tags: top-10 top-100
 wikipedia: https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)
 formats: anime manga film live-action video-game novel
 started: 2009-09-09

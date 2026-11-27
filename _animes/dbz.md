@@ -6,7 +6,7 @@ author: Akira Toriyama
 illustrator:
 cover: assets/img/animes/dbz.png
 categories: adventure fantasy comedy martial-arts
-tags: top-100 top-10
+tags: top-10 top-100
 wikipedia: https://en.wikipedia.org/wiki/Dragon_Ball_Z
 formats: manga anime
 started: 1988-01-01

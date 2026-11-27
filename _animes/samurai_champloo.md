@@ -6,7 +6,7 @@ author: Masaru Gotsubo
 illustrator:
 cover: assets/img/animes/samurai_champloo.png
 categories: adventure historical samurai
-tags: top-100 top-10
+tags: top-10 top-100
 wikipedia: https://en.wikipedia.org/wiki/Samurai_Champloo
 formats: manga anime
 started: 2004-02-26

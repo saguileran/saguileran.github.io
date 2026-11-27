@@ -6,7 +6,7 @@ author: Uoto
 illustrator: Uoto
 cover: assets/img/animes/chi.png
 categories: historical mystery science-fiction religion
-tags: top-100 top-10
+tags: top-10 top-100
 wikipedia: https://en.wikipedia.org/wiki/Orb:_On_the_Movements_of_the_Earth
 formats: manga anime
 started: 2020-09-14

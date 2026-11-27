@@ -6,7 +6,7 @@ author: Hirohiko Araki
 illustrator: Hirohiko Araki
 cover: assets/img/animes/jojos.jpg # jojos.png
 categories: adventure supernatural bizarre
-tags: top-100 top-10
+tags: top-10 top-100
 wikipedia: https://en.wikipedia.org/wiki/JoJo%27s_Bizarre_Adventure
 formats: manga anime film video-game
 started: 1987-01-01

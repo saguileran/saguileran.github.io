@@ -5,8 +5,8 @@ original_title:
 author: Kentaro Miura (vol. 1–41), Kouji Mori (vol. 42–)
 illustrator:
 cover: assets/img/animes/berserk.png
-categories: dark-fantasy epic-fantasy sword sorcery
-tags: top-100 top-10
+categories: dark-fantasy epic fantasy sword sorcery
+tags: top-10 top-100
 wikipedia: https://en.wikipedia.org/wiki/Berserk_(manga)
 formats: manga anime film
 started: 1989-08-25

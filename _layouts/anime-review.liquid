@@ -3,7 +3,7 @@ layout: default
 ---
 {% assign year = page.date | date: '%Y' %}
 {% assign tags = page.tags | join: '' %}
-{% assign formats = page.formats | split: ' ' %}
+{% assign formats = page.formats | join: '' %}
 {% assign categories = page.categories | join: '' %}
 
 {% if page._styles %}
@@ -17,11 +17,12 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.original_title %}
-      <h2 class="post-title" style="font-size: x-large; font-style: italic; color: #cecfce">{{ page.original_title }}</h2>
+      <h2 class="post-title" style="font-size: x-large; font-style: italic; color: #cecfce; padding-bottom: 5px;">{{ page.original_title }}</h2>
     {% endif %}
+    <hr>
     {% if page.author or page.illustrator or page.stars or page.wikipedia %}
       <p class="post-meta">
-        <b>Rating:</b>
+        <b>Rating:</b> &nbsp;
         {% assign full_stars = page.stars | floor %}
         {% assign half_star = page.stars | minus: full_stars %}
         {% assign empty_stars = 5 | minus: full_stars %}
@@ -48,24 +49,23 @@ layout: default
     {% endif %}
     <br>
     {% if page.author %}
-      <b>Written by:</b> {{ page.author }}
+      <b>Written by:</b> &nbsp; {{ page.author }}
     {% endif %}
     {% if page.illustrator %}
       &nbsp;&middot;&nbsp;
-      <b>Illustrated by:</b> {{ page.illustrator }}
+      <b>Illustrated by:</b> &nbsp; {{ page.illustrator }}
     {% endif %}
     {% if page.stars %}
       {% if page.released or page.finished %}
         {% comment %} &nbsp;&nbsp;&middot;&nbsp;&nbsp; {% endcomment %}
       {% endif %}
-
       </p>
     {% endif %}
 
     {% if page.released or page.ended or page.started or page.finished %}
       <p class="post-meta">
         {% if page.started and page.ended %}
-          <b>Manga</b> &nbsp;
+          <b>Manga:</b> &nbsp;
         {%- endif %}
         {% if page.started %}
           <i class="fa-solid fa-play fa-sm" style="color: var(--global-tip-block) !important"></i> <em>{{ page.started }}</em>
@@ -78,10 +78,9 @@ layout: default
         {% endif %}
         {% if page.volumes %}
           &nbsp;&middot;&nbsp; <b>Volumes:</b>&nbsp; {{ page.volumes }}
-          {% comment %} &nbsp;&nbsp;<b>|</b>&nbsp;&nbsp; {% endcomment %}
+          <br>
         {% endif %}
-        <br>
-        <b>Anime</b> &nbsp;
+        <b>Anime:</b> &nbsp;
         {% if page.released %}
           <i class="fa-solid fa-play fa-sm" style="color: var(--global-tip-block) !important"></i> <em>{{ page.released }}</em>
         {% endif %}
@@ -92,47 +91,48 @@ layout: default
           <i class="fa-solid fa-stop fa-sm" style="color: #e56565 !important"></i> <em>{{ page.finished }}</em>
         {% endif %}
         {% if page.seasons %}
-          &nbsp;&middot;&nbsp; <b>Seasons:</b> {{ page.seasons }}
+          &nbsp;&middot;&nbsp; <b>Seasons:</b> &nbsp; {{ page.seasons }}
         {% endif %}
 
         {% if page.episodes %}
-          &nbsp;&middot;&nbsp; <b>Episodes:</b> {{ page.episodes }}
+          &nbsp;&middot;&nbsp; <b>Episodes:</b> &nbsp; {{ page.episodes }}
         {% endif %}
       </p>
     {% endif %}
+
+    <hr>
     <p class="post-tags">
-      {% comment %} <b>Watched on:</b>&nbsp;&nbsp; {% endcomment %}
-      {% if tags != '' %}
-        {% comment %} &nbsp;&nbsp;&middot;&nbsp;&nbsp; {% endcomment %}
-        {% for tag in page.tags %}
-          <a href="{{ tag | slugify | prepend: '/animes/tag/' | relative_url }}"> <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
-          {% unless forloop.last %}
-            &nbsp;
-          {% endunless %}
-        {% endfor %}
-      {% endif %}
-
       {% if categories != '' %}
-        &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+        <b> Categories: </b> &nbsp;
         {% for category in page.categories %}
-          <a href="{{ category | slugify | prepend: '/animes/category/' | relative_url }}"> <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a>
+          <a href="{{ category | slugify | prepend: '/animes/category/' | relative_url }}"> <i class="fa-solid fa-tag fa-sm"></i> {{ category }} </a>
           {% unless forloop.last %}
             &nbsp;
           {% endunless %}
         {% endfor %}
       {% endif %}
 
-      {% if page.formats %}
-        &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-        {% for format in formats %}
+      {% if formats != '' %}
+        <br> <b> Formats: </b> &nbsp;
+        {% for format in page.formats %}
           <a href="{{ format | slugify | prepend: '/animes/format/' | relative_url }}">
-            <i class="fa-solid fa-clapperboard fa-sm"></i> {{ format -}}
+            <i class="fa-solid fa-clapperboard fa-sm"></i> {{ format }}
           </a>
           {% unless forloop.last %}
             &nbsp;
           {% endunless %}
         {% endfor %}
       {% endif %}
+
+      {% if tags != '' %}
+        <br> <b> Tags: </b> &nbsp;
+        {% for tag in page.tags %}
+            <a href="{{ tag | slugify | prepend: '/animes/tag/' | relative_url }}"> <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a> 
+          {% unless forloop.last %} &nbsp;
+          {% endunless %}
+        {% endfor %}
+      {% endif %}
+
     </p>
     <hr>
     <p>{{ content }}</p>

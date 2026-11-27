@@ -6,7 +6,7 @@ author: Eiichiro Oda
 illustrator: Eiichiro Oda
 cover: assets/img/animes/one_piece.png
 categories: shonen action fantasy adventure
-tags: top-100 top-10
+tags: top-10 top-100
 wikipedia: https://en.wikipedia.org/wiki/One_Piece
 formats: manga anime film video-game
 started: 1997-07-22

@@ -6,7 +6,7 @@ author: Rafal Jaki and Mike Pondsmith
 illustrator:
 cover: assets/img/animes/ciberpunk.jpeg # cyberpunk.png
 categories: cyberpunk
-tags: top-100 top-10
+tags: top-10 top-100
 wikipedia: https://en.wikipedia.org/wiki/Cyberpunk:_Edgerunners
 formats: ONA anime web-serie video-game
 started:

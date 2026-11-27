@@ -6,7 +6,7 @@ author: Masashi Kishimoto
 illustrator: Masashi Kishimoto
 cover: assets/img/animes/naruto_shippuden.png
 categories: shounen adventure ninjas war
-tags: top-100 top-10
+tags: top-10 top-100
 wikipedia: https://en.wikipedia.org/wiki/Naruto_(TV_series)
 formats: anime manga video-game
 started: 1999-09-21
